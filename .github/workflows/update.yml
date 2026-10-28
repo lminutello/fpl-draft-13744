@@ -2,9 +2,10 @@ name: Update FPL data
 
 on:
   schedule:
-    # every 6 hours, offset off the hour so it isn't competing with the
-    # thundering herd of jobs scheduled at :00
-    - cron: '17 */6 * * *'
+    # every 15 min. Public repo, so Actions minutes are free; the commit
+    # step is a no-op when nothing changed. GitHub delays busy schedules,
+    # so treat this as "within the hour", not to the minute.
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:

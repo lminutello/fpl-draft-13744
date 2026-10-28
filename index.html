@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mr. Madueke — FPL Draft 13744</title>
+<meta name="description" content="Squad, free agents and waiver timing for FPL Draft league 13744.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EDEFF2; --card:#FFFFFF; --ink:#1B2A41; --rule:#CCD4DE; --muted:#5B6878;
+  --good:#0E8A52; --warn:#C2660A; --bad:#B02034;
+  --tint:#E3E8EF;
+  --maxw:1080px;
+}
+:root:not([data-theme="light"]){ @media (prefers-color-scheme: dark){
+  --paper:#141B24; --card:#1B2430; --ink:#E6EBF1; --rule:#2C3847; --muted:#8E9BAB;
+  --good:#1FA268; --warn:#C07E22; --bad:#DB5A7A; --tint:#222D3B;
+}}
+:root[data-theme="dark"]{
+  --paper:#141B24; --card:#1B2430; --ink:#E6EBF1; --rule:#2C3847; --muted:#8E9BAB;
+  --good:#1FA268; --warn:#C07E22; --bad:#DB5A7A; --tint:#222D3B;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:Archivo,system-ui,-apple-system,sans-serif;
+  font-size:15px; line-height:1.45;
+  font-variant-numeric:tabular-nums; font-feature-settings:"tnum" 1;
+}
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 16px}
+
+/* ---------- masthead ---------- */
+.masthead{border-bottom:2px solid var(--ink); padding:22px 0 14px; margin-bottom:22px}
+.mast-grid{display:flex; flex-wrap:wrap; gap:18px 28px; align-items:flex-end; justify-content:space-between}
+.team{font-family:Newsreader,Georgia,serif; font-size:clamp(30px,6vw,46px); font-weight:600; line-height:1; letter-spacing:-.01em; margin:0}
+.league{display:block; font-family:Archivo,sans-serif; font-size:12px; font-weight:500; color:var(--muted); letter-spacing:.06em; margin-top:7px}
+.clocks{display:flex; gap:26px}
+.clock b{display:block; font-size:clamp(20px,3.6vw,27px); font-weight:700; line-height:1.05; font-variant-numeric:tabular-nums}
+.clock span{display:block; font-size:11.5px; color:var(--muted); margin-top:3px}
+.clock.soon b{color:var(--bad)}
+.standing{font-family:Newsreader,Georgia,serif; font-size:19px}
+.standing em{font-style:normal; color:var(--muted); font-family:Archivo,sans-serif; font-size:13px}
+
+/* ---------- caveat ---------- */
+.caveat{
+  border-left:3px solid var(--warn); background:var(--tint);
+  padding:11px 14px; margin:0 0 26px; font-size:13.5px; color:var(--ink); max-width:74ch;
+}
+.caveat b{font-weight:600}
+
+/* ---------- sections ---------- */
+section{margin-bottom:38px}
+h2{font-family:Newsreader,Georgia,serif; font-weight:600; font-size:24px; margin:0 0 4px; letter-spacing:-.005em}
+.hint{margin:0 0 14px; color:var(--muted); font-size:13.5px; max-width:70ch}
+
+/* ---------- squad ---------- */
+.posblock{margin-bottom:16px}
+.posrule{display:flex; align-items:baseline; gap:10px; border-bottom:1px solid var(--rule); padding-bottom:4px; margin-bottom:6px}
+.posrule h3{margin:0; font-size:12.5px; font-weight:600; letter-spacing:.08em; color:var(--muted)}
+.posrule .count{font-size:12.5px; color:var(--muted)}
+.row{
+  display:grid; grid-template-columns:1.6fr .5fr .5fr .55fr .6fr 68px;
+  gap:10px; align-items:center; width:100%;
+  padding:8px 10px; border:0; border-radius:3px; background:transparent;
+  color:inherit; font:inherit; text-align:left; cursor:pointer;
+  border-left:3px solid transparent;
+}
+.row:hover{background:var(--card)}
+.row:focus-visible{outline:2px solid var(--ink); outline-offset:-2px}
+.row.picked{background:var(--card); border-left-color:var(--ink)}
+.nm{display:flex; align-items:baseline; gap:7px; min-width:0}
+.nm strong{font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.club{font-size:11.5px; color:var(--muted); letter-spacing:.04em}
+.num{font-size:13.5px; text-align:right}
+.num small{color:var(--muted); font-size:11px; margin-left:2px}
+.chip{
+  font-size:11px; font-weight:600; padding:1.5px 6px; border-radius:2px;
+  white-space:nowrap; border:1px solid currentColor;
+}
+.chip.ok{color:var(--good)} .chip.d{color:var(--warn)} .chip.i{color:var(--bad)}
+.spark{display:block}
+
+/* ---------- xi readout ---------- */
+.xi{
+  position:sticky; top:0; z-index:5; background:var(--paper);
+  display:flex; flex-wrap:wrap; gap:8px 18px; align-items:center;
+  padding:9px 0 10px; border-bottom:1px solid var(--rule); margin-bottom:14px;
+}
+.xi .shape{font-family:Newsreader,Georgia,serif; font-size:22px; font-weight:600}
+.xi .note{font-size:13px; color:var(--muted)}
+.xi .note.bad{color:var(--bad)}
+.xi button{
+  font:inherit; font-size:12.5px; background:transparent; color:var(--muted);
+  border:1px solid var(--rule); border-radius:3px; padding:3px 9px; cursor:pointer;
+}
+.xi button:hover{color:var(--ink); border-color:var(--ink)}
+
+/* ---------- filters + upgrades ---------- */
+.filters{display:flex; flex-wrap:wrap; gap:7px; margin-bottom:14px}
+.filters button{
+  font:inherit; font-size:13px; font-weight:500; padding:5px 12px;
+  background:transparent; color:var(--muted);
+  border:1px solid var(--rule); border-radius:3px; cursor:pointer;
+}
+.filters button[aria-pressed="true"]{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+.filters label{display:flex; align-items:center; gap:6px; font-size:13px; color:var(--muted); margin-left:4px}
+.upgrade{border-bottom:1px solid var(--rule); padding:10px 2px}
+.upgrade:last-child{border-bottom:0}
+.upgrade .top{display:grid; grid-template-columns:1.5fr .5fr .5fr .55fr .6fr 68px; gap:10px; align-items:center}
+.delta{font-weight:700; color:var(--good)}
+.over{font-size:12.5px; color:var(--muted); margin-top:3px}
+.flagged .delta{color:var(--muted)}
+.news{font-size:12.5px; color:var(--bad); margin-top:3px}
+
+/* ---------- table ---------- */
+table{width:100%; border-collapse:collapse; font-size:14px}
+th,td{text-align:right; padding:6px 8px; border-bottom:1px solid var(--rule)}
+th:first-child,td:first-child{text-align:left}
+th{font-size:11.5px; font-weight:600; letter-spacing:.06em; color:var(--muted)}
+tr.me td{font-weight:600}
+tr.me td:first-child::before{content:"▸ "; color:var(--ink)}
+
+footer{border-top:1px solid var(--rule); padding:16px 0 40px; font-size:12.5px; color:var(--muted)}
+footer a{color:inherit}
+.head-cols{
+  display:grid; grid-template-columns:1.6fr .5fr .5fr .55fr .6fr 68px; gap:10px;
+  font-size:11px; letter-spacing:.06em; color:var(--muted); padding:0 10px 4px;
+}
+.head-cols span:not(:first-child){text-align:right}
+@media (max-width:640px){
+  .row,.upgrade .top,.head-cols{grid-template-columns:1.4fr .55fr .6fr 60px}
+  .hide-sm{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <div class="mast-grid">
+    <div>
+      <h1 class="team" id="teamName">—</h1>
+      <span class="league" id="leagueLine">FPL DRAFT 13744</span>
+    </div>
+    <div class="clocks">
+      <div class="clock" id="waiverBox"><b id="waiverClock">—</b><span>until waivers lock</span></div>
+      <div class="clock" id="dlBox"><b id="dlClock">—</b><span>until deadline</span></div>
+    </div>
+    <div class="standing" id="standLine"></div>
+  </div>
+</header>
+
+<p class="caveat">
+  <b>These numbers know what already happened, not what's about to.</b>
+  Nothing here sees a press conference. A player can top this board and still be
+  injured, suspended or dropped — check team news before you claim anyone.
+</p>
+
+<section>
+  <h2>Your squad</h2>
+  <p class="hint">Tap players to build your XI. Needs 11 with at least 3 defenders, 2 midfielders and 1 forward.</p>
+  <div class="xi">
+    <span class="shape" id="shape">—</span>
+    <span class="note" id="xiNote"></span>
+    <button type="button" id="clearXi">Clear</button>
+  </div>
+  <div class="head-cols">
+    <span>Player</span><span>Pts</span><span class="hide-sm">Starts</span>
+    <span class="hide-sm">DEFCON</span><span>Status</span><span>Last 5</span>
+  </div>
+  <div id="squad"></div>
+</section>
+
+<section>
+  <h2>Upgrades on the board</h2>
+  <p class="hint">Free agents who outscore your weakest player in that position. Swaps are position-for-position.</p>
+  <div class="filters" id="filters">
+    <button type="button" data-pos="DEF" aria-pressed="true">Defenders</button>
+    <button type="button" data-pos="MID" aria-pressed="true">Midfielders</button>
+    <button type="button" data-pos="FWD" aria-pressed="true">Forwards</button>
+    <button type="button" data-pos="GKP" aria-pressed="false">Keepers</button>
+    <label><input type="checkbox" id="hideFlagged"> Hide injured and doubtful</label>
+  </div>
+  <div id="upgrades"></div>
+</section>
+
+<section>
+  <h2>Table</h2>
+  <table>
+    <thead><tr><th>Team</th><th>W</th><th>D</th><th>L</th><th>Pts</th><th>For</th><th>Against</th></tr></thead>
+    <tbody id="standings"></tbody>
+  </table>
+</section>
+
+<footer>
+  <span id="updated">Loading…</span> ·
+  <a href="https://github.com/lminutello/fpl-draft-13744">source</a>
+</footer>
+</div>
+
+<script>
+const POS_ORDER = ["GKP","DEF","MID","FWD"];
+const POS_LABEL = {GKP:"Goalkeepers",DEF:"Defenders",MID:"Midfielders",FWD:"Forwards"};
+const MIN = {DEF:3,MID:2,FWD:1};
+const LS = "fpl13744.xi";
+
+const S = {meta:null, squad:[], free:[], standings:[], picked:new Set(), pos:new Set(["DEF","MID","FWD"]), hideFlagged:false};
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function loadPicks(){ try{ const r=localStorage.getItem(LS); if(r) JSON.parse(r).forEach(id=>S.picked.add(id)); }catch(e){} }
+function savePicks(){ try{ localStorage.setItem(LS, JSON.stringify([...S.picked])); }catch(e){} }
+
+/* ---- status ---- */
+function status(p){
+  if(p.status === "a") return {cls:"ok", text:"Fit"};
+  if(p.status === "d") return {cls:"d",  text:"Doubt"};
+  if(p.status === "s") return {cls:"i",  text:"Susp"};
+  if(p.status === "i") return {cls:"i",  text:"Injured"};
+  return {cls:"i", text:"Out"};
+}
+const flagged = p => p.status !== "a";
+
+/* ---- sparkline: one series, so no legend; title gives the values ---- */
+function spark(vals){
+  if(!vals || vals.length < 2) return '<span class="num"><small>—</small></span>';
+  const w=64,h=18,pad=2;
+  const max=Math.max(...vals,1), min=Math.min(...vals,0), span=(max-min)||1;
+  const step=(w-pad*2)/(vals.length-1);
+  const pts=vals.map((v,i)=>[pad+i*step, h-pad-((v-min)/span)*(h-pad*2)]);
+  const d=pts.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" ");
+  const last=pts[pts.length-1];
+  return '<svg class="spark" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'" role="img" '+
+    'aria-label="Points by gameweek: '+vals.join(", ")+'">'+
+    '<title>Points by gameweek: '+vals.join(", ")+'</title>'+
+    '<path d="'+d+'" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity=".55"/>'+
+    '<circle cx="'+last[0].toFixed(1)+'" cy="'+last[1].toFixed(1)+'" r="2.5" fill="currentColor"/></svg>';
+}
+
+function cells(p){
+  const st = status(p);
+  // keepers have no defensive-contribution threshold, so a 0% would read as a failing
+  const dc = (p.pos === "GKP" || !p.appearances) ? "—" : Math.round(p.defcon_rate*100)+"%";
+  return '<span class="nm"><strong>'+esc(p.name)+'</strong><span class="club">'+esc(p.team)+'</span></span>'+
+    '<span class="num">'+p.points+'</span>'+
+    '<span class="num hide-sm">'+p.starts+'<small>/'+p.appearances+'</small></span>'+
+    '<span class="num hide-sm">'+dc+'</span>'+
+    '<span class="num"><span class="chip '+st.cls+'">'+st.text+'</span></span>'+
+    '<span class="num">'+spark(p.last5)+'</span>';
+}
+
+/* ---- squad ---- */
+function renderSquad(){
+  const host = $("#squad");
+  host.innerHTML = POS_ORDER.map(pos=>{
+    const list = S.squad.filter(p=>p.pos===pos);
+    if(!list.length) return "";
+    const on = list.filter(p=>S.picked.has(String(p.id))).length;
+    return '<div class="posblock"><div class="posrule"><h3>'+POS_LABEL[pos].toUpperCase()+
+      '</h3><span class="count">'+on+' of '+list.length+' picked</span></div>'+
+      list.map(p=>'<button type="button" class="row'+(S.picked.has(String(p.id))?" picked":"")+
+        '" data-id="'+p.id+'" aria-pressed="'+S.picked.has(String(p.id))+'">'+cells(p)+'</button>').join("")+
+      '</div>';
+  }).join("");
+  host.querySelectorAll(".row").forEach(b=>b.addEventListener("click",()=>{
+    const id=b.dataset.id;
+    S.picked.has(id) ? S.picked.delete(id) : S.picked.add(id);
+    savePicks(); renderSquad(); renderXi();
+  }));
+}
+
+function renderXi(){
+  const on = S.squad.filter(p=>S.picked.has(String(p.id)));
+  const by = pos => on.filter(p=>p.pos===pos).length;
+  const d=by("DEF"), m=by("MID"), f=by("FWD"), g=by("GKP");
+  $("#shape").textContent = on.length ? d+"-"+m+"-"+f : "—";
+  const problems=[];
+  if(on.length !== 11) problems.push(on.length+" picked, need 11");
+  if(g !== 1) problems.push(g+" keepers, need 1");
+  for(const pos of ["DEF","MID","FWD"]) if(by(pos) < MIN[pos]) problems.push("need "+MIN[pos]+"+ "+POS_LABEL[pos].toLowerCase());
+  const note=$("#xiNote");
+  if(!on.length){ note.className="note"; note.textContent="Nothing picked yet."; return; }
+  if(problems.length){ note.className="note bad"; note.textContent=problems.join(" · "); }
+  else {
+    const flags = on.filter(flagged).length;
+    note.className="note";
+    note.textContent = "Legal XI" + (flags ? " — but "+flags+" carrying a flag" : "");
+  }
+}
+
+/* ---- upgrades ---- */
+function renderUpgrades(){
+  const host=$("#upgrades");
+  const blocks = POS_ORDER.filter(p=>S.pos.has(p)).map(pos=>{
+    const owned = S.squad.filter(p=>p.pos===pos);
+    if(!owned.length) return "";
+    const weakest = owned.reduce((a,b)=> a.points<=b.points ? a : b);
+    let pool = S.free.filter(p=>p.pos===pos && p.points > weakest.points);
+    if(S.hideFlagged) pool = pool.filter(p=>!flagged(p));
+    pool.sort((a,b)=>b.points-a.points);
+    if(!pool.length) return '<div class="upgrade"><div class="over">No free '+
+      POS_LABEL[pos].toLowerCase()+" outscores "+esc(weakest.name)+" ("+weakest.points+" pts).</div></div>";
+    return '<div class="posblock"><div class="posrule"><h3>'+POS_LABEL[pos].toUpperCase()+
+      '</h3><span class="count">vs '+esc(weakest.name)+' · '+weakest.points+' pts</span></div>'+
+      pool.slice(0,8).map(p=>{
+        const d = p.points - weakest.points;
+        return '<div class="upgrade'+(flagged(p)?" flagged":"")+'"><div class="top">'+cells(p)+'</div>'+
+          '<div class="over"><span class="delta">+'+d+'</span> on '+esc(weakest.name)+'</div>'+
+          (p.news ? '<div class="news">'+esc(p.news)+'</div>' : "")+'</div>';
+      }).join("")+'</div>';
+  }).join("");
+  host.innerHTML = blocks || '<p class="hint">No positions selected.</p>';
+}
+
+function renderStandings(){
+  $("#standings").innerHTML = S.standings.map(r=>
+    '<tr'+(r.entry_id===S.meta.my_entry_id?' class="me"':"")+'><td>'+esc(r.name)+'</td><td>'+r.w+
+    '</td><td>'+r.d+'</td><td>'+r.l+'</td><td>'+r.league_points+'</td><td>'+r.points_for+
+    '</td><td>'+r.points_against+'</td></tr>').join("");
+}
+
+/* ---- clocks ---- */
+function fmtLeft(ms){
+  if(ms<=0) return "passed";
+  const h=Math.floor(ms/3.6e6), m=Math.floor(ms%3.6e6/6e4);
+  if(h>=48) return Math.floor(h/24)+"d "+(h%24)+"h";
+  return h+"h "+String(m).padStart(2,"0")+"m";
+}
+function tick(){
+  if(!S.meta) return;
+  const now=Date.now();
+  [["next_waivers_utc","#waiverClock","#waiverBox"],["next_deadline_utc","#dlClock","#dlBox"]].forEach(([k,el,box])=>{
+    if(!S.meta[k]) return;
+    const left=new Date(S.meta[k]).getTime()-now;
+    $(el).textContent=fmtLeft(left);
+    $(box).classList.toggle("soon", left>0 && left<12*3.6e6);
+  });
+}
+
+/* ---- boot ---- */
+async function load(){
+  const grab = async f => (await fetch("data/"+f+"?t="+Date.now())).json();
+  try{
+    const [meta,rosters,free,standings] = await Promise.all(
+      ["meta.json","rosters.json","free_agents.json","standings.json"].map(grab));
+    S.meta=meta; S.free=free; S.standings=standings;
+    S.squad = rosters[meta.my_team] || [];
+    $("#teamName").textContent = meta.my_team;
+    $("#leagueLine").textContent = "FPL DRAFT "+meta.league_id+" · GAMEWEEK "+meta.next_gw;
+    const me = standings.find(r=>r.entry_id===meta.my_entry_id);
+    if(me) $("#standLine").innerHTML = me.rank+(["th","st","nd","rd"][me.rank%10>3?0:me.rank%10]||"th")+
+      ' <em>'+me.league_points+' pts · '+me.points_for+' for</em>';
+    $("#updated").textContent = "Data refreshed "+new Date(meta.updated_utc).toLocaleString()+
+      " · gameweeks 1–"+meta.last_finished_gw+" stored";
+    loadPicks(); renderSquad(); renderXi(); renderUpgrades(); renderStandings();
+    tick(); setInterval(tick, 30000);
+  }catch(e){
+    $("#squad").innerHTML='<p class="hint">Could not load <code>data/</code>. '+
+      'If this is a fresh deploy, the first Action run may still be in flight.</p>';
+  }
+}
+
+$("#filters").addEventListener("click", e=>{
+  const b=e.target.closest("button[data-pos]"); if(!b) return;
+  const pos=b.dataset.pos, on=b.getAttribute("aria-pressed")==="true";
+  b.setAttribute("aria-pressed", String(!on));
+  on ? S.pos.delete(pos) : S.pos.add(pos);
+  renderUpgrades();
+});
+$("#hideFlagged").addEventListener("change", e=>{ S.hideFlagged=e.target.checked; renderUpgrades(); });
+$("#clearXi").addEventListener("click", ()=>{ S.picked.clear(); savePicks(); renderSquad(); renderXi(); });
+
+load();
+</script>
+</body>
+</html>
