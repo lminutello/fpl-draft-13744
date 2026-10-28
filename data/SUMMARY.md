@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-28T18:24:33Z | last finished GW8 | next GW9
+Updated 2026-10-28T22:52:14Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -78,7 +78,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - GKP Benitez           CRY    13p  450m st5  app5  dc 0.0   last5 [2, 6, 3, 1, 1]
 - GKP Walton            IPS     9p  360m st4  app4  dc 0.0   last5 [2, 2, 2, 3]
 - GKP Scherpen          IPS     7p  360m st4  app4  dc 0.0   last5 [2, 2, 2, 1]
-- GKP Henderson         CRY     5p  270m st3  app3  dc 0.0   last5 [2, 1, 2]  [D] Foot injury - 75% chance of playing
+- GKP Henderson         CRY     5p  270m st3  app3  dc 0.0   last5 [2, 1, 2]
 - GKP Sánchez           CHE     2p   90m st1  app1  dc 0.0   last5 [2]  [U] Has joined Como on loan for the rest of the season
 - GKP M.Bizot           AVL     1p   90m st1  app1  dc 0.0   last5 [1]
 - GKP Penders           CHE     1p  105m st1  app2  dc 0.0   last5 [1, 0]
@@ -216,7 +216,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF J.Timber          ARS     3p  155m st1  app4  dc 0.0   last5 [1, 0, 1, 1]
 - MID Belloumi          HUL    43p  595m st7  app8  dc 0.25  last5 [13, 4, 6, 2, 4]
 - MID Cunha             MUN    38p  548m st6  app8  dc 0.12  last5 [2, 10, 10, 1, 1]
-- MID Wirtz             LIV    31p  621m st8  app8  dc 0.0   last5 [3, 6, 2, 5, 6]  [D] Ankle injury - 75% chance of playing
+- MID Wirtz             LIV    31p  621m st8  app8  dc 0.0   last5 [3, 6, 2, 5, 6]
 - MID Hinshelwood       BHA    23p  127m st1  app3  dc 0.0   last5 [16, 6, 1]
 - MID Foden             MCI    19p  338m st4  app6  dc 0.0   last5 [9, 1, -2, 9, 1]
 - FWD João Pedro        CHE    47p  521m st6  app6  dc 0.0   last5 [9, 1, 12, 12, 2]  [I] Thigh injury - Unknown return date

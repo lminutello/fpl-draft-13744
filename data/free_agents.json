@@ -2047,11 +2047,11 @@
   ],
   "minutes": 429,
   "name": "Meunier",
-  "news": "Groin injury - 75% chance of playing",
+  "news": "",
   "points": 15,
   "pos": "DEF",
   "starts": 6,
-  "status": "d",
+  "status": "a",
   "team": "SUN"
  },
  {
@@ -3895,11 +3895,11 @@
   ],
   "minutes": 156,
   "name": "Wieffer",
-  "news": "Knee injury - 75% chance of playing",
+  "news": "",
   "points": 7,
   "pos": "DEF",
   "starts": 2,
-  "status": "d",
+  "status": "a",
   "team": "BHA"
  },
  {
@@ -4397,11 +4397,11 @@
   ],
   "minutes": 270,
   "name": "Henderson",
-  "news": "Foot injury - 75% chance of playing",
+  "news": "",
   "points": 5,
   "pos": "GKP",
   "starts": 3,
-  "status": "d",
+  "status": "a",
   "team": "CRY"
  },
  {
@@ -9000,11 +9000,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Minteh",
-  "news": "Leg injury - 75% chance of playing",
+  "news": "",
   "points": 0,
   "pos": "MID",
   "starts": 0,
-  "status": "d",
+  "status": "a",
   "team": "BHA"
  },
  {
