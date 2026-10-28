@@ -1,0 +1,158 @@
+{
+ "10": [
+  {
+   "away": "COV",
+   "home": "EVE",
+   "kickoff": "2026-11-06T20:00:00Z"
+  },
+  {
+   "away": "TOT",
+   "home": "LEE",
+   "kickoff": "2026-11-07T12:30:00Z"
+  },
+  {
+   "away": "HUL",
+   "home": "ARS",
+   "kickoff": "2026-11-07T15:00:00Z"
+  },
+  {
+   "away": "NEW",
+   "home": "FUL",
+   "kickoff": "2026-11-07T15:00:00Z"
+  },
+  {
+   "away": "MCI",
+   "home": "NFO",
+   "kickoff": "2026-11-07T17:30:00Z"
+  },
+  {
+   "away": "BRE",
+   "home": "BHA",
+   "kickoff": "2026-11-08T14:00:00Z"
+  },
+  {
+   "away": "LIV",
+   "home": "CRY",
+   "kickoff": "2026-11-08T14:00:00Z"
+  },
+  {
+   "away": "BOU",
+   "home": "IPS",
+   "kickoff": "2026-11-08T14:00:00Z"
+  },
+  {
+   "away": "CHE",
+   "home": "SUN",
+   "kickoff": "2026-11-08T14:00:00Z"
+  },
+  {
+   "away": "AVL",
+   "home": "MUN",
+   "kickoff": "2026-11-08T16:30:00Z"
+  }
+ ],
+ "11": [
+  {
+   "away": "FUL",
+   "home": "MCI",
+   "kickoff": "2026-11-21T12:30:00Z"
+  },
+  {
+   "away": "SUN",
+   "home": "AVL",
+   "kickoff": "2026-11-21T15:00:00Z"
+  },
+  {
+   "away": "NFO",
+   "home": "BOU",
+   "kickoff": "2026-11-21T15:00:00Z"
+  },
+  {
+   "away": "LEE",
+   "home": "CHE",
+   "kickoff": "2026-11-21T15:00:00Z"
+  },
+  {
+   "away": "CRY",
+   "home": "COV",
+   "kickoff": "2026-11-21T15:00:00Z"
+  },
+  {
+   "away": "IPS",
+   "home": "TOT",
+   "kickoff": "2026-11-21T15:00:00Z"
+  },
+  {
+   "away": "ARS",
+   "home": "NEW",
+   "kickoff": "2026-11-21T17:30:00Z"
+  },
+  {
+   "away": "BHA",
+   "home": "HUL",
+   "kickoff": "2026-11-22T14:00:00Z"
+  },
+  {
+   "away": "MUN",
+   "home": "LIV",
+   "kickoff": "2026-11-22T16:30:00Z"
+  },
+  {
+   "away": "EVE",
+   "home": "BRE",
+   "kickoff": "2026-11-23T20:00:00Z"
+  }
+ ],
+ "9": [
+  {
+   "away": "MUN",
+   "home": "CHE",
+   "kickoff": "2026-10-31T12:30:00Z"
+  },
+  {
+   "away": "LEE",
+   "home": "BOU",
+   "kickoff": "2026-10-31T15:00:00Z"
+  },
+  {
+   "away": "NFO",
+   "home": "BRE",
+   "kickoff": "2026-10-31T15:00:00Z"
+  },
+  {
+   "away": "SUN",
+   "home": "COV",
+   "kickoff": "2026-10-31T15:00:00Z"
+  },
+  {
+   "away": "IPS",
+   "home": "HUL",
+   "kickoff": "2026-10-31T15:00:00Z"
+  },
+  {
+   "away": "BHA",
+   "home": "MCI",
+   "kickoff": "2026-10-31T15:00:00Z"
+  },
+  {
+   "away": "CRY",
+   "home": "TOT",
+   "kickoff": "2026-10-31T17:30:00Z"
+  },
+  {
+   "away": "FUL",
+   "home": "AVL",
+   "kickoff": "2026-10-31T20:00:00Z"
+  },
+  {
+   "away": "ARS",
+   "home": "LIV",
+   "kickoff": "2026-11-01T16:30:00Z"
+  },
+  {
+   "away": "EVE",
+   "home": "NEW",
+   "kickoff": "2026-11-02T20:00:00Z"
+  }
+ ]
+}

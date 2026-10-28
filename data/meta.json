@@ -1,0 +1,21 @@
+{
+ "gameweeks_stored": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "last_finished_gw": 8,
+ "league_id": 13744,
+ "my_entry_id": 174590,
+ "my_team": "Mr. Madueke",
+ "n_free_agents": 549,
+ "next_deadline_utc": "2026-10-31T11:00:00+00:00",
+ "next_gw": 9,
+ "next_waivers_utc": "2026-10-30T11:00:00+00:00",
+ "updated_utc": "2026-10-28T18:24:33Z"
+}

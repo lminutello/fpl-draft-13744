@@ -1,0 +1,90 @@
+[
+ {
+  "d": 0,
+  "entry_id": 68855,
+  "l": 3,
+  "league_points": 15,
+  "name": "xGoons",
+  "points_against": 337,
+  "points_for": 363,
+  "rank": 1,
+  "w": 5
+ },
+ {
+  "d": 0,
+  "entry_id": 71979,
+  "l": 3,
+  "league_points": 15,
+  "name": "TheSunnysideDons",
+  "points_against": 367,
+  "points_for": 342,
+  "rank": 2,
+  "w": 5
+ },
+ {
+  "d": 1,
+  "entry_id": 71942,
+  "l": 3,
+  "league_points": 13,
+  "name": "Ephesians Autocracy",
+  "points_against": 329,
+  "points_for": 401,
+  "rank": 3,
+  "w": 4
+ },
+ {
+  "d": 1,
+  "entry_id": 174590,
+  "l": 3,
+  "league_points": 13,
+  "name": "Mr. Madueke",
+  "points_against": 356,
+  "points_for": 361,
+  "rank": 4,
+  "w": 4
+ },
+ {
+  "d": 0,
+  "entry_id": 216837,
+  "l": 4,
+  "league_points": 12,
+  "name": "eu sou brasileiro",
+  "points_against": 359,
+  "points_for": 369,
+  "rank": 5,
+  "w": 4
+ },
+ {
+  "d": 1,
+  "entry_id": 69080,
+  "l": 4,
+  "league_points": 10,
+  "name": "Shensquad numero uno",
+  "points_against": 344,
+  "points_for": 321,
+  "rank": 6,
+  "w": 3
+ },
+ {
+  "d": 0,
+  "entry_id": 70860,
+  "l": 5,
+  "league_points": 9,
+  "name": "King Tzolimon",
+  "points_against": 394,
+  "points_for": 375,
+  "rank": 7,
+  "w": 3
+ },
+ {
+  "d": 1,
+  "entry_id": 68977,
+  "l": 5,
+  "league_points": 7,
+  "name": "Mossad & Hove Albion",
+  "points_against": 331,
+  "points_for": 285,
+  "rank": 8,
+  "w": 2
+ }
+]
