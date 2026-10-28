@@ -1,0 +1,40 @@
+name: Update FPL data
+
+on:
+  schedule:
+    # every 6 hours, offset off the hour so it isn't competing with the
+    # thundering herd of jobs scheduled at :00
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fpl-data
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch FPL Draft data
+        run: python scripts/fetch_fpl.py
+
+      - name: Commit any changes
+        run: |
+          git config user.name  "fpl-snapshot-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
