@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-28T22:52:14Z | last finished GW8 | next GW9
+Updated 2026-10-29T02:02:04Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -212,7 +212,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Guéhi             MCI    37p  675m st8  app8  dc 0.0   last5 [6, 4, 6, 1, 0]
 - DEF Thomas            COV    32p  676m st8  app8  dc 0.62  last5 [0, 9, 4, 3, 1]  [D] Unspecified injury - 75% chance of playing
 - DEF Hill              BOU    32p  720m st8  app8  dc 0.62  last5 [2, 4, 2, 7, 11]
-- DEF Lacroix           CHE    24p  634m st7  app8  dc 0.5   last5 [1, 3, 2, 6, 3]
+- DEF Lacroix           CHE    24p  634m st7  app8  dc 0.5   last5 [1, 3, 2, 6, 3]  [D] Hamstring injury - 75% chance of playing
 - DEF J.Timber          ARS     3p  155m st1  app4  dc 0.0   last5 [1, 0, 1, 1]
 - MID Belloumi          HUL    43p  595m st7  app8  dc 0.25  last5 [13, 4, 6, 2, 4]
 - MID Cunha             MUN    38p  548m st6  app8  dc 0.12  last5 [2, 10, 10, 1, 1]
