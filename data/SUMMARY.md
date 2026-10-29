@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-29T15:22:50Z | last finished GW8 | next GW9
+Updated 2026-10-29T20:24:40Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -58,7 +58,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Xhaka             SUN    28p  720m st8  app8  dc 0.25  last5 [1, 2, 2, 2, 3]
 - DEF Robertson         TOT    28p  498m st6  app7  dc 0.14  last5 [1, 7, 4, 5, 6]
 - MID Buendía           AVL    28p  559m st7  app8  dc 0.12  last5 [2, 12, 4, 3, 0]
-- DEF Mykolenko         EVE    28p  613m st7  app7  dc 0.29  last5 [1, 11, 5, 1, 0]  [D] Unspecified injury - 75% chance of playing
+- DEF Mykolenko         EVE    28p  613m st7  app7  dc 0.29  last5 [1, 11, 5, 1, 0]
 - MID Kamara            AVL    28p  713m st8  app8  dc 0.38  last5 [2, 6, 4, 5, 4]
 - DEF Davis             IPS    28p  720m st8  app8  dc 0.0   last5 [14, 2, 1, 0, 2]
 - MID Rudoni            COV    28p  555m st7  app8  dc 0.12  last5 [2, 5, 7, 6, 2]
@@ -95,7 +95,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Dunk              BHA    30p  569m st6  app7  dc 0.14  last5 [5, 12, 1, 6, 1]
 - DEF Giles             HUL    29p  593m st7  app8  dc 0.0   last5 [4, 0, 2, 1, 2]
 - DEF Robertson         TOT    28p  498m st6  app7  dc 0.14  last5 [1, 7, 4, 5, 6]
-- DEF Mykolenko         EVE    28p  613m st7  app7  dc 0.29  last5 [1, 11, 5, 1, 0]  [D] Unspecified injury - 75% chance of playing
+- DEF Mykolenko         EVE    28p  613m st7  app7  dc 0.29  last5 [1, 11, 5, 1, 0]
 - DEF Davis             IPS    28p  720m st8  app8  dc 0.0   last5 [14, 2, 1, 0, 2]
 - DEF Mendy             HUL    28p  339m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]
 - DEF Dasilva           COV    27p  714m st8  app8  dc 0.0   last5 [0, 15, 5, 0, 2]
@@ -210,7 +210,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - GKP Trafford          LEE    42p  720m st8  app8  dc 0.0   last5 [3, 10, 2, 2, 10]
 - GKP Pickford          EVE    29p  720m st8  app8  dc 0.0   last5 [6, 8, 1, 2, 1]
 - DEF Guéhi             MCI    37p  675m st8  app8  dc 0.0   last5 [6, 4, 6, 1, 0]
-- DEF Thomas            COV    32p  676m st8  app8  dc 0.62  last5 [0, 9, 4, 3, 1]  [D] Unspecified injury - 75% chance of playing
+- DEF Thomas            COV    32p  676m st8  app8  dc 0.62  last5 [0, 9, 4, 3, 1]  [D] Calf injury - 50% chance of playing
 - DEF Hill              BOU    32p  720m st8  app8  dc 0.62  last5 [2, 4, 2, 7, 11]
 - DEF Lacroix           CHE    24p  634m st7  app8  dc 0.5   last5 [1, 3, 2, 6, 3]  [D] Hamstring injury - 75% chance of playing
 - DEF J.Timber          ARS     3p  155m st1  app4  dc 0.0   last5 [1, 0, 1, 1]
