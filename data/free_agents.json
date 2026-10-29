@@ -517,11 +517,11 @@
   ],
   "minutes": 339,
   "name": "Mendy",
-  "news": "Groin injury - Expected back 31 Oct",
+  "news": "",
   "points": 28,
   "pos": "DEF",
   "starts": 5,
-  "status": "i",
+  "status": "a",
   "team": "HUL"
  },
  {
@@ -580,11 +580,11 @@
   ],
   "minutes": 527,
   "name": "Ndoye",
-  "news": "",
+  "news": "Hamstring injury - 50% chance of playing",
   "points": 27,
   "pos": "MID",
   "starts": 8,
-  "status": "a",
+  "status": "d",
   "team": "NFO"
  },
  {
@@ -622,11 +622,11 @@
   ],
   "minutes": 450,
   "name": "Affengruber",
-  "news": "",
+  "news": "Unspecified injury - 75% chance of playing",
   "points": 27,
   "pos": "DEF",
   "starts": 5,
-  "status": "a",
+  "status": "d",
   "team": "FUL"
  },
  {
@@ -2026,11 +2026,11 @@
   ],
   "minutes": 501,
   "name": "Elvedi",
-  "news": "Illness - 75% chance of playing",
+  "news": "",
   "points": 16,
   "pos": "DEF",
   "starts": 5,
-  "status": "d",
+  "status": "a",
   "team": "LEE"
  },
  {
@@ -4456,11 +4456,11 @@
   ],
   "minutes": 154,
   "name": "Struijk",
-  "news": "Hamstring injury - 50% chance of playing",
+  "news": "Hamstring injury - Expected back 8 Nov",
   "points": 5,
   "pos": "DEF",
   "starts": 2,
-  "status": "d",
+  "status": "i",
   "team": "BHA"
  },
  {
@@ -6718,11 +6718,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Butland",
-  "news": "Arm injury - Unknown return date",
+  "news": "Arm injury - 50% chance of playing",
   "points": 0,
   "pos": "GKP",
   "starts": 0,
-  "status": "i",
+  "status": "d",
   "team": "HUL"
  },
  {

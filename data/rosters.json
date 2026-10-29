@@ -119,11 +119,11 @@
    ],
    "minutes": 713,
    "name": "N.Williams",
-   "news": "Arm injury - 75% chance of playing",
+   "news": "",
    "points": 31,
    "pos": "DEF",
    "starts": 8,
-   "status": "d",
+   "status": "a",
    "team": "NFO"
   },
   {
@@ -872,11 +872,11 @@
    ],
    "minutes": 15,
    "name": "Sarr",
-   "news": "Groin injury - 75% chance of playing",
+   "news": "Groin injury - Expected back 8 Nov",
    "points": 2,
    "pos": "MID",
    "starts": 0,
-   "status": "d",
+   "status": "i",
    "team": "CRY"
   },
   {
@@ -1103,11 +1103,11 @@
    ],
    "minutes": 651,
    "name": "Stach",
-   "news": "",
+   "news": "Foot injury - 50% chance of playing",
    "points": 32,
    "pos": "MID",
    "starts": 7,
-   "status": "a",
+   "status": "d",
    "team": "LEE"
   },
   {

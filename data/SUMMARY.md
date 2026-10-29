@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-29T08:25:49Z | last finished GW8 | next GW9
+Updated 2026-10-29T15:22:50Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -27,7 +27,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Castagne          FUL    35p  588m st7  app7  dc 0.0   last5 [1, 6, 1, 8, 7]
 - DEF Richards          CRY    23p  720m st8  app8  dc 0.75  last5 [2, 8, 4, 2, 3]
 - DEF Maguire           MUN    16p  720m st8  app8  dc 0.25  last5 [1, 2, 2, 4, 0]
-- MID Stach             LEE    32p  651m st7  app8  dc 0.38  last5 [3, 5, 2, 2, 1]
+- MID Stach             LEE    32p  651m st7  app8  dc 0.38  last5 [3, 5, 2, 2, 1]  [D] Foot injury - 50% chance of playing
 - MID M.Sangaré         BRE    28p  494m st5  app8  dc 0.5   last5 [4, 0, 1, 1, 4]
 - MID Anderson          MCI    23p  606m st7  app8  dc 0.25  last5 [5, 2, 6, 1, 1]
 - MID Bruno G.          ARS    22p  237m st2  app6  dc 0.0   last5 [7, 1, 9, 3, 1]
@@ -62,12 +62,12 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Kamara            AVL    28p  713m st8  app8  dc 0.38  last5 [2, 6, 4, 5, 4]
 - DEF Davis             IPS    28p  720m st8  app8  dc 0.0   last5 [14, 2, 1, 0, 2]
 - MID Rudoni            COV    28p  555m st7  app8  dc 0.12  last5 [2, 5, 7, 6, 2]
-- DEF Mendy             HUL    28p  339m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]  [I] Groin injury - Expected back 31 Oct
+- DEF Mendy             HUL    28p  339m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]
 - DEF Dasilva           COV    27p  714m st8  app8  dc 0.0   last5 [0, 15, 5, 0, 2]
 - MID Willock           NEW    27p  473m st6  app8  dc 0.0   last5 [1, 10, 1, 1, 3]
-- MID Ndoye             NFO    27p  527m st8  app8  dc 0.0   last5 [1, 1, 7, 3, 2]
+- MID Ndoye             NFO    27p  527m st8  app8  dc 0.0   last5 [1, 1, 7, 3, 2]  [D] Hamstring injury - 50% chance of playing
 - MID E.Le Fée          SUN    27p  686m st8  app8  dc 0.12  last5 [0, 5, 2, 4, 3]
-- DEF Affengruber       FUL    27p  450m st5  app5  dc 0.6   last5 [8, 4, 3, 6, 6]
+- DEF Affengruber       FUL    27p  450m st5  app5  dc 0.6   last5 [8, 4, 3, 6, 6]  [D] Unspecified injury - 75% chance of playing
 
 ## Free agents by position - top 12 each
 
@@ -97,9 +97,9 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Robertson         TOT    28p  498m st6  app7  dc 0.14  last5 [1, 7, 4, 5, 6]
 - DEF Mykolenko         EVE    28p  613m st7  app7  dc 0.29  last5 [1, 11, 5, 1, 0]  [D] Unspecified injury - 75% chance of playing
 - DEF Davis             IPS    28p  720m st8  app8  dc 0.0   last5 [14, 2, 1, 0, 2]
-- DEF Mendy             HUL    28p  339m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]  [I] Groin injury - Expected back 31 Oct
+- DEF Mendy             HUL    28p  339m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]
 - DEF Dasilva           COV    27p  714m st8  app8  dc 0.0   last5 [0, 15, 5, 0, 2]
-- DEF Affengruber       FUL    27p  450m st5  app5  dc 0.6   last5 [8, 4, 3, 6, 6]
+- DEF Affengruber       FUL    27p  450m st5  app5  dc 0.6   last5 [8, 4, 3, 6, 6]  [D] Unspecified injury - 75% chance of playing
 
 ### MID
 
@@ -158,7 +158,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Vuskovic          BHA    52p  707m st8  app8  dc 0.5   last5 [6, 8, 8, 11, 1]
 - DEF Muharemović       LEE    43p  720m st8  app8  dc 0.62  last5 [7, 6, 2, 5, 9]
 - DEF Virgil            LIV    38p  720m st8  app8  dc 0.62  last5 [8, 8, 0, 4, 9]
-- DEF N.Williams        NFO    31p  713m st8  app8  dc 0.25  last5 [2, 2, 1, 3, 8]  [D] Arm injury - 75% chance of playing
+- DEF N.Williams        NFO    31p  713m st8  app8  dc 0.25  last5 [2, 2, 1, 3, 8]
 - DEF Mitchell          CRY    29p  689m st8  app8  dc 0.12  last5 [1, 7, 4, 0, 1]
 - MID Groß              BHA    58p  700m st8  app8  dc 0.0   last5 [17, 14, 6, 5, 0]
 - MID Tavernier         BOU    52p  660m st8  app8  dc 0.0   last5 [8, 2, 1, 10, 10]
@@ -182,7 +182,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Saka              ARS    37p  596m st7  app7  dc 0.0   last5 [2, 8, 2, 2, 3]  [I] Thigh injury - Unknown return date
 - MID Manzambi          AVL    31p  319m st4  app5  dc 0.0   last5 [1, 13, 5, 11, 1]
 - MID Maddison          TOT    14p  193m st2  app6  dc 0.0   last5 [1, 1, 1, 9, 1]  [D] Unspecified injury - 75% chance of playing
-- MID Sarr              CRY     2p   15m st0  app2  dc 0.0   last5 [1, 1]  [D] Groin injury - 75% chance of playing
+- MID Sarr              CRY     2p   15m st0  app2  dc 0.0   last5 [1, 1]  [I] Groin injury - Expected back 8 Nov
 - FWD Thiago            BRE    23p  712m st8  app8  dc 0.0   last5 [1, 5, 4, 4, 5]
 - FWD Delap             NFO    15p  528m st6  app7  dc 0.0   last5 [5, 1, 2, 2, 2]
 - FWD Mateta            CRY     5p  152m st2  app3  dc 0.0   last5 [2, 1, 2]
