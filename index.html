@@ -320,8 +320,7 @@ function fixtureLine(doc, p){
   }).join(", ");
 }
 
-/* ---------- pictures: headshot -> club shirt -> initials ---------- */
-const PHOTO = c => "https://resources.premierleague.com/premierleague/photos/players/110x140/p" + c + ".png";
+/* ---------- pictures: club shirt -> initials ---------- */
 const SHIRT = (tc, gk) => "https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_" + tc + (gk ? "_1" : "") + "-66.webp";
 function initials(n){
   const w = String(n || "?").split(/[\s.]+/).filter(Boolean);
@@ -334,12 +333,11 @@ function imgFail(img){
   const sp = document.createElement("span"); sp.className = "ini"; sp.textContent = img.dataset.ini || "?";
   img.replaceWith(sp);
 }
+// club shirt (keeper kit for GKs), like the official app; initials if it won't load
 function pic(p){
   const shirt = p.tc ? SHIRT(p.tc, p.p === "GKP") : "";
-  const src = p.c ? PHOTO(p.c) : shirt;
-  if(!src) return '<span class="ini">' + esc(initials(p.n)) + '</span>';
-  return '<img src="' + src + '" alt="" referrerpolicy="no-referrer" data-shirt="' + shirt +
-    '" data-ini="' + esc(initials(p.n)) + '" onerror="imgFail(this)">';
+  if(!shirt) return '<span class="ini">' + esc(initials(p.n)) + '</span>';
+  return '<img src="' + shirt + '" alt="" referrerpolicy="no-referrer" data-ini="' + esc(initials(p.n)) + '" onerror="imgFail(this)">';
 }
 
 /* what a player's number means right now */
@@ -528,7 +526,7 @@ async function boot(){
   if(S.gw == null || !S.app.gws.includes(S.gw)) S.gw = S.app.open_gw;
   $("#foot").innerHTML = 'Projections: season points per appearance, pulled toward average when there are only a few games to go on, × chance of playing. ' +
     'Backtested on GW5–8 they beat a plain season average by about 11%; recent form and opponent strength were tested and made it worse, so they\'re left out. ' +
-    'They don\'t read team news. Data refreshes every few hours, and every ~7 minutes while matches are on. Player photos and shirts load from the Premier League\'s image servers. ' +
+    'They don\'t read team news. Data refreshes every few hours, and every ~7 minutes while matches are on. Club shirts load from the official FPL image servers. ' +
     '<a href="https://github.com/lminutello/fpl-draft-13744">Source</a>';
   route();
 }
