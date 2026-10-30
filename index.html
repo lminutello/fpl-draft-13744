@@ -338,7 +338,7 @@ function pic(p){
   const shirt = p.tc ? SHIRT(p.tc, p.p === "GKP") : "";
   const src = p.c ? PHOTO(p.c) : shirt;
   if(!src) return '<span class="ini">' + esc(initials(p.n)) + '</span>';
-  return '<img src="' + src + '" alt="" loading="lazy" referrerpolicy="no-referrer" data-shirt="' + shirt +
+  return '<img src="' + src + '" alt="" referrerpolicy="no-referrer" data-shirt="' + shirt +
     '" data-ini="' + esc(initials(p.n)) + '" onerror="imgFail(this)">';
 }
 
@@ -353,7 +353,7 @@ function fixShort(doc, p){
   const f = doc.fixtures.find(x => (p.fx || []).includes(x.id)); if(!f) return "";
   const home = f.home === p.t, vs = (home ? "v " : "@ ") + (home ? f.away : f.home);
   if(!f.started) return vs + " " + fmt(f.kickoff, {weekday:"short"}) + " " +
-    fmt(f.kickoff, {hour:"numeric"}).replace(" PM", "p").replace(" AM", "a");
+    fmt(f.kickoff, {hour:"numeric", minute:"2-digit"}).replace(":00", "").replace(" PM", "p").replace(" AM", "a");
   const own = home ? f.hs : f.as, them = home ? f.as : f.hs;
   return f.done ? vs + " " + own + "–" + them : own + "–" + them + " " + f.minutes + "'";
 }

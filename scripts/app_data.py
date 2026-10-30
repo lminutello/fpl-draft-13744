@@ -502,8 +502,9 @@ def build(get, boot, details, status, history, out_dir):
                 "c": el.get("code"),                    # photo id
                 "tc": team_code.get(el.get("team")),    # shirt id
                 "p": pos_of.get(pid, "?"),
-                "st": el.get("status", "a") if gw >= cur else "a",
-                "news": (el.get("news") or "").strip() if gw >= cur else "",
+                # today's flags only mean something for a week still to play
+                "st": el.get("status", "a") if (is_future or is_live_gw) else "a",
+                "news": (el.get("news") or "").strip() if (is_future or is_live_gw) else "",
                 "m": s.get("minutes") or 0,
                 "pts": pts,
                 "pb": pb,
