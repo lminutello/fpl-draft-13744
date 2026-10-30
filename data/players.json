@@ -943,11 +943,11 @@
   ],
   "minutes": 274,
   "name": "Gusto",
-  "news": "",
+  "news": "Unspecified injury - 75% chance of playing",
   "points": 5,
   "pos": "DEF",
   "starts": 3,
-  "status": "a",
+  "status": "d",
   "team": "CHE"
  },
  "145": {
@@ -1017,11 +1017,11 @@
   ],
   "minutes": 412,
   "name": "Hato",
-  "news": "",
+  "news": "Unspecified injury - 75% chance of playing",
   "points": 25,
   "pos": "DEF",
   "starts": 6,
-  "status": "a",
+  "status": "d",
   "team": "CHE"
  },
  "149": {
@@ -1253,11 +1253,11 @@
   ],
   "minutes": 264,
   "name": "Caicedo",
-  "news": "",
+  "news": "Unspecified injury - 75% chance of playing",
   "points": 8,
   "pos": "MID",
   "starts": 3,
-  "status": "a",
+  "status": "d",
   "team": "CHE"
  },
  "16": {
@@ -2105,7 +2105,7 @@
   ],
   "minutes": 634,
   "name": "Lacroix",
-  "news": "Hamstring injury - 75% chance of playing",
+  "news": "Hamstring injury - 50% chance of playing",
   "points": 24,
   "pos": "DEF",
   "starts": 7,
@@ -7516,11 +7516,11 @@
   ],
   "minutes": 177,
   "name": "Osula",
-  "news": "",
+  "news": "Ankle injury - 75% chance of playing",
   "points": 14,
   "pos": "FWD",
   "starts": 2,
-  "status": "a",
+  "status": "d",
   "team": "NEW"
  },
  "466": {

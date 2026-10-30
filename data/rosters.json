@@ -436,7 +436,7 @@
    ],
    "minutes": 634,
    "name": "Lacroix",
-   "news": "Hamstring injury - 75% chance of playing",
+   "news": "Hamstring injury - 50% chance of playing",
    "points": 24,
    "pos": "DEF",
    "starts": 7,
@@ -621,11 +621,11 @@
    ],
    "minutes": 177,
    "name": "Osula",
-   "news": "",
+   "news": "Ankle injury - 75% chance of playing",
    "points": 14,
    "pos": "FWD",
    "starts": 2,
-   "status": "a",
+   "status": "d",
    "team": "NEW"
   }
  ],
@@ -749,11 +749,11 @@
    ],
    "minutes": 412,
    "name": "Hato",
-   "news": "",
+   "news": "Unspecified injury - 75% chance of playing",
    "points": 25,
    "pos": "DEF",
    "starts": 6,
-   "status": "a",
+   "status": "d",
    "team": "CHE"
   },
   {
@@ -1186,11 +1186,11 @@
    ],
    "minutes": 264,
    "name": "Caicedo",
-   "news": "",
+   "news": "Unspecified injury - 75% chance of playing",
    "points": 8,
    "pos": "MID",
    "starts": 3,
-   "status": "a",
+   "status": "d",
    "team": "CHE"
   },
   {

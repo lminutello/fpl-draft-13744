@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-29T20:24:40Z | last finished GW8 | next GW9
+Updated 2026-10-30T00:01:52Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -31,7 +31,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID M.Sangaré         BRE    28p  494m st5  app8  dc 0.5   last5 [4, 0, 1, 1, 4]
 - MID Anderson          MCI    23p  606m st7  app8  dc 0.25  last5 [5, 2, 6, 1, 1]
 - MID Bruno G.          ARS    22p  237m st2  app6  dc 0.0   last5 [7, 1, 9, 3, 1]
-- MID Caicedo           CHE     8p  264m st3  app4  dc 0.0   last5 [1, 2, 3, 2]
+- MID Caicedo           CHE     8p  264m st3  app4  dc 0.0   last5 [1, 2, 3, 2]  [D] Unspecified injury - 75% chance of playing
 - FWD Haaland           MCI    66p  709m st8  app8  dc 0.0   last5 [9, 6, 6, 13, 8]
 - FWD Strand Larsen     CRY    21p  440m st5  app7  dc 0.0   last5 [1, 8, 2, 5, 2]  [D] Ankle injury - 75% chance of playing
 - FWD Georginio         BHA    12p  140m st1  app5  dc 0.0   last5 [5, 1, 4, 1, 1]
@@ -176,7 +176,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF White             ARS    42p  532m st7  app7  dc 0.0   last5 [2, 1, 5, 6, 10]
 - DEF Hall              NEW    40p  719m st8  app8  dc 0.5   last5 [0, 13, 0, 4, 5]
 - DEF Murillo           NFO    28p  719m st8  app8  dc 0.62  last5 [6, 4, 2, 2, 1]
-- DEF Hato              CHE    25p  412m st6  app6  dc 0.0   last5 [4, 3, 0, 11, 6]
+- DEF Hato              CHE    25p  412m st6  app6  dc 0.0   last5 [4, 3, 0, 11, 6]  [D] Unspecified injury - 75% chance of playing
 - DEF O'Reilly          MCI    13p  288m st4  app6  dc 0.0   last5 [2, 1, 1, 5, 2]
 - MID Dewsbury-Hall     EVE    37p  715m st8  app8  dc 0.0   last5 [2, 3, 13, 2, 2]
 - MID Saka              ARS    37p  596m st7  app7  dc 0.0   last5 [2, 8, 2, 2, 3]  [I] Thigh injury - Unknown return date
@@ -212,7 +212,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Guéhi             MCI    37p  675m st8  app8  dc 0.0   last5 [6, 4, 6, 1, 0]
 - DEF Thomas            COV    32p  676m st8  app8  dc 0.62  last5 [0, 9, 4, 3, 1]  [D] Calf injury - 50% chance of playing
 - DEF Hill              BOU    32p  720m st8  app8  dc 0.62  last5 [2, 4, 2, 7, 11]
-- DEF Lacroix           CHE    24p  634m st7  app8  dc 0.5   last5 [1, 3, 2, 6, 3]  [D] Hamstring injury - 75% chance of playing
+- DEF Lacroix           CHE    24p  634m st7  app8  dc 0.5   last5 [1, 3, 2, 6, 3]  [D] Hamstring injury - 50% chance of playing
 - DEF J.Timber          ARS     3p  155m st1  app4  dc 0.0   last5 [1, 0, 1, 1]
 - MID Belloumi          HUL    43p  595m st7  app8  dc 0.25  last5 [13, 4, 6, 2, 4]
 - MID Cunha             MUN    38p  548m st6  app8  dc 0.12  last5 [2, 10, 10, 1, 1]
@@ -221,7 +221,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Foden             MCI    19p  338m st4  app6  dc 0.0   last5 [9, 1, -2, 9, 1]
 - FWD João Pedro        CHE    47p  521m st6  app6  dc 0.0   last5 [9, 1, 12, 12, 2]  [I] Thigh injury - Unknown return date
 - FWD Calvert-Lewin     LEE    35p  683m st8  app8  dc 0.0   last5 [10, 2, 2, 9, 2]
-- FWD Osula             NEW    14p  177m st2  app4  dc 0.0   last5 [4, 1, 0, 9]
+- FWD Osula             NEW    14p  177m st2  app4  dc 0.0   last5 [4, 1, 0, 9]  [D] Ankle injury - 75% chance of playing
 
 ### eu sou brasileiro
 
