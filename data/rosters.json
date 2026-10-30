@@ -245,11 +245,11 @@
    ],
    "minutes": 471,
    "name": "Szoboszlai",
-   "news": "Hamstring injury - Unknown return date",
+   "news": "Hamstring injury - 50% chance of playing",
    "points": 21,
    "pos": "MID",
    "starts": 6,
-   "status": "i",
+   "status": "d",
    "team": "LIV"
   },
   {
@@ -509,6 +509,27 @@
    "appearances": 8,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
+   "id": 45,
+   "last5": [
+    6,
+    6,
+    10,
+    1,
+    6
+   ],
+   "minutes": 634,
+   "name": "McGinn",
+   "news": "",
+   "points": 34,
+   "pos": "MID",
+   "starts": 7,
+   "status": "a",
+   "team": "AVL"
+  },
+  {
+   "appearances": 8,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
    "id": 366,
    "last5": [
     3,
@@ -525,27 +546,6 @@
    "starts": 8,
    "status": "a",
    "team": "LIV"
-  },
-  {
-   "appearances": 8,
-   "defcon_hits": 1,
-   "defcon_rate": 0.12,
-   "id": 41,
-   "last5": [
-    2,
-    12,
-    4,
-    3,
-    0
-   ],
-   "minutes": 559,
-   "name": "Buendía",
-   "news": "",
-   "points": 28,
-   "pos": "MID",
-   "starts": 7,
-   "status": "a",
-   "team": "AVL"
   },
   {
    "appearances": 3,
@@ -621,7 +621,7 @@
    ],
    "minutes": 177,
    "name": "Osula",
-   "news": "Ankle injury - 75% chance of playing",
+   "news": "Ankle injury - 50% chance of playing",
    "points": 14,
    "pos": "FWD",
    "starts": 2,
@@ -1187,11 +1187,11 @@
    ],
    "minutes": 264,
    "name": "Caicedo",
-   "news": "Unspecified injury - 75% chance of playing",
+   "news": "",
    "points": 8,
    "pos": "MID",
    "starts": 3,
-   "status": "d",
+   "status": "a",
    "team": "CHE"
   },
   {
@@ -1673,11 +1673,11 @@
    ],
    "minutes": 630,
    "name": "Branthwaite",
-   "news": "",
+   "news": "Concussion - 75% chance of playing",
    "points": 31,
    "pos": "DEF",
    "starts": 7,
-   "status": "a",
+   "status": "d",
    "team": "EVE"
   },
   {
@@ -1715,11 +1715,11 @@
    ],
    "minutes": 378,
    "name": "Matheus N.",
-   "news": "Unspecified injury - 75% chance of playing",
+   "news": "",
    "points": 19,
    "pos": "DEF",
    "starts": 4,
-   "status": "d",
+   "status": "a",
    "team": "MCI"
   },
   {
@@ -2124,25 +2124,25 @@
    "team": "LIV"
   },
   {
-   "appearances": 6,
+   "appearances": 8,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 14,
+   "id": 268,
    "last5": [
-    1,
-    1,
-    1,
-    1,
-    3
+    3,
+    2,
+    2,
+    2,
+    6
    ],
-   "minutes": 209,
-   "name": "Eze",
+   "minutes": 657,
+   "name": "King",
    "news": "",
-   "points": 8,
+   "points": 34,
    "pos": "MID",
-   "starts": 2,
+   "starts": 8,
    "status": "a",
-   "team": "ARS"
+   "team": "FUL"
   },
   {
    "appearances": 7,

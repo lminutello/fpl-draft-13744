@@ -24,48 +24,6 @@
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
-  "id": 45,
-  "last5": [
-   6,
-   6,
-   10,
-   1,
-   6
-  ],
-  "minutes": 634,
-  "name": "McGinn",
-  "news": "",
-  "points": 34,
-  "pos": "MID",
-  "starts": 7,
-  "status": "a",
-  "team": "AVL"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 268,
-  "last5": [
-   3,
-   2,
-   2,
-   2,
-   6
-  ],
-  "minutes": 657,
-  "name": "King",
-  "news": "",
-  "points": 34,
-  "pos": "MID",
-  "starts": 8,
-  "status": "a",
-  "team": "FUL"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
   "id": 114,
   "last5": [
    6,
@@ -463,6 +421,27 @@
  },
  {
   "appearances": 8,
+  "defcon_hits": 1,
+  "defcon_rate": 0.12,
+  "id": 41,
+  "last5": [
+   2,
+   12,
+   4,
+   3,
+   0
+  ],
+  "minutes": 559,
+  "name": "Buendía",
+  "news": "",
+  "points": 28,
+  "pos": "MID",
+  "starts": 7,
+  "status": "a",
+  "team": "AVL"
+ },
+ {
+  "appearances": 8,
   "defcon_hits": 4,
   "defcon_rate": 0.5,
   "id": 556,
@@ -580,11 +559,11 @@
   ],
   "minutes": 450,
   "name": "Affengruber",
-  "news": "Unspecified injury - 75% chance of playing",
+  "news": "",
   "points": 27,
   "pos": "DEF",
   "starts": 5,
-  "status": "d",
+  "status": "a",
   "team": "FUL"
  },
  {
@@ -706,7 +685,7 @@
   ],
   "minutes": 425,
   "name": "Munoz",
-  "news": "Knee injury - 25% chance of playing",
+  "news": "Knee injury - 50% chance of playing",
   "points": 26,
   "pos": "MID",
   "starts": 5,
@@ -769,11 +748,11 @@
   ],
   "minutes": 412,
   "name": "Hato",
-  "news": "Unspecified injury - 75% chance of playing",
+  "news": "Unspecified injury - Unknown return date",
   "points": 25,
   "pos": "DEF",
   "starts": 6,
-  "status": "d",
+  "status": "i",
   "team": "CHE"
  },
  {
@@ -853,11 +832,11 @@
   ],
   "minutes": 634,
   "name": "Lacroix",
-  "news": "Hamstring injury - 50% chance of playing",
+  "news": "Hamstring injury - Unknown return date",
   "points": 24,
   "pos": "DEF",
   "starts": 7,
-  "status": "d",
+  "status": "i",
   "team": "CHE"
  },
  {
@@ -1881,11 +1860,11 @@
   ],
   "minutes": 362,
   "name": "Tzolis",
-  "news": "Hamstring injury - Expected back 1 Nov",
+  "news": "Hamstring injury - 75% chance of playing",
   "points": 16,
   "pos": "MID",
   "starts": 5,
-  "status": "i",
+  "status": "d",
   "team": "ARS"
  },
  {
@@ -2048,11 +2027,11 @@
   ],
   "minutes": 490,
   "name": "Lukić",
-  "news": "Groin injury - Unknown return date",
+  "news": "Groin injury - 75% chance of playing",
   "points": 15,
   "pos": "MID",
   "starts": 6,
-  "status": "i",
+  "status": "d",
   "team": "IPS"
  },
  {
@@ -2360,11 +2339,11 @@
   ],
   "minutes": 193,
   "name": "Maddison",
-  "news": "Unspecified injury - 75% chance of playing",
+  "news": "",
   "points": 14,
   "pos": "MID",
   "starts": 2,
-  "status": "d",
+  "status": "a",
   "team": "TOT"
  },
  {
@@ -2675,7 +2654,7 @@
   ],
   "minutes": 248,
   "name": "Madueke",
-  "news": "Ankle injury - 75% chance of playing",
+  "news": "Ankle injury - 50% chance of playing",
   "points": 12,
   "pos": "MID",
   "starts": 2,
@@ -3335,11 +3314,11 @@
   ],
   "minutes": 298,
   "name": "Chavarria",
-  "news": "Unspecified injury - Expected back 31 Oct",
+  "news": "",
   "points": 10,
   "pos": "DEF",
   "starts": 2,
-  "status": "i",
+  "status": "a",
   "team": "CHE"
  },
  {
@@ -3457,11 +3436,11 @@
   ],
   "minutes": 159,
   "name": "Udogie",
-  "news": "Knee injury - Unknown return date",
+  "news": "",
   "points": 9,
   "pos": "DEF",
   "starts": 2,
-  "status": "i",
+  "status": "a",
   "team": "TOT"
  },
  {
@@ -3744,6 +3723,27 @@
   "starts": 0,
   "status": "a",
   "team": "CRY"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 14,
+  "last5": [
+   1,
+   1,
+   1,
+   1,
+   3
+  ],
+  "minutes": 209,
+  "name": "Eze",
+  "news": "",
+  "points": 8,
+  "pos": "MID",
+  "starts": 2,
+  "status": "a",
+  "team": "ARS"
  },
  {
   "appearances": 6,
@@ -4117,11 +4117,11 @@
   ],
   "minutes": 3,
   "name": "Carvalho",
-  "news": "",
+  "news": "Knock - Expected back 23 Nov",
   "points": 6,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
+  "status": "i",
   "team": "BRE"
  },
  {
@@ -4520,11 +4520,11 @@
   ],
   "minutes": 274,
   "name": "Gusto",
-  "news": "Unspecified injury - 75% chance of playing",
+  "news": "",
   "points": 5,
   "pos": "DEF",
   "starts": 3,
-  "status": "d",
+  "status": "a",
   "team": "CHE"
  },
  {
@@ -5114,11 +5114,11 @@
   ],
   "minutes": 75,
   "name": "Tosin",
-  "news": "Calf injury - 75% chance of playing",
+  "news": "Calf injury - Unknown return date",
   "points": 3,
   "pos": "DEF",
   "starts": 1,
-  "status": "d",
+  "status": "i",
   "team": "TOT"
  },
  {
@@ -5172,11 +5172,11 @@
   ],
   "minutes": 41,
   "name": "Smith Rowe",
-  "news": "Knock - 75% chance of playing",
+  "news": "",
   "points": 3,
   "pos": "MID",
   "starts": 0,
-  "status": "d",
+  "status": "a",
   "team": "FUL"
  },
  {
@@ -9149,11 +9149,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Anselmino",
-  "news": "",
+  "news": "Unspecified injury - Unknown return date",
   "points": 0,
   "pos": "DEF",
   "starts": 0,
-  "status": "a",
+  "status": "i",
   "team": "CHE"
  },
  {
