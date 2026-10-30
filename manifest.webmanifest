@@ -1,0 +1,13 @@
+{
+  "name": "FPL Draft 13744",
+  "short_name": "Draft 13744",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0F5C3A",
+  "theme_color": "#0F5C3A",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}

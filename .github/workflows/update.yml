@@ -2,9 +2,8 @@ name: Update FPL data
 
 on:
   schedule:
-    # every 15 min. Public repo, so Actions minutes are free; the commit
-    # step is a no-op when nothing changed. GitHub delays busy schedules,
-    # so treat this as "within the hour", not to the minute.
+    # GitHub only honours this every few hours on a quiet repo, so a run
+    # that lands on a matchday stays alive and polls (see the loop below).
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
@@ -18,6 +17,7 @@ concurrency:
 jobs:
   snapshot:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -25,17 +25,27 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch FPL Draft data
-        run: python scripts/fetch_fpl.py
-
-      - name: Commit any changes
+      - name: Fetch, commit, and keep polling while matches are on
         run: |
           git config user.name  "fpl-snapshot-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data
-          if git diff --staged --quiet; then
-            echo "no changes"
-          else
-            git commit -m "data: snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
-          fi
+          start=$(date +%s)
+          # Pages rebuilds on each push and caps at ~10 builds an hour, hence 7 min.
+          # stop after ~5h30m so the job ends before GitHub's 6h limit
+          limit=$((330 * 60))
+          while true; do
+            python scripts/fetch_fpl.py || echo "fetch failed; keeping last good data"
+            git add -A data
+            if ! git diff --staged --quiet; then
+              git commit -q -m "data: snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+              git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q || echo "push failed"
+            fi
+            live=$(python -c "import json;print(json.load(open('data/meta.json')).get('matchday', False))")
+            elapsed=$(( $(date +%s) - start ))
+            if [ "$live" != "True" ] || [ $elapsed -ge $limit ]; then
+              echo "matchday=$live elapsed=${elapsed}s - done"
+              break
+            fi
+            echo "matchday - polling again in 7 minutes"
+            sleep 420
+          done

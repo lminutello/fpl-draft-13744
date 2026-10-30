@@ -29,6 +29,8 @@ import time
 import urllib.error
 import urllib.request
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 LEAGUE_ID = int(os.environ.get("FPL_LEAGUE_ID", "13744"))
 MY_ENTRY = int(os.environ.get("FPL_ENTRY_ID", "174590"))
 
@@ -245,8 +247,45 @@ def main():
     dump("players.json", {str(e["id"]): metrics(e) for e in elements.values()})
 
     write_summary(meta, standings, rosters, free, managers, upcoming)
+
+    # ---- live app data ----------------------------------------------------
+    print("app data ...", file=sys.stderr)
+    import app_data  # noqa: E402 - sibling module
+    app = app_data.build(get, boot, details, status, history, OUT)
+    app["updated_utc"] = meta["updated_utc"]
+    app["matchday"] = matchday(boot)
+    dump("app.json", app)
+    meta["matchday"] = app["matchday"]
+    dump("meta.json", meta)
     print("done. gw {} stored, {} free agents".format(current, len(free)),
           file=sys.stderr)
+
+
+def matchday(boot, before_h=1.0, after_h=3.0):
+    """True from an hour before any kickoff until three hours after it,
+    or while a started fixture still has unconfirmed bonus. The workflow
+    uses this to poll every few minutes instead of once a run."""
+    now = dt.datetime.now(dt.timezone.utc)
+    fixtures = boot.get("fixtures") or {}
+    rows = []
+    if isinstance(fixtures, dict):
+        for v in fixtures.values():
+            rows.extend(v)
+    # bootstrap may drop a gameweek's fixtures once it is under way, so also
+    # look at the fixture results the app builder just cached
+    for v in load("results.json", {}).values():
+        rows.extend({"kickoff_time": f.get("kickoff"), "started": f.get("started"),
+                     "finished": f.get("confirmed")} for f in v)
+    for f in rows:
+        k = f.get("kickoff_time")
+        if not k:
+            continue
+        t = dt.datetime.fromisoformat(k.replace("Z", "+00:00"))
+        if t - dt.timedelta(hours=before_h) <= now <= t + dt.timedelta(hours=after_h):
+            return True
+        if f.get("started") and not f.get("finished"):
+            return True
+    return False
 
 
 def write_summary(meta, standings, rosters, free, managers, upcoming):
