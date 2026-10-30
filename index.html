@@ -84,23 +84,57 @@ main.wrap{padding:16px 16px 40px}
 .back:hover{color:var(--ink)}
 .dhead{background:var(--card); border:1px solid var(--rule); border-radius:10px; padding:14px; margin-bottom:12px}
 .dhead .score{font-size:34px}
-.cols{display:grid; grid-template-columns:1fr 1fr; gap:10px}
-.col{background:var(--card); border:1px solid var(--rule); border-radius:10px; overflow:hidden; min-width:0}
-.ghd{font-size:10.5px; font-weight:700; letter-spacing:.08em; color:var(--muted); padding:7px 10px 4px; background:var(--tint); text-transform:uppercase; display:flex; justify-content:space-between}
-.pr{display:grid; grid-template-columns:1fr auto; gap:6px; align-items:center; padding:7px 10px; border-top:1px solid var(--rule); width:100%; background:transparent; border-left:0; border-right:0; border-bottom:0; text-align:left; cursor:pointer}
-.pr:first-of-type{border-top:0}
-.pr:hover{background:var(--tint)}
-.pn{font-weight:600; font-size:14px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:flex; gap:5px; align-items:center}
-.pf{font-size:11.5px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
-.pts{font-weight:800; font-size:17px; text-align:right; min-width:34px}
-.pts.proj{font-weight:500; font-style:italic; color:var(--muted); font-size:15px}
-.pts.live::after{content:""; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--live); margin-left:4px; vertical-align:middle}
-.pr.out .pn{text-decoration:line-through; color:var(--muted)}
-.tag{font-size:9.5px; font-weight:800; letter-spacing:.04em; padding:1px 4px; border-radius:3px; border:1px solid currentColor; flex:none}
-.tag.i{color:var(--loss)} .tag.d{color:var(--draw)} .tag.in{color:var(--win)}
-.bx{grid-column:1/-1; font-size:12px; color:var(--muted); padding-top:4px; display:flex; flex-wrap:wrap; gap:3px 10px}
+
+/* team switch above the pitch */
+.tsw{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin:0 0 10px}
+.tsw button{background:var(--card); border:1px solid var(--rule); border-radius:10px; padding:9px 12px; text-align:left; cursor:pointer; min-width:0}
+.tsw button[aria-pressed="true"]{border-color:var(--brand); box-shadow:inset 0 0 0 1.5px var(--brand)}
+.tsw .tn{font-size:14px}
+.tsw .tv{font-size:12px; color:var(--muted); margin-top:1px}
+.tsw .tv b{color:var(--ink); font-size:15px}
+.ghd{display:flex; justify-content:space-between; font-size:12px; color:var(--muted); margin:0 2px 6px}
+.ghd b{color:var(--ink)}
+
+/* pitch: GK at the top, as the FPL app draws it */
+.pitch{position:relative; border-radius:12px 12px 0 0; overflow:hidden; padding:12px 4px 6px;
+  background:repeating-linear-gradient(180deg,#2e8b4c 0 46px,#2a8046 46px 92px)}
+.pitch > svg{position:absolute; inset:0; width:100%; height:100%; pointer-events:none}
+.prow{position:relative; display:flex; justify-content:space-evenly; align-items:flex-start; padding:4px 0 8px}
+.tok{position:relative; flex:0 1 76px; min-width:0; background:none; border:0; padding:0 2px; cursor:pointer;
+  display:flex; flex-direction:column; align-items:center; -webkit-tap-highlight-color:transparent}
+.tok .ph{height:62px; width:100%; display:flex; align-items:flex-end; justify-content:center}
+.tok img{max-width:50px; max-height:62px; object-fit:contain; filter:drop-shadow(0 2px 2px rgba(0,0,0,.35))}
+.tok .ini{width:42px; height:42px; margin-bottom:6px; border-radius:50%; background:#E8EFEA; color:#0F3A25;
+  display:flex; align-items:center; justify-content:center; font-weight:800; font-size:14px}
+.tok .nm{width:100%; background:#0D2619; color:#fff; font-size:11px; font-weight:600; line-height:1.35; padding:1px 3px;
+  border-radius:4px 4px 0 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-align:center}
+.tok .vl{width:100%; background:#fff; color:#0D2619; font-size:13px; font-weight:800; line-height:1.35; padding:1px 3px;
+  border-radius:0 0 4px 4px; text-align:center; white-space:nowrap}
+.tok .vl.proj{font-weight:500; font-style:italic; color:#4A5A51}
+.tok .vl.live::after{content:""; display:inline-block; width:6px; height:6px; border-radius:50%; background:#D23B2E; margin-left:3px; vertical-align:middle}
+.tok .fx{font-size:9.5px; line-height:1.3; color:rgba(255,255,255,.92); margin-top:2px; max-width:100%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.tok .bd{position:absolute; top:2px; right:4px; font-size:9px; font-weight:800; letter-spacing:.02em; padding:1px 3px; border-radius:3px; background:#fff; line-height:1.2}
+.tok .bd.i{color:#B23A3A} .tok .bd.d{color:#8A6D1E} .tok .bd.in{color:#13824F} .tok .bd.out{color:#5E6B63}
+.tok .bn{position:absolute; top:2px; left:4px; font-size:9.5px; font-weight:800; color:#fff; background:rgba(0,0,0,.35); border-radius:3px; padding:0 4px; line-height:1.4}
+.tok.sel .nm{background:#F4F7F2; color:#0D2619}
+.tok.dim .ph, .tok.dim .nm, .tok.dim .vl{opacity:.5}
+.tok:focus-visible{outline:2px solid #fff; outline-offset:2px; border-radius:6px}
+.bench{background:#1E5C37; border-radius:0 0 12px 12px; padding:6px 4px 8px; border-top:2px solid rgba(255,255,255,.25)}
+.blab{font-size:10.5px; font-weight:700; color:rgba(255,255,255,.75); padding:0 8px 2px}
+
+/* tapped player */
+.pcard{background:var(--card); border:1px solid var(--rule); border-radius:10px; padding:12px 14px; margin-top:10px;
+  display:grid; grid-template-columns:auto 1fr auto; gap:4px 12px; align-items:center}
+.pcard .pp{width:44px; height:56px; display:flex; align-items:flex-end; justify-content:center}
+.pcard .pp img{max-width:44px; max-height:56px; object-fit:contain}
+.pcard .pn{font-weight:700; font-size:15px}
+.pcard .pf{font-size:12px; color:var(--muted)}
+.pcard .big{font-weight:800; font-size:24px; text-align:right}
+.pcard .big.proj{font-weight:500; font-style:italic; color:var(--muted); font-size:20px}
+.bx{grid-column:1/-1; font-size:12.5px; color:var(--muted); padding-top:6px; display:flex; flex-wrap:wrap; gap:4px 12px}
 .bx b{color:var(--ink); font-weight:600}
 .bx .nw{flex-basis:100%; color:var(--loss)}
+@media (max-width:380px){ .tok .ph{height:54px} .tok img{max-width:44px; max-height:54px} .tok .nm{font-size:10.5px} }
 
 /* table */
 table{width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--rule); border-radius:10px; overflow:hidden; font-size:14px}
@@ -144,7 +178,7 @@ footer a{color:inherit}
 const TZ = "America/New_York";
 const $ = s => document.querySelector(s);
 const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const S = {app:null, gw:null, cache:{}, open:new Set()};
+const S = {app:null, gw:null, cache:{}, side:{}, sel:null};
 
 /* ---------- time ---------- */
 const fmt = (iso, o) => iso ? new Intl.DateTimeFormat("en-US", Object.assign({timeZone:TZ}, o)).format(new Date(iso)) : "";
@@ -245,7 +279,7 @@ function renderMatchups(doc){
     .sort((x, y) => (y.a === me || y.b === me) - (x.a === me || x.b === me));
   if(!ms.length){ $("#main").innerHTML = '<p class="empty">No fixtures this gameweek.</p>'; return; }
   let note = "";
-  if(doc.state === "upcoming") note = '<p class="note"><b>Projected.</b> Lineups lock at the deadline, so each side shows its best projected XI from the current squad. Tap a matchup for players.</p>';
+  if(doc.state === "upcoming") note = '<p class="note"><b>Upcoming.</b> Scores are projections from each team\'s lineup as last saved — last week\'s XI with this week\'s signings in the replaced player\'s slot. Reorders made since aren\'t public until the deadline. Tap a matchup for the pitch.</p>';
   else if(doc.state === "live") note = '<p class="note">Big number is points banked at the pull, small is the projected final. Tap a matchup for players.</p>';
   $("#main").innerHTML = note + '<div class="mlist">' + ms.map(m => {
     const v = matchView(doc, m), A = entry(m.a), B = entry(m.b);
@@ -286,74 +320,144 @@ function fixtureLine(doc, p){
   }).join(", ");
 }
 
-function playerRow(doc, id, opts){
-  const p = doc.players[String(id)]; if(!p) return "";
-  const key = S.gw + ":" + id;
-  const open = S.open.has(key);
-  let cls = "pts", val;
-  if(p.state === "pre" || (p.state === "live" && !p.m)){ cls += " proj"; val = (p.proj||0).toFixed(1); }
-  else { val = p.pts + (p.pb ? "*" : ""); if(p.state === "live") cls += " live"; }
-  const tags = [];
-  if(p.st === "i" || p.st === "s" || p.st === "u" || p.st === "n") tags.push('<span class="tag i">' + ({i:"INJ",s:"SUS",u:"OUT",n:"OUT"})[p.st] + '</span>');
-  else if(p.st === "d") tags.push('<span class="tag d">DOUBT</span>');
-  if(opts.subIn) tags.push('<span class="tag in" title="Auto-sub">IN</span>');
-  let box = "";
-  if(open){
-    const s = [];
-    s.push("<span>Mins <b>" + p.m + "</b></span>");
-    if(p.g) s.push("<span>Goals <b>" + p.g + "</b></span>");
-    if(p.a) s.push("<span>Assists <b>" + p.a + "</b></span>");
-    if(p.cs) s.push("<span>Clean sheet</span>");
-    if(p.sv) s.push("<span>Saves <b>" + p.sv + "</b></span>");
-    if(p.dc) s.push("<span>Def. actions <b>" + p.dc + "</b></span>");
-    s.push("<span>BPS <b>" + p.bps + "</b></span>");
-    if(p.b) s.push("<span>Bonus <b>" + p.b + "</b></span>");
-    if(p.pb) s.push("<span>Provisional bonus <b>" + p.pb + "</b></span>");
-    if(p.yc) s.push("<span>Yellow</span>"); if(p.rc) s.push("<span>Red</span>");
-    if(p.state !== "done" && p.state !== "blank") s.push("<span>Projected <b>" + (p.proj||0).toFixed(1) + "</b> · plays " + Math.round((p.pp||0)*100) + "%</span>");
-    if(p.news) s.push('<span class="nw">' + esc(p.news) + "</span>");
-    box = '<div class="bx">' + s.join("") + "</div>";
-  }
-  return '<button type="button" class="pr' + (opts.out ? " out" : "") + '" data-k="' + key + '" aria-expanded="' + open + '">' +
-    '<div style="min-width:0"><div class="pn">' + esc(p.n) + tags.join("") + '</div><div class="pf">' + esc(p.t) + " · " + esc(fixtureLine(doc, p)) + '</div></div>' +
-    '<div class="' + cls + '">' + val + '</div>' + box + '</button>';
+/* ---------- pictures: headshot -> club shirt -> initials ---------- */
+const PHOTO = c => "https://resources.premierleague.com/premierleague/photos/players/110x140/p" + c + ".png";
+const SHIRT = (tc, gk) => "https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_" + tc + (gk ? "_1" : "") + "-66.webp";
+function initials(n){
+  const w = String(n || "?").split(/[\s.]+/).filter(Boolean);
+  return (w.length > 1 ? w[0][0] + w[w.length-1][0] : (w[0] || "?").slice(0, 2)).toUpperCase();
+}
+// global: called from the img onerror attribute
+function imgFail(img){
+  const s = img.dataset.shirt;
+  if(s && img.getAttribute("src") !== s){ img.src = s; return; }
+  const sp = document.createElement("span"); sp.className = "ini"; sp.textContent = img.dataset.ini || "?";
+  img.replaceWith(sp);
+}
+function pic(p){
+  const shirt = p.tc ? SHIRT(p.tc, p.p === "GKP") : "";
+  const src = p.c ? PHOTO(p.c) : shirt;
+  if(!src) return '<span class="ini">' + esc(initials(p.n)) + '</span>';
+  return '<img src="' + src + '" alt="" loading="lazy" referrerpolicy="no-referrer" data-shirt="' + shirt +
+    '" data-ini="' + esc(initials(p.n)) + '" onerror="imgFail(this)">';
 }
 
-function lineupCol(doc, lid){
+/* what a player's number means right now */
+function shown(p){
+  if(p.state === "pre" || (p.state === "live" && !p.m)) return {cls:"proj", v:(p.proj || 0).toFixed(1)};
+  return {cls: p.state === "live" ? "live" : "", v: String(p.pts) + (p.pb ? "*" : "")};
+}
+function chance(p){ const m = /(\d+)% chance/.exec(p.news || ""); return m ? m[1] + "%" : "?"; }
+function fixShort(doc, p){
+  if(p.state === "blank") return "No game";
+  const f = doc.fixtures.find(x => (p.fx || []).includes(x.id)); if(!f) return "";
+  const home = f.home === p.t, vs = (home ? "v " : "@ ") + (home ? f.away : f.home);
+  if(!f.started) return vs + " " + fmt(f.kickoff, {weekday:"short"}) + " " +
+    fmt(f.kickoff, {hour:"numeric"}).replace(" PM", "p").replace(" AM", "a");
+  const own = home ? f.hs : f.as, them = home ? f.as : f.hs;
+  return f.done ? vs + " " + own + "–" + them : own + "–" + them + " " + f.minutes + "'";
+}
+
+function tok(doc, id, o){
+  const p = doc.players[String(id)]; if(!p) return "";
+  const s = shown(p);
+  let bd = "";
+  if(o.out) bd = '<span class="bd out">OUT</span>';
+  else if(o.in) bd = '<span class="bd in">IN</span>';
+  else if(["i","s","u","n"].includes(p.st)) bd = '<span class="bd i">' + ({i:"INJ", s:"SUS", u:"OUT", n:"OUT"})[p.st] + '</span>';
+  else if(p.st === "d") bd = '<span class="bd d">' + chance(p) + '</span>';
+  const num = o.n != null ? '<span class="bn">' + o.n + '</span>' : "";
+  const label = p.n + ", " + p.t + ", " + (s.cls === "proj" ? "projected " : "") + s.v + " points";
+  return '<button type="button" class="tok' + (o.sel ? " sel" : "") + (o.out ? " dim" : "") + '" data-id="' + id +
+    '" aria-label="' + esc(label) + '" aria-pressed="' + !!o.sel + '">' + bd + num +
+    '<span class="ph">' + pic(p) + '</span><span class="nm">' + esc(p.n) + '</span>' +
+    '<span class="vl ' + s.cls + '">' + esc(s.v) + '</span><span class="fx">' + esc(fixShort(doc, p)) + '</span></button>';
+}
+
+const LINES = '<svg viewBox="0 0 100 130" preserveAspectRatio="none" aria-hidden="true">' +
+  '<g fill="none" stroke="rgba(255,255,255,.45)" stroke-width="1.5">' +
+  '<rect x="2" y="2" width="96" height="126" vector-effect="non-scaling-stroke"/>' +
+  '<rect x="21" y="2" width="58" height="20" vector-effect="non-scaling-stroke"/>' +
+  '<rect x="36" y="2" width="28" height="8" vector-effect="non-scaling-stroke"/>' +
+  '<path d="M41 22 A10 7 0 0 0 59 22" vector-effect="non-scaling-stroke"/>' +
+  '<path d="M37 128 A13 10 0 0 1 63 128" vector-effect="non-scaling-stroke"/></g></svg>';
+
+function pitch(doc, lid){
   const L = doc.lineups[lid];
-  if(!L) return '<div class="col"><p class="empty">No lineup</p></div>';
-  const subIn = new Set(L.subs.map(s => s[1])), subOut = new Set(L.subs.map(s => s[0]));
-  const order = {GKP:0, DEF:1, MID:2, FWD:3};
+  if(!L) return '<p class="empty">No lineup for this team.</p>';
   const P = id => doc.players[String(id)] || {};
-  const xi = [...L.xi].sort((a, b) => order[P(a).p] - order[P(b).p]);
-  const shape = ["DEF","MID","FWD"].map(x => xi.filter(i => P(i).p === x).length).join("-");
-  let h = '<div class="col"><div class="ghd"><span>' + (L.guess ? "Projected XI" : "Starting XI") + '</span><span>' + shape + '</span></div>';
-  h += xi.map(id => playerRow(doc, id, {subIn: subIn.has(id)})).join("");
-  h += '<div class="ghd"><span>Bench</span><span>in order</span></div>';
-  h += L.bench.map(id => playerRow(doc, id, {out: subOut.has(id)})).join("");
-  return h + "</div>";
+  const subIn = new Set(L.subs.map(s => s[1])), subOut = new Set(L.subs.map(s => s[0]));
+  const rows = ["GKP","DEF","MID","FWD"].map(pos => L.xi.filter(id => P(id).p === pos));
+  let n = 0;
+  const bench = L.bench.map(id => {
+    const gk = P(id).p === "GKP";
+    return tok(doc, id, {out: subOut.has(id), sel: S.sel === id, n: gk ? "GK" : ++n});
+  }).join("");
+  return '<div class="pitch">' + LINES +
+    rows.map(r => '<div class="prow">' + r.map(id => tok(doc, id, {in: subIn.has(id), sel: S.sel === id})).join("") + '</div>').join("") +
+    '</div><div class="bench"><div class="blab">Bench, in sub order</div><div class="prow">' + bench + '</div></div>';
+}
+
+function pcard(doc, id){
+  const p = doc.players[String(id)]; if(!p) return "";
+  const s = shown(p), x = [];
+  x.push("<span>Mins <b>" + p.m + "</b></span>");
+  if(p.g) x.push("<span>Goals <b>" + p.g + "</b></span>");
+  if(p.a) x.push("<span>Assists <b>" + p.a + "</b></span>");
+  if(p.cs) x.push("<span>Clean sheet</span>");
+  if(p.sv) x.push("<span>Saves <b>" + p.sv + "</b></span>");
+  if(p.dc) x.push("<span>Def. actions <b>" + p.dc + "</b></span>");
+  if(p.state !== "pre") x.push("<span>BPS <b>" + p.bps + "</b></span>");
+  if(p.b) x.push("<span>Bonus <b>" + p.b + "</b></span>");
+  if(p.pb) x.push("<span>Provisional bonus <b>" + p.pb + "</b></span>");
+  if(p.yc) x.push("<span>Yellow</span>"); if(p.rc) x.push("<span>Red</span>");
+  if(p.state !== "done" && p.state !== "blank") x.push("<span>Projected <b>" + (p.proj || 0).toFixed(1) + "</b> · plays " + Math.round((p.pp || 0)*100) + "%</span>");
+  if(p.news) x.push('<span class="nw">' + esc(p.news) + "</span>");
+  return '<div class="pcard"><div class="pp">' + pic(p) + '</div><div><div class="pn">' + esc(p.n) + '</div><div class="pf">' +
+    esc(p.t) + " · " + esc(fixtureLine(doc, p)) + '</div></div><div class="big ' + s.cls + '">' + esc(s.v) + '</div>' +
+    '<div class="bx">' + x.join("") + '</div></div>';
 }
 
 function renderMatch(doc, a, b){
   const m = S.app.matches.find(x => x.gw === S.gw && x.a === a && x.b === b) || {a, b, ap:0, bp:0};
   const v = matchView(doc, m), A = entry(a), B = entry(b);
-  const pre = doc.state === "upcoming";
+  const pre = doc.state === "upcoming", fin = doc.state === "finished";
+  const key = S.gw + ":" + a + "-" + b;
+  if(!S.side[key]) S.side[key] = b === S.app.me ? b : a;
+  const side = S.side[key];
   const big = pre
     ? '<div class="score pre">' + v.pa.toFixed(1) + '<span class="dash">–</span>' + v.pb.toFixed(1) + '</div>'
     : '<div class="score">' + v.ea + '<span class="dash">–</span>' + v.eb + '</div>';
-  const sub = doc.state === "finished" ? '<span>Final</span>' :
+  const sub = fin ? '<span>Final</span>' :
     '<span>' + (pre ? "" : "Proj " + v.pa.toFixed(1)) + '</span><span>' + Math.round(v.wa*100) + '% – ' + Math.round((1-v.wa)*100) + '%</span><span class="r">' + (pre ? "" : "Proj " + v.pb.toFixed(1)) + '</span>';
-  let legend = doc.state === "finished" ? "" :
-    '<p class="note"><i>Italic</i> = projected, <b>bold</b> = earned at the pull, * = provisional bonus. Tap a player for the breakdown.' +
-    (pre ? " Lineups aren't public until the deadline, so these are best-projected XIs." : "") + '</p>';
+  const tv = lid => {
+    if(fin) return "<b>" + (lid === a ? m.ap : m.bp) + "</b> pts";
+    const t = teamScore(doc, lid); if(!t) return "";
+    return pre ? "Proj <b>" + t.proj.toFixed(1) + "</b>" : "<b>" + Math.round(t.earned) + "</b> · proj " + t.proj.toFixed(1);
+  };
+  const L = doc.lineups[side] || {xi: []};
+  const P = id => doc.players[String(id)] || {};
+  const shape = ["DEF","MID","FWD"].map(x => L.xi.filter(i => P(i).p === x).length).join("-");
+  const what = L.guess === "carried" ? "Last saved lineup" : L.guess ? "Projected XI" : "Starting XI";
+  const legend = fin ? "" : '<p class="note"><i>Italic</i> = projected, <b>bold</b> = earned at the pull, * = provisional bonus. Tap a player for details.' +
+    (L.guess === "carried" ? " This is the lineup as last saved: last week's XI with this week's signings in the slot of the player they replaced. Changes made since only show up at the deadline." : "") + '</p>';
+  const inLineup = S.sel != null && (L.xi.includes(S.sel) || (L.bench || []).includes(S.sel));
   $("#main").innerHTML = '<a class="back" href="#/">‹ All matchups</a>' +
     '<div class="dhead"><div class="mgrid"><div class="side"><div class="tn">' + esc(A.name) + '</div><div class="mn">' + esc(A.manager) + '</div></div>' + big +
     '<div class="side r"><div class="tn">' + esc(B.name) + '</div><div class="mn">' + esc(B.manager) + '</div></div></div>' +
     '<div class="meta">' + sub + '</div>' +
-    (doc.state === "finished" ? "" : '<div class="wp" aria-hidden="true"><i class="a" style="width:' + (v.wa*100).toFixed(1) + '%"></i><i class="b" style="width:' + ((1-v.wa)*100).toFixed(1) + '%"></i></div>') +
-    '</div>' + legend + '<div class="cols">' + lineupCol(doc, a) + lineupCol(doc, b) + '</div>';
-  $("#main").querySelectorAll(".pr").forEach(el => el.addEventListener("click", () => {
-    const k = el.dataset.k; S.open.has(k) ? S.open.delete(k) : S.open.add(k); renderMatch(doc, a, b);
+    (fin ? "" : '<div class="wp" aria-hidden="true"><i class="a" style="width:' + (v.wa*100).toFixed(1) + '%"></i><i class="b" style="width:' + ((1-v.wa)*100).toFixed(1) + '%"></i></div>') +
+    '</div>' + legend +
+    '<div class="tsw" role="group" aria-label="Show team">' + [a, b].map(lid =>
+      '<button type="button" data-lid="' + lid + '" aria-pressed="' + (lid === side) + '"><div class="tn">' + esc(entry(lid).name) + '</div><div class="tv">' + tv(lid) + '</div></button>').join("") + '</div>' +
+    '<div class="ghd"><span>' + what + '</span><b>' + shape + '</b></div>' +
+    pitch(doc, side) + (inLineup ? pcard(doc, S.sel) : "");
+  $("#main").querySelectorAll(".tsw button").forEach(el => el.addEventListener("click", () => {
+    S.side[key] = el.dataset.lid; S.sel = null; renderMatch(doc, a, b);
+  }));
+  $("#main").querySelectorAll(".tok").forEach(el => el.addEventListener("click", () => {
+    const id = +el.dataset.id; S.sel = S.sel === id ? null : id; renderMatch(doc, a, b);
+    if(S.sel != null){ const c = $("#main .pcard"); if(c) c.scrollIntoView({block:"nearest", behavior:"smooth"}); }
   }));
 }
 
@@ -415,15 +519,16 @@ function step(d){
 }
 $("#prev").addEventListener("click", () => step(-1));
 $("#next").addEventListener("click", () => step(1));
-window.addEventListener("hashchange", route);
+window.addEventListener("hashchange", () => { S.sel = null; route(); });
 
 async function boot(){
   try {
     S.app = await (await fetch("data/app.json?t=" + Date.now(), {cache:"no-store"})).json();
   } catch(e){ $("#main").innerHTML = '<p class="empty">Couldn\'t load league data.</p>'; return; }
   if(S.gw == null || !S.app.gws.includes(S.gw)) S.gw = S.app.open_gw;
-  $("#foot").innerHTML = 'Projections: recent and season points per appearance × chance of playing × opponent strength. ' +
-    'They don\'t read team news. Data refreshes every few hours, and every ~7 minutes while matches are on. ' +
+  $("#foot").innerHTML = 'Projections: season points per appearance, pulled toward average when there are only a few games to go on, × chance of playing. ' +
+    'Backtested on GW5–8 they beat a plain season average by about 11%; recent form and opponent strength were tested and made it worse, so they\'re left out. ' +
+    'They don\'t read team news. Data refreshes every few hours, and every ~7 minutes while matches are on. Player photos and shirts load from the Premier League\'s image servers. ' +
     '<a href="https://github.com/lminutello/fpl-draft-13744">Source</a>';
   route();
 }

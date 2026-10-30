@@ -19,6 +19,9 @@ import os
 
 POS = {1: "GKP", 2: "DEF", 3: "MID", 4: "FWD"}
 MIN_OUTFIELD = {"DEF": 3, "MID": 2, "FWD": 1}
+# bump when the per-gameweek file layout changes, so cached finished
+# gameweeks get rebuilt once instead of keeping the old shape forever
+SCHEMA = 2
 
 
 # ---------------------------------------------------------------- helpers
@@ -106,17 +109,36 @@ def team_form(results):
     return rate, avg or 1.4
 
 
-def project(el, hist, gw_fixtures, form, avg_goals):
-    """
-    Expected points for one gameweek.
+# Shrinkage: points-per-appearance from a handful of games is mostly noise,
+# so blend it with a league-typical value, weighted as if we'd seen this
+# many extra appearances. Picked by backtest, see `project`.
+SHRINK_APPS = 3
+SHRINK_TO = 3.0
 
-    points-per-appearance (recent 5 GWs weighted 60%, season 40%)
-      x chance he plays (recent appearance rate x injury/availability flag)
-      x fixture factor (opponent's goals for/against vs league average,
-        square-rooted so it nudges rather than dominates)
-      summed over his fixtures (blank = 0, double = two).
+
+def project(el, hist, gw_fixtures, form, avg_goals, upto):
     """
-    pos = POS.get(el.get("element_type"), "?")
+    Expected points for one gameweek, using only gameweeks <= `upto`.
+
+    season points-per-appearance, shrunk toward SHRINK_TO
+      x chance he plays (recent appearance rate x injury/availability flag)
+      x number of fixtures (blank = 0, double = 2).
+
+    Backtested on GW5-8 (project each week from prior weeks only, compare
+    with what happened). Mean absolute error per player, startable players:
+        plain season average           3.48
+        60% recent form + fixture adj  3.72   <- the previous version
+        this                           3.11
+    Recent form and an opponent goals for/against adjustment were both
+    tested and made it worse - over 4-8 games they're noise - so they're out.
+    `form` / `avg_goals` are kept in the signature for when there's enough
+    season to estimate opponent strength properly.
+
+    The appearance window is anchored to `upto` (the last finished gameweek),
+    not to the player's own last appearance: history only stores weeks a
+    player registered stats, so anchoring on his last entry would make a
+    run of recent absences invisible.
+    """
     pid = str(el["id"])
     status = el.get("status", "a")
     if status in ("i", "s", "u", "n"):
@@ -127,19 +149,15 @@ def project(el, hist, gw_fixtures, form, avg_goals):
     if avail == 0:
         return 0.0, 0.0
 
-    gws = {int(g): v for g, v in hist.get(pid, {}).items() if not g.startswith("_")}
-    seen = sorted(gws)
-    last = list(range(max(seen) - 4, max(seen) + 1)) if seen else []
+    gws = {int(g): v for g, v in hist.get(pid, {}).items()
+           if not g.startswith("_") and int(g) <= upto}
+    last = list(range(max(1, upto - 4), upto + 1)) if upto >= 1 else []
     played_all = [v for v in gws.values() if (v.get("minutes") or 0) > 0]
-    played_recent = [gws[g] for g in last if g in gws and (gws[g].get("minutes") or 0) > 0]
-
-    def ppa(rows):
-        return sum(r.get("total_points", 0) for r in rows) / len(rows) if rows else None
-
-    season, recent = ppa(played_all), ppa(played_recent)
-    if season is None:
+    if not played_all:
         return 0.0, 0.0
-    base = season if recent is None else 0.6 * recent + 0.4 * season
+    n = len(played_all)
+    season = sum(r.get("total_points", 0) for r in played_all) / n
+    base = (season * n + SHRINK_TO * SHRINK_APPS) / (n + SHRINK_APPS)
 
     # appearance rate, most recent gameweeks weighted heavier
     if last:
@@ -151,21 +169,8 @@ def project(el, hist, gw_fixtures, form, avg_goals):
     p_play = max(0.0, min(1.0, app_rate * avail))
 
     tid = el.get("team")
-    total = 0.0
-    for f in gw_fixtures:
-        if tid not in (f["th"], f["ta"]):
-            continue
-        home = tid == f["th"]
-        opp = f["ta"] if home else f["th"]
-        ogf, oga = form.get(opp, (avg_goals, avg_goals))
-        if pos in ("MID", "FWD"):
-            mult = math.sqrt(max(oga, 0.3) / avg_goals)
-        else:
-            mult = math.sqrt(avg_goals / max(ogf, 0.3))
-        mult *= 1.05 if home else 0.95
-        mult = max(0.75, min(1.3, mult))
-        total += base * mult
-    return round(total * p_play, 2), round(p_play, 2)
+    n_fx = sum(1 for f in gw_fixtures if tid in (f["th"], f["ta"]))
+    return round(base * n_fx * p_play, 2), round(p_play, 2)
 
 
 # ---------------------------------------------------------------- lineups
@@ -198,8 +203,9 @@ def apply_subs(order, pos_of, players, team_done):
     """
     Auto-subs as the game applies them: a starter with zero minutes whose
     matches are all over is replaced by the first bench player (in order)
-    who has played, as long as the shape stays legal. Bench players whose
-    match is still to come leave the sub pending.
+    who has played, as long as the shape stays legal. If the next eligible
+    bench player's match is still to come, the sub is left pending rather
+    than skipping ahead to someone further down the bench.
     Returns (xi ids, bench ids, list of (out, in)).
     """
     xi, bench = list(order[:11]), list(order[11:])
@@ -210,12 +216,14 @@ def apply_subs(order, pos_of, players, team_done):
             continue
         for cand in bench:
             c = players.get(cand, {})
-            if c.get("minutes", 0) <= 0:
-                continue
             if (pos_of[out] == "GKP") != (pos_of[cand] == "GKP"):
                 continue
             trial = [cand if x == out else x for x in xi]
             if not _legal([pos_of[x] for x in trial]):
+                continue  # couldn't come on for this player whatever happens
+            if c.get("minutes", 0) <= 0:
+                if not team_done(cand):
+                    break  # he may still come on: the real sub waits for him
                 continue
             xi = trial
             bench.remove(cand)
@@ -225,10 +233,34 @@ def apply_subs(order, pos_of, players, team_done):
     return xi, bench, subs
 
 
+def carry_forward(base_order, txs, owned_ids, pos_of):
+    """
+    What a manager has actually saved for the coming gameweek, as far as
+    public data shows: FPL Draft carries the last locked lineup forward, and
+    a signing drops into the exact slot of the player it replaced. So take
+    the last locked order and replay accepted transactions onto it.
+    Returns 15 ids in pick order, or None if the result isn't a clean,
+    legal squad (then the caller falls back to a projected XI).
+    Can't see reorders the manager made since - only the deadline reveals those.
+    """
+    order = list(base_order)
+    for t in txs:
+        o, i = t.get("element_out"), t.get("element_in")
+        if o in order:
+            order[order.index(o)] = i
+    own = list(owned_ids)
+    order = [p for p in order if p in own]        # traded away / dropped
+    order += [p for p in own if p not in order]   # arrived some other way
+    if len(order) != 15 or not _legal([pos_of.get(p, "?") for p in order[:11]]):
+        return None
+    return order
+
+
 # ---------------------------------------------------------------- main build
 
 def build(get, boot, details, status, history, out_dir):
     teams = {t["id"]: t["short_name"] for t in boot["teams"]}
+    team_code = {t["id"]: t.get("code") for t in boot["teams"]}
     elements = {e["id"]: e for e in boot["elements"]}
     el_team = {pid: e.get("team") for pid, e in elements.items()}
     pos_of = {pid: POS.get(e.get("element_type"), "?") for pid, e in elements.items()}
@@ -325,6 +357,22 @@ def build(get, boot, details, status, history, out_dir):
     _dump(results_path, results)
     _dump(picks_path, picks)
 
+    # --- transactions: waivers + free agency, kept for lineup carry-forward --
+    league_id = (details.get("league") or {}).get("id")
+    tx_raw = get("draft/league/{}/transactions".format(league_id)) if league_id else None
+    tx = (tx_raw or {}).get("transactions", []) if isinstance(tx_raw, dict) else []
+    by_eid = {v["entry_id"]: v["name"] for v in entries.values()}
+    _dump(os.path.join(out_dir, "transactions.json"), [{
+        "id": t.get("id"), "gw": t.get("event"),
+        "team": by_eid.get(t.get("entry"), t.get("entry")),
+        "in": (elements.get(t.get("element_in")) or {}).get("web_name"),
+        "out": (elements.get(t.get("element_out")) or {}).get("web_name"),
+        "kind": {"w": "waiver", "f": "free agent"}.get(t.get("kind"), t.get("kind")),
+        "result": {"a": "accepted"}.get(t.get("result"), "denied"),
+        "added": t.get("added"),
+    } for t in sorted(tx, key=lambda t: t.get("id") or 0)])
+    last_finished = max(finished) if finished else 0
+
     # --- current squads (for the pre-deadline view) -------------------------
     owned = {}
     for r in status.get("element_status", []):
@@ -341,7 +389,8 @@ def build(get, boot, details, status, history, out_dir):
         fixtures = results.get(key, [])
         is_live_gw = gw == cur and not cur_ev.get("finished")
         is_future = gw > cur
-        if gw < cur and os.path.exists(os.path.join(gw_dir, key + ".json")) and gw != cur - 1:
+        cached = os.path.join(gw_dir, key + ".json")
+        if gw < cur - 1 and _load(cached, {}).get("v") == SCHEMA:
             built.append(gw)
             continue
 
@@ -379,14 +428,32 @@ def build(get, boot, details, status, history, out_dir):
         lineups = {}
         proj = {}
         if is_future or is_live_gw:
+            upto = min(gw - 1, last_finished)
             for pid, el in elements.items():
-                pv, pp = project(el, history, fixtures, form[0], form[1])
+                pv, pp = project(el, history, fixtures, form[0], form[1], upto)
                 proj[pid] = (pv, pp)
         if is_future:
             for lid, ent in entries.items():
-                squad = [{"id": pid, "pos": pos_of.get(pid, "?")} for pid in owned.get(ent["entry_id"], [])]
-                order = best_xi(squad, {k: v[0] for k, v in proj.items()})
-                lineups[lid] = {"xi": order[:11], "bench": order[11:], "subs": [], "guess": True}
+                own = owned.get(ent["entry_id"], [])
+                base = None
+                for g in range(cur, 0, -1):
+                    b = picks.get(str(g), {}).get(lid)
+                    if b and b.get("order"):
+                        base = (g, b["order"])
+                        break
+                order = None
+                if base:
+                    txs = sorted((t for t in tx if t.get("result") == "a"
+                                  and t.get("entry") == ent["entry_id"]
+                                  and (t.get("event") or 0) > base[0]),
+                                 key=lambda t: t.get("id") or 0)
+                    order = carry_forward(base[1], txs, own, pos_of)
+                how = "carried"
+                if not order:
+                    squad = [{"id": pid, "pos": pos_of.get(pid, "?")} for pid in own]
+                    order = best_xi(squad, {k: v[0] for k, v in proj.items()})
+                    how = "projected"
+                lineups[lid] = {"xi": order[:11], "bench": order[11:], "subs": [], "guess": how}
         else:
             for lid, pk in picks.get(key, {}).items():
                 order = pk["order"]
@@ -432,6 +499,8 @@ def build(get, boot, details, status, history, out_dir):
             players[str(pid)] = {
                 "n": el.get("web_name", "?"),
                 "t": teams.get(el.get("team"), "?"),
+                "c": el.get("code"),                    # photo id
+                "tc": team_code.get(el.get("team")),    # shirt id
                 "p": pos_of.get(pid, "?"),
                 "st": el.get("status", "a") if gw >= cur else "a",
                 "news": (el.get("news") or "").strip() if gw >= cur else "",
@@ -454,6 +523,7 @@ def build(get, boot, details, status, history, out_dir):
             }
 
         doc = {
+            "v": SCHEMA,
             "gw": gw,
             "state": "upcoming" if is_future else ("live" if is_live_gw else "finished"),
             "deadline": (ev_by.get(gw, {}).get("deadline_time") or "").replace("Z", "+00:00") or None,

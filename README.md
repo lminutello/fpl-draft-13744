@@ -38,15 +38,38 @@ here makes it readable from anywhere, including unattended sessions.
 | `app.json` | app index: entries, standings, every H2H match, pull time |
 | `gw/{n}.json` | per gameweek: fixtures, each XI + bench with auto-subs, earned and projected points |
 | `picks.json`, `results.json` | caches of lineups and fixture results so past weeks aren't refetched |
+| `transactions.json` | every waiver and free-agent move, accepted or denied |
 
 ## Projections
 
-Points per appearance (last five gameweeks 60%, season 40%) × chance of
-playing (recent appearance rate × the injury flag) × a fixture nudge from the
-opponent's goals for/against. Before the deadline lineups aren't public, so
-each side shows its best projected XI from its current squad. Team totals
-include bench cover: a starter who might not play leaves part of his slot to
-the first bench player, the way auto-subs pay out.
+Season points per appearance, shrunk toward 3.0 as if we'd seen three extra
+average appearances (so a few fluky games don't dominate), × chance of
+playing (recent appearance rate × the injury flag), × number of fixtures.
+
+Backtested on GW5–8 by projecting each week from the weeks before it.
+Mean absolute error per player, for the 60 highest-projected each week:
+
+| model | error |
+|---|---|
+| plain season average | 3.48 |
+| 60% recent form + opponent goals for/against (previous version) | 3.72 |
+| **current** | **3.11** |
+
+Recent form and the opponent adjustment both made it worse over this many
+games, so they're out. Re-run the backtest before adding either back.
+
+Team totals include bench cover: a starter who might not play leaves part of
+his slot to the first bench player, the way auto-subs pay out.
+
+## Lineups before the deadline
+
+Nobody's next lineup is public until the deadline. FPL Draft carries each
+manager's last locked lineup forward, and a signing drops into the exact slot
+of the player it replaced — so the app takes the last locked order and
+replays that week's accepted transactions onto it. That's what each manager
+has saved, minus any reorders made since, which only the deadline reveals.
+If the replay can't produce a clean legal squad it falls back to the best
+projected XI.
 
 ## Derived metrics
 
