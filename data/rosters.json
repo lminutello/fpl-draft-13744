@@ -382,24 +382,24 @@
   },
   {
    "appearances": 8,
-   "defcon_hits": 5,
-   "defcon_rate": 0.62,
-   "id": 173,
+   "defcon_hits": 2,
+   "defcon_rate": 0.25,
+   "id": 580,
    "last5": [
+    6,
+    7,
     0,
-    9,
-    4,
-    3,
-    1
+    1,
+    10
    ],
-   "minutes": 676,
-   "name": "Thomas",
-   "news": "Calf injury - 50% chance of playing",
-   "points": 32,
+   "minutes": 493,
+   "name": "Araujo",
+   "news": "",
+   "points": 33,
    "pos": "DEF",
-   "starts": 8,
-   "status": "d",
-   "team": "COV"
+   "starts": 6,
+   "status": "a",
+   "team": "LIV"
   },
   {
    "appearances": 8,
@@ -423,25 +423,25 @@
    "team": "BOU"
   },
   {
-   "appearances": 8,
-   "defcon_hits": 4,
-   "defcon_rate": 0.5,
-   "id": 200,
+   "appearances": 7,
+   "defcon_hits": 1,
+   "defcon_rate": 0.14,
+   "id": 502,
    "last5": [
     1,
-    3,
-    2,
-    6,
-    3
+    7,
+    4,
+    5,
+    6
    ],
-   "minutes": 634,
-   "name": "Lacroix",
-   "news": "Hamstring injury - 50% chance of playing",
-   "points": 24,
+   "minutes": 498,
+   "name": "Robertson",
+   "news": "",
+   "points": 28,
    "pos": "DEF",
-   "starts": 7,
-   "status": "d",
-   "team": "CHE"
+   "starts": 6,
+   "status": "a",
+   "team": "TOT"
   },
   {
    "appearances": 4,
@@ -527,6 +527,27 @@
    "team": "LIV"
   },
   {
+   "appearances": 8,
+   "defcon_hits": 1,
+   "defcon_rate": 0.12,
+   "id": 41,
+   "last5": [
+    2,
+    12,
+    4,
+    3,
+    0
+   ],
+   "minutes": 559,
+   "name": "Buendía",
+   "news": "",
+   "points": 28,
+   "pos": "MID",
+   "starts": 7,
+   "status": "a",
+   "team": "AVL"
+  },
+  {
    "appearances": 3,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
@@ -544,27 +565,6 @@
    "starts": 1,
    "status": "a",
    "team": "BHA"
-  },
-  {
-   "appearances": 6,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
-   "id": 398,
-   "last5": [
-    9,
-    1,
-    -2,
-    9,
-    1
-   ],
-   "minutes": 338,
-   "name": "Foden",
-   "news": "",
-   "points": 19,
-   "pos": "MID",
-   "starts": 4,
-   "status": "a",
-   "team": "MCI"
   },
   {
    "appearances": 6,
@@ -739,27 +739,6 @@
    "appearances": 6,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 148,
-   "last5": [
-    4,
-    3,
-    0,
-    11,
-    6
-   ],
-   "minutes": 412,
-   "name": "Hato",
-   "news": "Unspecified injury - 75% chance of playing",
-   "points": 25,
-   "pos": "DEF",
-   "starts": 6,
-   "status": "d",
-   "team": "CHE"
-  },
-  {
-   "appearances": 6,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
    "id": 387,
    "last5": [
     2,
@@ -776,6 +755,26 @@
    "starts": 4,
    "status": "a",
    "team": "MCI"
+  },
+  {
+   "appearances": 4,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
+   "id": 499,
+   "last5": [
+    1,
+    7,
+    1,
+    1
+   ],
+   "minutes": 223,
+   "name": "Pedro Porro",
+   "news": "",
+   "points": 10,
+   "pos": "DEF",
+   "starts": 3,
+   "status": "a",
+   "team": "TOT"
   },
   {
    "appearances": 8,
@@ -841,43 +840,45 @@
    "team": "AVL"
   },
   {
-   "appearances": 6,
+   "appearances": 4,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 515,
+   "id": 454,
    "last5": [
-    1,
-    1,
-    1,
     9,
+    8,
+    1,
     1
    ],
-   "minutes": 193,
-   "name": "Maddison",
-   "news": "Unspecified injury - 75% chance of playing",
-   "points": 14,
+   "minutes": 245,
+   "name": "Elanga",
+   "news": "",
+   "points": 19,
    "pos": "MID",
-   "starts": 2,
-   "status": "d",
-   "team": "TOT"
+   "starts": 3,
+   "status": "a",
+   "team": "NEW"
   },
   {
-   "appearances": 2,
+   "appearances": 7,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 208,
+   "id": 512,
    "last5": [
     1,
-    1
+    4,
+    3,
+    6,
+    3
    ],
-   "minutes": 15,
-   "name": "Sarr",
-   "news": "Groin injury - Expected back 8 Nov",
-   "points": 2,
+   "minutes": 362,
+   "name": "Kudus",
+   "news": "",
+   "points": 19,
    "pos": "MID",
-   "starts": 0,
-   "status": "i",
-   "team": "CRY"
+   "starts": 3,
+   "status": "a",
+   "team": "TOT"
   },
   {
    "appearances": 8,
@@ -1027,6 +1028,27 @@
    "team": "MCI"
   },
   {
+   "appearances": 8,
+   "defcon_hits": 2,
+   "defcon_rate": 0.25,
+   "id": 332,
+   "last5": [
+    2,
+    8,
+    6,
+    2,
+    6
+   ],
+   "minutes": 708,
+   "name": "Justin",
+   "news": "",
+   "points": 40,
+   "pos": "DEF",
+   "starts": 8,
+   "status": "a",
+   "team": "LEE"
+  },
+  {
    "appearances": 7,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
@@ -1070,66 +1092,45 @@
   },
   {
    "appearances": 8,
-   "defcon_hits": 2,
-   "defcon_rate": 0.25,
-   "id": 418,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
+   "id": 453,
    "last5": [
-    1,
+    2,
+    9,
     2,
     2,
-    4,
-    0
+    8
    ],
-   "minutes": 720,
-   "name": "Maguire",
+   "minutes": 706,
+   "name": "Barnes",
    "news": "",
-   "points": 16,
-   "pos": "DEF",
+   "points": 40,
+   "pos": "MID",
    "starts": 8,
    "status": "a",
-   "team": "MUN"
+   "team": "NEW"
   },
   {
    "appearances": 8,
    "defcon_hits": 3,
    "defcon_rate": 0.38,
-   "id": 335,
+   "id": 455,
    "last5": [
     3,
-    5,
     2,
-    2,
-    1
-   ],
-   "minutes": 651,
-   "name": "Stach",
-   "news": "Foot injury - 50% chance of playing",
-   "points": 32,
-   "pos": "MID",
-   "starts": 7,
-   "status": "d",
-   "team": "LEE"
-  },
-  {
-   "appearances": 8,
-   "defcon_hits": 4,
-   "defcon_rate": 0.5,
-   "id": 556,
-   "last5": [
+    7,
     4,
-    0,
-    1,
-    1,
-    4
+    5
    ],
-   "minutes": 494,
-   "name": "M.Sangaré",
+   "minutes": 697,
+   "name": "Tonali",
    "news": "",
-   "points": 28,
+   "points": 30,
    "pos": "MID",
-   "starts": 5,
+   "starts": 8,
    "status": "a",
-   "team": "BRE"
+   "team": "TOT"
   },
   {
    "appearances": 8,
@@ -1215,6 +1216,27 @@
    "team": "MCI"
   },
   {
+   "appearances": 8,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
+   "id": 295,
+   "last5": [
+    4,
+    1,
+    1,
+    2,
+    8
+   ],
+   "minutes": 706,
+   "name": "McBurnie",
+   "news": "",
+   "points": 24,
+   "pos": "FWD",
+   "starts": 8,
+   "status": "a",
+   "team": "HUL"
+  },
+  {
    "appearances": 7,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
@@ -1234,27 +1256,6 @@
    "starts": 5,
    "status": "d",
    "team": "CRY"
-  },
-  {
-   "appearances": 5,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
-   "id": 125,
-   "last5": [
-    5,
-    1,
-    4,
-    1,
-    1
-   ],
-   "minutes": 140,
-   "name": "Georginio",
-   "news": "",
-   "points": 12,
-   "pos": "FWD",
-   "starts": 1,
-   "status": "a",
-   "team": "BHA"
   }
  ],
  "Shensquad numero uno": [
@@ -1955,27 +1956,6 @@
    "team": "TOT"
   },
   {
-   "appearances": 7,
-   "defcon_hits": 1,
-   "defcon_rate": 0.14,
-   "id": 113,
-   "last5": [
-    6,
-    5,
-    9,
-    6,
-    1
-   ],
-   "minutes": 517,
-   "name": "F.Kadıoğlu",
-   "news": "Hip injury - 75% chance of playing",
-   "points": 29,
-   "pos": "DEF",
-   "starts": 7,
-   "status": "d",
-   "team": "BHA"
-  },
-  {
    "appearances": 6,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
@@ -2016,6 +1996,27 @@
    "starts": 8,
    "status": "a",
    "team": "BOU"
+  },
+  {
+   "appearances": 8,
+   "defcon_hits": 2,
+   "defcon_rate": 0.25,
+   "id": 37,
+   "last5": [
+    1,
+    1,
+    3,
+    9,
+    2
+   ],
+   "minutes": 720,
+   "name": "Lindelöf",
+   "news": "",
+   "points": 22,
+   "pos": "DEF",
+   "starts": 8,
+   "status": "a",
+   "team": "AVL"
   },
   {
    "appearances": 7,
@@ -2186,25 +2187,25 @@
    "team": "SUN"
   },
   {
-   "appearances": 8,
+   "appearances": 5,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 569,
+   "id": 25,
    "last5": [
-    2,
-    2,
-    2,
-    2,
-    2
+    1,
+    1,
+    1,
+    1,
+    5
    ],
-   "minutes": 668,
-   "name": "Gonzalo",
+   "minutes": 147,
+   "name": "Gyökeres",
    "news": "",
-   "points": 20,
+   "points": 9,
    "pos": "FWD",
-   "starts": 8,
+   "starts": 1,
    "status": "a",
-   "team": "FUL"
+   "team": "ARS"
   }
  ],
  "xGoons": [
