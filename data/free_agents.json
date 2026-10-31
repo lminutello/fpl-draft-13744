@@ -641,7 +641,7 @@
    2,
    1
   ],
-  "minutes": 574,
+  "minutes": 579,
   "name": "Yeremy",
   "news": "",
   "points": 27,
@@ -735,27 +735,6 @@
   "team": "NFO"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 503,
-  "last5": [
-   6,
-   1,
-   1,
-   2,
-   5
-  ],
-  "minutes": 591,
-  "name": "Van de Ven",
-  "news": "",
-  "points": 26,
-  "pos": "DEF",
-  "starts": 6,
-  "status": "a",
-  "team": "TOT"
- },
- {
   "appearances": 6,
   "defcon_hits": 5,
   "defcon_rate": 0.83,
@@ -840,6 +819,27 @@
   "team": "COV"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 503,
+  "last5": [
+   6,
+   1,
+   1,
+   2,
+   5
+  ],
+  "minutes": 596,
+  "name": "Van de Ven",
+  "news": "",
+  "points": 25,
+  "pos": "DEF",
+  "starts": 6,
+  "status": "a",
+  "team": "TOT"
+ },
+ {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -872,7 +872,7 @@
    2,
    3
   ],
-  "minutes": 612,
+  "minutes": 617,
   "name": "Gray",
   "news": "",
   "points": 25,
@@ -1019,7 +1019,7 @@
    2,
    2
   ],
-  "minutes": 741,
+  "minutes": 746,
   "name": "Wharton",
   "news": "",
   "points": 24,
@@ -1417,7 +1417,7 @@
    1,
    11
   ],
-  "minutes": 383,
+  "minutes": 388,
   "name": "Tel",
   "news": "",
   "points": 21,
@@ -2023,7 +2023,7 @@
    1,
    7
   ],
-  "minutes": 394,
+  "minutes": 399,
   "name": "Fernandes",
   "news": "",
   "points": 17,
@@ -2730,7 +2730,7 @@
    -2,
    0
   ],
-  "minutes": 665,
+  "minutes": 670,
   "name": "Canvot",
   "news": "",
   "points": 13,
@@ -3899,7 +3899,7 @@
    1,
    2
   ],
-  "minutes": 227,
+  "minutes": 232,
   "name": "McNeil",
   "news": "",
   "points": 8,
@@ -4313,7 +4313,7 @@
    1,
    2
   ],
-  "minutes": 305,
+  "minutes": 310,
   "name": "Henderson",
   "news": "",
   "points": 6,
@@ -4668,7 +4668,7 @@
    -3,
    3
   ],
-  "minutes": 264,
+  "minutes": 269,
   "name": "Disasi",
   "news": "",
   "points": 5,
@@ -5356,7 +5356,7 @@
    1,
    1
   ],
-  "minutes": 51,
+  "minutes": 56,
   "name": "Mingueza",
   "news": "",
   "points": 3,
