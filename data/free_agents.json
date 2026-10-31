@@ -641,7 +641,7 @@
    2,
    1
   ],
-  "minutes": 554,
+  "minutes": 560,
   "name": "Yeremy",
   "news": "",
   "points": 27,
@@ -830,7 +830,7 @@
    2,
    5
   ],
-  "minutes": 571,
+  "minutes": 577,
   "name": "Van de Ven",
   "news": "",
   "points": 25,
@@ -998,7 +998,7 @@
    2,
    2
   ],
-  "minutes": 721,
+  "minutes": 727,
   "name": "Wharton",
   "news": "",
   "points": 24,
@@ -1396,7 +1396,7 @@
    1,
    11
   ],
-  "minutes": 363,
+  "minutes": 369,
   "name": "Tel",
   "news": "",
   "points": 21,
@@ -1909,27 +1909,6 @@
   "team": "IPS"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 1,
-  "defcon_rate": 0.14,
-  "id": 522,
-  "last5": [
-   3,
-   2,
-   3,
-   2,
-   3
-  ],
-  "minutes": 592,
-  "name": "Gray",
-  "news": "",
-  "points": 18,
-  "pos": "MID",
-  "starts": 6,
-  "status": "a",
-  "team": "TOT"
- },
- {
   "appearances": 8,
   "defcon_hits": 1,
   "defcon_rate": 0.12,
@@ -2012,6 +1991,27 @@
   "team": "LIV"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 1,
+  "defcon_rate": 0.14,
+  "id": 522,
+  "last5": [
+   3,
+   2,
+   3,
+   2,
+   3
+  ],
+  "minutes": 598,
+  "name": "Gray",
+  "news": "",
+  "points": 17,
+  "pos": "MID",
+  "starts": 6,
+  "status": "a",
+  "team": "TOT"
+ },
+ {
   "appearances": 8,
   "defcon_hits": 1,
   "defcon_rate": 0.12,
@@ -2023,7 +2023,7 @@
    1,
    7
   ],
-  "minutes": 374,
+  "minutes": 380,
   "name": "Fernandes",
   "news": "",
   "points": 17,
@@ -2730,7 +2730,7 @@
    -2,
    0
   ],
-  "minutes": 645,
+  "minutes": 651,
   "name": "Canvot",
   "news": "",
   "points": 13,
@@ -3899,7 +3899,7 @@
    1,
    2
   ],
-  "minutes": 207,
+  "minutes": 213,
   "name": "McNeil",
   "news": "",
   "points": 8,
@@ -4313,7 +4313,7 @@
    1,
    2
   ],
-  "minutes": 285,
+  "minutes": 291,
   "name": "Henderson",
   "news": "",
   "points": 6,
@@ -4668,7 +4668,7 @@
    -3,
    3
   ],
-  "minutes": 244,
+  "minutes": 250,
   "name": "Disasi",
   "news": "",
   "points": 5,
@@ -5356,7 +5356,7 @@
    1,
    1
   ],
-  "minutes": 31,
+  "minutes": 37,
   "name": "Mingueza",
   "news": "",
   "points": 3,
