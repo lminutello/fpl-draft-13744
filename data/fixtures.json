@@ -103,56 +103,56 @@
    "kickoff": "2026-11-23T20:00:00Z"
   }
  ],
- "9": [
+ "12": [
   {
-   "away": "MUN",
-   "home": "CHE",
-   "kickoff": "2026-10-31T12:30:00Z"
+   "away": "CHE",
+   "home": "NFO",
+   "kickoff": "2026-11-27T20:00:00Z"
   },
   {
-   "away": "LEE",
-   "home": "BOU",
-   "kickoff": "2026-10-31T15:00:00Z"
+   "away": "COV",
+   "home": "LEE",
+   "kickoff": "2026-11-28T15:00:00Z"
   },
   {
-   "away": "NFO",
-   "home": "BRE",
-   "kickoff": "2026-10-31T15:00:00Z"
+   "away": "BRE",
+   "home": "MUN",
+   "kickoff": "2026-11-28T15:00:00Z"
   },
   {
-   "away": "SUN",
-   "home": "COV",
-   "kickoff": "2026-10-31T15:00:00Z"
+   "away": "AVL",
+   "home": "IPS",
+   "kickoff": "2026-11-28T17:30:00Z"
   },
   {
-   "away": "IPS",
-   "home": "HUL",
-   "kickoff": "2026-10-31T15:00:00Z"
+   "away": "LIV",
+   "home": "EVE",
+   "kickoff": "2026-11-29T12:00:00Z"
   },
   {
-   "away": "BHA",
-   "home": "MCI",
-   "kickoff": "2026-10-31T15:00:00Z"
+   "away": "NEW",
+   "home": "BHA",
+   "kickoff": "2026-11-29T14:05:00Z"
   },
   {
-   "away": "CRY",
-   "home": "TOT",
-   "kickoff": "2026-10-31T17:30:00Z"
+   "away": "HUL",
+   "home": "CRY",
+   "kickoff": "2026-11-29T14:05:00Z"
   },
   {
-   "away": "FUL",
-   "home": "AVL",
-   "kickoff": "2026-10-31T20:00:00Z"
+   "away": "BOU",
+   "home": "FUL",
+   "kickoff": "2026-11-29T14:05:00Z"
   },
   {
-   "away": "ARS",
-   "home": "LIV",
-   "kickoff": "2026-11-01T16:30:00Z"
+   "away": "TOT",
+   "home": "SUN",
+   "kickoff": "2026-11-29T14:05:00Z"
   },
   {
-   "away": "EVE",
-   "home": "NEW",
-   "kickoff": "2026-11-02T20:00:00Z"
+   "away": "MCI",
+   "home": "ARS",
+   "kickoff": "2026-11-29T16:30:00Z"
   }
  ]
 }

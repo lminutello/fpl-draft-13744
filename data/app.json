@@ -1,5 +1,5 @@
 {
- "current_gw": 8,
+ "current_gw": 9,
  "entries": {
   "175417": {
    "entry_id": 174590,
@@ -63,7 +63,7 @@
  ],
  "league": "FPL 2026-27 Alhamdulillah",
  "league_id": 13744,
- "matchday": false,
+ "matchday": true,
  "matches": [
   {
    "a": "72121",
@@ -360,7 +360,7 @@
    "bp": 0,
    "finished": false,
    "gw": 9,
-   "started": false
+   "started": true
   },
   {
    "a": "69214",
@@ -369,7 +369,7 @@
    "bp": 0,
    "finished": false,
    "gw": 9,
-   "started": false
+   "started": true
   },
   {
    "a": "70998",
@@ -378,7 +378,7 @@
    "bp": 0,
    "finished": false,
    "gw": 9,
-   "started": false
+   "started": true
   },
   {
    "a": "72084",
@@ -387,7 +387,7 @@
    "bp": 0,
    "finished": false,
    "gw": 9,
-   "started": false
+   "started": true
   },
   {
    "a": "175417",
@@ -1435,8 +1435,8 @@
   }
  ],
  "me": "175417",
- "next_deadline": "2026-10-31T11:00:00+00:00",
- "next_waivers": "2026-10-30T11:00:00+00:00",
+ "next_deadline": "2026-11-06T18:30:00+00:00",
+ "next_waivers": "2026-11-05T18:30:00+00:00",
  "open_gw": 9,
  "standings": [
   {
@@ -1520,5 +1520,5 @@
    "w": 2
   }
  ],
- "updated_utc": "2026-10-31T06:43:34Z"
+ "updated_utc": "2026-10-31T13:06:37Z"
 }
