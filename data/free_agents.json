@@ -546,27 +546,6 @@
   "team": "SUN"
  },
  {
-  "appearances": 6,
-  "defcon_hits": 5,
-  "defcon_rate": 0.83,
-  "id": 432,
-  "last5": [
-   4,
-   9,
-   4,
-   4,
-   4
-  ],
-  "minutes": 451,
-  "name": "Mainoo",
-  "news": "",
-  "points": 27,
-  "pos": "MID",
-  "starts": 5,
-  "status": "a",
-  "team": "MUN"
- },
- {
   "appearances": 5,
   "defcon_hits": 3,
   "defcon_rate": 0.6,
@@ -670,6 +649,27 @@
   "starts": 7,
   "status": "a",
   "team": "CRY"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 5,
+  "defcon_rate": 0.83,
+  "id": 432,
+  "last5": [
+   4,
+   9,
+   4,
+   4,
+   4
+  ],
+  "minutes": 465,
+  "name": "Mainoo",
+  "news": "",
+  "points": 26,
+  "pos": "MID",
+  "starts": 5,
+  "status": "a",
+  "team": "MUN"
  },
  {
   "appearances": 7,
@@ -945,27 +945,6 @@
   "team": "CRY"
  },
  {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 161,
-  "last5": [
-   7,
-   1,
-   2,
-   1,
-   1
-  ],
-  "minutes": 342,
-  "name": "Lavia",
-  "news": "",
-  "points": 23,
-  "pos": "MID",
-  "starts": 4,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -998,7 +977,7 @@
    7,
    1
   ],
-  "minutes": 556,
+  "minutes": 570,
   "name": "Acheampong",
   "news": "",
   "points": 23,
@@ -1110,6 +1089,27 @@
   "starts": 3,
   "status": "a",
   "team": "BRE"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 161,
+  "last5": [
+   7,
+   1,
+   2,
+   1,
+   1
+  ],
+  "minutes": 356,
+  "name": "Lavia",
+  "news": "",
+  "points": 22,
+  "pos": "MID",
+  "starts": 4,
+  "status": "a",
+  "team": "CHE"
  },
  {
   "appearances": 8,
@@ -1374,7 +1374,7 @@
    1,
    4
   ],
-  "minutes": 377,
+  "minutes": 391,
   "name": "Fofana",
   "news": "",
   "points": 20,
@@ -1395,7 +1395,7 @@
    6,
    3
   ],
-  "minutes": 676,
+  "minutes": 690,
   "name": "Colwill",
   "news": "",
   "points": 20,
@@ -1941,7 +1941,7 @@
    4,
    0
   ],
-  "minutes": 785,
+  "minutes": 799,
   "name": "Maguire",
   "news": "",
   "points": 16,
@@ -2276,7 +2276,7 @@
    4,
    1
   ],
-  "minutes": 622,
+  "minutes": 636,
   "name": "Dalot",
   "news": "",
   "points": 14,
@@ -2960,7 +2960,7 @@
    4,
    1
   ],
-  "minutes": 325,
+  "minutes": 339,
   "name": "Yoro",
   "news": "",
   "points": 11,
@@ -2968,6 +2968,27 @@
   "starts": 3,
   "status": "a",
   "team": "MUN"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 583,
+  "last5": [
+   1,
+   1,
+   1,
+   1,
+   5
+  ],
+  "minutes": 303,
+  "name": "Chavarria",
+  "news": "",
+  "points": 11,
+  "pos": "DEF",
+  "starts": 2,
+  "status": "a",
+  "team": "CHE"
  },
  {
   "appearances": 7,
@@ -3321,27 +3342,6 @@
   "team": "NFO"
  },
  {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 583,
-  "last5": [
-   1,
-   1,
-   1,
-   1,
-   5
-  ],
-  "minutes": 298,
-  "name": "Chavarria",
-  "news": "",
-  "points": 10,
-  "pos": "DEF",
-  "starts": 2,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 5,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3457,11 +3457,11 @@
   ],
   "minutes": 582,
   "name": "Martinez",
-  "news": "",
+  "news": "Suspended until 22 Nov",
   "points": 9,
   "pos": "DEF",
   "starts": 6,
-  "status": "a",
+  "status": "s",
   "team": "MUN"
  },
  {
@@ -3517,7 +3517,7 @@
    1,
    1
   ],
-  "minutes": 112,
+  "minutes": 126,
   "name": "Estêvão",
   "news": "",
   "points": 9,
@@ -3738,7 +3738,7 @@
    1,
    0
   ],
-  "minutes": 109,
+  "minutes": 117,
   "name": "Palestra",
   "news": "",
   "points": 8,
@@ -3952,7 +3952,7 @@
    2,
    2
   ],
-  "minutes": 290,
+  "minutes": 301,
   "name": "Amad",
   "news": "",
   "points": 7,
@@ -4032,7 +4032,7 @@
    1,
    0
   ],
-  "minutes": 170,
+  "minutes": 184,
   "name": "Penders",
   "news": "",
   "points": 7,
@@ -4442,6 +4442,25 @@
   "team": "CRY"
  },
  {
+  "appearances": 3,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 430,
+  "last5": [
+   1,
+   1,
+   2
+  ],
+  "minutes": 129,
+  "name": "Mount",
+  "news": "",
+  "points": 5,
+  "pos": "MID",
+  "starts": 1,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
   "appearances": 6,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -4541,6 +4560,26 @@
   "starts": 0,
   "status": "a",
   "team": "BHA"
+ },
+ {
+  "appearances": 4,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 440,
+  "last5": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "minutes": 71,
+  "name": "Zirkzee",
+  "news": "",
+  "points": 5,
+  "pos": "FWD",
+  "starts": 0,
+  "status": "a",
+  "team": "MUN"
  },
  {
   "appearances": 4,
@@ -4769,25 +4808,6 @@
   "team": "NEW"
  },
  {
-  "appearances": 3,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 430,
-  "last5": [
-   1,
-   1,
-   2
-  ],
-  "minutes": 116,
-  "name": "Mount",
-  "news": "",
-  "points": 4,
-  "pos": "MID",
-  "starts": 1,
-  "status": "a",
-  "team": "MUN"
- },
- {
   "appearances": 4,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -4944,26 +4964,6 @@
   "starts": 5,
   "status": "a",
   "team": "IPS"
- },
- {
-  "appearances": 4,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 440,
-  "last5": [
-   1,
-   1,
-   1,
-   1
-  ],
-  "minutes": 69,
-  "name": "Zirkzee",
-  "news": "",
-  "points": 4,
-  "pos": "FWD",
-  "starts": 0,
-  "status": "a",
-  "team": "MUN"
  },
  {
   "appearances": 1,
@@ -5446,6 +5446,25 @@
   "appearances": 3,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
+  "id": 421,
+  "last5": [
+   1,
+   1,
+   0
+  ],
+  "minutes": 168,
+  "name": "Heaven",
+  "news": "",
+  "points": 3,
+  "pos": "DEF",
+  "starts": 2,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
+  "appearances": 3,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
   "id": 565,
   "last5": [
    1,
@@ -5894,25 +5913,6 @@
   "points": 2,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
-  "team": "MUN"
- },
- {
-  "appearances": 3,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 421,
-  "last5": [
-   1,
-   1,
-   0
-  ],
-  "minutes": 155,
-  "name": "Heaven",
-  "news": "",
-  "points": 2,
-  "pos": "DEF",
-  "starts": 2,
   "status": "a",
   "team": "MUN"
  },

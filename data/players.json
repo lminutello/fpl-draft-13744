@@ -961,7 +961,7 @@
    1,
    4
   ],
-  "minutes": 377,
+  "minutes": 391,
   "name": "Fofana",
   "news": "",
   "points": 20,
@@ -1036,7 +1036,7 @@
    6,
    3
   ],
-  "minutes": 676,
+  "minutes": 690,
   "name": "Colwill",
   "news": "",
   "points": 20,
@@ -1093,7 +1093,7 @@
    7,
    1
   ],
-  "minutes": 556,
+  "minutes": 570,
   "name": "Acheampong",
   "news": "",
   "points": 23,
@@ -1112,7 +1112,7 @@
    1,
    0
   ],
-  "minutes": 109,
+  "minutes": 117,
   "name": "Palestra",
   "news": "",
   "points": 8,
@@ -1153,7 +1153,7 @@
    2,
    -1
   ],
-  "minutes": 763,
+  "minutes": 777,
   "name": "Palmer",
   "news": "",
   "points": 45,
@@ -1195,7 +1195,7 @@
    15,
    3
   ],
-  "minutes": 656,
+  "minutes": 670,
   "name": "Neto",
   "news": "",
   "points": 40,
@@ -1216,7 +1216,7 @@
    1,
    1
   ],
-  "minutes": 112,
+  "minutes": 126,
   "name": "Estêvão",
   "news": "",
   "points": 9,
@@ -1251,7 +1251,7 @@
    3,
    2
   ],
-  "minutes": 329,
+  "minutes": 343,
   "name": "Caicedo",
   "news": "",
   "points": 11,
@@ -1312,10 +1312,10 @@
    1,
    1
   ],
-  "minutes": 342,
+  "minutes": 356,
   "name": "Lavia",
   "news": "",
-  "points": 23,
+  "points": 22,
   "pos": "MID",
   "starts": 4,
   "status": "a",
@@ -6169,10 +6169,10 @@
    2,
    1
   ],
-  "minutes": 765,
+  "minutes": 779,
   "name": "Rogers",
   "news": "",
-  "points": 51,
+  "points": 49,
   "pos": "MID",
   "starts": 8,
   "status": "a",
@@ -6423,7 +6423,7 @@
    3,
    1
   ],
-  "minutes": 785,
+  "minutes": 799,
   "name": "Lammens",
   "news": "",
   "points": 19,
@@ -6510,7 +6510,7 @@
    4,
    1
   ],
-  "minutes": 622,
+  "minutes": 636,
   "name": "Dalot",
   "news": "",
   "points": 14,
@@ -6531,7 +6531,7 @@
    4,
    0
   ],
-  "minutes": 785,
+  "minutes": 799,
   "name": "Maguire",
   "news": "",
   "points": 16,
@@ -6554,11 +6554,11 @@
   ],
   "minutes": 582,
   "name": "Martinez",
-  "news": "",
+  "news": "Suspended until 22 Nov",
   "points": 9,
   "pos": "DEF",
   "starts": 6,
-  "status": "a",
+  "status": "s",
   "team": "MUN"
  },
  "42": {
@@ -6591,7 +6591,7 @@
    4,
    1
   ],
-  "minutes": 325,
+  "minutes": 339,
   "name": "Yoro",
   "news": "",
   "points": 11,
@@ -6610,10 +6610,10 @@
    1,
    0
   ],
-  "minutes": 155,
+  "minutes": 168,
   "name": "Heaven",
   "news": "",
-  "points": 2,
+  "points": 3,
   "pos": "DEF",
   "starts": 2,
   "status": "a",
@@ -6702,7 +6702,7 @@
    1,
    1
   ],
-  "minutes": 695,
+  "minutes": 709,
   "name": "B.Fernandes",
   "news": "",
   "points": 35,
@@ -6723,7 +6723,7 @@
    8,
    2
   ],
-  "minutes": 785,
+  "minutes": 799,
   "name": "Mbeumo",
   "news": "",
   "points": 45,
@@ -6805,10 +6805,10 @@
    1,
    2
   ],
-  "minutes": 116,
+  "minutes": 129,
   "name": "Mount",
   "news": "",
-  "points": 4,
+  "points": 5,
   "pos": "MID",
   "starts": 1,
   "status": "a",
@@ -6824,7 +6824,7 @@
    2,
    2
   ],
-  "minutes": 290,
+  "minutes": 301,
   "name": "Amad",
   "news": "",
   "points": 7,
@@ -6845,10 +6845,10 @@
    4,
    4
   ],
-  "minutes": 451,
+  "minutes": 465,
   "name": "Mainoo",
   "news": "",
-  "points": 27,
+  "points": 26,
   "pos": "MID",
   "starts": 5,
   "status": "a",
@@ -6993,10 +6993,10 @@
    1,
    1
   ],
-  "minutes": 69,
+  "minutes": 71,
   "name": "Zirkzee",
   "news": "",
-  "points": 4,
+  "points": 5,
   "pos": "FWD",
   "starts": 0,
   "status": "a",
@@ -9404,7 +9404,7 @@
    1,
    0
   ],
-  "minutes": 170,
+  "minutes": 184,
   "name": "Penders",
   "news": "",
   "points": 7,
@@ -9961,10 +9961,10 @@
    1,
    5
   ],
-  "minutes": 298,
+  "minutes": 303,
   "name": "Chavarria",
   "news": "",
-  "points": 10,
+  "points": 11,
   "pos": "DEF",
   "starts": 2,
   "status": "a",
