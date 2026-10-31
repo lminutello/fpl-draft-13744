@@ -641,7 +641,7 @@
    2,
    1
   ],
-  "minutes": 579,
+  "minutes": 584,
   "name": "Yeremy",
   "news": "",
   "points": 27,
@@ -830,7 +830,7 @@
    2,
    5
   ],
-  "minutes": 596,
+  "minutes": 601,
   "name": "Van de Ven",
   "news": "",
   "points": 25,
@@ -872,7 +872,7 @@
    2,
    3
   ],
-  "minutes": 617,
+  "minutes": 622,
   "name": "Gray",
   "news": "",
   "points": 25,
@@ -1019,7 +1019,7 @@
    2,
    2
   ],
-  "minutes": 746,
+  "minutes": 751,
   "name": "Wharton",
   "news": "",
   "points": 24,
@@ -1280,27 +1280,6 @@
   "team": "BRE"
  },
  {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 161,
-  "last5": [
-   7,
-   1,
-   2,
-   1,
-   1
-  ],
-  "minutes": 367,
-  "name": "Lavia",
-  "news": "",
-  "points": 22,
-  "pos": "MID",
-  "starts": 4,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 7,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -1417,7 +1396,7 @@
    1,
    11
   ],
-  "minutes": 388,
+  "minutes": 393,
   "name": "Tel",
   "news": "",
   "points": 21,
@@ -1425,6 +1404,27 @@
   "starts": 4,
   "status": "a",
   "team": "TOT"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 161,
+  "last5": [
+   7,
+   1,
+   2,
+   1,
+   1
+  ],
+  "minutes": 367,
+  "name": "Lavia",
+  "news": "",
+  "points": 21,
+  "pos": "MID",
+  "starts": 4,
+  "status": "a",
+  "team": "CHE"
  },
  {
   "appearances": 8,
@@ -1574,26 +1574,6 @@
   "team": "EVE"
  },
  {
-  "appearances": 4,
-  "defcon_hits": 2,
-  "defcon_rate": 0.5,
-  "id": 145,
-  "last5": [
-   0,
-   3,
-   1,
-   4
-  ],
-  "minutes": 402,
-  "name": "Fofana",
-  "news": "",
-  "points": 20,
-  "pos": "DEF",
-  "starts": 4,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 7,
   "defcon_hits": 1,
   "defcon_rate": 0.14,
@@ -1739,6 +1719,26 @@
   "starts": 5,
   "status": "a",
   "team": "IPS"
+ },
+ {
+  "appearances": 4,
+  "defcon_hits": 2,
+  "defcon_rate": 0.5,
+  "id": 145,
+  "last5": [
+   0,
+   3,
+   1,
+   4
+  ],
+  "minutes": 402,
+  "name": "Fofana",
+  "news": "",
+  "points": 19,
+  "pos": "DEF",
+  "starts": 4,
+  "status": "a",
+  "team": "CHE"
  },
  {
   "appearances": 7,
@@ -2023,7 +2023,7 @@
    1,
    7
   ],
-  "minutes": 399,
+  "minutes": 404,
   "name": "Fernandes",
   "news": "",
   "points": 17,
@@ -2112,6 +2112,27 @@
   "points": 16,
   "pos": "DEF",
   "starts": 8,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 1,
+  "defcon_rate": 0.12,
+  "id": 417,
+  "last5": [
+   2,
+   2,
+   0,
+   4,
+   1
+  ],
+  "minutes": 647,
+  "name": "Dalot",
+  "news": "",
+  "points": 16,
+  "pos": "DEF",
+  "starts": 6,
   "status": "a",
   "team": "MUN"
  },
@@ -2429,27 +2450,6 @@
   "team": "COV"
  },
  {
-  "appearances": 8,
-  "defcon_hits": 1,
-  "defcon_rate": 0.12,
-  "id": 417,
-  "last5": [
-   2,
-   2,
-   0,
-   4,
-   1
-  ],
-  "minutes": 647,
-  "name": "Dalot",
-  "news": "",
-  "points": 14,
-  "pos": "DEF",
-  "starts": 6,
-  "status": "a",
-  "team": "MUN"
- },
- {
   "appearances": 5,
   "defcon_hits": 3,
   "defcon_rate": 0.6,
@@ -2730,7 +2730,7 @@
    -2,
    0
   ],
-  "minutes": 670,
+  "minutes": 675,
   "name": "Canvot",
   "news": "",
   "points": 13,
@@ -3899,7 +3899,7 @@
    1,
    2
   ],
-  "minutes": 232,
+  "minutes": 237,
   "name": "McNeil",
   "news": "",
   "points": 8,
@@ -4313,7 +4313,7 @@
    1,
    2
   ],
-  "minutes": 310,
+  "minutes": 315,
   "name": "Henderson",
   "news": "",
   "points": 6,
@@ -4668,7 +4668,7 @@
    -3,
    3
   ],
-  "minutes": 269,
+  "minutes": 274,
   "name": "Disasi",
   "news": "",
   "points": 5,
@@ -5356,7 +5356,7 @@
    1,
    1
   ],
-  "minutes": 56,
+  "minutes": 61,
   "name": "Mingueza",
   "news": "",
   "points": 3,

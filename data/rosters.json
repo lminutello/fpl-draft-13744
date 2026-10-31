@@ -138,7 +138,7 @@
     0,
     1
    ],
-   "minutes": 729,
+   "minutes": 734,
    "name": "Mitchell",
    "news": "",
    "points": 32,
@@ -306,7 +306,7 @@
     9,
     2
    ],
-   "minutes": 553,
+   "minutes": 558,
    "name": "Marmoush",
    "news": "",
    "points": 21,
@@ -434,7 +434,7 @@
     5,
     6
    ],
-   "minutes": 538,
+   "minutes": 543,
    "name": "Robertson",
    "news": "",
    "points": 30,
@@ -642,7 +642,7 @@
     2,
     9
    ],
-   "minutes": 760,
+   "minutes": 765,
    "name": "Kinsky",
    "news": "",
    "points": 33,
@@ -851,7 +851,7 @@
     6,
     3
    ],
-   "minutes": 402,
+   "minutes": 407,
    "name": "Kudus",
    "news": "",
    "points": 25,
@@ -1081,7 +1081,7 @@
     2,
     3
    ],
-   "minutes": 760,
+   "minutes": 765,
    "name": "Richards",
    "news": "",
    "points": 24,
@@ -1123,7 +1123,7 @@
     4,
     5
    ],
-   "minutes": 737,
+   "minutes": 742,
    "name": "Tonali",
    "news": "",
    "points": 31,
@@ -1481,7 +1481,7 @@
     1,
     2
    ],
-   "minutes": 740,
+   "minutes": 745,
    "name": "Kamada",
    "news": "",
    "points": 33,
@@ -1564,7 +1564,7 @@
     4,
     1
    ],
-   "minutes": 415,
+   "minutes": 420,
    "name": "Solanke",
    "news": "",
    "points": 20,
@@ -1946,7 +1946,7 @@
     4,
     7
    ],
-   "minutes": 760,
+   "minutes": 765,
    "name": "Van Hecke",
    "news": "",
    "points": 39,
@@ -2365,7 +2365,7 @@
    "minutes": 790,
    "name": "Rogers",
    "news": "",
-   "points": 49,
+   "points": 50,
    "pos": "MID",
    "starts": 8,
    "status": "a",
