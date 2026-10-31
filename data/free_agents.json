@@ -5289,25 +5289,6 @@
   "team": "FUL"
  },
  {
-  "appearances": 3,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 535,
-  "last5": [
-   1,
-   -1,
-   1
-  ],
-  "minutes": 209,
-  "name": "Alderete",
-  "news": "",
-  "points": 3,
-  "pos": "DEF",
-  "starts": 1,
-  "status": "a",
-  "team": "SUN"
- },
- {
   "appearances": 4,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -6234,6 +6215,25 @@
   "starts": 0,
   "status": "i",
   "team": "BRE"
+ },
+ {
+  "appearances": 3,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 535,
+  "last5": [
+   1,
+   -1,
+   1
+  ],
+  "minutes": 209,
+  "name": "Alderete",
+  "news": "",
+  "points": 1,
+  "pos": "DEF",
+  "starts": 1,
+  "status": "a",
+  "team": "SUN"
  },
  {
   "appearances": 1,

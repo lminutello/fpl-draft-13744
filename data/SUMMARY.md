@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-31T16:59:30Z | last finished GW8 | next GW9
+Updated 2026-10-31T17:06:33Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -29,7 +29,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Richards          CRY    23p  720m st8  app8  dc 0.75  last5 [2, 8, 4, 2, 3]
 - MID Barnes            NEW    40p  706m st8  app8  dc 0.0   last5 [2, 9, 2, 2, 8]
 - MID Tonali            TOT    30p  697m st8  app8  dc 0.38  last5 [3, 2, 7, 4, 5]
-- MID Anderson          MCI    28p  696m st7  app8  dc 0.25  last5 [5, 2, 6, 1, 1]
+- MID Anderson          MCI    27p  696m st7  app8  dc 0.25  last5 [5, 2, 6, 1, 1]
 - MID Bruno G.          ARS    22p  237m st2  app6  dc 0.0   last5 [7, 1, 9, 3, 1]
 - MID Caicedo           CHE    11p  350m st3  app4  dc 0.0   last5 [1, 2, 3, 2]
 - FWD Haaland           MCI    68p  799m st8  app8  dc 0.0   last5 [9, 6, 6, 13, 8]
