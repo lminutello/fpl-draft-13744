@@ -45,6 +45,27 @@
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
+  "id": 261,
+  "last5": [
+   3,
+   5,
+   4,
+   11,
+   3
+  ],
+  "minutes": 731,
+  "name": "Iwobi",
+  "news": "",
+  "points": 38,
+  "pos": "MID",
+  "starts": 8,
+  "status": "a",
+  "team": "FUL"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
   "id": 86,
   "last5": [
    1,
@@ -148,27 +169,6 @@
  },
  {
   "appearances": 8,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 261,
-  "last5": [
-   3,
-   5,
-   4,
-   11,
-   3
-  ],
-  "minutes": 729,
-  "name": "Iwobi",
-  "news": "",
-  "points": 34,
-  "pos": "MID",
-  "starts": 8,
-  "status": "a",
-  "team": "FUL"
- },
- {
-  "appearances": 8,
   "defcon_hits": 3,
   "defcon_rate": 0.38,
   "id": 257,
@@ -179,7 +179,7 @@
    8,
    8
   ],
-  "minutes": 792,
+  "minutes": 797,
   "name": "Bassey",
   "news": "",
   "points": 34,
@@ -263,7 +263,7 @@
    3,
    11
   ],
-  "minutes": 647,
+  "minutes": 652,
   "name": "Bobb",
   "news": "",
   "points": 32,
@@ -271,27 +271,6 @@
   "starts": 8,
   "status": "a",
   "team": "FUL"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 3,
-  "defcon_rate": 0.38,
-  "id": 47,
-  "last5": [
-   2,
-   6,
-   4,
-   5,
-   4
-  ],
-  "minutes": 785,
-  "name": "Kamara",
-  "news": "",
-  "points": 31,
-  "pos": "MID",
-  "starts": 8,
-  "status": "a",
-  "team": "AVL"
  },
  {
   "appearances": 8,
@@ -334,6 +313,27 @@
   "starts": 5,
   "status": "a",
   "team": "HUL"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 3,
+  "defcon_rate": 0.38,
+  "id": 47,
+  "last5": [
+   2,
+   6,
+   4,
+   5,
+   4
+  ],
+  "minutes": 790,
+  "name": "Kamara",
+  "news": "",
+  "points": 30,
+  "pos": "MID",
+  "starts": 8,
+  "status": "a",
+  "team": "AVL"
  },
  {
   "appearances": 8,
@@ -410,7 +410,7 @@
    8,
    4
   ],
-  "minutes": 702,
+  "minutes": 707,
   "name": "Suzuki",
   "news": "",
   "points": 30,
@@ -431,7 +431,7 @@
    6,
    6
   ],
-  "minutes": 522,
+  "minutes": 527,
   "name": "Affengruber",
   "news": "",
   "points": 30,
@@ -473,7 +473,7 @@
    3,
    0
   ],
-  "minutes": 565,
+  "minutes": 570,
   "name": "Buendía",
   "news": "",
   "points": 29,
@@ -557,7 +557,7 @@
    7,
    7
   ],
-  "minutes": 681,
+  "minutes": 686,
   "name": "Robinson",
   "news": "",
   "points": 28,
@@ -1166,7 +1166,7 @@
    3,
    2
   ],
-  "minutes": 625,
+  "minutes": 630,
   "name": "Charles",
   "news": "",
   "points": 23,
@@ -1375,7 +1375,7 @@
    2,
    2
   ],
-  "minutes": 740,
+  "minutes": 745,
   "name": "Gonzalo",
   "news": "",
   "points": 22,
@@ -1417,7 +1417,7 @@
    5,
    1
   ],
-  "minutes": 628,
+  "minutes": 633,
   "name": "Berge",
   "news": "",
   "points": 21,
@@ -1680,27 +1680,6 @@
  },
  {
   "appearances": 7,
-  "defcon_hits": 2,
-  "defcon_rate": 0.29,
-  "id": 32,
-  "last5": [
-   6,
-   -1,
-   0,
-   8,
-   3
-  ],
-  "minutes": 638,
-  "name": "Cash",
-  "news": "",
-  "points": 19,
-  "pos": "DEF",
-  "starts": 6,
-  "status": "a",
-  "team": "AVL"
- },
- {
-  "appearances": 7,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
   "id": 96,
@@ -1909,6 +1888,27 @@
   "team": "COV"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 2,
+  "defcon_rate": 0.29,
+  "id": 32,
+  "last5": [
+   6,
+   -1,
+   0,
+   8,
+   3
+  ],
+  "minutes": 643,
+  "name": "Cash",
+  "news": "",
+  "points": 18,
+  "pos": "DEF",
+  "starts": 6,
+  "status": "a",
+  "team": "AVL"
+ },
+ {
   "appearances": 5,
   "defcon_hits": 1,
   "defcon_rate": 0.2,
@@ -1962,7 +1962,7 @@
    1,
    1
   ],
-  "minutes": 247,
+  "minutes": 248,
   "name": "Clarke",
   "news": "",
   "points": 18,
@@ -2670,7 +2670,7 @@
    1,
    2
   ],
-  "minutes": 497,
+  "minutes": 502,
   "name": "Maatsen",
   "news": "",
   "points": 13,
@@ -2939,7 +2939,7 @@
    5,
    2
   ],
-  "minutes": 372,
+  "minutes": 377,
   "name": "Gomes",
   "news": "",
   "points": 12,
@@ -3759,7 +3759,7 @@
    1,
    4
   ],
-  "minutes": 114,
+  "minutes": 119,
   "name": "Mbaye",
   "news": "",
   "points": 9,
@@ -3960,7 +3960,7 @@
    1,
    2
   ],
-  "minutes": 362,
+  "minutes": 367,
   "name": "Pau",
   "news": "",
   "points": 8,
@@ -3998,7 +3998,7 @@
    2,
    2
   ],
-  "minutes": 243,
+  "minutes": 242,
   "name": "Philogene",
   "news": "",
   "points": 8,
@@ -5273,6 +5273,24 @@
   "appearances": 2,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
+  "id": 266,
+  "last5": [
+   1,
+   1
+  ],
+  "minutes": 23,
+  "name": "Cairney",
+  "news": "",
+  "points": 3,
+  "pos": "MID",
+  "starts": 0,
+  "status": "a",
+  "team": "FUL"
+ },
+ {
+  "appearances": 2,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
   "id": 147,
   "last5": [
    1,
@@ -5700,24 +5718,6 @@
   "starts": 0,
   "status": "a",
   "team": "LEE"
- },
- {
-  "appearances": 2,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 266,
-  "last5": [
-   1,
-   1
-  ],
-  "minutes": 21,
-  "name": "Cairney",
-  "news": "",
-  "points": 2,
-  "pos": "MID",
-  "starts": 0,
-  "status": "a",
-  "team": "FUL"
  },
  {
   "appearances": 3,
