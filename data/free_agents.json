@@ -179,7 +179,7 @@
    8,
    8
   ],
-  "minutes": 797,
+  "minutes": 807,
   "name": "Bassey",
   "news": "",
   "points": 34,
@@ -263,7 +263,7 @@
    3,
    11
   ],
-  "minutes": 652,
+  "minutes": 653,
   "name": "Bobb",
   "news": "",
   "points": 32,
@@ -315,6 +315,27 @@
   "team": "HUL"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 597,
+  "last5": [
+   2,
+   2,
+   2,
+   8,
+   4
+  ],
+  "minutes": 717,
+  "name": "Suzuki",
+  "news": "",
+  "points": 31,
+  "pos": "GKP",
+  "starts": 7,
+  "status": "a",
+  "team": "AVL"
+ },
+ {
   "appearances": 8,
   "defcon_hits": 3,
   "defcon_rate": 0.38,
@@ -326,7 +347,7 @@
    5,
    4
   ],
-  "minutes": 790,
+  "minutes": 791,
   "name": "Kamara",
   "news": "",
   "points": 30,
@@ -399,27 +420,6 @@
   "team": "BOU"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 597,
-  "last5": [
-   2,
-   2,
-   2,
-   8,
-   4
-  ],
-  "minutes": 707,
-  "name": "Suzuki",
-  "news": "",
-  "points": 30,
-  "pos": "GKP",
-  "starts": 7,
-  "status": "a",
-  "team": "AVL"
- },
- {
   "appearances": 5,
   "defcon_hits": 3,
   "defcon_rate": 0.6,
@@ -431,7 +431,7 @@
    6,
    6
   ],
-  "minutes": 527,
+  "minutes": 537,
   "name": "Affengruber",
   "news": "",
   "points": 30,
@@ -473,7 +473,7 @@
    3,
    0
   ],
-  "minutes": 570,
+  "minutes": 580,
   "name": "Buendía",
   "news": "",
   "points": 29,
@@ -557,7 +557,7 @@
    7,
    7
   ],
-  "minutes": 686,
+  "minutes": 696,
   "name": "Robinson",
   "news": "",
   "points": 28,
@@ -1166,7 +1166,7 @@
    3,
    2
   ],
-  "minutes": 630,
+  "minutes": 640,
   "name": "Charles",
   "news": "",
   "points": 23,
@@ -1375,7 +1375,7 @@
    2,
    2
   ],
-  "minutes": 745,
+  "minutes": 754,
   "name": "Gonzalo",
   "news": "",
   "points": 22,
@@ -1417,7 +1417,7 @@
    5,
    1
   ],
-  "minutes": 633,
+  "minutes": 643,
   "name": "Berge",
   "news": "",
   "points": 21,
@@ -1899,7 +1899,7 @@
    8,
    3
   ],
-  "minutes": 643,
+  "minutes": 653,
   "name": "Cash",
   "news": "",
   "points": 18,
@@ -2366,6 +2366,27 @@
   "team": "NEW"
  },
  {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 570,
+  "last5": [
+   1,
+   8,
+   1,
+   1,
+   1
+  ],
+  "minutes": 255,
+  "name": "Palacios",
+  "news": "",
+  "points": 15,
+  "pos": "MID",
+  "starts": 3,
+  "status": "a",
+  "team": "FUL"
+ },
+ {
   "appearances": 5,
   "defcon_hits": 1,
   "defcon_rate": 0.2,
@@ -2427,6 +2448,27 @@
   "starts": 5,
   "status": "a",
   "team": "HUL"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 46,
+  "last5": [
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "minutes": 362,
+  "name": "Barkley",
+  "news": "",
+  "points": 14,
+  "pos": "MID",
+  "starts": 4,
+  "status": "a",
+  "team": "AVL"
  },
  {
   "appearances": 6,
@@ -2537,27 +2579,6 @@
   "appearances": 6,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
-  "id": 570,
-  "last5": [
-   1,
-   8,
-   1,
-   1,
-   1
-  ],
-  "minutes": 247,
-  "name": "Palacios",
-  "news": "",
-  "points": 14,
-  "pos": "MID",
-  "starts": 3,
-  "status": "a",
-  "team": "FUL"
- },
- {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
   "id": 646,
   "last5": [
    5,
@@ -2574,27 +2595,6 @@
   "starts": 0,
   "status": "a",
   "team": "IPS"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 46,
-  "last5": [
-   2,
-   1,
-   1,
-   1,
-   1
-  ],
-  "minutes": 354,
-  "name": "Barkley",
-  "news": "",
-  "points": 13,
-  "pos": "MID",
-  "starts": 4,
-  "status": "a",
-  "team": "AVL"
  },
  {
   "appearances": 5,
@@ -2670,7 +2670,7 @@
    1,
    2
   ],
-  "minutes": 502,
+  "minutes": 512,
   "name": "Maatsen",
   "news": "",
   "points": 13,
@@ -2939,7 +2939,7 @@
    5,
    2
   ],
-  "minutes": 377,
+  "minutes": 387,
   "name": "Gomes",
   "news": "",
   "points": 12,
@@ -3759,7 +3759,7 @@
    1,
    4
   ],
-  "minutes": 119,
+  "minutes": 129,
   "name": "Mbaye",
   "news": "",
   "points": 9,
@@ -3960,7 +3960,7 @@
    1,
    2
   ],
-  "minutes": 367,
+  "minutes": 377,
   "name": "Pau",
   "news": "",
   "points": 8,
@@ -4441,6 +4441,27 @@
   "team": "IPS"
  },
  {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 271,
+  "last5": [
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "minutes": 69,
+  "name": "Muniz",
+  "news": "",
+  "points": 6,
+  "pos": "FWD",
+  "starts": 0,
+  "status": "a",
+  "team": "FUL"
+ },
+ {
   "appearances": 1,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -4714,27 +4735,6 @@
   "starts": 2,
   "status": "i",
   "team": "BHA"
- },
- {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 271,
-  "last5": [
-   1,
-   1,
-   0,
-   1,
-   1
-  ],
-  "minutes": 68,
-  "name": "Muniz",
-  "news": "",
-  "points": 5,
-  "pos": "FWD",
-  "starts": 0,
-  "status": "a",
-  "team": "FUL"
  },
  {
   "appearances": 4,
@@ -5273,24 +5273,6 @@
   "appearances": 2,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
-  "id": 266,
-  "last5": [
-   1,
-   1
-  ],
-  "minutes": 23,
-  "name": "Cairney",
-  "news": "",
-  "points": 3,
-  "pos": "MID",
-  "starts": 0,
-  "status": "a",
-  "team": "FUL"
- },
- {
-  "appearances": 2,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
   "id": 147,
   "last5": [
    1,
@@ -5304,6 +5286,25 @@
   "starts": 1,
   "status": "i",
   "team": "TOT"
+ },
+ {
+  "appearances": 3,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 256,
+  "last5": [
+   0,
+   1,
+   1
+  ],
+  "minutes": 134,
+  "name": "Tete",
+  "news": "",
+  "points": 3,
+  "pos": "DEF",
+  "starts": 1,
+  "status": "a",
+  "team": "FUL"
  },
  {
   "appearances": 3,
@@ -5720,21 +5721,20 @@
   "team": "LEE"
  },
  {
-  "appearances": 3,
+  "appearances": 2,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
-  "id": 256,
+  "id": 266,
   "last5": [
-   0,
    1,
    1
   ],
-  "minutes": 126,
-  "name": "Tete",
+  "minutes": 33,
+  "name": "Cairney",
   "news": "",
   "points": 2,
-  "pos": "DEF",
-  "starts": 1,
+  "pos": "MID",
+  "starts": 0,
   "status": "a",
   "team": "FUL"
  },
