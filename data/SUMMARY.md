@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-31T13:49:02Z | last finished GW8 | next GW9
+Updated 2026-10-31T13:56:05Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -31,7 +31,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Tonali            TOT    30p  697m st8  app8  dc 0.38  last5 [3, 2, 7, 4, 5]
 - MID Anderson          MCI    23p  606m st7  app8  dc 0.25  last5 [5, 2, 6, 1, 1]
 - MID Bruno G.          ARS    22p  237m st2  app6  dc 0.0   last5 [7, 1, 9, 3, 1]
-- MID Caicedo           CHE     9p  320m st3  app4  dc 0.0   last5 [1, 2, 3, 2]
+- MID Caicedo           CHE    11p  324m st3  app4  dc 0.0   last5 [1, 2, 3, 2]
 - FWD Haaland           MCI    66p  709m st8  app8  dc 0.0   last5 [9, 6, 6, 13, 8]
 - FWD McBurnie          HUL    24p  706m st8  app8  dc 0.0   last5 [4, 1, 1, 2, 8]
 - FWD Strand Larsen     CRY    21p  440m st5  app7  dc 0.0   last5 [1, 8, 2, 5, 2]  [D] Ankle injury - 75% chance of playing
@@ -64,10 +64,10 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Willock           NEW    27p  473m st6  app8  dc 0.0   last5 [1, 10, 1, 1, 3]
 - MID Ndoye             NFO    27p  527m st8  app8  dc 0.0   last5 [1, 1, 7, 3, 2]  [D] Hamstring injury - 50% chance of playing
 - MID E.Le Fée          SUN    27p  686m st8  app8  dc 0.12  last5 [0, 5, 2, 4, 3]
+- MID Mainoo            MUN    27p  446m st5  app6  dc 0.83  last5 [4, 9, 4, 4, 4]
 - DEF Affengruber       FUL    27p  450m st5  app5  dc 0.6   last5 [8, 4, 3, 6, 6]
 - DEF Robinson          FUL    26p  609m st7  app7  dc 0.14  last5 [1, 6, 2, 7, 7]
 - DEF O'Shea            IPS    26p  720m st8  app8  dc 0.38  last5 [1, 2, 11, 3, 2]
-- DEF Botman            NEW    26p  630m st7  app7  dc 0.71  last5 [1, 2, 4, 8, 3]
 
 ## Free agents by position - top 12 each
 
@@ -78,9 +78,9 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - GKP Benitez           CRY    13p  450m st5  app5  dc 0.0   last5 [2, 6, 3, 1, 1]
 - GKP Walton            IPS     9p  360m st4  app4  dc 0.0   last5 [2, 2, 2, 3]
 - GKP Scherpen          IPS     7p  360m st4  app4  dc 0.0   last5 [2, 2, 2, 1]
+- GKP Penders           CHE     7p  165m st1  app2  dc 0.0   last5 [1, 0]
 - GKP Henderson         CRY     5p  270m st3  app3  dc 0.0   last5 [2, 1, 2]
 - GKP Sánchez           CHE     2p   90m st1  app1  dc 0.0   last5 [2]  [U] Has joined Como on loan for the rest of the season
-- GKP Penders           CHE     2p  161m st1  app2  dc 0.0   last5 [1, 0]
 - GKP M.Bizot           AVL     1p   90m st1  app1  dc 0.0   last5 [1]
 - GKP Heaton            MUN     0p    0m st0  app0  dc 0.0   last5 []
 - GKP Forster           BOU     0p    0m st0  app0  dc 0.0   last5 []
@@ -143,7 +143,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Ajayi             HUL    34p  693m st8  app8  dc 0.12  last5 [1, 1, 1, 2, 4]
 - DEF Ajer              BRE    32p  720m st8  app8  dc 0.38  last5 [1, 7, 6, 3, 2]
 - MID Cherki            MCI    44p  437m st6  app7  dc 0.0   last5 [3, 1, 8, 10, 0]
-- MID Palmer            CHE    38p  754m st8  app8  dc 0.0   last5 [5, 2, 8, 2, -1]
+- MID Palmer            CHE    40p  758m st8  app8  dc 0.0   last5 [5, 2, 8, 2, -1]
 - MID Kamada            CRY    32p  700m st8  app8  dc 0.12  last5 [8, 3, 8, 1, 2]
 - MID Gibbs-White       NFO    32p  630m st7  app7  dc 0.0   last5 [3, 8, 2, 2, 2]
 - MID Henderson         CHE    25p  360m st4  app4  dc 0.0   last5 [2, 18, 3, 2]  [D] Illness - 75% chance of playing
@@ -196,9 +196,9 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Silva             BOU    29p  720m st8  app8  dc 0.75  last5 [3, 3, 0, 8, 8]
 - DEF Rúben             MCI    25p  720m st8  app8  dc 0.0   last5 [6, 1, 6, 1, 1]
 - DEF Saliba            ARS     0p    0m st0  app0  dc 0.0   last5 []  [I] Back injury - Unknown return date
-- MID Rogers            CHE    50p  756m st8  app8  dc 0.12  last5 [8, 2, 9, 2, 1]
-- MID Neto              CHE    38p  647m st7  app8  dc 0.12  last5 [2, 2, 5, 15, 3]
-- MID B.Fernandes       MUN    34p  686m st7  app7  dc 0.0   last5 [2, 2, 2, 1, 1]
+- MID Rogers            CHE    51p  760m st8  app8  dc 0.12  last5 [8, 2, 9, 2, 1]
+- MID Neto              CHE    40p  651m st7  app8  dc 0.12  last5 [2, 2, 5, 15, 3]
+- MID B.Fernandes       MUN    35p  690m st7  app7  dc 0.0   last5 [2, 2, 2, 1, 1]
 - MID Doku              MCI    21p  215m st2  app4  dc 0.0   last5 [1, 12, 6, 2]
 - MID Kroupi.Jr         BOU     1p    3m st0  app1  dc 0.0   last5 [1]
 - FWD Havertz           ARS    24p  586m st7  app8  dc 0.0   last5 [1, 2, 2, 2, 1]
@@ -215,7 +215,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Robertson         TOT    28p  498m st6  app7  dc 0.14  last5 [1, 7, 4, 5, 6]
 - DEF J.Timber          ARS     3p  155m st1  app4  dc 0.0   last5 [1, 0, 1, 1]
 - MID Belloumi          HUL    43p  595m st7  app8  dc 0.25  last5 [13, 4, 6, 2, 4]
-- MID Cunha             MUN    39p  604m st6  app8  dc 0.12  last5 [2, 10, 10, 1, 1]
+- MID Cunha             MUN    40p  608m st6  app8  dc 0.12  last5 [2, 10, 10, 1, 1]
 - MID McGinn            AVL    34p  634m st7  app8  dc 0.0   last5 [6, 6, 10, 1, 6]
 - MID Wirtz             LIV    31p  621m st8  app8  dc 0.0   last5 [3, 6, 2, 5, 6]
 - MID Hinshelwood       BHA    23p  127m st1  app3  dc 0.0   last5 [16, 6, 1]
@@ -232,7 +232,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Truffert          BOU    25p  713m st8  app8  dc 0.12  last5 [3, 2, -1, 6, 10]
 - DEF Lindelöf          AVL    22p  720m st8  app8  dc 0.25  last5 [1, 1, 3, 9, 2]
 - DEF Muñoz             NFO    15p  527m st6  app7  dc 0.0   last5 [2, 2, 1, 2, 7]
-- MID Mbeumo            MUN    44p  776m st8  app8  dc 0.0   last5 [2, 2, 8, 8, 2]
+- MID Mbeumo            MUN    45p  780m st8  app8  dc 0.0   last5 [2, 2, 8, 8, 2]
 - MID Gomez             BHA    39p  700m st8  app8  dc 0.25  last5 [3, 8, 5, 8, 2]
 - MID Ødegaard          ARS    36p  646m st8  app8  dc 0.0   last5 [3, 2, 1, 3, 3]
 - MID Gakpo             LIV    35p  460m st5  app6  dc 0.17  last5 [5, 11, 1, 3, 3]
@@ -244,7 +244,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 ### TheSunnysideDons
 
 - GKP Petrović          BOU    22p  720m st8  app8  dc 0.0   last5 [1, 2, 0, 6, 7]
-- GKP Lammens           MUN    19p  776m st8  app8  dc 0.0   last5 [2, 4, 2, 3, 1]
+- GKP Lammens           MUN    20p  780m st8  app8  dc 0.0   last5 [2, 4, 2, 3, 1]
 - DEF De Cuyper         BHA    60p  670m st8  app8  dc 0.0   last5 [11, 6, 15, 6, 1]
 - DEF Gabriel           ARS    52p  720m st8  app8  dc 0.5   last5 [9, 1, 2, 8, 17]
 - DEF Branthwaite       EVE    31p  630m st7  app7  dc 0.57  last5 [3, 6, 8, 3, 1]  [D] Concussion - 75% chance of playing
