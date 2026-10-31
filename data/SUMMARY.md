@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-31T22:26:34Z | last finished GW8 | next GW9
+Updated 2026-10-31T22:33:41Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -199,7 +199,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Rogers            CHE    50p  790m st8  app8  dc 0.12  last5 [8, 2, 9, 2, 1]
 - MID Neto              CHE    40p  677m st7  app8  dc 0.12  last5 [2, 2, 5, 15, 3]
 - MID B.Fernandes       MUN    35p  720m st7  app7  dc 0.0   last5 [2, 2, 2, 1, 1]
-- MID Doku              MCI    25p  305m st2  app4  dc 0.0   last5 [1, 12, 6, 2]
+- MID Doku              MCI    23p  305m st2  app4  dc 0.0   last5 [1, 12, 6, 2]
 - MID Kroupi.Jr         BOU     5p   25m st0  app1  dc 0.0   last5 [1]
 - FWD Havertz           ARS    24p  586m st7  app8  dc 0.0   last5 [1, 2, 2, 2, 1]
 - FWD Wissa             NEW    19p  621m st7  app8  dc 0.0   last5 [2, 0, 2, 1, 1]
