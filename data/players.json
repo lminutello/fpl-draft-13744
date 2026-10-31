@@ -11679,6 +11679,21 @@
   "status": "a",
   "team": "BOU"
  },
+ "670": {
+  "appearances": 0,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 670,
+  "last5": [],
+  "minutes": 0,
+  "name": "Subuloye",
+  "news": "",
+  "points": 0,
+  "pos": "DEF",
+  "starts": 0,
+  "status": "a",
+  "team": "CHE"
+ },
  "68": {
   "appearances": 8,
   "defcon_hits": 0,

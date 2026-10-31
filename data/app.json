@@ -355,36 +355,36 @@
   },
   {
    "a": "68987",
-   "ap": 0,
+   "ap": 30,
    "b": "69109",
-   "bp": 0,
+   "bp": 31,
    "finished": false,
    "gw": 9,
    "started": true
   },
   {
    "a": "69214",
-   "ap": 0,
+   "ap": 20,
    "b": "218178",
-   "bp": 0,
+   "bp": 31,
    "finished": false,
    "gw": 9,
    "started": true
   },
   {
    "a": "70998",
-   "ap": 0,
+   "ap": 24,
    "b": "175417",
-   "bp": 0,
+   "bp": 33,
    "finished": false,
    "gw": 9,
    "started": true
   },
   {
    "a": "72084",
-   "ap": 0,
+   "ap": 35,
    "b": "72121",
-   "bp": 0,
+   "bp": 36,
    "finished": false,
    "gw": 9,
    "started": true
@@ -1520,5 +1520,5 @@
    "w": 2
   }
  ],
- "updated_utc": "2026-10-31T23:08:59Z"
+ "updated_utc": "2026-10-31T23:16:03Z"
 }
