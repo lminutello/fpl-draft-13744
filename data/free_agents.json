@@ -139,11 +139,11 @@
   ],
   "minutes": 651,
   "name": "Stach",
-  "news": "Foot injury - 50% chance of playing",
+  "news": "",
   "points": 32,
   "pos": "MID",
   "starts": 7,
-  "status": "d",
+  "status": "a",
   "team": "LEE"
  },
  {
@@ -517,11 +517,11 @@
   ],
   "minutes": 527,
   "name": "Ndoye",
-  "news": "Hamstring injury - 50% chance of playing",
+  "news": "",
   "points": 27,
   "pos": "MID",
   "starts": 8,
-  "status": "d",
+  "status": "a",
   "team": "NFO"
  },
  {
@@ -1733,11 +1733,11 @@
   ],
   "minutes": 342,
   "name": "Andrés",
-  "news": "Hip injury - 75% chance of playing",
+  "news": "",
   "points": 18,
   "pos": "MID",
   "starts": 4,
-  "status": "d",
+  "status": "a",
   "team": "BHA"
  },
  {
@@ -1838,11 +1838,11 @@
   ],
   "minutes": 207,
   "name": "Isidor",
-  "news": "Knock - 50% chance of playing",
+  "news": "",
   "points": 17,
   "pos": "FWD",
   "starts": 1,
-  "status": "d",
+  "status": "a",
   "team": "SUN"
  },
  {

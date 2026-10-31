@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-31T14:31:26Z | last finished GW8 | next GW9
+Updated 2026-10-31T14:38:31Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -44,7 +44,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Ayari             BHA    33p  574m st7  app7  dc 0.0   last5 [8, 3, 3, 13, 2]
 - MID Iwobi             FUL    32p  657m st8  app8  dc 0.0   last5 [3, 5, 4, 11, 3]
 - DEF Thomas            COV    32p  676m st8  app8  dc 0.62  last5 [0, 9, 4, 3, 1]  [D] Calf injury - 50% chance of playing
-- MID Stach             LEE    32p  651m st7  app8  dc 0.38  last5 [3, 5, 2, 2, 1]  [D] Foot injury - 50% chance of playing
+- MID Stach             LEE    32p  651m st7  app8  dc 0.38  last5 [3, 5, 2, 2, 1]
 - DEF Dunk              BHA    30p  569m st6  app7  dc 0.14  last5 [5, 12, 1, 6, 1]
 - MID Bobb              FUL    30p  575m st8  app8  dc 0.0   last5 [3, 3, 3, 3, 11]
 - MID Scott             BOU    30p  446m st5  app5  dc 0.4   last5 [2, 12, 10, 4, 2]  [I] Thigh injury - Expected back 21 Nov
@@ -62,7 +62,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Mendy             HUL    28p  339m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]
 - DEF Dasilva           COV    27p  714m st8  app8  dc 0.0   last5 [0, 15, 5, 0, 2]
 - MID Willock           NEW    27p  473m st6  app8  dc 0.0   last5 [1, 10, 1, 1, 3]
-- MID Ndoye             NFO    27p  527m st8  app8  dc 0.0   last5 [1, 1, 7, 3, 2]  [D] Hamstring injury - 50% chance of playing
+- MID Ndoye             NFO    27p  527m st8  app8  dc 0.0   last5 [1, 1, 7, 3, 2]
 - MID E.Le Fée          SUN    27p  686m st8  app8  dc 0.12  last5 [0, 5, 2, 4, 3]
 - DEF Affengruber       FUL    27p  450m st5  app5  dc 0.6   last5 [8, 4, 3, 6, 6]
 - DEF Robinson          FUL    26p  609m st7  app7  dc 0.14  last5 [1, 6, 2, 7, 7]
@@ -106,7 +106,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Lewis-Potter      BRE    35p  625m st8  app8  dc 0.0   last5 [1, 3, 2, 9, 2]
 - MID Ayari             BHA    33p  574m st7  app7  dc 0.0   last5 [8, 3, 3, 13, 2]
 - MID Iwobi             FUL    32p  657m st8  app8  dc 0.0   last5 [3, 5, 4, 11, 3]
-- MID Stach             LEE    32p  651m st7  app8  dc 0.38  last5 [3, 5, 2, 2, 1]  [D] Foot injury - 50% chance of playing
+- MID Stach             LEE    32p  651m st7  app8  dc 0.38  last5 [3, 5, 2, 2, 1]
 - MID Bobb              FUL    30p  575m st8  app8  dc 0.0   last5 [3, 3, 3, 3, 11]
 - MID Scott             BOU    30p  446m st5  app5  dc 0.4   last5 [2, 12, 10, 4, 2]  [I] Thigh injury - Expected back 21 Nov
 - MID Enciso            IPS    29p  645m st8  app8  dc 0.0   last5 [2, 2, 2, 2, 10]
@@ -119,7 +119,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 ### FWD
 
 - FWD Gonzalo           FUL    20p  668m st8  app8  dc 0.0   last5 [2, 2, 2, 2, 2]
-- FWD Isidor            SUN    17p  207m st1  app6  dc 0.0   last5 [8, 4, 1, 1, 2]  [D] Knock - 50% chance of playing
+- FWD Isidor            SUN    17p  207m st1  app6  dc 0.0   last5 [8, 4, 1, 1, 2]
 - FWD Cherif            COV    16p  232m st3  app4  dc 0.0   last5 [1, 12, 1, 2]
 - FWD Flemming          IPS    13p  121m st0  app6  dc 0.0   last5 [5, 0, 1, 5, 1]
 - FWD Georginio         BHA    12p  140m st1  app5  dc 0.0   last5 [5, 1, 4, 1, 1]
@@ -196,7 +196,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Silva             BOU    29p  720m st8  app8  dc 0.75  last5 [3, 3, 0, 8, 8]
 - DEF Rúben             MCI    25p  720m st8  app8  dc 0.0   last5 [6, 1, 6, 1, 1]
 - DEF Saliba            ARS     0p    0m st0  app0  dc 0.0   last5 []  [I] Back injury - Unknown return date
-- MID Rogers            CHE    50p  790m st8  app8  dc 0.12  last5 [8, 2, 9, 2, 1]
+- MID Rogers            CHE    49p  790m st8  app8  dc 0.12  last5 [8, 2, 9, 2, 1]
 - MID Neto              CHE    40p  677m st7  app8  dc 0.12  last5 [2, 2, 5, 15, 3]
 - MID B.Fernandes       MUN    35p  720m st7  app7  dc 0.0   last5 [2, 2, 2, 1, 1]
 - MID Doku              MCI    21p  215m st2  app4  dc 0.0   last5 [1, 12, 6, 2]
