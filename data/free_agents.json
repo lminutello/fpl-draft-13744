@@ -158,7 +158,7 @@
    8,
    8
   ],
-  "minutes": 756,
+  "minutes": 761,
   "name": "Bassey",
   "news": "",
   "points": 34,
@@ -179,7 +179,7 @@
    11,
    3
   ],
-  "minutes": 693,
+  "minutes": 698,
   "name": "Iwobi",
   "news": "",
   "points": 33,
@@ -252,27 +252,6 @@
   "team": "COV"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 597,
-  "last5": [
-   2,
-   2,
-   2,
-   8,
-   4
-  ],
-  "minutes": 666,
-  "name": "Suzuki",
-  "news": "",
-  "points": 32,
-  "pos": "GKP",
-  "starts": 7,
-  "status": "a",
-  "team": "AVL"
- },
- {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -284,7 +263,7 @@
    3,
    11
   ],
-  "minutes": 611,
+  "minutes": 616,
   "name": "Bobb",
   "news": "",
   "points": 31,
@@ -337,24 +316,24 @@
  },
  {
   "appearances": 7,
-  "defcon_hits": 1,
-  "defcon_rate": 0.14,
-  "id": 254,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 597,
   "last5": [
-   1,
-   6,
    2,
-   7,
-   7
+   2,
+   2,
+   8,
+   4
   ],
-  "minutes": 645,
-  "name": "Robinson",
+  "minutes": 671,
+  "name": "Suzuki",
   "news": "",
-  "points": 30,
-  "pos": "DEF",
+  "points": 31,
+  "pos": "GKP",
   "starts": 7,
   "status": "a",
-  "team": "FUL"
+  "team": "AVL"
  },
  {
   "appearances": 8,
@@ -452,7 +431,7 @@
    5,
    4
   ],
-  "minutes": 749,
+  "minutes": 754,
   "name": "Kamara",
   "news": "",
   "points": 29,
@@ -609,6 +588,27 @@
   "team": "EVE"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 1,
+  "defcon_rate": 0.14,
+  "id": 254,
+  "last5": [
+   1,
+   6,
+   2,
+   7,
+   7
+  ],
+  "minutes": 650,
+  "name": "Robinson",
+  "news": "",
+  "points": 27,
+  "pos": "DEF",
+  "starts": 7,
+  "status": "a",
+  "team": "FUL"
+ },
+ {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -725,7 +725,7 @@
    6,
    6
   ],
-  "minutes": 486,
+  "minutes": 491,
   "name": "Affengruber",
   "news": "",
   "points": 27,
@@ -1354,7 +1354,7 @@
    3,
    2
   ],
-  "minutes": 589,
+  "minutes": 594,
   "name": "Charles",
   "news": "",
   "points": 22,
@@ -1480,7 +1480,7 @@
    2,
    2
   ],
-  "minutes": 704,
+  "minutes": 709,
   "name": "Gonzalo",
   "news": "",
   "points": 21,
@@ -1543,7 +1543,7 @@
    5,
    1
   ],
-  "minutes": 592,
+  "minutes": 597,
   "name": "Berge",
   "news": "",
   "points": 20,
@@ -1899,7 +1899,7 @@
    8,
    3
   ],
-  "minutes": 602,
+  "minutes": 607,
   "name": "Cash",
   "news": "",
   "points": 18,
@@ -2918,7 +2918,7 @@
    1,
    2
   ],
-  "minutes": 461,
+  "minutes": 466,
   "name": "Maatsen",
   "news": "",
   "points": 12,
@@ -3185,7 +3185,7 @@
    0,
    1
   ],
-  "minutes": 230,
+  "minutes": 235,
   "name": "Alysson",
   "news": "",
   "points": 11,
@@ -4131,7 +4131,7 @@
    1,
    2
   ],
-  "minutes": 326,
+  "minutes": 331,
   "name": "Pau",
   "news": "",
   "points": 7,
@@ -5637,7 +5637,7 @@
    1,
    1
   ],
-  "minutes": 62,
+  "minutes": 67,
   "name": "Goretzka",
   "news": "",
   "points": 3,
