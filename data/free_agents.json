@@ -557,7 +557,7 @@
    4,
    4
   ],
-  "minutes": 446,
+  "minutes": 451,
   "name": "Mainoo",
   "news": "",
   "points": 27,
@@ -956,7 +956,7 @@
    1,
    1
   ],
-  "minutes": 337,
+  "minutes": 342,
   "name": "Lavia",
   "news": "",
   "points": 23,
@@ -998,7 +998,7 @@
    7,
    1
   ],
-  "minutes": 551,
+  "minutes": 556,
   "name": "Acheampong",
   "news": "",
   "points": 23,
@@ -1364,6 +1364,26 @@
   "team": "LEE"
  },
  {
+  "appearances": 4,
+  "defcon_hits": 2,
+  "defcon_rate": 0.5,
+  "id": 145,
+  "last5": [
+   0,
+   3,
+   1,
+   4
+  ],
+  "minutes": 377,
+  "name": "Fofana",
+  "news": "",
+  "points": 20,
+  "pos": "DEF",
+  "starts": 4,
+  "status": "a",
+  "team": "CHE"
+ },
+ {
   "appearances": 7,
   "defcon_hits": 1,
   "defcon_rate": 0.14,
@@ -1375,7 +1395,7 @@
    6,
    3
   ],
-  "minutes": 671,
+  "minutes": 676,
   "name": "Colwill",
   "news": "",
   "points": 20,
@@ -1593,27 +1613,6 @@
   "starts": 5,
   "status": "a",
   "team": "LIV"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 2,
-  "defcon_rate": 0.25,
-  "id": 418,
-  "last5": [
-   1,
-   2,
-   2,
-   4,
-   0
-  ],
-  "minutes": 780,
-  "name": "Maguire",
-  "news": "",
-  "points": 18,
-  "pos": "DEF",
-  "starts": 8,
-  "status": "a",
-  "team": "MUN"
  },
  {
   "appearances": 6,
@@ -1868,26 +1867,6 @@
   "team": "IPS"
  },
  {
-  "appearances": 4,
-  "defcon_hits": 2,
-  "defcon_rate": 0.5,
-  "id": 145,
-  "last5": [
-   0,
-   3,
-   1,
-   4
-  ],
-  "minutes": 372,
-  "name": "Fofana",
-  "news": "",
-  "points": 17,
-  "pos": "DEF",
-  "starts": 4,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 7,
   "defcon_hits": 1,
   "defcon_rate": 0.14,
@@ -1949,6 +1928,27 @@
   "starts": 8,
   "status": "a",
   "team": "BOU"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 2,
+  "defcon_rate": 0.25,
+  "id": 418,
+  "last5": [
+   1,
+   2,
+   2,
+   4,
+   0
+  ],
+  "minutes": 785,
+  "name": "Maguire",
+  "news": "",
+  "points": 16,
+  "pos": "DEF",
+  "starts": 8,
+  "status": "a",
+  "team": "MUN"
  },
  {
   "appearances": 5,
@@ -2118,27 +2118,6 @@
   "team": "IPS"
  },
  {
-  "appearances": 8,
-  "defcon_hits": 1,
-  "defcon_rate": 0.12,
-  "id": 417,
-  "last5": [
-   2,
-   2,
-   0,
-   4,
-   1
-  ],
-  "minutes": 617,
-  "name": "Dalot",
-  "news": "",
-  "points": 15,
-  "pos": "DEF",
-  "starts": 6,
-  "status": "a",
-  "team": "MUN"
- },
- {
   "appearances": 7,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -2284,6 +2263,27 @@
   "starts": 2,
   "status": "a",
   "team": "TOT"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 1,
+  "defcon_rate": 0.12,
+  "id": 417,
+  "last5": [
+   2,
+   2,
+   0,
+   4,
+   1
+  ],
+  "minutes": 622,
+  "name": "Dalot",
+  "news": "",
+  "points": 14,
+  "pos": "DEF",
+  "starts": 6,
+  "status": "a",
+  "team": "MUN"
  },
  {
   "appearances": 5,
@@ -2641,27 +2641,6 @@
  },
  {
   "appearances": 7,
-  "defcon_hits": 2,
-  "defcon_rate": 0.29,
-  "id": 419,
-  "last5": [
-   2,
-   0,
-   3,
-   1,
-   1
-  ],
-  "minutes": 580,
-  "name": "Martinez",
-  "news": "",
-  "points": 12,
-  "pos": "DEF",
-  "starts": 6,
-  "status": "a",
-  "team": "MUN"
- },
- {
-  "appearances": 7,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
   "id": 247,
@@ -2782,27 +2761,6 @@
   "starts": 2,
   "status": "a",
   "team": "ARS"
- },
- {
-  "appearances": 5,
-  "defcon_hits": 2,
-  "defcon_rate": 0.4,
-  "id": 420,
-  "last5": [
-   1,
-   1,
-   3,
-   4,
-   1
-  ],
-  "minutes": 320,
-  "name": "Yoro",
-  "news": "",
-  "points": 12,
-  "pos": "DEF",
-  "starts": 3,
-  "status": "a",
-  "team": "MUN"
  },
  {
   "appearances": 7,
@@ -2989,6 +2947,27 @@
   "starts": 1,
   "status": "a",
   "team": "HUL"
+ },
+ {
+  "appearances": 5,
+  "defcon_hits": 2,
+  "defcon_rate": 0.4,
+  "id": 420,
+  "last5": [
+   1,
+   1,
+   3,
+   4,
+   1
+  ],
+  "minutes": 325,
+  "name": "Yoro",
+  "news": "",
+  "points": 11,
+  "pos": "DEF",
+  "starts": 3,
+  "status": "a",
+  "team": "MUN"
  },
  {
   "appearances": 7,
@@ -3248,7 +3227,7 @@
    1,
    3
   ],
-  "minutes": 322,
+  "minutes": 327,
   "name": "Andrey Santos",
   "news": "",
   "points": 10,
@@ -3465,6 +3444,27 @@
   "team": "ARS"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 2,
+  "defcon_rate": 0.29,
+  "id": 419,
+  "last5": [
+   2,
+   0,
+   3,
+   1,
+   1
+  ],
+  "minutes": 582,
+  "name": "Martinez",
+  "news": "",
+  "points": 9,
+  "pos": "DEF",
+  "starts": 6,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
   "appearances": 4,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3517,7 +3517,7 @@
    1,
    1
   ],
-  "minutes": 107,
+  "minutes": 112,
   "name": "Estêvão",
   "news": "",
   "points": 9,
@@ -3738,7 +3738,7 @@
    1,
    0
   ],
-  "minutes": 104,
+  "minutes": 109,
   "name": "Palestra",
   "news": "",
   "points": 8,
@@ -3952,7 +3952,7 @@
    2,
    2
   ],
-  "minutes": 285,
+  "minutes": 290,
   "name": "Amad",
   "news": "",
   "points": 7,
@@ -4032,7 +4032,7 @@
    1,
    0
   ],
-  "minutes": 165,
+  "minutes": 170,
   "name": "Penders",
   "news": "",
   "points": 7,

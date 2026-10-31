@@ -496,7 +496,7 @@
     1,
     1
    ],
-   "minutes": 608,
+   "minutes": 613,
    "name": "Cunha",
    "news": "",
    "points": 40,
@@ -1185,7 +1185,7 @@
     3,
     2
    ],
-   "minutes": 324,
+   "minutes": 329,
    "name": "Caicedo",
    "news": "",
    "points": 11,
@@ -1407,6 +1407,27 @@
    "team": "BRE"
   },
   {
+   "appearances": 8,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
+   "id": 154,
+   "last5": [
+    5,
+    2,
+    8,
+    2,
+    -1
+   ],
+   "minutes": 763,
+   "name": "Palmer",
+   "news": "",
+   "points": 45,
+   "pos": "MID",
+   "starts": 8,
+   "status": "a",
+   "team": "CHE"
+  },
+  {
    "appearances": 7,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
@@ -1426,27 +1447,6 @@
    "starts": 6,
    "status": "a",
    "team": "MCI"
-  },
-  {
-   "appearances": 8,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
-   "id": 154,
-   "last5": [
-    5,
-    2,
-    8,
-    2,
-    -1
-   ],
-   "minutes": 758,
-   "name": "Palmer",
-   "news": "",
-   "points": 40,
-   "pos": "MID",
-   "starts": 8,
-   "status": "a",
-   "team": "CHE"
   },
   {
    "appearances": 8,
@@ -1608,10 +1608,10 @@
     3,
     1
    ],
-   "minutes": 780,
+   "minutes": 785,
    "name": "Lammens",
    "news": "",
-   "points": 20,
+   "points": 19,
    "pos": "GKP",
    "starts": 8,
    "status": "a",
@@ -2051,7 +2051,7 @@
     8,
     2
    ],
-   "minutes": 780,
+   "minutes": 785,
    "name": "Mbeumo",
    "news": "",
    "points": 45,
@@ -2362,7 +2362,7 @@
     2,
     1
    ],
-   "minutes": 760,
+   "minutes": 765,
    "name": "Rogers",
    "news": "",
    "points": 51,
@@ -2383,7 +2383,7 @@
     15,
     3
    ],
-   "minutes": 651,
+   "minutes": 656,
    "name": "Neto",
    "news": "",
    "points": 40,
@@ -2404,7 +2404,7 @@
     1,
     1
    ],
-   "minutes": 690,
+   "minutes": 695,
    "name": "B.Fernandes",
    "news": "",
    "points": 35,
