@@ -698,7 +698,7 @@
    2,
    2
   ],
-  "minutes": 223,
+  "minutes": 231,
   "name": "Baleba",
   "news": "",
   "points": 8,
@@ -961,10 +961,10 @@
    1,
    4
   ],
-  "minutes": 360,
+  "minutes": 368,
   "name": "Fofana",
   "news": "",
-  "points": 11,
+  "points": 10,
   "pos": "DEF",
   "starts": 4,
   "status": "a",
@@ -1036,7 +1036,7 @@
    6,
    3
   ],
-  "minutes": 659,
+  "minutes": 667,
   "name": "Colwill",
   "news": "",
   "points": 15,
@@ -1093,10 +1093,10 @@
    7,
    1
   ],
-  "minutes": 539,
+  "minutes": 547,
   "name": "Acheampong",
   "news": "",
-  "points": 19,
+  "points": 16,
   "pos": "DEF",
   "starts": 5,
   "status": "a",
@@ -1112,7 +1112,7 @@
    1,
    0
   ],
-  "minutes": 92,
+  "minutes": 100,
   "name": "Palestra",
   "news": "",
   "points": 3,
@@ -1153,7 +1153,7 @@
    2,
    -1
   ],
-  "minutes": 746,
+  "minutes": 754,
   "name": "Palmer",
   "news": "",
   "points": 38,
@@ -1195,7 +1195,7 @@
    15,
    3
   ],
-  "minutes": 639,
+  "minutes": 647,
   "name": "Neto",
   "news": "",
   "points": 38,
@@ -1216,7 +1216,7 @@
    1,
    1
   ],
-  "minutes": 95,
+  "minutes": 103,
   "name": "Estêvão",
   "news": "",
   "points": 7,
@@ -1251,7 +1251,7 @@
    3,
    2
   ],
-  "minutes": 312,
+  "minutes": 320,
   "name": "Caicedo",
   "news": "",
   "points": 9,
@@ -1312,10 +1312,10 @@
    1,
    1
   ],
-  "minutes": 325,
+  "minutes": 333,
   "name": "Lavia",
   "news": "",
-  "points": 17,
+  "points": 21,
   "pos": "MID",
   "starts": 4,
   "status": "a",
@@ -1333,7 +1333,7 @@
    1,
    3
   ],
-  "minutes": 310,
+  "minutes": 318,
   "name": "Andrey Santos",
   "news": "",
   "points": 9,
@@ -6169,10 +6169,10 @@
    2,
    1
   ],
-  "minutes": 748,
+  "minutes": 756,
   "name": "Rogers",
   "news": "",
-  "points": 42,
+  "points": 50,
   "pos": "MID",
   "starts": 8,
   "status": "a",
@@ -6423,7 +6423,7 @@
    3,
    1
   ],
-  "minutes": 768,
+  "minutes": 776,
   "name": "Lammens",
   "news": "",
   "points": 19,
@@ -6510,7 +6510,7 @@
    4,
    1
   ],
-  "minutes": 605,
+  "minutes": 613,
   "name": "Dalot",
   "news": "",
   "points": 14,
@@ -6531,7 +6531,7 @@
    4,
    0
   ],
-  "minutes": 768,
+  "minutes": 776,
   "name": "Maguire",
   "news": "",
   "points": 17,
@@ -6552,7 +6552,7 @@
    1,
    1
   ],
-  "minutes": 568,
+  "minutes": 576,
   "name": "Martinez",
   "news": "",
   "points": 12,
@@ -6591,7 +6591,7 @@
    4,
    1
   ],
-  "minutes": 308,
+  "minutes": 316,
   "name": "Yoro",
   "news": "",
   "points": 11,
@@ -6702,7 +6702,7 @@
    1,
    1
   ],
-  "minutes": 678,
+  "minutes": 686,
   "name": "B.Fernandes",
   "news": "",
   "points": 34,
@@ -6723,7 +6723,7 @@
    8,
    2
   ],
-  "minutes": 768,
+  "minutes": 776,
   "name": "Mbeumo",
   "news": "",
   "points": 44,
@@ -6744,7 +6744,7 @@
    1,
    1
   ],
-  "minutes": 596,
+  "minutes": 604,
   "name": "Cunha",
   "news": "",
   "points": 39,
@@ -6824,7 +6824,7 @@
    2,
    2
   ],
-  "minutes": 273,
+  "minutes": 281,
   "name": "Amad",
   "news": "",
   "points": 6,
@@ -9404,7 +9404,7 @@
    1,
    0
   ],
-  "minutes": 153,
+  "minutes": 161,
   "name": "Penders",
   "news": "",
   "points": 2,
