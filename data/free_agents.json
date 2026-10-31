@@ -11,10 +11,10 @@
    13,
    2
   ],
-  "minutes": 636,
+  "minutes": 639,
   "name": "Ayari",
   "news": "",
-  "points": 44,
+  "points": 43,
   "pos": "MID",
   "starts": 7,
   "status": "a",
@@ -32,7 +32,7 @@
    10,
    -1
   ],
-  "minutes": 691,
+  "minutes": 692,
   "name": "Boscagli",
   "news": "",
   "points": 39,
@@ -53,7 +53,7 @@
    9,
    2
   ],
-  "minutes": 689,
+  "minutes": 693,
   "name": "Lewis-Potter",
   "news": "",
   "points": 38,
@@ -61,27 +61,6 @@
   "starts": 8,
   "status": "a",
   "team": "BRE"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 1,
-  "defcon_rate": 0.12,
-  "id": 183,
-  "last5": [
-   2,
-   5,
-   7,
-   6,
-   2
-  ],
-  "minutes": 618,
-  "name": "Rudoni",
-  "news": "",
-  "points": 38,
-  "pos": "MID",
-  "starts": 7,
-  "status": "a",
-  "team": "COV"
  },
  {
   "appearances": 7,
@@ -95,7 +74,7 @@
    6,
    1
   ],
-  "minutes": 631,
+  "minutes": 634,
   "name": "Dunk",
   "news": "",
   "points": 36,
@@ -106,24 +85,45 @@
  },
  {
   "appearances": 8,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 176,
+  "defcon_hits": 1,
+  "defcon_rate": 0.12,
+  "id": 183,
   "last5": [
-   0,
-   15,
+   2,
    5,
-   0,
+   7,
+   6,
    2
   ],
-  "minutes": 777,
-  "name": "Dasilva",
+  "minutes": 623,
+  "name": "Rudoni",
   "news": "",
-  "points": 33,
-  "pos": "DEF",
-  "starts": 8,
+  "points": 36,
+  "pos": "MID",
+  "starts": 7,
   "status": "a",
   "team": "COV"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 1,
+  "defcon_rate": 0.12,
+  "id": 542,
+  "last5": [
+   0,
+   5,
+   2,
+   4,
+   3
+  ],
+  "minutes": 754,
+  "name": "E.Le Fée",
+  "news": "",
+  "points": 36,
+  "pos": "MID",
+  "starts": 8,
+  "status": "a",
+  "team": "SUN"
  },
  {
   "appearances": 8,
@@ -158,7 +158,7 @@
    2,
    3
   ],
-  "minutes": 783,
+  "minutes": 788,
   "name": "Xhaka",
   "news": "",
   "points": 32,
@@ -242,7 +242,7 @@
    1,
    2
   ],
-  "minutes": 653,
+  "minutes": 658,
   "name": "Giles",
   "news": "",
   "points": 31,
@@ -284,7 +284,7 @@
    2,
    10
   ],
-  "minutes": 705,
+  "minutes": 710,
   "name": "Enciso",
   "news": "",
   "points": 31,
@@ -305,7 +305,7 @@
    0,
    2
   ],
-  "minutes": 780,
+  "minutes": 785,
   "name": "Davis",
   "news": "",
   "points": 30,
@@ -368,7 +368,7 @@
    1,
    3
   ],
-  "minutes": 399,
+  "minutes": 404,
   "name": "Mendy",
   "news": "",
   "points": 30,
@@ -397,6 +397,27 @@
   "starts": 7,
   "status": "a",
   "team": "AVL"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 176,
+  "last5": [
+   0,
+   15,
+   5,
+   0,
+   2
+  ],
+  "minutes": 782,
+  "name": "Dasilva",
+  "news": "",
+  "points": 29,
+  "pos": "DEF",
+  "starts": 8,
+  "status": "a",
+  "team": "COV"
  },
  {
   "appearances": 7,
@@ -444,27 +465,6 @@
   "appearances": 8,
   "defcon_hits": 1,
   "defcon_rate": 0.12,
-  "id": 542,
-  "last5": [
-   0,
-   5,
-   2,
-   4,
-   3
-  ],
-  "minutes": 749,
-  "name": "E.Le Fée",
-  "news": "",
-  "points": 29,
-  "pos": "MID",
-  "starts": 8,
-  "status": "a",
-  "team": "SUN"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 1,
-  "defcon_rate": 0.12,
   "id": 41,
   "last5": [
    2,
@@ -486,6 +486,27 @@
   "appearances": 8,
   "defcon_hits": 3,
   "defcon_rate": 0.38,
+  "id": 338,
+  "last5": [
+   7,
+   5,
+   1,
+   1,
+   2
+  ],
+  "minutes": 785,
+  "name": "Ampadu",
+  "news": "",
+  "points": 28,
+  "pos": "MID",
+  "starts": 8,
+  "status": "a",
+  "team": "LEE"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 3,
+  "defcon_rate": 0.38,
   "id": 304,
   "last5": [
    1,
@@ -494,7 +515,7 @@
    3,
    2
   ],
-  "minutes": 780,
+  "minutes": 785,
   "name": "O'Shea",
   "news": "",
   "points": 28,
@@ -515,7 +536,7 @@
    1,
    6
   ],
-  "minutes": 440,
+  "minutes": 449,
   "name": "Kluivert",
   "news": "",
   "points": 28,
@@ -570,48 +591,6 @@
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
-  "id": 110,
-  "last5": [
-   0,
-   11,
-   3,
-   1,
-   2
-  ],
-  "minutes": 783,
-  "name": "Rushworth",
-  "news": "",
-  "points": 28,
-  "pos": "GKP",
-  "starts": 8,
-  "status": "a",
-  "team": "COV"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 3,
-  "defcon_rate": 0.38,
-  "id": 338,
-  "last5": [
-   7,
-   5,
-   1,
-   1,
-   2
-  ],
-  "minutes": 776,
-  "name": "Ampadu",
-  "news": "",
-  "points": 27,
-  "pos": "MID",
-  "starts": 8,
-  "status": "a",
-  "team": "LEE"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
   "id": 460,
   "last5": [
    1,
@@ -630,27 +609,6 @@
   "team": "NEW"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 4,
-  "defcon_rate": 0.57,
-  "id": 91,
-  "last5": [
-   2,
-   8,
-   2,
-   1,
-   4
-  ],
-  "minutes": 615,
-  "name": "Pinnock",
-  "news": "",
-  "points": 27,
-  "pos": "DEF",
-  "starts": 6,
-  "status": "a",
-  "team": "COV"
- },
- {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -662,7 +620,7 @@
    1,
    10
   ],
-  "minutes": 388,
+  "minutes": 392,
   "name": "O.Dango",
   "news": "",
   "points": 27,
@@ -683,7 +641,7 @@
    3,
    2
   ],
-  "minutes": 461,
+  "minutes": 466,
   "name": "Ouattara",
   "news": "",
   "points": 27,
@@ -851,7 +809,7 @@
    2,
    5
   ],
-  "minutes": 744,
+  "minutes": 748,
   "name": "McAtee",
   "news": "",
   "points": 25,
@@ -945,6 +903,27 @@
   "team": "CHE"
  },
  {
+  "appearances": 8,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 110,
+  "last5": [
+   0,
+   11,
+   3,
+   1,
+   2
+  ],
+  "minutes": 788,
+  "name": "Rushworth",
+  "news": "",
+  "points": 24,
+  "pos": "GKP",
+  "starts": 8,
+  "status": "a",
+  "team": "COV"
+ },
+ {
   "appearances": 7,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -1006,6 +985,48 @@
   "starts": 5,
   "status": "a",
   "team": "NEW"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 3,
+  "defcon_rate": 0.38,
+  "id": 73,
+  "last5": [
+   2,
+   4,
+   1,
+   3,
+   4
+  ],
+  "minutes": 612,
+  "name": "Adams",
+  "news": "",
+  "points": 23,
+  "pos": "MID",
+  "starts": 6,
+  "status": "a",
+  "team": "BOU"
+ },
+ {
+  "appearances": 7,
+  "defcon_hits": 4,
+  "defcon_rate": 0.57,
+  "id": 91,
+  "last5": [
+   2,
+   8,
+   2,
+   1,
+   4
+  ],
+  "minutes": 620,
+  "name": "Pinnock",
+  "news": "",
+  "points": 23,
+  "pos": "DEF",
+  "starts": 6,
+  "status": "a",
+  "team": "COV"
  },
  {
   "appearances": 8,
@@ -1137,6 +1158,27 @@
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
+  "id": 64,
+  "last5": [
+   0,
+   2,
+   0,
+   6,
+   6
+  ],
+  "minutes": 747,
+  "name": "Smith",
+  "news": "",
+  "points": 22,
+  "pos": "DEF",
+  "starts": 8,
+  "status": "a",
+  "team": "BOU"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
   "id": 290,
   "last5": [
    2,
@@ -1145,7 +1187,7 @@
    1,
    2
   ],
-  "minutes": 735,
+  "minutes": 740,
   "name": "Slater",
   "news": "",
   "points": 22,
@@ -1153,6 +1195,27 @@
   "starts": 8,
   "status": "a",
   "team": "HUL"
+ },
+ {
+  "appearances": 7,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 345,
+  "last5": [
+   6,
+   2,
+   1,
+   2,
+   3
+  ],
+  "minutes": 558,
+  "name": "Tanaka",
+  "news": "",
+  "points": 22,
+  "pos": "MID",
+  "starts": 6,
+  "status": "a",
+  "team": "LEE"
  },
  {
   "appearances": 6,
@@ -1166,7 +1229,7 @@
    1,
    9
   ],
-  "minutes": 271,
+  "minutes": 276,
   "name": "Iroegbunam",
   "news": "",
   "points": 22,
@@ -1270,7 +1333,7 @@
    2,
    2
   ],
-  "minutes": 652,
+  "minutes": 657,
   "name": "Coyle",
   "news": "",
   "points": 21,
@@ -1278,48 +1341,6 @@
   "starts": 8,
   "status": "a",
   "team": "HUL"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 3,
-  "defcon_rate": 0.38,
-  "id": 73,
-  "last5": [
-   2,
-   4,
-   1,
-   3,
-   4
-  ],
-  "minutes": 603,
-  "name": "Adams",
-  "news": "",
-  "points": 21,
-  "pos": "MID",
-  "starts": 6,
-  "status": "a",
-  "team": "BOU"
- },
- {
-  "appearances": 7,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 345,
-  "last5": [
-   6,
-   2,
-   1,
-   2,
-   3
-  ],
-  "minutes": 549,
-  "name": "Tanaka",
-  "news": "",
-  "points": 21,
-  "pos": "MID",
-  "starts": 6,
-  "status": "a",
-  "team": "LEE"
  },
  {
   "appearances": 5,
@@ -1344,27 +1365,6 @@
  },
  {
   "appearances": 7,
-  "defcon_hits": 2,
-  "defcon_rate": 0.29,
-  "id": 175,
-  "last5": [
-   3,
-   0,
-   6,
-   1,
-   2
-  ],
-  "minutes": 693,
-  "name": "van Ewijk",
-  "news": "",
-  "points": 21,
-  "pos": "DEF",
-  "starts": 7,
-  "status": "a",
-  "team": "COV"
- },
- {
-  "appearances": 7,
   "defcon_hits": 1,
   "defcon_rate": 0.14,
   "id": 534,
@@ -1375,7 +1375,7 @@
    3,
    6
   ],
-  "minutes": 539,
+  "minutes": 544,
   "name": "Hume",
   "news": "",
   "points": 21,
@@ -1438,7 +1438,7 @@
    4,
    4
   ],
-  "minutes": 542,
+  "minutes": 547,
   "name": "Palacios",
   "news": "",
   "points": 21,
@@ -1446,25 +1446,6 @@
   "starts": 5,
   "status": "a",
   "team": "IPS"
- },
- {
-  "appearances": 3,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 656,
-  "last5": [
-   6,
-   7,
-   1
-  ],
-  "minutes": 190,
-  "name": "Mfuni",
-  "news": "",
-  "points": 21,
-  "pos": "DEF",
-  "starts": 1,
-  "status": "a",
-  "team": "COV"
  },
  {
   "appearances": 7,
@@ -1499,7 +1480,7 @@
    2,
    4
   ],
-  "minutes": 306,
+  "minutes": 311,
   "name": "Florentino",
   "news": "",
   "points": 20,
@@ -1520,7 +1501,7 @@
    3,
    1
   ],
-  "minutes": 780,
+  "minutes": 785,
   "name": "Diop",
   "news": "",
   "points": 20,
@@ -1645,7 +1626,7 @@
    2,
    3
   ],
-  "minutes": 743,
+  "minutes": 748,
   "name": "Sadiki",
   "news": "",
   "points": 20,
@@ -1666,7 +1647,7 @@
    2,
    1
   ],
-  "minutes": 404,
+  "minutes": 405,
   "name": "Andrés",
   "news": "",
   "points": 20,
@@ -1729,7 +1710,7 @@
    1,
    1
   ],
-  "minutes": 326,
+  "minutes": 330,
   "name": "Damsgaard",
   "news": "",
   "points": 19,
@@ -1758,27 +1739,6 @@
   "starts": 6,
   "status": "a",
   "team": "NEW"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 1,
-  "defcon_rate": 0.12,
-  "id": 574,
-  "last5": [
-   1,
-   3,
-   4,
-   0,
-   3
-  ],
-  "minutes": 530,
-  "name": "Yirenkyi",
-  "news": "",
-  "points": 19,
-  "pos": "MID",
-  "starts": 6,
-  "status": "a",
-  "team": "COV"
  },
  {
   "appearances": 6,
@@ -1834,7 +1794,7 @@
    1,
    2
   ],
-  "minutes": 213,
+  "minutes": 218,
   "name": "Isidor",
   "news": "",
   "points": 18,
@@ -1866,24 +1826,24 @@
  },
  {
   "appearances": 8,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 64,
+  "defcon_hits": 1,
+  "defcon_rate": 0.12,
+  "id": 574,
   "last5": [
+   1,
+   3,
+   4,
    0,
-   2,
-   0,
-   6,
-   6
+   3
   ],
-  "minutes": 738,
-  "name": "Smith",
+  "minutes": 535,
+  "name": "Yirenkyi",
   "news": "",
-  "points": 17,
-  "pos": "DEF",
-  "starts": 8,
+  "points": 18,
+  "pos": "MID",
+  "starts": 6,
   "status": "a",
-  "team": "BOU"
+  "team": "COV"
  },
  {
   "appearances": 8,
@@ -1992,6 +1952,27 @@
  },
  {
   "appearances": 7,
+  "defcon_hits": 2,
+  "defcon_rate": 0.29,
+  "id": 175,
+  "last5": [
+   3,
+   0,
+   6,
+   1,
+   2
+  ],
+  "minutes": 698,
+  "name": "van Ewijk",
+  "news": "",
+  "points": 17,
+  "pos": "DEF",
+  "starts": 7,
+  "status": "a",
+  "team": "COV"
+ },
+ {
+  "appearances": 7,
   "defcon_hits": 1,
   "defcon_rate": 0.14,
   "id": 522,
@@ -2023,7 +2004,7 @@
    2,
    2
   ],
-  "minutes": 598,
+  "minutes": 602,
   "name": "Jair Cunha",
   "news": "",
   "points": 17,
@@ -2031,6 +2012,27 @@
   "starts": 6,
   "status": "a",
   "team": "NFO"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 1,
+  "defcon_rate": 0.17,
+  "id": 599,
+  "last5": [
+   4,
+   2,
+   6,
+   1,
+   2
+  ],
+  "minutes": 566,
+  "name": "Elvedi",
+  "news": "",
+  "points": 17,
+  "pos": "DEF",
+  "starts": 5,
+  "status": "a",
+  "team": "LEE"
  },
  {
   "appearances": 5,
@@ -2086,7 +2088,7 @@
    1,
    5
   ],
-  "minutes": 675,
+  "minutes": 680,
   "name": "Reinildo",
   "news": "",
   "points": 16,
@@ -2149,7 +2151,7 @@
    4,
    2
   ],
-  "minutes": 503,
+  "minutes": 508,
   "name": "Fatawu",
   "news": "",
   "points": 16,
@@ -2200,25 +2202,23 @@
   "team": "COV"
  },
  {
-  "appearances": 6,
-  "defcon_hits": 1,
-  "defcon_rate": 0.17,
-  "id": 599,
+  "appearances": 3,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 656,
   "last5": [
-   4,
-   2,
    6,
-   1,
-   2
+   7,
+   1
   ],
-  "minutes": 557,
-  "name": "Elvedi",
+  "minutes": 195,
+  "name": "Mfuni",
   "news": "",
   "points": 16,
   "pos": "DEF",
-  "starts": 5,
+  "starts": 1,
   "status": "a",
-  "team": "LEE"
+  "team": "COV"
  },
  {
   "appearances": 6,
@@ -2238,6 +2238,46 @@
   "points": 15,
   "pos": "DEF",
   "starts": 6,
+  "status": "a",
+  "team": "SUN"
+ },
+ {
+  "appearances": 7,
+  "defcon_hits": 1,
+  "defcon_rate": 0.14,
+  "id": 75,
+  "last5": [
+   1,
+   2,
+   3,
+   2,
+   1
+  ],
+  "minutes": 344,
+  "name": "Christie",
+  "news": "",
+  "points": 15,
+  "pos": "MID",
+  "starts": 3,
+  "status": "a",
+  "team": "BOU"
+ },
+ {
+  "appearances": 3,
+  "defcon_hits": 1,
+  "defcon_rate": 0.33,
+  "id": 539,
+  "last5": [
+   1,
+   1,
+   9
+  ],
+  "minutes": 255,
+  "name": "O'Nien",
+  "news": "",
+  "points": 15,
+  "pos": "DEF",
+  "starts": 2,
   "status": "a",
   "team": "SUN"
  },
@@ -2316,7 +2356,7 @@
    1,
    3
   ],
-  "minutes": 434,
+  "minutes": 437,
   "name": "Khusanov",
   "news": "",
   "points": 15,
@@ -2379,7 +2419,7 @@
    1,
    1
   ],
-  "minutes": 348,
+  "minutes": 353,
   "name": "Awoniyi",
   "news": "",
   "points": 14,
@@ -2460,7 +2500,7 @@
    1,
    2
   ],
-  "minutes": 224,
+  "minutes": 228,
   "name": "Van den Berg",
   "news": "",
   "points": 14,
@@ -2533,27 +2573,6 @@
   "team": "CRY"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 1,
-  "defcon_rate": 0.14,
-  "id": 75,
-  "last5": [
-   1,
-   2,
-   3,
-   2,
-   1
-  ],
-  "minutes": 335,
-  "name": "Christie",
-  "news": "",
-  "points": 13,
-  "pos": "MID",
-  "starts": 3,
-  "status": "a",
-  "team": "BOU"
- },
- {
   "appearances": 6,
   "defcon_hits": 2,
   "defcon_rate": 0.33,
@@ -2605,7 +2624,7 @@
    7,
    2
   ],
-  "minutes": 424,
+  "minutes": 428,
   "name": "Milenković",
   "news": "",
   "points": 13,
@@ -2655,26 +2674,6 @@
   "starts": 6,
   "status": "a",
   "team": "ARS"
- },
- {
-  "appearances": 4,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 185,
-  "last5": [
-   1,
-   1,
-   2,
-   2
-  ],
-  "minutes": 285,
-  "name": "Sakamoto",
-  "news": "",
-  "points": 13,
-  "pos": "MID",
-  "starts": 2,
-  "status": "a",
-  "team": "COV"
  },
  {
   "appearances": 6,
@@ -2759,25 +2758,6 @@
   "starts": 5,
   "status": "i",
   "team": "MUN"
- },
- {
-  "appearances": 3,
-  "defcon_hits": 1,
-  "defcon_rate": 0.33,
-  "id": 539,
-  "last5": [
-   1,
-   1,
-   9
-  ],
-  "minutes": 250,
-  "name": "O'Nien",
-  "news": "",
-  "points": 12,
-  "pos": "DEF",
-  "starts": 2,
-  "status": "a",
-  "team": "SUN"
  },
  {
   "appearances": 7,
@@ -2903,6 +2883,26 @@
   "team": "ARS"
  },
  {
+  "appearances": 4,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 185,
+  "last5": [
+   1,
+   1,
+   2,
+   2
+  ],
+  "minutes": 290,
+  "name": "Sakamoto",
+  "news": "",
+  "points": 12,
+  "pos": "MID",
+  "starts": 2,
+  "status": "a",
+  "team": "COV"
+ },
+ {
   "appearances": 7,
   "defcon_hits": 2,
   "defcon_rate": 0.29,
@@ -2934,7 +2934,7 @@
    2,
    3
   ],
-  "minutes": 420,
+  "minutes": 425,
   "name": "Walton",
   "news": "",
   "points": 11,
@@ -2942,6 +2942,27 @@
   "starts": 4,
   "status": "a",
   "team": "IPS"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 260,
+  "last5": [
+   1,
+   0,
+   1,
+   1,
+   3
+  ],
+  "minutes": 294,
+  "name": "Wilson",
+  "news": "",
+  "points": 11,
+  "pos": "MID",
+  "starts": 2,
+  "status": "a",
+  "team": "LEE"
  },
  {
   "appearances": 6,
@@ -3060,7 +3081,7 @@
    1,
    0
   ],
-  "minutes": 236,
+  "minutes": 239,
   "name": "Costinha",
   "news": "",
   "points": 11,
@@ -3143,7 +3164,7 @@
    6,
    1
   ],
-  "minutes": 98,
+  "minutes": 102,
   "name": "Cho",
   "news": "",
   "points": 11,
@@ -3234,27 +3255,6 @@
   "starts": 1,
   "status": "a",
   "team": "CRY"
- },
- {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 260,
-  "last5": [
-   1,
-   0,
-   1,
-   1,
-   3
-  ],
-  "minutes": 285,
-  "name": "Wilson",
-  "news": "",
-  "points": 10,
-  "pos": "MID",
-  "starts": 2,
-  "status": "a",
-  "team": "LEE"
  },
  {
   "appearances": 7,
@@ -3566,26 +3566,6 @@
   "team": "MUN"
  },
  {
-  "appearances": 4,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 188,
-  "last5": [
-   1,
-   1,
-   1,
-   1
-  ],
-  "minutes": 123,
-  "name": "Torp",
-  "news": "",
-  "points": 9,
-  "pos": "MID",
-  "starts": 0,
-  "status": "a",
-  "team": "COV"
- },
- {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3597,7 +3577,7 @@
    1,
    1
   ],
-  "minutes": 279,
+  "minutes": 283,
   "name": "Hickey",
   "news": "",
   "points": 9,
@@ -3711,6 +3691,24 @@
   "team": "HUL"
  },
  {
+  "appearances": 2,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 613,
+  "last5": [
+   7,
+   1
+  ],
+  "minutes": 12,
+  "name": "Hadjam",
+  "news": "",
+  "points": 9,
+  "pos": "DEF",
+  "starts": 0,
+  "status": "a",
+  "team": "BHA"
+ },
+ {
   "appearances": 6,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3730,6 +3728,27 @@
   "starts": 1,
   "status": "a",
   "team": "CHE"
+ },
+ {
+  "appearances": 7,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 490,
+  "last5": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "minutes": 89,
+  "name": "Wood",
+  "news": "",
+  "points": 8,
+  "pos": "FWD",
+  "starts": 0,
+  "status": "a",
+  "team": "NFO"
  },
  {
   "appearances": 3,
@@ -3790,6 +3809,26 @@
   "team": "FUL"
  },
  {
+  "appearances": 4,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 188,
+  "last5": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "minutes": 128,
+  "name": "Torp",
+  "news": "",
+  "points": 8,
+  "pos": "MID",
+  "starts": 0,
+  "status": "a",
+  "team": "COV"
+ },
+ {
   "appearances": 6,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3831,6 +3870,24 @@
   "team": "NEW"
  },
  {
+  "appearances": 2,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 130,
+  "last5": [
+   7,
+   0
+  ],
+  "minutes": 157,
+  "name": "Wieffer",
+  "news": "",
+  "points": 8,
+  "pos": "DEF",
+  "starts": 2,
+  "status": "a",
+  "team": "BHA"
+ },
+ {
   "appearances": 4,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3841,7 +3898,7 @@
    2,
    2
   ],
-  "minutes": 234,
+  "minutes": 239,
   "name": "Philogene",
   "news": "",
   "points": 8,
@@ -3889,24 +3946,6 @@
   "team": "CHE"
  },
  {
-  "appearances": 2,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 613,
-  "last5": [
-   7,
-   1
-  ],
-  "minutes": 11,
-  "name": "Hadjam",
-  "news": "",
-  "points": 8,
-  "pos": "DEF",
-  "starts": 0,
-  "status": "a",
-  "team": "BHA"
- },
- {
   "appearances": 5,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3946,27 +3985,6 @@
   "team": "CRY"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 490,
-  "last5": [
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "minutes": 86,
-  "name": "Wood",
-  "news": "",
-  "points": 7,
-  "pos": "FWD",
-  "starts": 0,
-  "status": "a",
-  "team": "NFO"
- },
- {
   "appearances": 3,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3984,27 +4002,6 @@
   "starts": 1,
   "status": "a",
   "team": "MCI"
- },
- {
-  "appearances": 5,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 289,
-  "last5": [
-   2,
-   1,
-   0,
-   1,
-   2
-  ],
-  "minutes": 349,
-  "name": "Crooks",
-  "news": "",
-  "points": 7,
-  "pos": "MID",
-  "starts": 5,
-  "status": "a",
-  "team": "HUL"
  },
  {
   "appearances": 2,
@@ -4064,24 +4061,6 @@
   "starts": 2,
   "status": "a",
   "team": "CRY"
- },
- {
-  "appearances": 2,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 130,
-  "last5": [
-   7,
-   0
-  ],
-  "minutes": 156,
-  "name": "Wieffer",
-  "news": "",
-  "points": 7,
-  "pos": "DEF",
-  "starts": 2,
-  "status": "a",
-  "team": "BHA"
  },
  {
   "appearances": 3,
@@ -4284,6 +4263,27 @@
   "starts": 4,
   "status": "d",
   "team": "NEW"
+ },
+ {
+  "appearances": 5,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 289,
+  "last5": [
+   2,
+   1,
+   0,
+   1,
+   2
+  ],
+  "minutes": 354,
+  "name": "Crooks",
+  "news": "",
+  "points": 6,
+  "pos": "MID",
+  "starts": 5,
+  "status": "a",
+  "team": "HUL"
  },
  {
   "appearances": 5,
@@ -4560,6 +4560,25 @@
   "starts": 1,
   "status": "a",
   "team": "MUN"
+ },
+ {
+  "appearances": 3,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 343,
+  "last5": [
+   1,
+   1,
+   1
+  ],
+  "minutes": 117,
+  "name": "James",
+  "news": "",
+  "points": 5,
+  "pos": "MID",
+  "starts": 0,
+  "status": "a",
+  "team": "LEE"
  },
  {
   "appearances": 2,
@@ -4846,25 +4865,6 @@
   "team": "NEW"
  },
  {
-  "appearances": 3,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 343,
-  "last5": [
-   1,
-   1,
-   1
-  ],
-  "minutes": 108,
-  "name": "James",
-  "news": "",
-  "points": 4,
-  "pos": "MID",
-  "starts": 0,
-  "status": "a",
-  "team": "LEE"
- },
- {
   "appearances": 4,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -5021,6 +5021,25 @@
   "starts": 0,
   "status": "a",
   "team": "MUN"
+ },
+ {
+  "appearances": 3,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 493,
+  "last5": [
+   1,
+   1,
+   1
+  ],
+  "minutes": 28,
+  "name": "Kalimuendo",
+  "news": "",
+  "points": 4,
+  "pos": "FWD",
+  "starts": 0,
+  "status": "a",
+  "team": "NFO"
  },
  {
   "appearances": 1,
@@ -5351,25 +5370,6 @@
   "appearances": 3,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
-  "id": 493,
-  "last5": [
-   1,
-   1,
-   1
-  ],
-  "minutes": 25,
-  "name": "Kalimuendo",
-  "news": "",
-  "points": 3,
-  "pos": "FWD",
-  "starts": 0,
-  "status": "a",
-  "team": "NFO"
- },
- {
-  "appearances": 3,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
   "id": 160,
   "last5": [
    1,
@@ -5451,7 +5451,7 @@
    1,
    1
   ],
-  "minutes": 48,
+  "minutes": 53,
   "name": "Talbi",
   "news": "",
   "points": 3,
@@ -5576,21 +5576,6 @@
   "team": "CRY"
  },
  {
-  "appearances": 0,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 655,
-  "last5": [],
-  "minutes": 63,
-  "name": "Gboho",
-  "news": "",
-  "points": 3,
-  "pos": "MID",
-  "starts": 0,
-  "status": "a",
-  "team": "COV"
- },
- {
   "appearances": 2,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -5655,7 +5640,7 @@
    -1,
    1
   ],
-  "minutes": 182,
+  "minutes": 187,
   "name": "Alderete",
   "news": "",
   "points": 2,
@@ -6078,6 +6063,21 @@
   "team": "LEE"
  },
  {
+  "appearances": 0,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 655,
+  "last5": [],
+  "minutes": 68,
+  "name": "Gboho",
+  "news": "",
+  "points": 2,
+  "pos": "MID",
+  "starts": 0,
+  "status": "a",
+  "team": "COV"
+ },
+ {
   "appearances": 2,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -6241,7 +6241,7 @@
   "defcon_rate": 0.0,
   "id": 489,
   "last5": [],
-  "minutes": 19,
+  "minutes": 23,
   "name": "Yates",
   "news": "",
   "points": 1,
