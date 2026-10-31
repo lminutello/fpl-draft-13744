@@ -336,6 +336,27 @@
   "team": "AVL"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 1,
+  "defcon_rate": 0.14,
+  "id": 254,
+  "last5": [
+   1,
+   6,
+   2,
+   7,
+   7
+  ],
+  "minutes": 699,
+  "name": "Robinson",
+  "news": "",
+  "points": 30,
+  "pos": "DEF",
+  "starts": 7,
+  "status": "a",
+  "team": "FUL"
+ },
+ {
   "appearances": 8,
   "defcon_hits": 3,
   "defcon_rate": 0.38,
@@ -544,27 +565,6 @@
   "starts": 8,
   "status": "a",
   "team": "NFO"
- },
- {
-  "appearances": 7,
-  "defcon_hits": 1,
-  "defcon_rate": 0.14,
-  "id": 254,
-  "last5": [
-   1,
-   6,
-   2,
-   7,
-   7
-  ],
-  "minutes": 699,
-  "name": "Robinson",
-  "news": "",
-  "points": 28,
-  "pos": "DEF",
-  "starts": 7,
-  "status": "a",
-  "team": "FUL"
  },
  {
   "appearances": 8,
@@ -1901,11 +1901,11 @@
   ],
   "minutes": 656,
   "name": "Cash",
-  "news": "",
+  "news": "Suspended until 21 Nov",
   "points": 18,
   "pos": "DEF",
   "starts": 6,
-  "status": "a",
+  "status": "s",
   "team": "AVL"
  },
  {

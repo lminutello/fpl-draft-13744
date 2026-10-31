@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-31T21:58:18Z | last finished GW8 | next GW9
+Updated 2026-10-31T22:05:21Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -54,6 +54,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID M.Sangaré         BRE    31p  555m st5  app8  dc 0.5   last5 [4, 0, 1, 1, 4]
 - DEF Mendy             HUL    31p  429m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]
 - GKP Suzuki            AVL    31p  720m st7  app7  dc 0.0   last5 [2, 2, 2, 8, 4]
+- DEF Robinson          FUL    30p  699m st7  app7  dc 0.14  last5 [1, 6, 2, 7, 7]
 - MID Kamara            AVL    30p  791m st8  app8  dc 0.38  last5 [2, 6, 4, 5, 4]
 - DEF Giles             HUL    30p  683m st7  app8  dc 0.0   last5 [4, 0, 2, 1, 2]
 - DEF Van de Ven        TOT    30p  646m st6  app7  dc 0.0   last5 [6, 1, 1, 2, 5]
@@ -64,7 +65,6 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF F.Kadıoğlu        BHA    29p  517m st7  app7  dc 0.14  last5 [6, 5, 9, 6, 1]  [D] Hip injury - 75% chance of playing
 - DEF Davis             IPS    29p  810m st8  app8  dc 0.0   last5 [14, 2, 1, 0, 2]
 - MID Ndoye             NFO    29p  591m st8  app8  dc 0.0   last5 [1, 1, 7, 3, 2]
-- DEF Robinson          FUL    28p  699m st7  app7  dc 0.14  last5 [1, 6, 2, 7, 7]
 - MID Ampadu            LEE    28p  810m st8  app8  dc 0.38  last5 [7, 5, 1, 1, 2]
 - MID Kluivert          BOU    28p  451m st5  app6  dc 0.0   last5 [3, 1, 8, 1, 6]
 - DEF Mykolenko         EVE    28p  613m st7  app7  dc 0.29  last5 [1, 11, 5, 1, 0]
@@ -93,13 +93,13 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Bassey            FUL    34p  810m st8  app8  dc 0.38  last5 [6, 6, 2, 8, 8]
 - DEF Thomas            COV    32p  676m st8  app8  dc 0.62  last5 [0, 9, 4, 3, 1]  [D] Calf injury - 50% chance of playing
 - DEF Mendy             HUL    31p  429m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]
+- DEF Robinson          FUL    30p  699m st7  app7  dc 0.14  last5 [1, 6, 2, 7, 7]
 - DEF Giles             HUL    30p  683m st7  app8  dc 0.0   last5 [4, 0, 2, 1, 2]
 - DEF Van de Ven        TOT    30p  646m st6  app7  dc 0.0   last5 [6, 1, 1, 2, 5]
 - DEF Affengruber       FUL    30p  540m st5  app5  dc 0.6   last5 [8, 4, 3, 6, 6]
 - DEF Dasilva           COV    29p  804m st8  app8  dc 0.0   last5 [0, 15, 5, 0, 2]
 - DEF F.Kadıoğlu        BHA    29p  517m st7  app7  dc 0.14  last5 [6, 5, 9, 6, 1]  [D] Hip injury - 75% chance of playing
 - DEF Davis             IPS    29p  810m st8  app8  dc 0.0   last5 [14, 2, 1, 0, 2]
-- DEF Robinson          FUL    28p  699m st7  app7  dc 0.14  last5 [1, 6, 2, 7, 7]
 
 ### MID
 
