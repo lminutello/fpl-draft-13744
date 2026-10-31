@@ -138,10 +138,10 @@
     0,
     1
    ],
-   "minutes": 715,
+   "minutes": 724,
    "name": "Mitchell",
    "news": "",
-   "points": 30,
+   "points": 32,
    "pos": "DEF",
    "starts": 8,
    "status": "a",
@@ -306,7 +306,7 @@
     9,
     2
    ],
-   "minutes": 539,
+   "minutes": 548,
    "name": "Marmoush",
    "news": "",
    "points": 21,
@@ -434,7 +434,7 @@
     5,
     6
    ],
-   "minutes": 524,
+   "minutes": 533,
    "name": "Robertson",
    "news": "",
    "points": 29,
@@ -642,7 +642,7 @@
     2,
     9
    ],
-   "minutes": 746,
+   "minutes": 755,
    "name": "Kinsky",
    "news": "",
    "points": 33,
@@ -851,7 +851,7 @@
     6,
     3
    ],
-   "minutes": 388,
+   "minutes": 397,
    "name": "Kudus",
    "news": "",
    "points": 25,
@@ -934,11 +934,11 @@
    ],
    "minutes": 164,
    "name": "Mateta",
-   "news": "",
+   "news": "Suspended until 2 Dec",
    "points": 3,
    "pos": "FWD",
    "starts": 2,
-   "status": "a",
+   "status": "s",
    "team": "CRY"
   }
  ],
@@ -1081,7 +1081,7 @@
     2,
     3
    ],
-   "minutes": 746,
+   "minutes": 755,
    "name": "Richards",
    "news": "",
    "points": 24,
@@ -1123,7 +1123,7 @@
     4,
     5
    ],
-   "minutes": 723,
+   "minutes": 732,
    "name": "Tonali",
    "news": "",
    "points": 31,
@@ -1481,7 +1481,7 @@
     1,
     2
    ],
-   "minutes": 726,
+   "minutes": 735,
    "name": "Kamada",
    "news": "",
    "points": 33,
@@ -1564,7 +1564,7 @@
     4,
     1
    ],
-   "minutes": 401,
+   "minutes": 410,
    "name": "Solanke",
    "news": "",
    "points": 20,
@@ -1946,7 +1946,7 @@
     4,
     7
    ],
-   "minutes": 746,
+   "minutes": 755,
    "name": "Van Hecke",
    "news": "",
    "points": 39,

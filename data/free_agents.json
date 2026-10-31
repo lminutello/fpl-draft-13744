@@ -641,7 +641,7 @@
    2,
    1
   ],
-  "minutes": 565,
+  "minutes": 574,
   "name": "Yeremy",
   "news": "",
   "points": 27,
@@ -746,7 +746,7 @@
    2,
    5
   ],
-  "minutes": 582,
+  "minutes": 591,
   "name": "Van de Ven",
   "news": "",
   "points": 26,
@@ -872,7 +872,7 @@
    2,
    3
   ],
-  "minutes": 603,
+  "minutes": 612,
   "name": "Gray",
   "news": "",
   "points": 25,
@@ -1019,7 +1019,7 @@
    2,
    2
   ],
-  "minutes": 732,
+  "minutes": 741,
   "name": "Wharton",
   "news": "",
   "points": 24,
@@ -1417,7 +1417,7 @@
    1,
    11
   ],
-  "minutes": 374,
+  "minutes": 383,
   "name": "Tel",
   "news": "",
   "points": 21,
@@ -2023,7 +2023,7 @@
    1,
    7
   ],
-  "minutes": 385,
+  "minutes": 394,
   "name": "Fernandes",
   "news": "",
   "points": 17,
@@ -2316,11 +2316,11 @@
   ],
   "minutes": 334,
   "name": "Yarmoliuk",
-  "news": "Suspended until 8 Nov",
+  "news": "",
   "points": 15,
   "pos": "MID",
   "starts": 4,
-  "status": "s",
+  "status": "a",
   "team": "BRE"
  },
  {
@@ -2730,7 +2730,7 @@
    -2,
    0
   ],
-  "minutes": 656,
+  "minutes": 665,
   "name": "Canvot",
   "news": "",
   "points": 13,
@@ -3899,7 +3899,7 @@
    1,
    2
   ],
-  "minutes": 218,
+  "minutes": 227,
   "name": "McNeil",
   "news": "",
   "points": 8,
@@ -4296,11 +4296,11 @@
   ],
   "minutes": 379,
   "name": "Crooks",
-  "news": "",
+  "news": "Suspended until 22 Nov",
   "points": 6,
   "pos": "MID",
   "starts": 5,
-  "status": "a",
+  "status": "s",
   "team": "HUL"
  },
  {
@@ -4313,7 +4313,7 @@
    1,
    2
   ],
-  "minutes": 296,
+  "minutes": 305,
   "name": "Henderson",
   "news": "",
   "points": 6,
@@ -4668,7 +4668,7 @@
    -3,
    3
   ],
-  "minutes": 255,
+  "minutes": 264,
   "name": "Disasi",
   "news": "",
   "points": 5,
@@ -5356,7 +5356,7 @@
    1,
    1
   ],
-  "minutes": 42,
+  "minutes": 51,
   "name": "Mingueza",
   "news": "",
   "points": 3,
