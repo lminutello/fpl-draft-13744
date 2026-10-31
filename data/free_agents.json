@@ -641,7 +641,7 @@
    2,
    1
   ],
-  "minutes": 560,
+  "minutes": 565,
   "name": "Yeremy",
   "news": "",
   "points": 27,
@@ -735,6 +735,27 @@
   "team": "NFO"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 503,
+  "last5": [
+   6,
+   1,
+   1,
+   2,
+   5
+  ],
+  "minutes": 582,
+  "name": "Van de Ven",
+  "news": "",
+  "points": 26,
+  "pos": "DEF",
+  "starts": 6,
+  "status": "a",
+  "team": "TOT"
+ },
+ {
   "appearances": 6,
   "defcon_hits": 5,
   "defcon_rate": 0.83,
@@ -819,27 +840,6 @@
   "team": "COV"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 503,
-  "last5": [
-   6,
-   1,
-   1,
-   2,
-   5
-  ],
-  "minutes": 577,
-  "name": "Van de Ven",
-  "news": "",
-  "points": 25,
-  "pos": "DEF",
-  "starts": 6,
-  "status": "a",
-  "team": "TOT"
- },
- {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -859,6 +859,27 @@
   "starts": 4,
   "status": "a",
   "team": "BRE"
+ },
+ {
+  "appearances": 7,
+  "defcon_hits": 1,
+  "defcon_rate": 0.14,
+  "id": 522,
+  "last5": [
+   3,
+   2,
+   3,
+   2,
+   3
+  ],
+  "minutes": 603,
+  "name": "Gray",
+  "news": "",
+  "points": 25,
+  "pos": "MID",
+  "starts": 6,
+  "status": "a",
+  "team": "TOT"
  },
  {
   "appearances": 6,
@@ -998,7 +1019,7 @@
    2,
    2
   ],
-  "minutes": 727,
+  "minutes": 732,
   "name": "Wharton",
   "news": "",
   "points": 24,
@@ -1396,7 +1417,7 @@
    1,
    11
   ],
-  "minutes": 369,
+  "minutes": 374,
   "name": "Tel",
   "news": "",
   "points": 21,
@@ -1991,27 +2012,6 @@
   "team": "LIV"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 1,
-  "defcon_rate": 0.14,
-  "id": 522,
-  "last5": [
-   3,
-   2,
-   3,
-   2,
-   3
-  ],
-  "minutes": 598,
-  "name": "Gray",
-  "news": "",
-  "points": 17,
-  "pos": "MID",
-  "starts": 6,
-  "status": "a",
-  "team": "TOT"
- },
- {
   "appearances": 8,
   "defcon_hits": 1,
   "defcon_rate": 0.12,
@@ -2023,7 +2023,7 @@
    1,
    7
   ],
-  "minutes": 380,
+  "minutes": 385,
   "name": "Fernandes",
   "news": "",
   "points": 17,
@@ -2730,7 +2730,7 @@
    -2,
    0
   ],
-  "minutes": 651,
+  "minutes": 656,
   "name": "Canvot",
   "news": "",
   "points": 13,
@@ -3899,7 +3899,7 @@
    1,
    2
   ],
-  "minutes": 213,
+  "minutes": 218,
   "name": "McNeil",
   "news": "",
   "points": 8,
@@ -4313,7 +4313,7 @@
    1,
    2
   ],
-  "minutes": 291,
+  "minutes": 296,
   "name": "Henderson",
   "news": "",
   "points": 6,
@@ -4668,7 +4668,7 @@
    -3,
    3
   ],
-  "minutes": 250,
+  "minutes": 255,
   "name": "Disasi",
   "news": "",
   "points": 5,
@@ -5356,7 +5356,7 @@
    1,
    1
   ],
-  "minutes": 37,
+  "minutes": 42,
   "name": "Mingueza",
   "news": "",
   "points": 3,
