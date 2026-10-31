@@ -147,7 +147,7 @@
    2,
    1
   ],
-  "minutes": 461,
+  "minutes": 467,
   "name": "Anthony",
   "news": "",
   "points": 27,
@@ -168,7 +168,7 @@
    4,
    5
   ],
-  "minutes": 790,
+  "minutes": 796,
   "name": "Thiago",
   "news": "",
   "points": 32,
@@ -204,10 +204,10 @@
    0,
    1
   ],
-  "minutes": 30,
+  "minutes": 31,
   "name": "Wilson",
   "news": "",
-  "points": 4,
+  "points": 5,
   "pos": "FWD",
   "starts": 0,
   "status": "a",
@@ -225,10 +225,10 @@
    6,
    2
   ],
-  "minutes": 796,
+  "minutes": 801,
   "name": "Verbruggen",
   "news": "",
-  "points": 50,
+  "points": 49,
   "pos": "GKP",
   "starts": 8,
   "status": "a",
@@ -264,7 +264,7 @@
    1,
    2
   ],
-  "minutes": 798,
+  "minutes": 804,
   "name": "Rushworth",
   "news": "",
   "points": 24,
@@ -384,7 +384,7 @@
    6,
    1
   ],
-  "minutes": 645,
+  "minutes": 650,
   "name": "Dunk",
   "news": "",
   "points": 36,
@@ -435,7 +435,7 @@
    1,
    0
   ],
-  "minutes": 250,
+  "minutes": 255,
   "name": "Costinha",
   "news": "",
   "points": 11,
@@ -523,7 +523,7 @@
    6,
    1
   ],
-  "minutes": 131,
+  "minutes": 136,
   "name": "Hinshelwood",
   "news": "",
   "points": 24,
@@ -544,10 +544,10 @@
    5,
    0
   ],
-  "minutes": 776,
+  "minutes": 781,
   "name": "Groß",
   "news": "",
-  "points": 61,
+  "points": 60,
   "pos": "MID",
   "starts": 8,
   "status": "a",
@@ -604,7 +604,7 @@
    8,
    2
   ],
-  "minutes": 776,
+  "minutes": 781,
   "name": "Gomez",
   "news": "",
   "points": 42,
@@ -640,7 +640,7 @@
    13,
    2
   ],
-  "minutes": 650,
+  "minutes": 655,
   "name": "Ayari",
   "news": "",
   "points": 44,
@@ -679,7 +679,7 @@
    7,
    0
   ],
-  "minutes": 168,
+  "minutes": 173,
   "name": "Wieffer",
   "news": "",
   "points": 8,
@@ -1584,7 +1584,7 @@
    1,
    2
   ],
-  "minutes": 708,
+  "minutes": 714,
   "name": "van Ewijk",
   "news": "",
   "points": 17,
@@ -1605,7 +1605,7 @@
    0,
    2
   ],
-  "minutes": 792,
+  "minutes": 798,
   "name": "Dasilva",
   "news": "",
   "points": 29,
@@ -1740,10 +1740,10 @@
    6,
    2
   ],
-  "minutes": 633,
+  "minutes": 639,
   "name": "Rudoni",
   "news": "",
-  "points": 36,
+  "points": 37,
   "pos": "MID",
   "starts": 7,
   "status": "a",
@@ -1761,10 +1761,10 @@
    2,
    2
   ],
-  "minutes": 705,
+  "minutes": 706,
   "name": "Grimes",
   "news": "",
-  "points": 17,
+  "points": 18,
   "pos": "MID",
   "starts": 8,
   "status": "a",
@@ -1781,7 +1781,7 @@
    2,
    2
   ],
-  "minutes": 300,
+  "minutes": 306,
   "name": "Sakamoto",
   "news": "",
   "points": 12,
@@ -1837,7 +1837,7 @@
    1,
    1
   ],
-  "minutes": 138,
+  "minutes": 142,
   "name": "Torp",
   "news": "",
   "points": 8,
@@ -1959,7 +1959,7 @@
    5,
    2
   ],
-  "minutes": 466,
+  "minutes": 472,
   "name": "Thomas-Asante",
   "news": "",
   "points": 22,
@@ -2124,7 +2124,7 @@
    2,
    7
   ],
-  "minutes": 560,
+  "minutes": 566,
   "name": "Muñoz",
   "news": "",
   "points": 15,
@@ -2829,7 +2829,7 @@
    5,
    5
   ],
-  "minutes": 674,
+  "minutes": 676,
   "name": "Ndiaye",
   "news": "",
   "points": 35,
@@ -2907,7 +2907,7 @@
    1,
    9
   ],
-  "minutes": 286,
+  "minutes": 287,
   "name": "Iroegbunam",
   "news": "",
   "points": 21,
@@ -3301,7 +3301,7 @@
    3,
    1
   ],
-  "minutes": 795,
+  "minutes": 800,
   "name": "Diop",
   "news": "",
   "points": 21,
@@ -3343,7 +3343,7 @@
    1,
    3
   ],
-  "minutes": 303,
+  "minutes": 309,
   "name": "Wilson",
   "news": "",
   "points": 11,
@@ -3711,7 +3711,7 @@
    2,
    4
   ],
-  "minutes": 768,
+  "minutes": 773,
   "name": "Ajayi",
   "news": "",
   "points": 35,
@@ -3753,7 +3753,7 @@
    2,
    2
   ],
-  "minutes": 667,
+  "minutes": 668,
   "name": "Coyle",
   "news": "",
   "points": 20,
@@ -3792,7 +3792,7 @@
    1,
    2
   ],
-  "minutes": 668,
+  "minutes": 673,
   "name": "Giles",
   "news": "",
   "points": 30,
@@ -3860,7 +3860,7 @@
    2,
    4
   ],
-  "minutes": 670,
+  "minutes": 675,
   "name": "Belloumi",
   "news": "",
   "points": 48,
@@ -3914,7 +3914,7 @@
    1,
    2
   ],
-  "minutes": 364,
+  "minutes": 369,
   "name": "Crooks",
   "news": "",
   "points": 6,
@@ -3952,7 +3952,7 @@
    1,
    2
   ],
-  "minutes": 750,
+  "minutes": 755,
   "name": "Slater",
   "news": "",
   "points": 22,
@@ -4033,7 +4033,7 @@
    2,
    8
   ],
-  "minutes": 781,
+  "minutes": 786,
   "name": "McBurnie",
   "news": "",
   "points": 36,
@@ -4143,7 +4143,7 @@
    2,
    3
   ],
-  "minutes": 435,
+  "minutes": 440,
   "name": "Walton",
   "news": "",
   "points": 10,
@@ -4209,7 +4209,7 @@
    3,
    2
   ],
-  "minutes": 795,
+  "minutes": 800,
   "name": "O'Shea",
   "news": "",
   "points": 27,
@@ -4230,7 +4230,7 @@
    0,
    2
   ],
-  "minutes": 795,
+  "minutes": 800,
   "name": "Davis",
   "news": "",
   "points": 29,
@@ -4340,7 +4340,7 @@
    1,
    1
   ],
-  "minutes": 29,
+  "minutes": 34,
   "name": "Matusiwa",
   "news": "",
   "points": 6,
@@ -4391,7 +4391,7 @@
    1,
    1
   ],
-  "minutes": 232,
+  "minutes": 237,
   "name": "Clarke",
   "news": "",
   "points": 18,
@@ -4448,7 +4448,7 @@
    2,
    1
   ],
-  "minutes": 598,
+  "minutes": 599,
   "name": "Emersonn",
   "news": "",
   "points": 33,
@@ -4738,7 +4738,7 @@
    2,
    5
   ],
-  "minutes": 704,
+  "minutes": 710,
   "name": "Bogle",
   "news": "",
   "points": 52,
@@ -4780,7 +4780,7 @@
    2,
    6
   ],
-  "minutes": 782,
+  "minutes": 788,
   "name": "Justin",
   "news": "",
   "points": 42,
@@ -4816,7 +4816,7 @@
    5,
    9
   ],
-  "minutes": 794,
+  "minutes": 800,
   "name": "Muharemović",
   "news": "",
   "points": 45,
@@ -4837,7 +4837,7 @@
    2,
    1
   ],
-  "minutes": 660,
+  "minutes": 666,
   "name": "Stach",
   "news": "",
   "points": 33,
@@ -4900,7 +4900,7 @@
    1,
    2
   ],
-  "minutes": 794,
+  "minutes": 800,
   "name": "Ampadu",
   "news": "",
   "points": 28,
@@ -4920,7 +4920,7 @@
    1,
    1
   ],
-  "minutes": 29,
+  "minutes": 35,
   "name": "Longstaff",
   "news": "",
   "points": 5,
@@ -5067,7 +5067,7 @@
    9,
    2
   ],
-  "minutes": 757,
+  "minutes": 763,
   "name": "Calvert-Lewin",
   "news": "",
   "points": 37,
@@ -5088,7 +5088,7 @@
    1,
    1
   ],
-  "minutes": 105,
+  "minutes": 111,
   "name": "Nmecha",
   "news": "",
   "points": 11,
@@ -5822,7 +5822,7 @@
    1,
    1
   ],
-  "minutes": 796,
+  "minutes": 801,
   "name": "Donnarumma",
   "news": "",
   "points": 32,
@@ -5843,7 +5843,7 @@
    2,
    10
   ],
-  "minutes": 794,
+  "minutes": 800,
   "name": "Trafford",
   "news": "",
   "points": 44,
@@ -5879,7 +5879,7 @@
    5,
    2
   ],
-  "minutes": 300,
+  "minutes": 305,
   "name": "O'Reilly",
   "news": "",
   "points": 14,
@@ -5921,7 +5921,7 @@
    6,
    2
   ],
-  "minutes": 454,
+  "minutes": 459,
   "name": "Matheus N.",
   "news": "",
   "points": 21,
@@ -5957,7 +5957,7 @@
    1,
    1
   ],
-  "minutes": 796,
+  "minutes": 801,
   "name": "Rúben",
   "news": "",
   "points": 27,
@@ -5978,7 +5978,7 @@
    0,
    1
   ],
-  "minutes": 653,
+  "minutes": 655,
   "name": "Gvardiol",
   "news": "",
   "points": 44,
@@ -6014,7 +6014,7 @@
    1,
    3
   ],
-  "minutes": 448,
+  "minutes": 453,
   "name": "Khusanov",
   "news": "",
   "points": 15,
@@ -6106,10 +6106,10 @@
    9,
    1
   ],
-  "minutes": 338,
+  "minutes": 340,
   "name": "Foden",
   "news": "",
-  "points": 19,
+  "points": 20,
   "pos": "MID",
   "starts": 4,
   "status": "a",
@@ -6127,7 +6127,7 @@
    10,
    0
   ],
-  "minutes": 458,
+  "minutes": 463,
   "name": "Cherki",
   "news": "",
   "points": 45,
@@ -6189,7 +6189,7 @@
    6,
    2
   ],
-  "minutes": 291,
+  "minutes": 296,
   "name": "Doku",
   "news": "",
   "points": 23,
@@ -6402,7 +6402,7 @@
    13,
    8
   ],
-  "minutes": 785,
+  "minutes": 790,
   "name": "Haaland",
   "news": "",
   "points": 68,
@@ -7550,7 +7550,7 @@
    2,
    2
   ],
-  "minutes": 798,
+  "minutes": 804,
   "name": "Sels",
   "news": "",
   "points": 21,
@@ -7586,7 +7586,7 @@
    3,
    8
   ],
-  "minutes": 791,
+  "minutes": 797,
   "name": "N.Williams",
   "news": "",
   "points": 32,
@@ -7642,7 +7642,7 @@
    7,
    2
   ],
-  "minutes": 438,
+  "minutes": 444,
   "name": "Milenković",
   "news": "",
   "points": 12,
@@ -7663,7 +7663,7 @@
    2,
    1
   ],
-  "minutes": 797,
+  "minutes": 803,
   "name": "Murillo",
   "news": "",
   "points": 31,
@@ -7705,7 +7705,7 @@
    2,
    2
   ],
-  "minutes": 612,
+  "minutes": 618,
   "name": "Jair Cunha",
   "news": "",
   "points": 16,
@@ -7821,7 +7821,7 @@
    2,
    2
   ],
-  "minutes": 708,
+  "minutes": 714,
   "name": "Gibbs-White",
   "news": "",
   "points": 34,
@@ -7842,7 +7842,7 @@
    1,
    1
   ],
-  "minutes": 682,
+  "minutes": 687,
   "name": "Anderson",
   "news": "",
   "points": 25,
@@ -7934,10 +7934,10 @@
    2,
    5
   ],
-  "minutes": 758,
+  "minutes": 764,
   "name": "McAtee",
   "news": "",
-  "points": 25,
+  "points": 24,
   "pos": "MID",
   "starts": 8,
   "status": "a",
@@ -7988,7 +7988,7 @@
   "defcon_rate": 0.0,
   "id": 489,
   "last5": [],
-  "minutes": 33,
+  "minutes": 39,
   "name": "Yates",
   "news": "",
   "points": 1,
@@ -8024,7 +8024,7 @@
    1,
    1
   ],
-  "minutes": 99,
+  "minutes": 105,
   "name": "Wood",
   "news": "",
   "points": 8,
@@ -8085,7 +8085,7 @@
    1,
    1
   ],
-  "minutes": 38,
+  "minutes": 44,
   "name": "Kalimuendo",
   "news": "",
   "points": 4,
@@ -8323,7 +8323,7 @@
    11,
    1
   ],
-  "minutes": 783,
+  "minutes": 788,
   "name": "Vuskovic",
   "news": "",
   "points": 58,
@@ -8815,7 +8815,7 @@
    2,
    9
   ],
-  "minutes": 798,
+  "minutes": 804,
   "name": "Roefs",
   "news": "",
   "points": 24,
@@ -8948,7 +8948,7 @@
    -1,
    1
   ],
-  "minutes": 197,
+  "minutes": 203,
   "name": "Alderete",
   "news": "",
   "points": 4,
@@ -8969,7 +8969,7 @@
    1,
    5
   ],
-  "minutes": 690,
+  "minutes": 696,
   "name": "Reinildo",
   "news": "",
   "points": 16,
@@ -9018,7 +9018,7 @@
    1,
    9
   ],
-  "minutes": 265,
+  "minutes": 271,
   "name": "O'Nien",
   "news": "",
   "points": 15,
@@ -9075,7 +9075,7 @@
    3,
    1
   ],
-  "minutes": 432,
+  "minutes": 438,
   "name": "Meunier",
   "news": "",
   "points": 16,
@@ -9096,10 +9096,10 @@
    4,
    3
   ],
-  "minutes": 764,
+  "minutes": 770,
   "name": "E.Le Fée",
   "news": "",
-  "points": 36,
+  "points": 35,
   "pos": "MID",
   "starts": 8,
   "status": "a",
@@ -9137,7 +9137,7 @@
    2,
    3
   ],
-  "minutes": 798,
+  "minutes": 804,
   "name": "Xhaka",
   "news": "",
   "points": 32,
@@ -9228,7 +9228,7 @@
    1,
    1
   ],
-  "minutes": 63,
+  "minutes": 69,
   "name": "Talbi",
   "news": "",
   "points": 3,
@@ -9302,7 +9302,7 @@
    17,
    2
   ],
-  "minutes": 541,
+  "minutes": 547,
   "name": "Brobbey",
   "news": "",
   "points": 28,
@@ -9323,7 +9323,7 @@
    1,
    2
   ],
-  "minutes": 228,
+  "minutes": 234,
   "name": "Isidor",
   "news": "",
   "points": 18,
@@ -9365,7 +9365,7 @@
    8,
    8
   ],
-  "minutes": 794,
+  "minutes": 800,
   "name": "Silva",
   "news": "",
   "points": 37,
@@ -9491,10 +9491,10 @@
    1,
    1
   ],
-  "minutes": 93,
+  "minutes": 96,
   "name": "Morita",
   "news": "",
-  "points": 4,
+  "points": 5,
   "pos": "MID",
   "starts": 1,
   "status": "a",
@@ -9527,7 +9527,7 @@
    7,
    1
   ],
-  "minutes": 431,
+  "minutes": 436,
   "name": "Maeda",
   "news": "",
   "points": 19,
@@ -9669,7 +9669,7 @@
    6,
    7
   ],
-  "minutes": 794,
+  "minutes": 800,
   "name": "Petrović",
   "news": "",
   "points": 30,
@@ -9711,7 +9711,7 @@
    3,
    3
   ],
-  "minutes": 795,
+  "minutes": 800,
   "name": "Tzolakis",
   "news": "",
   "points": 43,
@@ -9770,7 +9770,7 @@
    0,
    3
   ],
-  "minutes": 545,
+  "minutes": 551,
   "name": "Yirenkyi",
   "news": "",
   "points": 18,
@@ -10024,7 +10024,7 @@
    1,
    3
   ],
-  "minutes": 414,
+  "minutes": 419,
   "name": "Mendy",
   "news": "",
   "points": 29,
@@ -10130,7 +10130,7 @@
    2,
    10
   ],
-  "minutes": 720,
+  "minutes": 725,
   "name": "Enciso",
   "news": "",
   "points": 38,
@@ -10151,7 +10151,7 @@
    3,
    2
   ],
-  "minutes": 476,
+  "minutes": 481,
   "name": "Ouattara",
   "news": "",
   "points": 25,
@@ -10269,7 +10269,7 @@
    1,
    2
   ],
-  "minutes": 238,
+  "minutes": 244,
   "name": "Cherif",
   "news": "",
   "points": 17,
@@ -10290,7 +10290,7 @@
    1,
    2
   ],
-  "minutes": 575,
+  "minutes": 581,
   "name": "Elvedi",
   "news": "",
   "points": 17,
@@ -10326,7 +10326,7 @@
    7,
    11
   ],
-  "minutes": 794,
+  "minutes": 800,
   "name": "Hill",
   "news": "",
   "points": 38,
@@ -10475,7 +10475,7 @@
    1,
    1
   ],
-  "minutes": 307,
+  "minutes": 312,
   "name": "Yalcouyé",
   "news": "",
   "points": 24,
@@ -10511,7 +10511,7 @@
    6,
    10
   ],
-  "minutes": 787,
+  "minutes": 793,
   "name": "Truffert",
   "news": "",
   "points": 31,
@@ -10583,7 +10583,7 @@
    7,
    1
   ],
-  "minutes": 23,
+  "minutes": 28,
   "name": "Hadjam",
   "news": "",
   "points": 9,
@@ -10674,7 +10674,7 @@
    6,
    1
   ],
-  "minutes": 112,
+  "minutes": 117,
   "name": "Cho",
   "news": "",
   "points": 11,
@@ -10695,7 +10695,7 @@
    4,
    4
   ],
-  "minutes": 557,
+  "minutes": 562,
   "name": "Palacios",
   "news": "",
   "points": 21,
@@ -10883,10 +10883,10 @@
   "last5": [
    1
   ],
-  "minutes": 10,
+  "minutes": 12,
   "name": "Allan",
   "news": "",
-  "points": 1,
+  "points": 2,
   "pos": "MID",
   "starts": 0,
   "status": "a",
@@ -11111,10 +11111,10 @@
    6,
    6
   ],
-  "minutes": 756,
+  "minutes": 762,
   "name": "Smith",
   "news": "",
-  "points": 21,
+  "points": 22,
   "pos": "DEF",
   "starts": 8,
   "status": "a",
@@ -11188,10 +11188,10 @@
    2,
    1
   ],
-  "minutes": 126,
+  "minutes": 129,
   "name": "Norton-Cuffy",
   "news": "",
-  "points": 4,
+  "points": 5,
   "pos": "DEF",
   "starts": 1,
   "status": "a",
@@ -11245,10 +11245,10 @@
    5,
    1
   ],
-  "minutes": 121,
+  "minutes": 124,
   "name": "Flemming",
   "news": "",
-  "points": 13,
+  "points": 14,
   "pos": "FWD",
   "starts": 0,
   "status": "a",
@@ -11336,7 +11336,7 @@
    1,
    1
   ],
-  "minutes": 119,
+  "minutes": 125,
   "name": "Fofana",
   "news": "",
   "points": 5,
@@ -11432,7 +11432,7 @@
    7,
    1
   ],
-  "minutes": 205,
+  "minutes": 211,
   "name": "Mfuni",
   "news": "",
   "points": 18,
@@ -11670,7 +11670,7 @@
    3,
    10
   ],
-  "minutes": 776,
+  "minutes": 782,
   "name": "Rayan",
   "news": "",
   "points": 28,
@@ -11691,7 +11691,7 @@
    10,
    10
   ],
-  "minutes": 734,
+  "minutes": 740,
   "name": "Tavernier",
   "news": "",
   "points": 55,
@@ -11775,7 +11775,7 @@
    2,
    6
   ],
-  "minutes": 338,
+  "minutes": 344,
   "name": "Cook",
   "news": "",
   "points": 18,
@@ -11817,10 +11817,10 @@
    3,
    4
   ],
-  "minutes": 621,
+  "minutes": 627,
   "name": "Adams",
   "news": "",
-  "points": 23,
+  "points": 22,
   "pos": "MID",
   "starts": 6,
   "status": "a",
@@ -11912,7 +11912,7 @@
   "last5": [
    1
   ],
-  "minutes": 9,
+  "minutes": 15,
   "name": "Kroupi.Jr",
   "news": "",
   "points": 2,
@@ -11933,7 +11933,7 @@
    12,
    6
   ],
-  "minutes": 752,
+  "minutes": 753,
   "name": "Evanilson",
   "news": "",
   "points": 52,
@@ -11989,10 +11989,10 @@
    1,
    1
   ],
-  "minutes": 39,
+  "minutes": 43,
   "name": "Rodríguez",
   "news": "",
-  "points": 4,
+  "points": 5,
   "pos": "FWD",
   "starts": 0,
   "status": "a",
@@ -12010,10 +12010,10 @@
    2,
    2
   ],
-  "minutes": 798,
+  "minutes": 804,
   "name": "Kelleher",
   "news": "",
-  "points": 32,
+  "points": 33,
   "pos": "GKP",
   "starts": 8,
   "status": "a",
@@ -12062,10 +12062,10 @@
    1,
    2
   ],
-  "minutes": 238,
+  "minutes": 244,
   "name": "Van den Berg",
   "news": "",
-  "points": 13,
+  "points": 14,
   "pos": "DEF",
   "starts": 2,
   "status": "a",
@@ -12083,7 +12083,7 @@
    9,
    2
   ],
-  "minutes": 703,
+  "minutes": 709,
   "name": "Lewis-Potter",
   "news": "",
   "points": 38,
@@ -12104,10 +12104,10 @@
    3,
    2
   ],
-  "minutes": 798,
+  "minutes": 804,
   "name": "Ajer",
   "news": "",
-  "points": 41,
+  "points": 40,
   "pos": "DEF",
   "starts": 8,
   "status": "a",
@@ -12125,7 +12125,7 @@
    1,
    4
   ],
-  "minutes": 642,
+  "minutes": 648,
   "name": "Kayode",
   "news": "",
   "points": 33,
@@ -12182,7 +12182,7 @@
    1,
    1
   ],
-  "minutes": 293,
+  "minutes": 299,
   "name": "Hickey",
   "news": "",
   "points": 9,
@@ -12203,10 +12203,10 @@
    1,
    4
   ],
-  "minutes": 630,
+  "minutes": 636,
   "name": "Pinnock",
   "news": "",
-  "points": 23,
+  "points": 25,
   "pos": "DEF",
   "starts": 6,
   "status": "a",
@@ -12259,7 +12259,7 @@
    0,
    2
   ],
-  "minutes": 682,
+  "minutes": 687,
   "name": "Schade",
   "news": "",
   "points": 45,
@@ -12283,7 +12283,7 @@
   "minutes": 395,
   "name": "O.Dango",
   "news": "",
-  "points": 26,
+  "points": 25,
   "pos": "MID",
   "starts": 4,
   "status": "a",
@@ -12301,7 +12301,7 @@
    1,
    1
   ],
-  "minutes": 340,
+  "minutes": 346,
   "name": "Damsgaard",
   "news": "",
   "points": 19,
@@ -12342,7 +12342,7 @@
    3,
    -1
   ],
-  "minutes": 708,
+  "minutes": 714,
   "name": "Janelt",
   "news": "",
   "points": 35,
