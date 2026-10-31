@@ -1931,6 +1931,27 @@
   "team": "NEW"
  },
  {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 161,
+  "last5": [
+   7,
+   1,
+   2,
+   1,
+   1
+  ],
+  "minutes": 322,
+  "name": "Lavia",
+  "news": "",
+  "points": 16,
+  "pos": "MID",
+  "starts": 4,
+  "status": "a",
+  "team": "CHE"
+ },
+ {
   "appearances": 8,
   "defcon_hits": 1,
   "defcon_rate": 0.12,
@@ -2305,27 +2326,6 @@
   "starts": 5,
   "status": "a",
   "team": "EVE"
- },
- {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 161,
-  "last5": [
-   7,
-   1,
-   2,
-   1,
-   1
-  ],
-  "minutes": 322,
-  "name": "Lavia",
-  "news": "",
-  "points": 14,
-  "pos": "MID",
-  "starts": 4,
-  "status": "a",
-  "team": "CHE"
  },
  {
   "appearances": 7,

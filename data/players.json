@@ -71,11 +71,11 @@
   ],
   "minutes": 360,
   "name": "Henderson",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 25,
   "pos": "MID",
   "starts": 4,
-  "status": "a",
+  "status": "d",
   "team": "CHE"
  },
  "102": {
@@ -1315,7 +1315,7 @@
   "minutes": 322,
   "name": "Lavia",
   "news": "",
-  "points": 14,
+  "points": 16,
   "pos": "MID",
   "starts": 4,
   "status": "a",

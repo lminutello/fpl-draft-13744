@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-31T13:27:51Z | last finished GW8 | next GW9
+Updated 2026-10-31T13:34:54Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -146,7 +146,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Palmer            CHE    38p  743m st8  app8  dc 0.0   last5 [5, 2, 8, 2, -1]
 - MID Kamada            CRY    32p  700m st8  app8  dc 0.12  last5 [8, 3, 8, 1, 2]
 - MID Gibbs-White       NFO    32p  630m st7  app7  dc 0.0   last5 [3, 8, 2, 2, 2]
-- MID Henderson         CHE    25p  360m st4  app4  dc 0.0   last5 [2, 18, 3, 2]
+- MID Henderson         CHE    25p  360m st4  app4  dc 0.0   last5 [2, 18, 3, 2]  [D] Illness - 75% chance of playing
 - FWD Emersonn          IPS    31p  523m st8  app8  dc 0.0   last5 [12, 2, 2, 2, 1]
 - FWD Barry             EVE    30p  682m st8  app8  dc 0.0   last5 [2, 6, 6, 2, 2]
 - FWD Solanke           TOT    19p  375m st4  app8  dc 0.0   last5 [2, 2, 7, 4, 1]
