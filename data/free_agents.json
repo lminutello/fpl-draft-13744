@@ -1511,27 +1511,6 @@
   "team": "BRE"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 2,
-  "defcon_rate": 0.29,
-  "id": 151,
-  "last5": [
-   1,
-   0,
-   2,
-   7,
-   1
-  ],
-  "minutes": 531,
-  "name": "Acheampong",
-  "news": "",
-  "points": 19,
-  "pos": "DEF",
-  "starts": 5,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 6,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -1637,6 +1616,27 @@
   "team": "IPS"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 2,
+  "defcon_rate": 0.29,
+  "id": 151,
+  "last5": [
+   1,
+   0,
+   2,
+   7,
+   1
+  ],
+  "minutes": 536,
+  "name": "Acheampong",
+  "news": "",
+  "points": 18,
+  "pos": "DEF",
+  "starts": 5,
+  "status": "a",
+  "team": "CHE"
+ },
+ {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -1690,7 +1690,7 @@
    4,
    0
   ],
-  "minutes": 760,
+  "minutes": 765,
   "name": "Maguire",
   "news": "",
   "points": 17,
@@ -2109,7 +2109,7 @@
    6,
    3
   ],
-  "minutes": 651,
+  "minutes": 656,
   "name": "Colwill",
   "news": "",
   "points": 15,
@@ -2235,7 +2235,7 @@
    4,
    1
   ],
-  "minutes": 597,
+  "minutes": 602,
   "name": "Dalot",
   "news": "",
   "points": 14,
@@ -2318,7 +2318,7 @@
    1,
    1
   ],
-  "minutes": 317,
+  "minutes": 322,
   "name": "Lavia",
   "news": "",
   "points": 14,
@@ -2631,7 +2631,7 @@
    1,
    1
   ],
-  "minutes": 560,
+  "minutes": 565,
   "name": "Martinez",
   "news": "",
   "points": 12,
@@ -2702,6 +2702,26 @@
   "starts": 4,
   "status": "a",
   "team": "COV"
+ },
+ {
+  "appearances": 4,
+  "defcon_hits": 2,
+  "defcon_rate": 0.5,
+  "id": 145,
+  "last5": [
+   0,
+   3,
+   1,
+   4
+  ],
+  "minutes": 357,
+  "name": "Fofana",
+  "news": "",
+  "points": 12,
+  "pos": "DEF",
+  "starts": 4,
+  "status": "a",
+  "team": "CHE"
  },
  {
   "appearances": 5,
@@ -2909,26 +2929,6 @@
   "team": "AVL"
  },
  {
-  "appearances": 4,
-  "defcon_hits": 2,
-  "defcon_rate": 0.5,
-  "id": 145,
-  "last5": [
-   0,
-   3,
-   1,
-   4
-  ],
-  "minutes": 352,
-  "name": "Fofana",
-  "news": "",
-  "points": 11,
-  "pos": "DEF",
-  "starts": 4,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 5,
   "defcon_hits": 1,
   "defcon_rate": 0.2,
@@ -2981,7 +2981,7 @@
    4,
    1
   ],
-  "minutes": 300,
+  "minutes": 305,
   "name": "Yoro",
   "news": "",
   "points": 11,
@@ -3475,7 +3475,7 @@
    1,
    3
   ],
-  "minutes": 302,
+  "minutes": 307,
   "name": "Andrey Santos",
   "news": "",
   "points": 9,
@@ -3698,7 +3698,7 @@
    2,
    2
   ],
-  "minutes": 215,
+  "minutes": 220,
   "name": "Baleba",
   "news": "",
   "points": 8,
@@ -3997,7 +3997,7 @@
    1,
    1
   ],
-  "minutes": 87,
+  "minutes": 92,
   "name": "Estêvão",
   "news": "",
   "points": 7,
@@ -4217,7 +4217,7 @@
    2,
    2
   ],
-  "minutes": 265,
+  "minutes": 270,
   "name": "Amad",
   "news": "",
   "points": 6,
@@ -5415,7 +5415,7 @@
    1,
    0
   ],
-  "minutes": 84,
+  "minutes": 89,
   "name": "Palestra",
   "news": "",
   "points": 3,
@@ -5852,7 +5852,7 @@
    1,
    0
   ],
-  "minutes": 145,
+  "minutes": 150,
   "name": "Penders",
   "news": "",
   "points": 2,
