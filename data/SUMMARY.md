@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-31T16:03:04Z | last finished GW8 | next GW9
+Updated 2026-10-31T16:10:07Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -39,7 +39,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 ## Free agents - top 30 by points
 
 - MID Ayari             BHA    42p  619m st7  app7  dc 0.0   last5 [8, 3, 3, 13, 2]
-- MID Lewis-Potter      BRE    36p  670m st8  app8  dc 0.0   last5 [1, 3, 2, 9, 2]
+- MID Lewis-Potter      BRE    36p  672m st8  app8  dc 0.0   last5 [1, 3, 2, 9, 2]
 - DEF Boscagli          BHA    34p  674m st8  app8  dc 0.0   last5 [6, 6, 5, 10, -1]
 - DEF Bassey            FUL    33p  720m st8  app8  dc 0.38  last5 [6, 6, 2, 8, 8]
 - MID Iwobi             FUL    32p  657m st8  app8  dc 0.0   last5 [3, 5, 4, 11, 3]
@@ -47,23 +47,23 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Stach             LEE    32p  651m st7  app8  dc 0.38  last5 [3, 5, 2, 2, 1]
 - DEF Dunk              BHA    31p  614m st6  app7  dc 0.14  last5 [5, 12, 1, 6, 1]
 - MID Enciso            IPS    31p  690m st8  app8  dc 0.0   last5 [2, 2, 2, 2, 10]
-- MID Xhaka             SUN    30p  765m st8  app8  dc 0.25  last5 [1, 2, 2, 2, 3]
+- MID Xhaka             SUN    30p  767m st8  app8  dc 0.25  last5 [1, 2, 2, 2, 3]
 - DEF Giles             HUL    30p  638m st7  app8  dc 0.0   last5 [4, 0, 2, 1, 2]
 - MID Bobb              FUL    30p  575m st8  app8  dc 0.0   last5 [3, 3, 3, 3, 11]
 - MID Scott             BOU    30p  446m st5  app5  dc 0.4   last5 [2, 12, 10, 4, 2]  [I] Thigh injury - Expected back 21 Nov
 - GKP Suzuki            AVL    30p  630m st7  app7  dc 0.0   last5 [2, 2, 2, 8, 4]
 - DEF F.Kadıoğlu        BHA    29p  517m st7  app7  dc 0.14  last5 [6, 5, 9, 6, 1]  [D] Hip injury - 75% chance of playing
 - DEF Davis             IPS    29p  765m st8  app8  dc 0.0   last5 [14, 2, 1, 0, 2]
-- MID Rudoni            COV    29p  600m st7  app8  dc 0.12  last5 [2, 5, 7, 6, 2]
-- MID M.Sangaré         BRE    29p  539m st5  app8  dc 0.5   last5 [4, 0, 1, 1, 4]
+- MID Rudoni            COV    29p  602m st7  app8  dc 0.12  last5 [2, 5, 7, 6, 2]
+- MID M.Sangaré         BRE    29p  541m st5  app8  dc 0.5   last5 [4, 0, 1, 1, 4]
 - DEF Mendy             HUL    29p  384m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]
-- DEF Dasilva           COV    28p  759m st8  app8  dc 0.0   last5 [0, 15, 5, 0, 2]
+- DEF Dasilva           COV    28p  761m st8  app8  dc 0.0   last5 [0, 15, 5, 0, 2]
 - MID Buendía           AVL    28p  559m st7  app8  dc 0.12  last5 [2, 12, 4, 3, 0]
 - MID Kluivert          BOU    28p  429m st5  app6  dc 0.0   last5 [3, 1, 8, 1, 6]
 - DEF Mykolenko         EVE    28p  613m st7  app7  dc 0.29  last5 [1, 11, 5, 1, 0]
 - MID Kamara            AVL    28p  713m st8  app8  dc 0.38  last5 [2, 6, 4, 5, 4]
-- MID Ndoye             NFO    28p  572m st8  app8  dc 0.0   last5 [1, 1, 7, 3, 2]
-- MID E.Le Fée          SUN    28p  731m st8  app8  dc 0.12  last5 [0, 5, 2, 4, 3]
+- MID Ndoye             NFO    28p  574m st8  app8  dc 0.0   last5 [1, 1, 7, 3, 2]
+- MID E.Le Fée          SUN    28p  733m st8  app8  dc 0.12  last5 [0, 5, 2, 4, 3]
 - DEF Ouattara          IPS    28p  446m st4  app8  dc 0.0   last5 [1, 2, 10, 3, 2]
 - MID Willock           NEW    27p  473m st6  app8  dc 0.0   last5 [1, 10, 1, 1, 3]
 - DEF O'Shea            IPS    27p  765m st8  app8  dc 0.38  last5 [1, 2, 11, 3, 2]
@@ -74,7 +74,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 ### GKP
 
 - GKP Suzuki            AVL    30p  630m st7  app7  dc 0.0   last5 [2, 2, 2, 8, 4]
-- GKP Rushworth         COV    23p  765m st8  app8  dc 0.0   last5 [0, 11, 3, 1, 2]
+- GKP Rushworth         COV    23p  767m st8  app8  dc 0.0   last5 [0, 11, 3, 1, 2]
 - GKP Benitez           CRY    13p  450m st5  app5  dc 0.0   last5 [2, 6, 3, 1, 1]
 - GKP Walton            IPS    10p  405m st4  app4  dc 0.0   last5 [2, 2, 2, 3]
 - GKP Scherpen          IPS     7p  360m st4  app4  dc 0.0   last5 [2, 2, 2, 1]
@@ -96,7 +96,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF F.Kadıoğlu        BHA    29p  517m st7  app7  dc 0.14  last5 [6, 5, 9, 6, 1]  [D] Hip injury - 75% chance of playing
 - DEF Davis             IPS    29p  765m st8  app8  dc 0.0   last5 [14, 2, 1, 0, 2]
 - DEF Mendy             HUL    29p  384m st5  app5  dc 0.6   last5 [15, 1, 8, 1, 3]
-- DEF Dasilva           COV    28p  759m st8  app8  dc 0.0   last5 [0, 15, 5, 0, 2]
+- DEF Dasilva           COV    28p  761m st8  app8  dc 0.0   last5 [0, 15, 5, 0, 2]
 - DEF Mykolenko         EVE    28p  613m st7  app7  dc 0.29  last5 [1, 11, 5, 1, 0]
 - DEF Ouattara          IPS    28p  446m st4  app8  dc 0.0   last5 [1, 2, 10, 3, 2]
 - DEF O'Shea            IPS    27p  765m st8  app8  dc 0.38  last5 [1, 2, 11, 3, 2]
@@ -104,15 +104,15 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 ### MID
 
 - MID Ayari             BHA    42p  619m st7  app7  dc 0.0   last5 [8, 3, 3, 13, 2]
-- MID Lewis-Potter      BRE    36p  670m st8  app8  dc 0.0   last5 [1, 3, 2, 9, 2]
+- MID Lewis-Potter      BRE    36p  672m st8  app8  dc 0.0   last5 [1, 3, 2, 9, 2]
 - MID Iwobi             FUL    32p  657m st8  app8  dc 0.0   last5 [3, 5, 4, 11, 3]
 - MID Stach             LEE    32p  651m st7  app8  dc 0.38  last5 [3, 5, 2, 2, 1]
 - MID Enciso            IPS    31p  690m st8  app8  dc 0.0   last5 [2, 2, 2, 2, 10]
-- MID Xhaka             SUN    30p  765m st8  app8  dc 0.25  last5 [1, 2, 2, 2, 3]
+- MID Xhaka             SUN    30p  767m st8  app8  dc 0.25  last5 [1, 2, 2, 2, 3]
 - MID Bobb              FUL    30p  575m st8  app8  dc 0.0   last5 [3, 3, 3, 3, 11]
 - MID Scott             BOU    30p  446m st5  app5  dc 0.4   last5 [2, 12, 10, 4, 2]  [I] Thigh injury - Expected back 21 Nov
-- MID Rudoni            COV    29p  600m st7  app8  dc 0.12  last5 [2, 5, 7, 6, 2]
-- MID M.Sangaré         BRE    29p  539m st5  app8  dc 0.5   last5 [4, 0, 1, 1, 4]
+- MID Rudoni            COV    29p  602m st7  app8  dc 0.12  last5 [2, 5, 7, 6, 2]
+- MID M.Sangaré         BRE    29p  541m st5  app8  dc 0.5   last5 [4, 0, 1, 1, 4]
 - MID Buendía           AVL    28p  559m st7  app8  dc 0.12  last5 [2, 12, 4, 3, 0]
 - MID Kluivert          BOU    28p  429m st5  app6  dc 0.0   last5 [3, 1, 8, 1, 6]
 
@@ -121,7 +121,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - FWD Gonzalo           FUL    20p  668m st8  app8  dc 0.0   last5 [2, 2, 2, 2, 2]
 - FWD Isidor            SUN    17p  207m st1  app6  dc 0.0   last5 [8, 4, 1, 1, 2]
 - FWD Cherif            COV    16p  232m st3  app4  dc 0.0   last5 [1, 12, 1, 2]
-- FWD Awoniyi           COV    13p  330m st3  app6  dc 0.0   last5 [2, 2, -2, 1, 1]
+- FWD Awoniyi           COV    13p  332m st3  app6  dc 0.0   last5 [2, 2, -2, 1, 1]
 - FWD Flemming          IPS    13p  121m st0  app6  dc 0.0   last5 [5, 0, 1, 5, 1]
 - FWD Georginio         BHA    12p  140m st1  app5  dc 0.0   last5 [5, 1, 4, 1, 1]
 - FWD Igor Jesus        NFO    12p  257m st2  app5  dc 0.0   last5 [2, 1, 1, 7, 1]  [I] Calf injury - Unknown return date
@@ -141,10 +141,10 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Tarkowski         EVE    48p  720m st8  app8  dc 0.62  last5 [8, 14, 3, 0, 2]
 - DEF Egan              HUL    36p  752m st8  app8  dc 0.62  last5 [2, 1, 1, 4, 4]
 - DEF Ajayi             HUL    35p  738m st8  app8  dc 0.12  last5 [1, 1, 1, 2, 4]
-- DEF Ajer              BRE    33p  765m st8  app8  dc 0.38  last5 [1, 7, 6, 3, 2]
+- DEF Ajer              BRE    33p  767m st8  app8  dc 0.38  last5 [1, 7, 6, 3, 2]
 - MID Palmer            CHE    45p  788m st8  app8  dc 0.0   last5 [5, 2, 8, 2, -1]
 - MID Cherki            MCI    44p  437m st6  app7  dc 0.0   last5 [3, 1, 8, 10, 0]
-- MID Gibbs-White       NFO    33p  675m st7  app7  dc 0.0   last5 [3, 8, 2, 2, 2]
+- MID Gibbs-White       NFO    33p  677m st7  app7  dc 0.0   last5 [3, 8, 2, 2, 2]
 - MID Kamada            CRY    32p  700m st8  app8  dc 0.12  last5 [8, 3, 8, 1, 2]
 - MID Henderson         CHE    25p  360m st4  app4  dc 0.0   last5 [2, 18, 3, 2]  [D] Illness - 75% chance of playing
 - FWD Emersonn          IPS    32p  568m st8  app8  dc 0.0   last5 [12, 2, 2, 2, 1]
@@ -153,12 +153,12 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 
 ### Ephesians Autocracy
 
-- GKP Kelleher          BRE    27p  765m st8  app8  dc 0.0   last5 [3, 6, 2, 2, 2]
-- GKP Roefs             SUN    23p  765m st8  app8  dc 0.0   last5 [2, 0, 1, 2, 9]
+- GKP Kelleher          BRE    27p  767m st8  app8  dc 0.0   last5 [3, 6, 2, 2, 2]
+- GKP Roefs             SUN    23p  767m st8  app8  dc 0.0   last5 [2, 0, 1, 2, 9]
 - DEF Vuskovic          BHA    53p  752m st8  app8  dc 0.5   last5 [6, 8, 8, 11, 1]
 - DEF Muharemović       LEE    44p  765m st8  app8  dc 0.62  last5 [7, 6, 2, 5, 9]
 - DEF Virgil            LIV    38p  720m st8  app8  dc 0.62  last5 [8, 8, 0, 4, 9]
-- DEF N.Williams        NFO    32p  758m st8  app8  dc 0.25  last5 [2, 2, 1, 3, 8]
+- DEF N.Williams        NFO    32p  760m st8  app8  dc 0.25  last5 [2, 2, 1, 3, 8]
 - DEF Mitchell          CRY    29p  689m st8  app8  dc 0.12  last5 [1, 7, 4, 0, 1]
 - MID Groß              BHA    59p  745m st8  app8  dc 0.0   last5 [17, 14, 6, 5, 0]
 - MID Tavernier         BOU    53p  705m st8  app8  dc 0.0   last5 [8, 2, 1, 10, 10]
@@ -172,10 +172,10 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 ### Mossad & Hove Albion
 
 - GKP Kinsky            TOT    32p  720m st8  app8  dc 0.0   last5 [7, 2, 3, 2, 9]
-- GKP Sels              NFO    21p  765m st8  app8  dc 0.0   last5 [3, 2, 2, 2, 2]
+- GKP Sels              NFO    21p  767m st8  app8  dc 0.0   last5 [3, 2, 2, 2, 2]
 - DEF White             ARS    42p  532m st7  app7  dc 0.0   last5 [2, 1, 5, 6, 10]
 - DEF Hall              NEW    40p  719m st8  app8  dc 0.5   last5 [0, 13, 0, 4, 5]
-- DEF Murillo           NFO    29p  764m st8  app8  dc 0.62  last5 [6, 4, 2, 2, 1]
+- DEF Murillo           NFO    29p  766m st8  app8  dc 0.62  last5 [6, 4, 2, 2, 1]
 - DEF O'Reilly          MCI    13p  288m st4  app6  dc 0.0   last5 [2, 1, 1, 5, 2]
 - DEF Pedro Porro       TOT    10p  223m st3  app4  dc 0.0   last5 [1, 7, 1, 1]
 - MID Dewsbury-Hall     EVE    37p  715m st8  app8  dc 0.0   last5 [2, 3, 13, 2, 2]
@@ -183,8 +183,8 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Manzambi          AVL    31p  319m st4  app5  dc 0.0   last5 [1, 13, 5, 11, 1]
 - MID Elanga            NEW    19p  245m st3  app4  dc 0.0   last5 [9, 8, 1, 1]
 - MID Kudus             TOT    19p  362m st3  app7  dc 0.0   last5 [1, 4, 3, 6, 3]
-- FWD Thiago            BRE    24p  757m st8  app8  dc 0.0   last5 [1, 5, 4, 4, 5]
-- FWD Delap             NFO    16p  573m st6  app7  dc 0.0   last5 [5, 1, 2, 2, 2]
+- FWD Thiago            BRE    24p  759m st8  app8  dc 0.0   last5 [1, 5, 4, 4, 5]
+- FWD Delap             NFO    16p  575m st6  app7  dc 0.0   last5 [5, 1, 2, 2, 2]
 - FWD Mateta            CRY     5p  152m st2  app3  dc 0.0   last5 [2, 1, 2]
 
 ### xGoons
@@ -231,14 +231,14 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Gudmundsson       LEE    26p  567m st6  app6  dc 0.0   last5 [6, 6, 4, 1, 6]
 - DEF Truffert          BOU    26p  758m st8  app8  dc 0.12  last5 [3, 2, -1, 6, 10]
 - DEF Lindelöf          AVL    22p  720m st8  app8  dc 0.25  last5 [1, 1, 3, 9, 2]
-- DEF Muñoz             NFO    15p  527m st6  app7  dc 0.0   last5 [2, 2, 1, 2, 7]
+- DEF Muñoz             NFO    16p  529m st6  app7  dc 0.0   last5 [2, 2, 1, 2, 7]
 - MID Mbeumo            MUN    44p  810m st8  app8  dc 0.0   last5 [2, 2, 8, 8, 2]
 - MID Gomez             BHA    40p  745m st8  app8  dc 0.25  last5 [3, 8, 5, 8, 2]
 - MID Ødegaard          ARS    36p  646m st8  app8  dc 0.0   last5 [3, 2, 1, 3, 3]
 - MID Gakpo             LIV    35p  460m st5  app6  dc 0.17  last5 [5, 11, 1, 3, 3]
 - MID King              FUL    34p  657m st8  app8  dc 0.0   last5 [3, 2, 2, 2, 6]
 - FWD Isak              LIV    51p  567m st7  app7  dc 0.0   last5 [13, 2, 8, 9, 9]
-- FWD Brobbey           SUN    27p  508m st6  app6  dc 0.0   last5 [2, 2, 1, 17, 2]
+- FWD Brobbey           SUN    27p  510m st6  app6  dc 0.0   last5 [2, 2, 1, 17, 2]
 - FWD Gyökeres          ARS     9p  147m st1  app5  dc 0.0   last5 [1, 1, 1, 1, 5]
 
 ### TheSunnysideDons
@@ -248,11 +248,11 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF De Cuyper         BHA    66p  715m st8  app8  dc 0.0   last5 [11, 6, 15, 6, 1]
 - DEF Gabriel           ARS    52p  720m st8  app8  dc 0.5   last5 [9, 1, 2, 8, 17]
 - DEF Branthwaite       EVE    31p  630m st7  app7  dc 0.57  last5 [3, 6, 8, 3, 1]  [D] Concussion - 75% chance of playing
-- DEF Kayode            BRE    29p  609m st7  app8  dc 0.12  last5 [1, 6, 0, 1, 4]
+- DEF Kayode            BRE    29p  611m st7  app8  dc 0.12  last5 [1, 6, 0, 1, 4]
 - DEF Matheus N.        MCI    20p  423m st4  app5  dc 0.2   last5 [1, 9, 1, 6, 2]
-- MID Schade            BRE    43p  649m st7  app8  dc 0.0   last5 [15, 9, 1, 0, 2]
+- MID Schade            BRE    43p  651m st7  app8  dc 0.0   last5 [15, 9, 1, 0, 2]
 - MID Rice              ARS    39p  670m st8  app8  dc 0.12  last5 [6, 1, 7, 9, 3]  [D] Unspecified injury - 75% chance of playing
-- MID Janelt            BRE    31p  675m st7  app7  dc 0.57  last5 [11, 4, 3, 3, -1]
+- MID Janelt            BRE    31p  677m st7  app7  dc 0.57  last5 [11, 4, 3, 3, -1]
 - MID Rayan             BOU    26p  747m st8  app8  dc 0.12  last5 [2, 2, 2, 3, 10]
 - MID Enzo              MCI    20p  525m st5  app7  dc 0.0   last5 [2, 7, 3, 1, 2]
 - FWD Evanilson         BOU    51p  723m st8  app8  dc 0.0   last5 [5, 2, 7, 12, 6]
