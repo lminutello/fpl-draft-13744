@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-10-31T16:52:24Z | last finished GW8 | next GW9
+Updated 2026-10-31T16:59:30Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -29,7 +29,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Richards          CRY    23p  720m st8  app8  dc 0.75  last5 [2, 8, 4, 2, 3]
 - MID Barnes            NEW    40p  706m st8  app8  dc 0.0   last5 [2, 9, 2, 2, 8]
 - MID Tonali            TOT    30p  697m st8  app8  dc 0.38  last5 [3, 2, 7, 4, 5]
-- MID Anderson          MCI    27p  696m st7  app8  dc 0.25  last5 [5, 2, 6, 1, 1]
+- MID Anderson          MCI    28p  696m st7  app8  dc 0.25  last5 [5, 2, 6, 1, 1]
 - MID Bruno G.          ARS    22p  237m st2  app6  dc 0.0   last5 [7, 1, 9, 3, 1]
 - MID Caicedo           CHE    11p  350m st3  app4  dc 0.0   last5 [1, 2, 3, 2]
 - FWD Haaland           MCI    68p  799m st8  app8  dc 0.0   last5 [9, 6, 6, 13, 8]
@@ -125,8 +125,8 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - FWD Flemming          IPS    14p  134m st0  app6  dc 0.0   last5 [5, 0, 1, 5, 1]
 - FWD Georginio         BHA    13p  146m st1  app5  dc 0.0   last5 [5, 1, 4, 1, 1]
 - FWD Igor Jesus        NFO    12p  257m st2  app5  dc 0.0   last5 [2, 1, 1, 7, 1]  [I] Calf injury - Unknown return date
+- FWD Akpom             IPS    11p  114m st0  app6  dc 0.0   last5 [5, 1, 1, 1, 1]
 - FWD Nmecha            LEE    11p  121m st0  app7  dc 0.0   last5 [1, 1, 1, 1, 1]
-- FWD Akpom             IPS    10p  113m st0  app6  dc 0.0   last5 [5, 1, 1, 1, 1]
 - FWD Simms             COV    10p  116m st1  app4  dc 0.0   last5 [2, 1, 1, 6]
 - FWD Welbeck           CHE     8p   98m st1  app6  dc 0.0   last5 [1, 2, 1, 1, 1]
 - FWD Wood              NFO     8p  111m st0  app7  dc 0.0   last5 [1, 1, 1, 1, 1]
@@ -137,11 +137,11 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 
 - GKP Tzolakis          HUL    43p  810m st8  app8  dc 0.0   last5 [2, 6, 2, 3, 3]
 - GKP Leno              FUL    34p  720m st8  app8  dc 0.0   last5 [9, 3, 2, 6, 8]
-- DEF Bogle             LEE    52p  720m st8  app8  dc 0.0   last5 [15, 5, 1, 2, 5]
+- DEF Bogle             LEE    51p  720m st8  app8  dc 0.0   last5 [15, 5, 1, 2, 5]
 - DEF Tarkowski         EVE    48p  720m st8  app8  dc 0.62  last5 [8, 14, 3, 0, 2]
 - DEF Ajer              BRE    40p  810m st8  app8  dc 0.38  last5 [1, 7, 6, 3, 2]
 - DEF Egan              HUL    36p  752m st8  app8  dc 0.62  last5 [2, 1, 1, 4, 4]
-- DEF Ajayi             HUL    34p  783m st8  app8  dc 0.12  last5 [1, 1, 1, 2, 4]
+- DEF Ajayi             HUL    36p  783m st8  app8  dc 0.12  last5 [1, 1, 1, 2, 4]
 - MID Palmer            CHE    45p  788m st8  app8  dc 0.0   last5 [5, 2, 8, 2, -1]
 - MID Cherki            MCI    45p  472m st6  app7  dc 0.0   last5 [3, 1, 8, 10, 0]
 - MID Gibbs-White       NFO    34p  720m st7  app7  dc 0.0   last5 [3, 8, 2, 2, 2]
@@ -156,7 +156,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - GKP Kelleher          BRE    33p  810m st8  app8  dc 0.0   last5 [3, 6, 2, 2, 2]
 - GKP Roefs             SUN    24p  810m st8  app8  dc 0.0   last5 [2, 0, 1, 2, 9]
 - DEF Vuskovic          BHA    58p  797m st8  app8  dc 0.5   last5 [6, 8, 8, 11, 1]
-- DEF Muharemović       LEE    45p  810m st8  app8  dc 0.62  last5 [7, 6, 2, 5, 9]
+- DEF Muharemović       LEE    46p  810m st8  app8  dc 0.62  last5 [7, 6, 2, 5, 9]
 - DEF Virgil            LIV    38p  720m st8  app8  dc 0.62  last5 [8, 8, 0, 4, 9]
 - DEF N.Williams        NFO    32p  803m st8  app8  dc 0.25  last5 [2, 2, 1, 3, 8]
 - DEF Mitchell          CRY    29p  689m st8  app8  dc 0.12  last5 [1, 7, 4, 0, 1]
@@ -200,7 +200,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Neto              CHE    40p  677m st7  app8  dc 0.12  last5 [2, 2, 5, 15, 3]
 - MID B.Fernandes       MUN    35p  720m st7  app7  dc 0.0   last5 [2, 2, 2, 1, 1]
 - MID Doku              MCI    25p  305m st2  app4  dc 0.0   last5 [1, 12, 6, 2]
-- MID Kroupi.Jr         BOU     2p   25m st0  app1  dc 0.0   last5 [1]
+- MID Kroupi.Jr         BOU     5p   25m st0  app1  dc 0.0   last5 [1]
 - FWD Havertz           ARS    24p  586m st7  app8  dc 0.0   last5 [1, 2, 2, 2, 1]
 - FWD Wissa             NEW    19p  621m st7  app8  dc 0.0   last5 [2, 0, 2, 1, 1]
 - FWD Šeško             MUN     8p   76m st0  app4  dc 0.0   last5 [1, 1, 5, 1]  [I] Shin injury - Unknown return date
@@ -243,7 +243,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 
 ### TheSunnysideDons
 
-- GKP Petrović          BOU    30p  810m st8  app8  dc 0.0   last5 [1, 2, 0, 6, 7]
+- GKP Petrović          BOU    28p  810m st8  app8  dc 0.0   last5 [1, 2, 0, 6, 7]
 - GKP Lammens           MUN    20p  810m st8  app8  dc 0.0   last5 [2, 4, 2, 3, 1]
 - DEF De Cuyper         BHA    69p  741m st8  app8  dc 0.0   last5 [11, 6, 15, 6, 1]
 - DEF Gabriel           ARS    52p  720m st8  app8  dc 0.5   last5 [9, 1, 2, 8, 17]
