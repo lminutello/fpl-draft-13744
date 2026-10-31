@@ -1511,6 +1511,27 @@
   "team": "BRE"
  },
  {
+  "appearances": 7,
+  "defcon_hits": 2,
+  "defcon_rate": 0.29,
+  "id": 151,
+  "last5": [
+   1,
+   0,
+   2,
+   7,
+   1
+  ],
+  "minutes": 539,
+  "name": "Acheampong",
+  "news": "",
+  "points": 19,
+  "pos": "DEF",
+  "starts": 5,
+  "status": "a",
+  "team": "CHE"
+ },
+ {
   "appearances": 6,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -1616,27 +1637,6 @@
   "team": "IPS"
  },
  {
-  "appearances": 7,
-  "defcon_hits": 2,
-  "defcon_rate": 0.29,
-  "id": 151,
-  "last5": [
-   1,
-   0,
-   2,
-   7,
-   1
-  ],
-  "minutes": 536,
-  "name": "Acheampong",
-  "news": "",
-  "points": 18,
-  "pos": "DEF",
-  "starts": 5,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -1690,7 +1690,7 @@
    4,
    0
   ],
-  "minutes": 765,
+  "minutes": 768,
   "name": "Maguire",
   "news": "",
   "points": 17,
@@ -1826,6 +1826,27 @@
   "team": "IPS"
  },
  {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 161,
+  "last5": [
+   7,
+   1,
+   2,
+   1,
+   1
+  ],
+  "minutes": 325,
+  "name": "Lavia",
+  "news": "",
+  "points": 17,
+  "pos": "MID",
+  "starts": 4,
+  "status": "a",
+  "team": "CHE"
+ },
+ {
   "appearances": 7,
   "defcon_hits": 1,
   "defcon_rate": 0.14,
@@ -1929,27 +1950,6 @@
   "starts": 7,
   "status": "a",
   "team": "NEW"
- },
- {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 161,
-  "last5": [
-   7,
-   1,
-   2,
-   1,
-   1
-  ],
-  "minutes": 322,
-  "name": "Lavia",
-  "news": "",
-  "points": 16,
-  "pos": "MID",
-  "starts": 4,
-  "status": "a",
-  "team": "CHE"
  },
  {
   "appearances": 8,
@@ -2130,7 +2130,7 @@
    6,
    3
   ],
-  "minutes": 656,
+  "minutes": 659,
   "name": "Colwill",
   "news": "",
   "points": 15,
@@ -2256,7 +2256,7 @@
    4,
    1
   ],
-  "minutes": 602,
+  "minutes": 605,
   "name": "Dalot",
   "news": "",
   "points": 14,
@@ -2631,7 +2631,7 @@
    1,
    1
   ],
-  "minutes": 565,
+  "minutes": 568,
   "name": "Martinez",
   "news": "",
   "points": 12,
@@ -2702,26 +2702,6 @@
   "starts": 4,
   "status": "a",
   "team": "COV"
- },
- {
-  "appearances": 4,
-  "defcon_hits": 2,
-  "defcon_rate": 0.5,
-  "id": 145,
-  "last5": [
-   0,
-   3,
-   1,
-   4
-  ],
-  "minutes": 357,
-  "name": "Fofana",
-  "news": "",
-  "points": 12,
-  "pos": "DEF",
-  "starts": 4,
-  "status": "a",
-  "team": "CHE"
  },
  {
   "appearances": 5,
@@ -2929,6 +2909,26 @@
   "team": "AVL"
  },
  {
+  "appearances": 4,
+  "defcon_hits": 2,
+  "defcon_rate": 0.5,
+  "id": 145,
+  "last5": [
+   0,
+   3,
+   1,
+   4
+  ],
+  "minutes": 360,
+  "name": "Fofana",
+  "news": "",
+  "points": 11,
+  "pos": "DEF",
+  "starts": 4,
+  "status": "a",
+  "team": "CHE"
+ },
+ {
   "appearances": 5,
   "defcon_hits": 1,
   "defcon_rate": 0.2,
@@ -2981,7 +2981,7 @@
    4,
    1
   ],
-  "minutes": 305,
+  "minutes": 308,
   "name": "Yoro",
   "news": "",
   "points": 11,
@@ -3475,7 +3475,7 @@
    1,
    3
   ],
-  "minutes": 307,
+  "minutes": 310,
   "name": "Andrey Santos",
   "news": "",
   "points": 9,
@@ -3698,7 +3698,7 @@
    2,
    2
   ],
-  "minutes": 220,
+  "minutes": 223,
   "name": "Baleba",
   "news": "",
   "points": 8,
@@ -3997,7 +3997,7 @@
    1,
    1
   ],
-  "minutes": 92,
+  "minutes": 95,
   "name": "Estêvão",
   "news": "",
   "points": 7,
@@ -4217,7 +4217,7 @@
    2,
    2
   ],
-  "minutes": 270,
+  "minutes": 273,
   "name": "Amad",
   "news": "",
   "points": 6,
@@ -5415,7 +5415,7 @@
    1,
    0
   ],
-  "minutes": 89,
+  "minutes": 92,
   "name": "Palestra",
   "news": "",
   "points": 3,
@@ -5852,7 +5852,7 @@
    1,
    0
   ],
-  "minutes": 150,
+  "minutes": 153,
   "name": "Penders",
   "news": "",
   "points": 2,
