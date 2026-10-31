@@ -662,7 +662,7 @@
    4,
    4
   ],
-  "minutes": 469,
+  "minutes": 476,
   "name": "Mainoo",
   "news": "",
   "points": 26,
@@ -977,7 +977,7 @@
    7,
    1
   ],
-  "minutes": 574,
+  "minutes": 581,
   "name": "Acheampong",
   "news": "",
   "points": 23,
@@ -1102,7 +1102,7 @@
    1,
    1
   ],
-  "minutes": 360,
+  "minutes": 367,
   "name": "Lavia",
   "news": "",
   "points": 22,
@@ -1374,7 +1374,7 @@
    1,
    4
   ],
-  "minutes": 395,
+  "minutes": 402,
   "name": "Fofana",
   "news": "",
   "points": 20,
@@ -1395,7 +1395,7 @@
    6,
    3
   ],
-  "minutes": 694,
+  "minutes": 701,
   "name": "Colwill",
   "news": "",
   "points": 20,
@@ -1941,7 +1941,7 @@
    4,
    0
   ],
-  "minutes": 803,
+  "minutes": 810,
   "name": "Maguire",
   "news": "",
   "points": 16,
@@ -2276,7 +2276,7 @@
    4,
    1
   ],
-  "minutes": 640,
+  "minutes": 647,
   "name": "Dalot",
   "news": "",
   "points": 14,
@@ -2960,7 +2960,7 @@
    4,
    1
   ],
-  "minutes": 343,
+  "minutes": 350,
   "name": "Yoro",
   "news": "",
   "points": 11,
@@ -2981,7 +2981,7 @@
    1,
    5
   ],
-  "minutes": 307,
+  "minutes": 314,
   "name": "Chavarria",
   "news": "",
   "points": 11,
@@ -3517,7 +3517,7 @@
    1,
    1
   ],
-  "minutes": 130,
+  "minutes": 133,
   "name": "Estêvão",
   "news": "",
   "points": 9,
@@ -3567,6 +3567,27 @@
   "starts": 3,
   "status": "a",
   "team": "HUL"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 136,
+  "last5": [
+   1,
+   2,
+   1,
+   1,
+   1
+  ],
+  "minutes": 98,
+  "name": "Welbeck",
+  "news": "",
+  "points": 8,
+  "pos": "FWD",
+  "starts": 1,
+  "status": "a",
+  "team": "CHE"
  },
  {
   "appearances": 3,
@@ -3805,27 +3826,6 @@
   "team": "CRY"
  },
  {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 136,
-  "last5": [
-   1,
-   2,
-   1,
-   1,
-   1
-  ],
-  "minutes": 95,
-  "name": "Welbeck",
-  "news": "",
-  "points": 7,
-  "pos": "FWD",
-  "starts": 1,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 7,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -4032,7 +4032,7 @@
    1,
    0
   ],
-  "minutes": 188,
+  "minutes": 195,
   "name": "Penders",
   "news": "",
   "points": 7,
@@ -4264,6 +4264,27 @@
   "team": "ARS"
  },
  {
+  "appearances": 5,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 144,
+  "last5": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "minutes": 277,
+  "name": "Gusto",
+  "news": "",
+  "points": 6,
+  "pos": "DEF",
+  "starts": 3,
+  "status": "a",
+  "team": "CHE"
+ },
+ {
   "appearances": 2,
   "defcon_hits": 1,
   "defcon_rate": 0.5,
@@ -4451,7 +4472,7 @@
    1,
    2
   ],
-  "minutes": 133,
+  "minutes": 140,
   "name": "Mount",
   "news": "",
   "points": 5,
@@ -4565,26 +4586,6 @@
   "appearances": 4,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
-  "id": 440,
-  "last5": [
-   1,
-   1,
-   1,
-   1
-  ],
-  "minutes": 75,
-  "name": "Zirkzee",
-  "news": "",
-  "points": 5,
-  "pos": "FWD",
-  "starts": 0,
-  "status": "a",
-  "team": "MUN"
- },
- {
-  "appearances": 4,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
   "id": 190,
   "last5": [
    2,
@@ -4600,27 +4601,6 @@
   "starts": 2,
   "status": "a",
   "team": "COV"
- },
- {
-  "appearances": 5,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 144,
-  "last5": [
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "minutes": 274,
-  "name": "Gusto",
-  "news": "",
-  "points": 5,
-  "pos": "DEF",
-  "starts": 3,
-  "status": "a",
-  "team": "CHE"
  },
  {
   "appearances": 5,
@@ -4966,6 +4946,26 @@
   "team": "IPS"
  },
  {
+  "appearances": 4,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 440,
+  "last5": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "minutes": 82,
+  "name": "Zirkzee",
+  "news": "",
+  "points": 4,
+  "pos": "FWD",
+  "starts": 0,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
   "appearances": 1,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -5021,6 +5021,25 @@
   "starts": 4,
   "status": "i",
   "team": "COV"
+ },
+ {
+  "appearances": 3,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 568,
+  "last5": [
+   1,
+   0,
+   2
+  ],
+  "minutes": 118,
+  "name": "Barco",
+  "news": "",
+  "points": 4,
+  "pos": "MID",
+  "starts": 1,
+  "status": "a",
+  "team": "CHE"
  },
  {
   "appearances": 4,
@@ -5427,32 +5446,13 @@
   "appearances": 3,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
-  "id": 568,
-  "last5": [
-   1,
-   0,
-   2
-  ],
-  "minutes": 115,
-  "name": "Barco",
-  "news": "",
-  "points": 3,
-  "pos": "MID",
-  "starts": 1,
-  "status": "a",
-  "team": "CHE"
- },
- {
-  "appearances": 3,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
   "id": 421,
   "last5": [
    1,
    1,
    0
   ],
-  "minutes": 172,
+  "minutes": 179,
   "name": "Heaven",
   "news": "",
   "points": 3,
