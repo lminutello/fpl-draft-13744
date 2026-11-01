@@ -266,7 +266,6 @@ function header(doc){
     const u = until(doc.deadline);
     bits.push(u ? "Deadline " + kick(doc.deadline) + " · " + u : "Deadline passed — waiting on next pull");
   }
-  if(a.matchday) bits.push("Matchday: refreshing every ~7 min");
   $("#sub").innerHTML = bits.map(b => "<span>" + esc(b) + "</span>").join("");
 }
 
@@ -526,7 +525,7 @@ async function boot(){
   if(S.gw == null || !S.app.gws.includes(S.gw)) S.gw = S.app.open_gw;
   $("#foot").innerHTML = 'Projections: season points per appearance, pulled toward average when there are only a few games to go on, × chance of playing. ' +
     'Backtested on GW5–8 they beat a plain season average by about 11%; recent form and opponent strength were tested and made it worse, so they\'re left out. ' +
-    'They don\'t read team news. Data refreshes every few hours, and every ~7 minutes while matches are on. Club shirts load from the official FPL image servers. ' +
+    'They don\'t read team news. Data refreshes only when a pull is run by hand, so check the pull time at the top.Club shirts load from the official FPL image servers. ' +
     '<a href="https://github.com/lminutello/fpl-draft-13744">Source</a>';
   route();
 }

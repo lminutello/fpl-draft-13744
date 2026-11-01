@@ -2,14 +2,13 @@
 
 Automated snapshots of FPL Draft league **13744** ("FPL 2026-27 Alhamdulillah").
 
-A scheduled GitHub Action fetches the public FPL Draft API and commits the
-results into `data/`. `index.html` (served by GitHub Pages) is a live-score
-app on top of it: the league table, each gameweek's head-to-head matchups
-with projections, and a per-player view of every matchup.
+A GitHub Action fetches the public FPL Draft API and commits the results into
+`data/`. `index.html` (served by GitHub Pages) is a live-score app on top of
+it: the league table, each gameweek's head-to-head matchups with
+projections, and a per-player view of every matchup.
 
-GitHub only fires the schedule every few hours on a quiet repo, so when a run
-lands within an hour of a kickoff (or while a match is on) it stays alive and
-re-pulls every ~7 minutes, for up to about 5½ hours.
+The Action is **manual only** — there's no schedule. Run it from the Actions
+tab ("Update FPL data" → "Run workflow"). Each run does one pull.
 
 ## Why it exists
 
