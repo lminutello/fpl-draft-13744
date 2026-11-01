@@ -8910,7 +8910,7 @@
   ],
   "minutes": 591,
   "name": "Mukiele",
-  "news": "Knock - 75% chance of playing",
+  "news": "Concussion - 75% chance of playing",
   "points": 20,
   "pos": "DEF",
   "starts": 7,
@@ -9118,11 +9118,11 @@
   ],
   "minutes": 70,
   "name": "Diarra",
-  "news": "",
+  "news": "Muscular injury - 75% chance of playing",
   "points": 7,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "SUN"
  },
  "544": {
