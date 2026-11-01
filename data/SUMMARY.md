@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-11-01T16:38:52Z | last finished GW8 | next GW9
+Updated 2026-11-01T16:45:55Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -21,8 +21,8 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 ## My squad - Mr. Madueke
 
 - GKP Verbruggen        BHA    51p  810m st8  app8  dc 0.0   last5 [8, 6, 9, 6, 2]
-- GKP A.Becker          LIV    37p  725m st8  app8  dc 0.0   last5 [9, 8, 1, 2, 6]
-- DEF Calafiori         ARS    46p  614m st7  app8  dc 0.0   last5 [6, 1, 9, 6, 1]
+- GKP A.Becker          LIV    37p  730m st8  app8  dc 0.0   last5 [9, 8, 1, 2, 6]
+- DEF Calafiori         ARS    46p  619m st7  app8  dc 0.0   last5 [6, 1, 9, 6, 1]
 - DEF Gvardiol          MCI    44p  655m st6  app8  dc 0.0   last5 [11, 4, 4, 0, 1]
 - DEF Justin            LEE    42p  791m st8  app8  dc 0.25  last5 [2, 8, 6, 2, 6]
 - DEF Castagne          FUL    37p  674m st7  app7  dc 0.0   last5 [1, 6, 1, 8, 7]
@@ -30,7 +30,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Barnes            NEW    40p  706m st8  app8  dc 0.0   last5 [2, 9, 2, 2, 8]
 - MID Tonali            TOT    33p  787m st8  app8  dc 0.38  last5 [3, 2, 7, 4, 5]
 - MID Anderson          MCI    27p  696m st7  app8  dc 0.25  last5 [5, 2, 6, 1, 1]
-- MID Bruno G.          ARS    23p  242m st2  app6  dc 0.0   last5 [7, 1, 9, 3, 1]
+- MID Bruno G.          ARS    23p  247m st2  app6  dc 0.0   last5 [7, 1, 9, 3, 1]
 - MID Caicedo           CHE    11p  350m st3  app4  dc 0.0   last5 [1, 2, 3, 2]
 - FWD Haaland           MCI    68p  799m st8  app8  dc 0.0   last5 [9, 6, 6, 13, 8]
 - FWD McBurnie          HUL    36p  796m st8  app8  dc 0.0   last5 [4, 1, 1, 2, 8]
@@ -157,7 +157,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - GKP Roefs             SUN    24p  810m st8  app8  dc 0.0   last5 [2, 0, 1, 2, 9]
 - DEF Vuskovic          BHA    58p  797m st8  app8  dc 0.5   last5 [6, 8, 8, 11, 1]
 - DEF Muharemović       LEE    46p  810m st8  app8  dc 0.62  last5 [7, 6, 2, 5, 9]
-- DEF Virgil            LIV    39p  725m st8  app8  dc 0.62  last5 [8, 8, 0, 4, 9]
+- DEF Virgil            LIV    39p  730m st8  app8  dc 0.62  last5 [8, 8, 0, 4, 9]
 - DEF N.Williams        NFO    32p  803m st8  app8  dc 0.25  last5 [2, 2, 1, 3, 8]
 - DEF Mitchell          CRY    32p  779m st8  app8  dc 0.12  last5 [1, 7, 4, 0, 1]
 - MID Groß              BHA    60p  790m st8  app8  dc 0.0   last5 [17, 14, 6, 5, 0]
@@ -189,10 +189,10 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 
 ### xGoons
 
-- GKP Raya              ARS    50p  725m st8  app8  dc 0.0   last5 [14, 1, 3, 9, 7]
+- GKP Raya              ARS    50p  730m st8  app8  dc 0.0   last5 [14, 1, 3, 9, 7]
 - GKP Martinez          CHE    20p  524m st6  app6  dc 0.0   last5 [3, 2, 2, 3, 8]  [I] Head injury - Unknown return date
-- DEF Konsa             ARS    40p  556m st6  app7  dc 0.29  last5 [6, 1, 4, 9, 14]
-- DEF Jacquet           LIV    39p  687m st8  app8  dc 0.5   last5 [9, 6, 3, 3, 8]
+- DEF Konsa             ARS    40p  561m st6  app7  dc 0.29  last5 [6, 1, 4, 9, 14]
+- DEF Jacquet           LIV    39p  692m st8  app8  dc 0.5   last5 [9, 6, 3, 3, 8]
 - DEF Silva             BOU    37p  810m st8  app8  dc 0.75  last5 [3, 3, 0, 8, 8]
 - DEF Rúben             MCI    27p  810m st8  app8  dc 0.0   last5 [6, 1, 6, 1, 1]
 - DEF Saliba            ARS     0p    0m st0  app0  dc 0.0   last5 []  [I] Back injury - Unknown return date
@@ -201,7 +201,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID B.Fernandes       MUN    35p  720m st7  app7  dc 0.0   last5 [2, 2, 2, 1, 1]
 - MID Doku              MCI    23p  305m st2  app4  dc 0.0   last5 [1, 12, 6, 2]
 - MID Kroupi.Jr         BOU     5p   25m st0  app1  dc 0.0   last5 [1]
-- FWD Havertz           ARS    25p  591m st7  app8  dc 0.0   last5 [1, 2, 2, 2, 1]
+- FWD Havertz           ARS    25p  596m st7  app8  dc 0.0   last5 [1, 2, 2, 2, 1]
 - FWD Wissa             NEW    19p  621m st7  app8  dc 0.0   last5 [2, 0, 2, 1, 1]
 - FWD Šeško             MUN     8p   76m st0  app4  dc 0.0   last5 [1, 1, 5, 1]  [I] Shin injury - Unknown return date
 
@@ -212,12 +212,12 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Hill              BOU    38p  810m st8  app8  dc 0.62  last5 [2, 4, 2, 7, 11]
 - DEF Guéhi             MCI    37p  675m st8  app8  dc 0.0   last5 [6, 4, 6, 1, 0]
 - DEF Robertson         TOT    36p  574m st6  app7  dc 0.14  last5 [1, 7, 4, 5, 6]
-- DEF Araujo            LIV    34p  498m st6  app8  dc 0.25  last5 [6, 7, 0, 1, 10]
-- DEF J.Timber          ARS     4p  160m st1  app4  dc 0.0   last5 [1, 0, 1, 1]
+- DEF Araujo            LIV    34p  503m st6  app8  dc 0.25  last5 [6, 7, 0, 1, 10]
+- DEF J.Timber          ARS     4p  165m st1  app4  dc 0.0   last5 [1, 0, 1, 1]
 - MID Belloumi          HUL    48p  685m st7  app8  dc 0.25  last5 [13, 4, 6, 2, 4]
 - MID Cunha             MUN    40p  613m st6  app8  dc 0.12  last5 [2, 10, 10, 1, 1]
 - MID McGinn            AVL    34p  720m st7  app8  dc 0.0   last5 [6, 6, 10, 1, 6]
-- MID Wirtz             LIV    32p  626m st8  app8  dc 0.0   last5 [3, 6, 2, 5, 6]
+- MID Wirtz             LIV    32p  631m st8  app8  dc 0.0   last5 [3, 6, 2, 5, 6]
 - MID Hinshelwood       BHA    24p  145m st1  app3  dc 0.0   last5 [16, 6, 1]
 - FWD João Pedro        CHE    47p  521m st6  app6  dc 0.0   last5 [9, 1, 12, 12, 2]  [I] Thigh injury - Unknown return date
 - FWD Calvert-Lewin     LEE    37p  773m st8  app8  dc 0.0   last5 [10, 2, 2, 9, 2]
@@ -234,10 +234,10 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Muñoz             NFO    15p  572m st6  app7  dc 0.0   last5 [2, 2, 1, 2, 7]
 - MID Mbeumo            MUN    44p  810m st8  app8  dc 0.0   last5 [2, 2, 8, 8, 2]
 - MID Gomez             BHA    42p  783m st8  app8  dc 0.25  last5 [3, 8, 5, 8, 2]
-- MID Ødegaard          ARS    37p  651m st8  app8  dc 0.0   last5 [3, 2, 1, 3, 3]
-- MID Gakpo             LIV    36p  465m st5  app6  dc 0.17  last5 [5, 11, 1, 3, 3]
+- MID Ødegaard          ARS    37p  656m st8  app8  dc 0.0   last5 [3, 2, 1, 3, 3]
+- MID Gakpo             LIV    36p  470m st5  app6  dc 0.17  last5 [5, 11, 1, 3, 3]
 - MID King              FUL    36p  735m st8  app8  dc 0.0   last5 [3, 2, 2, 2, 6]
-- FWD Isak              LIV    52p  572m st7  app7  dc 0.0   last5 [13, 2, 8, 9, 9]
+- FWD Isak              LIV    52p  577m st7  app7  dc 0.0   last5 [13, 2, 8, 9, 9]
 - FWD Brobbey           SUN    28p  553m st6  app6  dc 0.0   last5 [2, 2, 1, 17, 2]
 - FWD Gyökeres          ARS     9p  147m st1  app5  dc 0.0   last5 [1, 1, 1, 1, 5]
 
@@ -246,12 +246,12 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - GKP Petrović          BOU    28p  810m st8  app8  dc 0.0   last5 [1, 2, 0, 6, 7]
 - GKP Lammens           MUN    20p  810m st8  app8  dc 0.0   last5 [2, 4, 2, 3, 1]
 - DEF De Cuyper         BHA    69p  741m st8  app8  dc 0.0   last5 [11, 6, 15, 6, 1]
-- DEF Gabriel           ARS    53p  725m st8  app8  dc 0.5   last5 [9, 1, 2, 8, 17]
+- DEF Gabriel           ARS    53p  730m st8  app8  dc 0.5   last5 [9, 1, 2, 8, 17]
 - DEF Kayode            BRE    33p  654m st7  app8  dc 0.12  last5 [1, 6, 0, 1, 4]
 - DEF Branthwaite       EVE    31p  630m st7  app7  dc 0.57  last5 [3, 6, 8, 3, 1]  [D] Concussion - 75% chance of playing
 - DEF Matheus N.        MCI    21p  468m st4  app5  dc 0.2   last5 [1, 9, 1, 6, 2]
 - MID Schade            BRE    45p  687m st7  app8  dc 0.0   last5 [15, 9, 1, 0, 2]
-- MID Rice              ARS    40p  675m st8  app8  dc 0.12  last5 [6, 1, 7, 9, 3]
+- MID Rice              ARS    40p  680m st8  app8  dc 0.12  last5 [6, 1, 7, 9, 3]
 - MID Janelt            BRE    35p  720m st7  app7  dc 0.57  last5 [11, 4, 3, 3, -1]
 - MID Rayan             BOU    28p  789m st8  app8  dc 0.12  last5 [2, 2, 2, 3, 10]
 - MID Enzo              MCI    21p  543m st5  app7  dc 0.0   last5 [2, 7, 3, 1, 2]
