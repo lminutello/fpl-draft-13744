@@ -245,11 +245,11 @@
    ],
    "minutes": 471,
    "name": "Szoboszlai",
-   "news": "Hamstring injury - 50% chance of playing",
+   "news": "",
    "points": 21,
    "pos": "MID",
    "starts": 6,
-   "status": "d",
+   "status": "a",
    "team": "LIV"
   },
   {
@@ -999,11 +999,11 @@
    ],
    "minutes": 609,
    "name": "Calafiori",
-   "news": "Hip injury - 75% chance of playing",
+   "news": "",
    "points": 45,
    "pos": "DEF",
    "starts": 7,
-   "status": "d",
+   "status": "a",
    "team": "ARS"
   },
   {
@@ -1757,11 +1757,11 @@
    ],
    "minutes": 670,
    "name": "Rice",
-   "news": "Unspecified injury - 75% chance of playing",
+   "news": "",
    "points": 39,
    "pos": "MID",
    "starts": 8,
-   "status": "d",
+   "status": "a",
    "team": "ARS"
   },
   {

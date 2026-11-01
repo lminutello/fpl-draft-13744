@@ -811,11 +811,11 @@
   ],
   "minutes": 425,
   "name": "Munoz",
-  "news": "Knee injury - 50% chance of playing",
+  "news": "",
   "points": 26,
   "pos": "MID",
   "starts": 5,
-  "status": "d",
+  "status": "a",
   "team": "LIV"
  },
  {
@@ -2213,11 +2213,11 @@
   ],
   "minutes": 362,
   "name": "Tzolis",
-  "news": "Hamstring injury - 75% chance of playing",
+  "news": "",
   "points": 16,
   "pos": "MID",
   "starts": 5,
-  "status": "d",
+  "status": "a",
   "team": "ARS"
  },
  {
@@ -2878,11 +2878,11 @@
   ],
   "minutes": 248,
   "name": "Madueke",
-  "news": "Ankle injury - 50% chance of playing",
+  "news": "",
   "points": 12,
   "pos": "MID",
   "starts": 2,
-  "status": "d",
+  "status": "a",
   "team": "ARS"
  },
  {

@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-11-01T15:14:59Z | last finished GW8 | next GW9
+Updated 2026-11-01T16:24:45Z | last finished GW8 | next GW9
 
 - Waivers process: `2026-10-30T11:00:00+00:00`
 - Gameweek deadline: `2026-10-31T11:00:00+00:00`
@@ -22,7 +22,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 
 - GKP Verbruggen        BHA    51p  810m st8  app8  dc 0.0   last5 [8, 6, 9, 6, 2]
 - GKP A.Becker          LIV    36p  720m st8  app8  dc 0.0   last5 [9, 8, 1, 2, 6]
-- DEF Calafiori         ARS    45p  609m st7  app8  dc 0.0   last5 [6, 1, 9, 6, 1]  [D] Hip injury - 75% chance of playing
+- DEF Calafiori         ARS    45p  609m st7  app8  dc 0.0   last5 [6, 1, 9, 6, 1]
 - DEF Gvardiol          MCI    44p  655m st6  app8  dc 0.0   last5 [11, 4, 4, 0, 1]
 - DEF Justin            LEE    42p  791m st8  app8  dc 0.25  last5 [2, 8, 6, 2, 6]
 - DEF Castagne          FUL    37p  674m st7  app7  dc 0.0   last5 [1, 6, 1, 8, 7]
@@ -164,7 +164,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Tavernier         BOU    55p  750m st8  app8  dc 0.0   last5 [8, 2, 1, 10, 10]
 - MID Semenyo           MCI    37p  553m st6  app7  dc 0.0   last5 [6, 3, 17, 3, 1]  [I] Knee injury - Unknown return date
 - MID Ndiaye            MCI    35p  676m st7  app8  dc 0.25  last5 [1, 5, 1, 5, 5]
-- MID Szoboszlai        LIV    21p  471m st6  app6  dc 0.17  last5 [4, 3, 3, 2, 1]  [D] Hamstring injury - 50% chance of playing
+- MID Szoboszlai        LIV    21p  471m st6  app6  dc 0.17  last5 [4, 3, 3, 2, 1]
 - FWD N.Jackson         AVL    43p  637m st7  app7  dc 0.0   last5 [0, 6, 9, 2, 13]
 - FWD Thomas-Asante     COV    22p  478m st5  app8  dc 0.12  last5 [1, 4, 5, 5, 2]
 - FWD Marmoush          TOT    22p  589m st6  app7  dc 0.0   last5 [2, 2, 1, 9, 2]
@@ -251,7 +251,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Branthwaite       EVE    31p  630m st7  app7  dc 0.57  last5 [3, 6, 8, 3, 1]  [D] Concussion - 75% chance of playing
 - DEF Matheus N.        MCI    21p  468m st4  app5  dc 0.2   last5 [1, 9, 1, 6, 2]
 - MID Schade            BRE    45p  687m st7  app8  dc 0.0   last5 [15, 9, 1, 0, 2]
-- MID Rice              ARS    39p  670m st8  app8  dc 0.12  last5 [6, 1, 7, 9, 3]  [D] Unspecified injury - 75% chance of playing
+- MID Rice              ARS    39p  670m st8  app8  dc 0.12  last5 [6, 1, 7, 9, 3]
 - MID Janelt            BRE    35p  720m st7  app7  dc 0.57  last5 [11, 4, 3, 3, -1]
 - MID Rayan             BOU    28p  789m st8  app8  dc 0.12  last5 [2, 2, 2, 3, 10]
 - MID Enzo              MCI    21p  543m st5  app7  dc 0.0   last5 [2, 7, 3, 1, 2]
