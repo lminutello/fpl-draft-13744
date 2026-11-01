@@ -1658,27 +1658,6 @@
   "team": "SUN"
  },
  {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 628,
-  "last5": [
-   3,
-   3,
-   2,
-   4,
-   6
-  ],
-  "minutes": 466,
-  "name": "Barcola",
-  "news": "",
-  "points": 20,
-  "pos": "MID",
-  "starts": 5,
-  "status": "a",
-  "team": "LIV"
- },
- {
   "appearances": 5,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -1823,6 +1802,27 @@
   "starts": 4,
   "status": "a",
   "team": "TOT"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 628,
+  "last5": [
+   3,
+   3,
+   2,
+   4,
+   6
+  ],
+  "minutes": 466,
+  "name": "Barcola",
+  "news": "",
+  "points": 19,
+  "pos": "MID",
+  "starts": 5,
+  "status": "a",
+  "team": "LIV"
  },
  {
   "appearances": 6,
