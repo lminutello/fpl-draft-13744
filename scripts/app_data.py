@@ -449,6 +449,12 @@ def build(get, boot, details, status, history, out_dir):
                                  key=lambda t: t.get("id") or 0)
                     order = carry_forward(base[1], txs, own, pos_of)
                 how = "carried"
+                # lineup read from the manager's own my-team page (authed, so it
+                # can't be fetched here) and saved to data/lineup_set/<gw>.json
+                setl = _load(os.path.join(out_dir, "lineup_set", f"{gw}.json"), {})
+                s = setl.get(str(ent["entry_id"]))
+                if s and sorted(s) == sorted(own):
+                    order, how = list(s), "set"
                 if not order:
                     squad = [{"id": pid, "pos": pos_of.get(pid, "?")} for pid in own]
                     order = best_xi(squad, {k: v[0] for k, v in proj.items()})

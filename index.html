@@ -435,7 +435,7 @@ function renderMatch(doc, a, b){
   const L = doc.lineups[side] || {xi: []};
   const P = id => doc.players[String(id)] || {};
   const shape = ["DEF","MID","FWD"].map(x => L.xi.filter(i => P(i).p === x).length).join("-");
-  const what = L.guess === "carried" ? "Last saved lineup" : L.guess ? "Projected XI" : "Starting XI";
+  const what = L.guess === "set" ? "Lineup as set" : L.guess === "carried" ? "Last saved lineup" : L.guess ? "Projected XI" : "Starting XI";
   const legend = fin ? "" : '<p class="note"><i>Italic</i> = projected, <b>bold</b> = earned at the pull, * = provisional bonus. Tap a player for details.' +
     (L.guess === "carried" ? " This is the lineup as last saved: last week's XI with this week's signings in the slot of the player they replaced. Changes made since only show up at the deadline." : "") + '</p>';
   const inLineup = S.sel != null && (L.xi.includes(S.sel) || (L.bench || []).includes(S.sel));
