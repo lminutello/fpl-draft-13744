@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-11-06T03:57:33Z | last finished GW9 | next GW10
+Updated 2026-11-06T04:17:44Z | last finished GW9 | next GW10
 
 - Waivers process: `2026-11-05T18:30:00+00:00`
 - Gameweek deadline: `2026-11-06T18:30:00+00:00`
@@ -27,18 +27,17 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Justin            LEE    42p  791m st9  app9  dc 0.22  last5 [8, 6, 2, 6, 2]
 - DEF Castagne          FUL    37p  674m st8  app8  dc 0.0   last5 [6, 1, 8, 7, 2]
 - DEF Richards          CRY    26p  810m st9  app9  dc 0.78  last5 [8, 4, 2, 3, 3]
+- MID Ayari             BHA    43p  664m st8  app8  dc 0.0   last5 [3, 3, 13, 2, 10]
 - MID Barnes            NEW    42p  796m st9  app9  dc 0.0   last5 [9, 2, 2, 8, 2]
 - MID Tonali            TOT    33p  787m st9  app9  dc 0.33  last5 [2, 7, 4, 5, 3]
 - MID Anderson          MCI    27p  696m st8  app9  dc 0.33  last5 [2, 6, 1, 1, 4]
 - MID Bruno G.          ARS    25p  298m st3  app7  dc 0.0   last5 [1, 9, 3, 1, 3]
-- MID Caicedo           CHE    11p  350m st4  app5  dc 0.0   last5 [1, 2, 3, 2, 3]
 - FWD Haaland           MCI    68p  799m st9  app9  dc 0.0   last5 [6, 6, 13, 8, 2]
 - FWD McBurnie          HUL    36p  796m st9  app9  dc 0.0   last5 [1, 1, 2, 8, 12]
 - FWD Strand Larsen     CRY    21p  440m st5  app7  dc 0.0   last5 [1, 8, 2, 5, 2]
 
 ## Free agents - top 30 by points
 
-- MID Ayari             BHA    43p  664m st8  app8  dc 0.0   last5 [3, 3, 13, 2, 10]
 - MID Neto              CHE    40p  677m st8  app9  dc 0.11  last5 [2, 5, 15, 3, 3]
 - DEF Boscagli          BHA    39p  692m st9  app9  dc 0.0   last5 [6, 5, 10, -1, 6]
 - MID Iwobi             FUL    38p  731m st9  app9  dc 0.0   last5 [5, 4, 11, 3, 6]
@@ -68,6 +67,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF F.Kadıoğlu        BHA    29p  517m st7  app7  dc 0.14  last5 [6, 5, 9, 6, 1]  [D] Hip injury - 75% chance of playing
 - DEF Davis             IPS    29p  810m st9  app9  dc 0.0   last5 [2, 1, 0, 2, 1]
 - MID Ndoye             NFO    29p  591m st9  app9  dc 0.0   last5 [1, 7, 3, 2, 2]
+- MID Ampadu            LEE    28p  810m st9  app9  dc 0.44  last5 [5, 1, 1, 2, 3]
 
 ## Free agents by position - top 12 each
 
@@ -103,7 +103,6 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 
 ### MID
 
-- MID Ayari             BHA    43p  664m st8  app8  dc 0.0   last5 [3, 3, 13, 2, 10]
 - MID Neto              CHE    40p  677m st8  app9  dc 0.11  last5 [2, 5, 15, 3, 3]
 - MID Iwobi             FUL    38p  731m st9  app9  dc 0.0   last5 [5, 4, 11, 3, 6]
 - MID Lewis-Potter      BRE    38p  715m st9  app9  dc 0.0   last5 [3, 2, 9, 2, 3]
@@ -115,6 +114,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Bobb              FUL    32p  653m st9  app9  dc 0.0   last5 [3, 3, 3, 11, 2]
 - MID M.Sangaré         BRE    31p  555m st6  app9  dc 0.44  last5 [0, 1, 1, 4, 3]
 - MID Kamara            AVL    30p  791m st9  app9  dc 0.33  last5 [6, 4, 5, 4, 2]
+- MID Scott             BOU    30p  446m st5  app5  dc 0.4   last5 [2, 12, 10, 4, 2]  [I] Thigh injury - Expected back 21 Nov
 
 ### FWD
 
