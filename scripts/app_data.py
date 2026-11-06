@@ -17,6 +17,8 @@ import json
 import math
 import os
 
+import odds_model
+
 POS = {1: "GKP", 2: "DEF", 3: "MID", 4: "FWD"}
 MIN_OUTFIELD = {"DEF": 3, "MID": 2, "FWD": 1}
 # bump when the per-gameweek file layout changes, so cached finished
@@ -381,6 +383,18 @@ def build(get, boot, details, status, history, out_dir):
 
     form = team_form({k: v for k, v in results.items() if int(k) < (app_gw or cur)})
 
+    # --- bookmaker odds (see odds_model.py) ---------------------------------
+    odds = odds_model.load_odds(out_dir)
+    gw_of_pair = {(f["home"], f["away"]): int(g) for g, rows in results.items() for f in rows}
+    team_of = {str(pid): (teams.get(el_team.get(pid)), pos_of.get(pid)) for pid in elements}
+    team_xg = {}
+    for (h, a), row in odds["season"].items():
+        g = gw_of_pair.get((h, a))
+        try:
+            team_xg[(h, g)], team_xg[(a, g)] = float(row["HxG"]), float(row["AxG"])
+        except (KeyError, ValueError):
+            pass
+
     # --- per-gameweek files -------------------------------------------------
     gw_dir = os.path.join(out_dir, "gw")
     built = []
@@ -429,8 +443,26 @@ def build(get, boot, details, status, history, out_dir):
         proj = {}
         if is_future or is_live_gw:
             upto = min(gw - 1, last_finished)
+            market = odds_model.Market(odds, gw_of_pair, gw) if odds["season"] else None
+            rates = odds_model.player_rates(
+                history, team_of, {k: v for k, v in team_xg.items() if k[1] is not None and k[1] <= upto},
+                upto) if market else {}
+            for f in fixtures:
+                if market:
+                    xh, xa, f["xs"] = market.goals(f["home"], f["away"])
+                    f["xh"], f["xa"] = round(xh, 2), round(xa, 2)
             for pid, el in elements.items():
                 pv, pp = project(el, history, fixtures, form[0], form[1], upto)
+                r = rates.get(str(pid))
+                if r and pp > 0:
+                    t = teams.get(el_team.get(pid))
+                    pv = 0.0
+                    for f in fixtures:
+                        if t == f["home"]:
+                            pv += odds_model.expected_points(r, f["xh"], f["xa"])
+                        elif t == f["away"]:
+                            pv += odds_model.expected_points(r, f["xa"], f["xh"])
+                    pv = round(pv * pp, 2)
                 proj[pid] = (pv, pp)
         if is_future:
             for lid, ent in entries.items():

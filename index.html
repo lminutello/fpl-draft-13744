@@ -409,6 +409,10 @@ function pcard(doc, id){
   if(p.pb) x.push("<span>Provisional bonus <b>" + p.pb + "</b></span>");
   if(p.yc) x.push("<span>Yellow</span>"); if(p.rc) x.push("<span>Red</span>");
   if(p.state !== "done" && p.state !== "blank") x.push("<span>Projected <b>" + (p.proj || 0).toFixed(1) + "</b> · plays " + Math.round((p.pp || 0)*100) + "%</span>");
+  if(p.state === "pre") (doc.fixtures || []).filter(f => (p.fx || []).includes(f.id) && f.xh != null).forEach(f => {
+    const home = f.home === p.t, gf = home ? f.xh : f.xa, ga = home ? f.xa : f.xh;
+    x.push("<span>Team xG <b>" + gf.toFixed(2) + "</b> · clean sheet <b>" + Math.round(Math.exp(-ga)*100) + "%</b>" + (f.xs === "odds" ? "" : " (market ratings)") + "</span>");
+  });
   if(p.news) x.push('<span class="nw">' + esc(p.news) + "</span>");
   return '<div class="pcard"><div class="pp">' + pic(p) + '</div><div><div class="pn">' + esc(p.n) + '</div><div class="pf">' +
     esc(p.t) + " · " + esc(fixtureLine(doc, p)) + '</div></div><div class="big ' + s.cls + '">' + esc(s.v) + '</div>' +
@@ -523,9 +527,9 @@ async function boot(){
     S.app = await (await fetch("data/app.json?t=" + Date.now(), {cache:"no-store"})).json();
   } catch(e){ $("#main").innerHTML = '<p class="empty">Couldn\'t load league data.</p>'; return; }
   if(S.gw == null || !S.app.gws.includes(S.gw)) S.gw = S.app.open_gw;
-  $("#foot").innerHTML = 'Projections: season points per appearance, pulled toward average when there are only a few games to go on, × chance of playing. ' +
-    'Backtested on GW5–8 they beat a plain season average by about 11%; recent form and opponent strength were tested and made it worse, so they\'re left out. ' +
-    'They don\'t read team news. Data refreshes only when a pull is run by hand, so check the pull time at the top.Club shirts load from the official FPL image servers. ' +
+  $("#foot").innerHTML = 'Projections come from bookmaker odds: each match\'s odds give both teams\' expected goals and clean-sheet chance (before a fixture\'s odds are posted, team ratings fitted to past odds stand in), and each player gets his share — xG/xA share, 60-minute rate, DEFCON rate, saves, bonus — × chance of playing. ' +
+    'Odds: football-data.co.uk. Backtested on GW4–9, the top-60 picks scored ~8% more than the old season-average model. ' +
+    'They don\'t read team news beyond the injury flag. Data refreshes only when a pull is run by hand, so check the pull time at the top.Club shirts load from the official FPL image servers. ' +
     '<a href="https://github.com/lminutello/fpl-draft-13744">Source</a>';
   route();
 }

@@ -41,21 +41,36 @@ here makes it readable from anywhere, including unattended sessions.
 
 ## Projections
 
-Season points per appearance, shrunk toward 3.0 as if we'd seen three extra
-average appearances (so a few fluky games don't dominate), × chance of
-playing (recent appearance rate × the injury flag), × number of fixtures.
+Built on bookmaker odds (`scripts/odds_model.py`), pulled free from
+[football-data.co.uk](https://www.football-data.co.uk) by the Action into
+`data/odds/` (this season's results with pre-match and closing odds, plus the
+upcoming-fixtures sheet, which usually lands around Friday).
 
-Backtested on GW5–8 by projecting each week from the weeks before it.
-Mean absolute error per player, for the 60 highest-projected each week:
+**Team level.** Each match's de-vigged home/draw/away and over/under 2.5 odds
+are turned into the Poisson expected-goals pair that best reproduces them.
+A fixture with its own odds uses them directly. Before they're posted, each
+team gets attack/defence ratings fitted to the market-implied goals of its
+past matches (recent weeks weighted more) - fitted on weeks before GW N they
+land within ~6% of GW N's actual odds.
 
-| model | error |
-|---|---|
-| plain season average | 3.48 |
-| 60% recent form + opponent goals for/against (previous version) | 3.72 |
-| **current** | **3.11** |
+**Player level**, per fixture, given he plays: appearance points from his
+60-minute rate; goals and assists = team expected goals × his share of team
+xG / xA (70% xG, 30% actual); clean sheet = P(opponent scores 0) × 60-minute
+rate; goals-conceded and saves points for keepers/defenders scaled to the
+opponent; DEFCON hit rate × 2; bonus and cards per appearance. Every rate is
+shrunk toward the position average when there are few games. Then × chance of
+playing (recent appearance rate × injury flag), summed over the week's
+fixtures.
 
-Recent form and the opponent adjustment both made it worse over this many
-games, so they're out. Re-run the backtest before adding either back.
+Backtest, GW4-9, each week projected from information before it:
+
+| model | top-60 actual pts/player | correlation |
+|---|---|---|
+| season points per appearance (previous) | 3.71 | 0.395 |
+| odds model, that week's pre-match odds | 3.91 | 0.427 |
+| odds model, ratings only (no odds that week) | 3.99 | 0.425 |
+
+Mean projection 2.14 vs mean actual 2.11 across all players, so no bias.
 
 Team totals include bench cover: a starter who might not play leaves part of
 his slot to the first bench player, the way auto-subs pay out.
