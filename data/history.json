@@ -80,6 +80,16 @@
    "saves": 3,
    "starts": 1,
    "total_points": 7
+  },
+  "9": {
+   "bps": 21,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 4,
+   "minutes": 90,
+   "recoveries": 16,
+   "starts": 1,
+   "total_points": 5,
+   "yellow_cards": 1
   }
  },
  "10": {
@@ -485,6 +495,17 @@
    "minutes": 28,
    "recoveries": 3,
    "total_points": 1
+  },
+  "9": {
+   "assists": 1,
+   "bps": 18,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 6,
+   "expected_assists": 0.18,
+   "minutes": 18,
+   "recoveries": 4,
+   "tackles": 1,
+   "total_points": 4
   }
  },
  "106": {
@@ -592,6 +613,20 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 5
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 37,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 7,
+   "expected_goals": 0.28,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 9
   }
  },
  "108": {
@@ -629,6 +664,12 @@
    "expected_assists": 0.08,
    "expected_goals": 0.03,
    "minutes": 12,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 2,
+   "expected_goals": 0.02,
+   "minutes": 6,
    "total_points": 1
   }
  },
@@ -709,6 +750,16 @@
    "saves": 3,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 46,
+   "clean_sheets": 1,
+   "minutes": 90,
+   "recoveries": 12,
+   "saves": 7,
+   "starts": 1,
+   "total_points": 11
   }
  },
  "11": {
@@ -811,6 +862,16 @@
    "minutes": 90,
    "recoveries": 5,
    "saves": 2,
+   "starts": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 1,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 11,
+   "saves": 1,
    "starts": 1,
    "total_points": 2
   }
@@ -920,6 +981,20 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 7
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 38,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 2,
+   "expected_assists": 0.18,
+   "expected_goals": 0.94,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "total_points": 15
   }
  },
  "113": {
@@ -1101,6 +1176,16 @@
    "starts": 1,
    "total_points": -1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 20,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 5,
+   "minutes": 63,
+   "recoveries": 3,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "115": {
@@ -1212,6 +1297,21 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "assists": 1,
+   "bonus": 1,
+   "bps": 30,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "expected_goals": 0.24,
+   "minutes": 71,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 9,
+   "yellow_cards": 1
   }
  },
  "116": {
@@ -1297,6 +1397,16 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 1
+  },
+  "9": {
+   "bps": 26,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 5,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "119": {
@@ -1354,6 +1464,17 @@
    "recoveries": 3,
    "tackles": 2,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 27,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 10,
+   "minutes": 90,
+   "recoveries": 8,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 8
   }
  },
  "12": {
@@ -1503,6 +1624,14 @@
    "recoveries": 2,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 4,
+   "expected_goals": 0.14,
+   "minutes": 18,
+   "recoveries": 1,
+   "total_points": 1
   }
  },
  "124": {
@@ -1616,6 +1745,19 @@
    "minutes": 90,
    "recoveries": 4,
    "starts": 1
+  },
+  "9": {
+   "bps": 5,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 10,
+   "expected_assists": 0.06,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2,
+   "yellow_cards": 1
   }
  },
  "125": {
@@ -1663,6 +1805,16 @@
    "expected_goals": 0.01,
    "minutes": 15,
    "recoveries": 1,
+   "tackles": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 6,
+   "defensive_contribution": 3,
+   "expected_assists": 0.08,
+   "expected_goals": 0.04,
+   "minutes": 6,
+   "recoveries": 2,
    "tackles": 1,
    "total_points": 1
   }
@@ -1790,6 +1942,19 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 8,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 10,
+   "expected_assists": 0.04,
+   "expected_goals": 0.06,
+   "minutes": 83,
+   "recoveries": 6,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 3
   }
  },
  "129": {
@@ -1882,6 +2047,21 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 2
+  },
+  "9": {
+   "bonus": 2,
+   "bps": 40,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 8,
+   "expected_assists": 0.06,
+   "expected_goals": 0.52,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 10
   }
  },
  "13": {
@@ -1989,6 +2169,21 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 3
+  },
+  "9": {
+   "assists": 1,
+   "bonus": 2,
+   "bps": 32,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 9,
+   "expected_assists": 0.36,
+   "expected_goals": 0.12,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 8
   }
  },
  "130": {
@@ -2016,6 +2211,14 @@
    "minutes": 79,
    "recoveries": 4,
    "starts": 1
+  },
+  "9": {
+   "bps": 2,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 2,
+   "minutes": 26,
+   "recoveries": 2,
+   "total_points": 1
   }
  },
  "131": {
@@ -2056,6 +2259,19 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 3,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 5,
+   "expected_assists": 0.01,
+   "expected_goals": 0.02,
+   "goals_conceded": 1,
+   "minutes": 57,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "135": {
@@ -2107,6 +2323,13 @@
   "8": {
    "bps": 3,
    "minutes": 2,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "defensive_contribution": 1,
+   "minutes": 3,
+   "recoveries": 1,
    "total_points": 1
   }
  },
@@ -2213,6 +2436,18 @@
    "goals_conceded": 2,
    "minutes": 90,
    "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 9,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 6,
+   "expected_assists": 0.02,
+   "minutes": 71,
+   "recoveries": 2,
    "starts": 1,
    "tackles": 1,
    "total_points": 2
@@ -2376,6 +2611,12 @@
    "bps": 4,
    "minutes": 2,
    "total_points": 1
+  },
+  "9": {
+   "bps": 8,
+   "expected_assists": 0.15,
+   "minutes": 3,
+   "total_points": 1
   }
  },
  "145": {
@@ -2423,6 +2664,20 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 4
+  },
+  "9": {
+   "assists": 1,
+   "bonus": 2,
+   "bps": 46,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 8,
+   "defensive_contribution": 8,
+   "expected_assists": 0.02,
+   "expected_goals": 0.13,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "total_points": 11
   }
  },
  "147": {
@@ -2605,6 +2860,18 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 3
+  },
+  "9": {
+   "bps": 28,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 8,
+   "expected_assists": 0.08,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 6
   }
  },
  "15": {
@@ -2706,6 +2973,18 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 17,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 8,
+   "expected_assists": 0.12,
+   "minutes": 87,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 3
   }
  },
  "151": {
@@ -2784,6 +3063,20 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 1
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 47,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 7,
+   "expected_assists": 0.01,
+   "expected_goals": 0.06,
+   "minutes": 90,
+   "recoveries": 10,
+   "starts": 1,
+   "tackles": 4,
+   "total_points": 9
   }
  },
  "152": {
@@ -2806,6 +3099,18 @@
    "defensive_contribution": 1,
    "goals_conceded": 2,
    "minutes": 25
+  },
+  "9": {
+   "bps": 23,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "expected_assists": 0.01,
+   "minutes": 73,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 6
   }
  },
  "153": {
@@ -2851,6 +3156,17 @@
    "recoveries": 3,
    "starts": 1,
    "tackles": 3,
+   "total_points": 3
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 13,
+   "defensive_contribution": 14,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
    "total_points": 3
   }
  },
@@ -2958,6 +3274,20 @@
    "red_cards": 1,
    "starts": 1,
    "total_points": -1
+  },
+  "9": {
+   "bps": 37,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 11,
+   "expected_assists": 0.02,
+   "expected_goals": 1.01,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 8
   }
  },
  "155": {
@@ -3041,6 +3371,17 @@
    "goals_conceded": 2,
    "minutes": 90,
    "recoveries": 1,
+   "starts": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 12,
+   "defensive_contribution": 3,
+   "expected_assists": 0.14,
+   "expected_goals": 0.12,
+   "goals_conceded": 1,
+   "minutes": 63,
+   "recoveries": 3,
    "starts": 1,
    "total_points": 2
   }
@@ -3150,6 +3491,18 @@
    "tackles": 3,
    "total_points": 3,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 9,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.05,
+   "expected_goals": 0.42,
+   "minutes": 86,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "157": {
@@ -3193,6 +3546,19 @@
    "goals_conceded": 2,
    "minutes": 18,
    "total_points": 1
+  },
+  "9": {
+   "bps": 21,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 7,
+   "expected_assists": 0.43,
+   "expected_goals": 0.22,
+   "minutes": 86,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "159": {
@@ -3236,6 +3602,17 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 2
+  },
+  "9": {
+   "bps": 15,
+   "clean_sheets": 1,
+   "defensive_contribution": 4,
+   "expected_assists": 0.03,
+   "minutes": 86,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 3
   }
  },
  "16": {
@@ -3287,6 +3664,20 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 18,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 8,
+   "expected_assists": 0.54,
+   "expected_goals": 0.03,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2,
+   "yellow_cards": 1
   }
  },
  "160": {
@@ -3305,6 +3696,13 @@
   "3": {
    "bps": 4,
    "minutes": 15,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 5,
+   "expected_assists": 0.05,
+   "expected_goals": 0.09,
+   "minutes": 3,
    "total_points": 1
   }
  },
@@ -3375,6 +3773,19 @@
    "recoveries": 2,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "assists": 1,
+   "bps": 37,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 23,
+   "expected_assists": 0.02,
+   "minutes": 90,
+   "recoveries": 14,
+   "starts": 1,
+   "tackles": 5,
+   "total_points": 8
   }
  },
  "162": {
@@ -3434,6 +3845,19 @@
    "tackles": 4,
    "total_points": 3,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 9,
+   "expected_assists": 0.01,
+   "expected_goals": 0.04,
+   "goals_conceded": 2,
+   "minutes": 65,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 2
   }
  },
  "164": {
@@ -3467,6 +3891,11 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 3
+  },
+  "9": {
+   "bps": 3,
+   "minutes": 1,
+   "total_points": 1
   }
  },
  "165": {
@@ -3635,6 +4064,20 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 13
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 39,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 4,
+   "expected_assists": 0.01,
+   "expected_goals": 0.33,
+   "goals_conceded": 1,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "total_points": 9
   }
  },
  "167": {
@@ -3718,6 +4161,16 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "defensive_contribution": 3,
+   "expected_assists": 0.01,
+   "expected_goals": 0.18,
+   "goals_conceded": 1,
+   "minutes": 64,
+   "recoveries": 3,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "17": {
@@ -3779,6 +4232,14 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "minutes": 2,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "173": {
@@ -3967,6 +4428,18 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 10,
+   "expected_assists": 0.05,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 4
   }
  },
  "176": {
@@ -4062,6 +4535,18 @@
    "minutes": 90,
    "recoveries": 2,
    "starts": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 9,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 4,
+   "expected_assists": 0.02,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 2,
    "total_points": 2
   }
  },
@@ -4231,6 +4716,20 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 2
+  },
+  "9": {
+   "bonus": 2,
+   "bps": 36,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 11,
+   "expected_assists": 0.11,
+   "expected_goals": 0.19,
+   "goals_conceded": 1,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 6,
+   "starts": 1,
+   "total_points": 9
   }
  },
  "184": {
@@ -4329,6 +4828,14 @@
    "recoveries": 1,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 3,
+   "minutes": 7,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "185": {
@@ -4376,6 +4883,20 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 2
+  },
+  "9": {
+   "bps": 20,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 4,
+   "expected_assists": 0.02,
+   "expected_goals": 0.07,
+   "goals_conceded": 1,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "total_points": 6,
+   "yellow_cards": 1
   }
  },
  "186": {
@@ -4477,6 +4998,21 @@
    "minutes": 7,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "assists": 1,
+   "bps": 19,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 8,
+   "expected_assists": 0.04,
+   "expected_goals": 0.03,
+   "goals_conceded": 1,
+   "minutes": 82,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 4,
+   "yellow_cards": 1
   }
  },
  "19": {
@@ -4658,6 +5194,15 @@
    "recoveries": 1,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 3,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "expected_assists": 0.01,
+   "minutes": 18,
+   "recoveries": 2,
+   "total_points": 1
   }
  },
  "195": {
@@ -4722,6 +5267,16 @@
    "saves": 5,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 23,
+   "clearances_blocks_interceptions": 4,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 5,
+   "saves": 7,
+   "starts": 1,
+   "total_points": 3
   }
  },
  "199": {
@@ -4969,6 +5524,18 @@
    "starts": 1,
    "tackles": 5,
    "total_points": 7
+  },
+  "9": {
+   "bps": 2,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 5,
+   "expected_assists": 0.04,
+   "expected_goals": 0.03,
+   "goals_conceded": 1,
+   "minutes": 45,
+   "recoveries": 3,
+   "tackles": 4,
+   "yellow_cards": 1
   }
  },
  "202": {
@@ -5067,6 +5634,17 @@
    "starts": 1,
    "tackles": 4,
    "total_points": 3
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 11,
+   "defensive_contribution": 15,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 4,
+   "total_points": 3
   }
  },
  "203": {
@@ -5151,6 +5729,18 @@
    "starts": 1,
    "tackles": 4,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 12,
+   "defensive_contribution": 14,
+   "expected_assists": 0.01,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 3
   }
  },
  "204": {
@@ -5251,6 +5841,18 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 8,
+   "clearances_blocks_interceptions": 8,
+   "defensive_contribution": 14,
+   "expected_assists": 0.01,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 6,
+   "total_points": 3
   }
  },
  "206": {
@@ -5283,6 +5885,16 @@
    "recoveries": 1,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": -3,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 5,
+   "goals_conceded": 1,
+   "minutes": 59,
+   "starts": 1,
+   "tackles": 2,
+   "yellow_cards": 1
   }
  },
  "208": {
@@ -5381,6 +5993,10 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "minutes": 10,
+   "yellow_cards": 1
   }
  },
  "21": {
@@ -5492,6 +6108,17 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 2
+  },
+  "9": {
+   "bps": 12,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 15,
+   "goals_conceded": 2,
+   "minutes": 87,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 4,
+   "total_points": 4
   }
  },
  "211": {
@@ -5593,6 +6220,17 @@
    "tackles": 2,
    "total_points": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 7,
+   "goals_conceded": 1,
+   "minutes": 59,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 1
   }
  },
  "212": {
@@ -5619,6 +6257,11 @@
    "bps": 3,
    "goals_conceded": 1,
    "minutes": 9,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "minutes": 2,
    "total_points": 1
   }
  },
@@ -5665,6 +6308,11 @@
    "minutes": 37,
    "recoveries": 2,
    "tackles": 2,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "minutes": 2,
    "total_points": 1
   }
  },
@@ -5765,6 +6413,19 @@
    "goals_conceded": 2,
    "minutes": 90,
    "recoveries": 6,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 13,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 10,
+   "expected_assists": 0.15,
+   "expected_goals": 0.04,
+   "goals_conceded": 2,
+   "minutes": 87,
+   "recoveries": 5,
    "starts": 1,
    "tackles": 2,
    "total_points": 2
@@ -5881,6 +6542,17 @@
    "minutes": 61,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": -4,
+   "defensive_contribution": 2,
+   "expected_assists": 0.01,
+   "goals_conceded": 2,
+   "minutes": 12,
+   "recoveries": 2,
+   "red_cards": 1,
+   "starts": 1,
+   "total_points": -2
   }
  },
  "224": {
@@ -5949,6 +6621,14 @@
    "expected_goals": 0.03,
    "minutes": 28,
    "recoveries": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 2,
+   "defensive_contribution": 2,
+   "goals_conceded": 1,
+   "minutes": 30,
+   "recoveries": 2,
    "total_points": 1
   }
  },
@@ -6032,6 +6712,17 @@
    "saves": 2,
    "starts": 1,
    "total_points": 1
+  },
+  "9": {
+   "bonus": 1,
+   "bps": 29,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 3,
+   "minutes": 90,
+   "recoveries": 13,
+   "saves": 2,
+   "starts": 1,
+   "total_points": 7
   }
  },
  "229": {
@@ -6139,6 +6830,16 @@
    "tackles": 1,
    "total_points": 2,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 26,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 9,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "230": {
@@ -6225,6 +6926,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 1
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 31,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 7,
+   "expected_assists": 0.08,
+   "expected_goals": 0.07,
+   "minutes": 81,
+   "recoveries": 5,
+   "starts": 1,
+   "total_points": 9
   }
  },
  "231": {
@@ -6239,6 +6953,12 @@
    "recoveries": 5,
    "starts": 1,
    "tackles": 2,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "minutes": 8,
+   "recoveries": 1,
    "total_points": 1
   }
  },
@@ -6274,6 +6994,19 @@
    "recoveries": 1,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 20,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 5,
+   "expected_assists": 0.08,
+   "expected_goals": 0.2,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 6
   }
  },
  "233": {
@@ -6362,6 +7095,17 @@
    "starts": 1,
    "tackles": 2,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 27,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 7,
+   "expected_assists": 0.04,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "236": {
@@ -6467,6 +7211,19 @@
    "minutes": 85,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bonus": 1,
+   "bps": 29,
+   "clean_sheets": 1,
+   "defensive_contribution": 7,
+   "expected_assists": 0.28,
+   "expected_goals": 0.15,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 4
   }
  },
  "237": {
@@ -6566,6 +7323,18 @@
    "recoveries": 5,
    "starts": 1,
    "total_points": 5
+  },
+  "9": {
+   "bps": 12,
+   "defensive_contribution": 3,
+   "expected_assists": 0.02,
+   "expected_goals": 0.42,
+   "goals_conceded": 1,
+   "minutes": 78,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "238": {
@@ -6727,6 +7496,19 @@
    "tackles": 1,
    "total_points": 3,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 17,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 11,
+   "expected_assists": 0.1,
+   "expected_goals": 0.21,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 3
   }
  },
  "240": {
@@ -6785,6 +7567,21 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 9
+  },
+  "9": {
+   "bonus": 1,
+   "bps": 32,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 9,
+   "expected_assists": 0.1,
+   "expected_goals": 0.28,
+   "goals_conceded": 2,
+   "goals_scored": 1,
+   "minutes": 76,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 6,
+   "total_points": 8
   }
  },
  "241": {
@@ -6834,6 +7631,18 @@
    "recoveries": 3,
    "starts": 1,
    "tackles": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 11,
+   "expected_goals": 0.11,
+   "goals_conceded": 2,
+   "minutes": 76,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 4,
    "total_points": 2
   }
  },
@@ -6926,6 +7735,21 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 2
+  },
+  "9": {
+   "assists": 1,
+   "bps": 19,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 7,
+   "expected_assists": 0.11,
+   "expected_goals": 0.12,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 5,
+   "yellow_cards": 1
   }
  },
  "243": {
@@ -7065,6 +7889,19 @@
    "starts": 1,
    "tackles": 5,
    "total_points": 4
+  },
+  "9": {
+   "bps": 13,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "expected_assists": 0.04,
+   "expected_goals": 0.35,
+   "minutes": 90,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "245": {
@@ -7152,6 +7989,19 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 8,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 7,
+   "expected_assists": 0.02,
+   "expected_goals": 0.05,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "247": {
@@ -7214,6 +8064,11 @@
    "expected_goals": 0.02,
    "minutes": 16,
    "recoveries": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 4,
+   "minutes": 1,
    "total_points": 1
   }
  },
@@ -7328,6 +8183,20 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 31,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.21,
+   "expected_goals": 1.29,
+   "goals_scored": 1,
+   "minutes": 79,
+   "recoveries": 1,
+   "starts": 1,
+   "total_points": 9
   }
  },
  "25": {
@@ -7372,6 +8241,13 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 5
+  },
+  "9": {
+   "bps": 3,
+   "defensive_contribution": 2,
+   "minutes": 6,
+   "recoveries": 2,
+   "total_points": 1
   }
  },
  "250": {
@@ -7453,6 +8329,16 @@
    "saves": 2,
    "starts": 1,
    "total_points": 8
+  },
+  "9": {
+   "bps": 12,
+   "clearances_blocks_interceptions": 1,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 5,
+   "saves": 2,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "253": {
@@ -7575,6 +8461,19 @@
    "tackles": 2,
    "total_points": 7,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 17,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 10,
+   "expected_assists": 0.18,
+   "expected_goals": 0.15,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 4
   }
  },
  "255": {
@@ -7616,6 +8515,14 @@
    "defensive_contribution": 3,
    "minutes": 9,
    "tackles": 3,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 4,
+   "minutes": 11,
+   "tackles": 2,
    "total_points": 1
   }
  },
@@ -7721,6 +8628,20 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 8
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "expected_assists": 0.01,
+   "expected_goals": 0.09,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 1,
+   "yellow_cards": 1
   }
  },
  "258": {
@@ -7813,6 +8734,18 @@
    "starts": 1,
    "tackles": 5,
    "total_points": 7
+  },
+  "9": {
+   "bps": 12,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 5,
+   "expected_assists": 0.45,
+   "goals_conceded": 1,
+   "minutes": 86,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "259": {
@@ -7906,6 +8839,18 @@
    "starts": 1,
    "total_points": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 4,
+   "clearances_blocks_interceptions": 11,
+   "defensive_contribution": 11,
+   "expected_assists": 0.01,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "total_points": 2,
+   "yellow_cards": 1
   }
  },
  "26": {
@@ -7996,6 +8941,21 @@
    "recoveries": 1,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 34,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 6,
+   "defensive_contribution": 8,
+   "expected_assists": 0.01,
+   "expected_goals": 0.64,
+   "goals_scored": 1,
+   "minutes": 83,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 9
   }
  },
  "260": {
@@ -8052,6 +9012,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 3
+  },
+  "9": {
+   "bps": 9,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 4,
+   "expected_assists": 0.11,
+   "expected_goals": 0.13,
+   "goals_conceded": 1,
+   "minutes": 83,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "261": {
@@ -8155,6 +9128,20 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 3
+  },
+  "9": {
+   "assists": 1,
+   "bonus": 1,
+   "bps": 22,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 6,
+   "expected_assists": 0.16,
+   "expected_goals": 0.63,
+   "goals_conceded": 1,
+   "minutes": 74,
+   "recoveries": 4,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "262": {
@@ -8331,6 +9318,18 @@
    "recoveries": 2,
    "starts": 1,
    "total_points": 11
+  },
+  "9": {
+   "bps": 14,
+   "defensive_contribution": 3,
+   "expected_assists": 0.15,
+   "expected_goals": 0.4,
+   "goals_conceded": 1,
+   "minutes": 78,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "265": {
@@ -8426,6 +9425,18 @@
    "recoveries": 2,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 12,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 10,
+   "expected_assists": 0.02,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 2
   }
  },
  "266": {
@@ -8442,6 +9453,15 @@
    "bps": 3,
    "minutes": 9,
    "total_points": 1
+  },
+  "9": {
+   "bps": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 3,
+   "expected_assists": 0.07,
+   "minutes": 15,
+   "recoveries": 1,
+   "yellow_cards": 1
   }
  },
  "267": {
@@ -8626,6 +9646,18 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 6
+  },
+  "9": {
+   "bps": 9,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 6,
+   "expected_assists": 0.2,
+   "goals_conceded": 1,
+   "minutes": 78,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 2
   }
  },
  "269": {
@@ -8725,6 +9757,11 @@
    "minutes": 16,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 4,
+   "minutes": 3,
+   "total_points": 1
   }
  },
  "277": {
@@ -8820,6 +9857,16 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 4
+  },
+  "9": {
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 6,
+   "expected_goals": 0.12,
+   "goals_conceded": 1,
+   "minutes": 45,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "279": {
@@ -8917,6 +9964,19 @@
    "starts": 1,
    "tackles": 6,
    "total_points": 4
+  },
+  "9": {
+   "bps": 3,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 11,
+   "expected_assists": 0.01,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 2,
+   "yellow_cards": 1
   }
  },
  "28": {
@@ -9068,6 +10128,18 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 2
+  },
+  "9": {
+   "bps": -1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 2,
+   "expected_assists": 0.01,
+   "expected_goals": 0.06,
+   "goals_conceded": 2,
+   "minutes": 76,
+   "recoveries": 2,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "281": {
@@ -9180,6 +10252,18 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 5,
+   "expected_assists": 0.03,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 9,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 1
   }
  },
  "285": {
@@ -9297,6 +10381,20 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 4
+  },
+  "9": {
+   "assists": 1,
+   "bps": 21,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 5,
+   "expected_assists": 0.06,
+   "expected_goals": 0.07,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 5
   }
  },
  "287": {
@@ -9376,6 +10474,15 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 2
+  },
+  "9": {
+   "bps": -1,
+   "defensive_contribution": 3,
+   "expected_assists": 0.01,
+   "goals_conceded": 1,
+   "minutes": 45,
+   "recoveries": 3,
+   "yellow_cards": 1
   }
  },
  "29": {
@@ -9491,6 +10598,18 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 6,
+   "defensive_contribution": 6,
+   "expected_assists": 0.1,
+   "expected_goals": 0.01,
+   "goals_conceded": 2,
+   "minutes": 89,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 2
   }
  },
  "295": {
@@ -9592,6 +10711,21 @@
    "recoveries": 2,
    "starts": 1,
    "total_points": 8
+  },
+  "9": {
+   "assists": 1,
+   "bonus": 3,
+   "bps": 46,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 5,
+   "expected_assists": 0.01,
+   "expected_goals": 0.2,
+   "goals_conceded": 2,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "total_points": 12
   }
  },
  "300": {
@@ -9637,6 +10771,15 @@
    "saves": 3,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 3,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 5,
+   "saves": 1,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "304": {
@@ -9735,6 +10878,18 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 8,
+   "defensive_contribution": 9,
+   "expected_assists": 0.01,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "305": {
@@ -9837,6 +10992,17 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 7,
+   "expected_assists": 0.01,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "306": {
@@ -10019,6 +11185,18 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 14
+  },
+  "9": {
+   "bonus": 2,
+   "bps": 32,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 10,
+   "defensive_contribution": 15,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 5,
+   "total_points": 10
   }
  },
  "310": {
@@ -10036,6 +11214,16 @@
    "minutes": 5,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "assists": 1,
+   "bps": 16,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 6,
+   "minutes": 20,
+   "recoveries": 2,
+   "tackles": 1,
+   "total_points": 4
   }
  },
  "313": {
@@ -10108,6 +11296,16 @@
    "expected_goals": 0.05,
    "minutes": 29,
    "recoveries": 3,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 8,
+   "defensive_contribution": 4,
+   "expected_assists": 0.01,
+   "expected_goals": 0.04,
+   "minutes": 21,
+   "recoveries": 3,
+   "tackles": 1,
    "total_points": 1
   }
  },
@@ -10195,6 +11393,17 @@
    "recoveries": 1,
    "starts": 1,
    "tackles": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 5,
+   "defensive_contribution": 5,
+   "expected_assists": 0.05,
+   "expected_goals": 0.16,
+   "goals_conceded": 2,
+   "minutes": 69,
+   "recoveries": 5,
+   "starts": 1,
    "total_points": 2
   }
  },
@@ -10292,6 +11501,18 @@
    "recoveries": 1,
    "starts": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 4,
+   "expected_assists": 0.01,
+   "expected_goals": 0.19,
+   "goals_conceded": 2,
+   "minutes": 76,
+   "recoveries": 2,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "318": {
@@ -10336,6 +11557,19 @@
    "recoveries": 1,
    "starts": 1,
    "tackles": 2,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 8,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 10,
+   "expected_assists": 0.01,
+   "expected_goals": 0.03,
+   "goals_conceded": 2,
+   "minutes": 68,
+   "recoveries": 8,
+   "starts": 1,
+   "tackles": 1,
    "total_points": 2
   }
  },
@@ -10420,6 +11654,19 @@
    "tackles": 8,
    "total_points": 3,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 14,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 5,
+   "expected_assists": 0.16,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 1,
+   "yellow_cards": 1
   }
  },
  "320": {
@@ -10463,6 +11710,11 @@
   "8": {
    "bps": 3,
    "minutes": 4,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "minutes": 1,
    "total_points": 1
   }
  },
@@ -10790,6 +12042,17 @@
    "tackles": 2,
    "total_points": 5,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 4,
+   "expected_assists": 0.04,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "331": {
@@ -10865,6 +12128,17 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 6
+  },
+  "9": {
+   "bps": 8,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 3,
+   "goals_conceded": 1,
+   "minutes": 64,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "332": {
@@ -10970,6 +12244,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 6
+  },
+  "9": {
+   "bps": 13,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 6,
+   "expected_assists": 0.53,
+   "expected_goals": 0.05,
+   "goals_conceded": 1,
+   "minutes": 83,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 2
   }
  },
  "334": {
@@ -11070,6 +12357,18 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 9
+  },
+  "9": {
+   "bps": 9,
+   "clearances_blocks_interceptions": 11,
+   "defensive_contribution": 12,
+   "expected_assists": 0.01,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "335": {
@@ -11171,6 +12470,16 @@
    "defensive_contribution": 1,
    "expected_assists": 0.01,
    "minutes": 24,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 2,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 3,
+   "expected_goals": 0.13,
+   "goals_conceded": 1,
+   "minutes": 25,
+   "recoveries": 1,
    "total_points": 1
   }
  },
@@ -11330,6 +12639,12 @@
    "recoveries": 2,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 3,
+   "goals_conceded": 1,
+   "minutes": 6,
+   "total_points": 1
   }
  },
  "338": {
@@ -11435,6 +12750,19 @@
    "tackles": 2,
    "total_points": 2,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 11,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 16,
+   "expected_assists": 0.04,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 10,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 3,
+   "yellow_cards": 1
   }
  },
  "339": {
@@ -11460,6 +12788,15 @@
    "bps": 4,
    "expected_goals": 0.32,
    "minutes": 1,
+   "total_points": 1
+  },
+  "9": {
+   "defensive_contribution": 2,
+   "expected_assists": 0.01,
+   "expected_goals": 0.03,
+   "goals_conceded": 1,
+   "minutes": 25,
+   "recoveries": 2,
    "total_points": 1
   }
  },
@@ -11507,6 +12844,18 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": -1,
+   "clearances_blocks_interceptions": 6,
+   "defensive_contribution": 6,
+   "expected_assists": 0.01,
+   "expected_goals": 0.26,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 1,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "340": {
@@ -11546,6 +12895,13 @@
    "expected_goals": 0.34,
    "minutes": 4,
    "total_points": 1
+  },
+  "9": {
+   "bps": 4,
+   "defensive_contribution": 1,
+   "minutes": 1,
+   "recoveries": 1,
+   "total_points": 1
   }
  },
  "343": {
@@ -11573,6 +12929,18 @@
    "defensive_contribution": 1,
    "minutes": 23,
    "total_points": 1
+  },
+  "9": {
+   "bps": 9,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 7,
+   "expected_assists": 0.03,
+   "goals_conceded": 1,
+   "minutes": 64,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "345": {
@@ -11664,6 +13032,18 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 3
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 10,
+   "expected_assists": 0.02,
+   "goals_conceded": 1,
+   "minutes": 64,
+   "recoveries": 6,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 2
   }
  },
  "346": {
@@ -11762,6 +13142,16 @@
    "minutes": 84,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 5,
+   "defensive_contribution": 1,
+   "expected_goals": 0.31,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 1,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "347": {
@@ -11819,6 +13209,16 @@
    "defensive_contribution": 1,
    "expected_assists": 0.03,
    "minutes": 5,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 7,
+   "defensive_contribution": 1,
+   "expected_assists": 0.03,
+   "expected_goals": 0.05,
+   "goals_conceded": 1,
+   "minutes": 25,
+   "recoveries": 1,
    "total_points": 1
   }
  },
@@ -11912,6 +13312,16 @@
    "saves": 1,
    "starts": 1,
    "total_points": 6
+  },
+  "9": {
+   "bps": 7,
+   "expected_assists": 0.01,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 6,
+   "saves": 2,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "356": {
@@ -12010,6 +13420,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 9
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 7,
+   "expected_assists": 0.11,
+   "expected_goals": 0.05,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "total_points": 1,
+   "yellow_cards": 1
   }
  },
  "357": {
@@ -12160,6 +13583,20 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 6
+  },
+  "9": {
+   "bps": 14,
+   "clearances_blocks_interceptions": 6,
+   "defensive_contribution": 7,
+   "expected_assists": 0.18,
+   "expected_goals": 0.12,
+   "goals_conceded": 1,
+   "minutes": 80,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1,
+   "yellow_cards": 1
   }
  },
  "359": {
@@ -12242,6 +13679,19 @@
    "recoveries": 5,
    "starts": 1,
    "tackles": 4,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 12,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 6,
+   "expected_assists": 0.02,
+   "expected_goals": 0.05,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 3,
    "total_points": 2
   }
  },
@@ -12343,6 +13793,18 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 8
+  },
+  "9": {
+   "bps": 14,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 9,
+   "expected_assists": 0.05,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 5,
+   "total_points": 2
   }
  },
  "364": {
@@ -12369,6 +13831,12 @@
    "clearances_blocks_interceptions": 3,
    "defensive_contribution": 3,
    "minutes": 2,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 2,
+   "expected_assists": 0.06,
+   "minutes": 9,
    "total_points": 1
   }
  },
@@ -12475,6 +13943,19 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 6
+  },
+  "9": {
+   "bps": 9,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 4,
+   "expected_assists": 0.06,
+   "expected_goals": 0.28,
+   "goals_conceded": 1,
+   "minutes": 80,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "367": {
@@ -12553,6 +14034,18 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 4,
+   "expected_assists": 0.11,
+   "expected_goals": 0.04,
+   "goals_conceded": 1,
+   "minutes": 66,
+   "recoveries": 2,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "368": {
@@ -12633,6 +14126,16 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 7,
+   "expected_assists": 0.05,
+   "minutes": 32,
+   "recoveries": 5,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "369": {
@@ -12682,6 +14185,16 @@
    "defensive_contribution": 2,
    "minutes": 13,
    "recoveries": 2,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.09,
+   "expected_goals": 0.08,
+   "minutes": 23,
+   "recoveries": 1,
    "total_points": 1
   }
  },
@@ -12767,6 +14280,18 @@
    "defensive_contribution": 6,
    "goals_conceded": 1,
    "minutes": 90,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 4,
+   "expected_assists": 0.01,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 8,
    "starts": 1,
    "tackles": 1,
    "total_points": 2
@@ -12955,6 +14480,20 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 11,
+   "expected_assists": 0.15,
+   "expected_goals": 0.11,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 7,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 1,
+   "yellow_cards": 1
   }
  },
  "375": {
@@ -13006,6 +14545,18 @@
    "defensive_contribution": 5,
    "minutes": 25,
    "recoveries": 1,
+   "tackles": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 6,
+   "expected_assists": 0.08,
+   "goals_conceded": 1,
+   "minutes": 57,
+   "recoveries": 4,
+   "starts": 1,
    "tackles": 1,
    "total_points": 1
   }
@@ -13088,6 +14639,14 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 9
+  },
+  "9": {
+   "bps": 4,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 1,
+   "expected_goals": 0.02,
+   "minutes": 9,
+   "total_points": 1
   }
  },
  "379": {
@@ -13175,6 +14734,18 @@
    "recoveries": 2,
    "starts": 1,
    "total_points": 9
+  },
+  "9": {
+   "bps": 8,
+   "defensive_contribution": 3,
+   "expected_assists": 0.13,
+   "expected_goals": 0.08,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "381": {
@@ -13219,6 +14790,14 @@
    "bps": 1,
    "defensive_contribution": 1,
    "minutes": 13,
+   "tackles": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 4,
+   "defensive_contribution": 4,
+   "minutes": 9,
+   "recoveries": 3,
    "tackles": 1,
    "total_points": 1
   }
@@ -13299,6 +14878,16 @@
    "recoveries": 5,
    "starts": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 16,
+   "clearances_blocks_interceptions": 1,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 9,
+   "saves": 2,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "385": {
@@ -13383,6 +14972,16 @@
    "saves": 4,
    "starts": 1,
    "total_points": 10
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 2,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 14,
+   "saves": 3,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "387": {
@@ -13448,6 +15047,16 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 8,
+   "defensive_contribution": 3,
+   "expected_assists": 0.08,
+   "expected_goals": 0.18,
+   "minutes": 26,
+   "recoveries": 4,
+   "tackles": 3,
+   "total_points": 1
   }
  },
  "388": {
@@ -13601,6 +15210,19 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 2
+  },
+  "9": {
+   "bps": 9,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 5,
+   "expected_assists": 0.11,
+   "expected_goals": 0.15,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "390": {
@@ -13692,6 +15314,18 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 8,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 3,
+   "expected_assists": 0.02,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "391": {
@@ -13794,6 +15428,19 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 1
+  },
+  "9": {
+   "bps": 12,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 6,
+   "expected_assists": 0.07,
+   "expected_goals": 0.03,
+   "goals_conceded": 1,
+   "minutes": 78,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 2
   }
  },
  "393": {
@@ -13855,6 +15502,19 @@
    "starts": 1,
    "tackles": 8,
    "total_points": 3
+  },
+  "9": {
+   "bps": 15,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 11,
+   "expected_assists": 0.02,
+   "expected_goals": 0.06,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 7,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 4
   }
  },
  "395": {
@@ -14042,6 +15702,12 @@
    "minutes": 45,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "expected_assists": 0.04,
+   "minutes": 11,
+   "total_points": 1
   }
  },
  "399": {
@@ -14125,6 +15791,15 @@
    "recoveries": 1,
    "starts": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 9,
+   "defensive_contribution": 2,
+   "expected_assists": 0.07,
+   "expected_goals": 0.07,
+   "minutes": 35,
+   "recoveries": 2,
+   "total_points": 1
   }
  },
  "4": {
@@ -14231,6 +15906,17 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 17
+  },
+  "9": {
+   "bps": 29,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 9,
+   "minutes": 90,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 6
   }
  },
  "40": {
@@ -14341,6 +16027,21 @@
    "tackles": 1,
    "total_points": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bonus": 1,
+   "bps": 38,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 8,
+   "expected_assists": 0.05,
+   "expected_goals": 0.65,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 9
   }
  },
  "400": {
@@ -14387,6 +16088,19 @@
    "minutes": 90,
    "recoveries": 2,
    "starts": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 28,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 11,
+   "expected_assists": 0.43,
+   "expected_goals": 0.14,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 7,
+   "starts": 1,
+   "tackles": 3,
    "total_points": 2
   }
  },
@@ -14468,6 +16182,17 @@
    "recoveries": 2,
    "starts": 1,
    "tackles": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 16,
+   "clean_sheets": 1,
+   "defensive_contribution": 5,
+   "expected_assists": 0.15,
+   "expected_goals": 0.14,
+   "minutes": 76,
+   "recoveries": 5,
+   "starts": 1,
    "total_points": 2
   }
  },
@@ -14589,6 +16314,18 @@
    "tackles": 2,
    "total_points": 4,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 11,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 6,
+   "expected_assists": 0.02,
+   "goals_conceded": 1,
+   "minutes": 63,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "406": {
@@ -14714,6 +16451,16 @@
    "minutes": 24,
    "tackles": 3,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 9,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.12,
+   "expected_goals": 0.04,
+   "minutes": 24,
+   "recoveries": 1,
+   "total_points": 1
   }
  },
  "411": {
@@ -14819,6 +16566,17 @@
    "recoveries": 2,
    "starts": 1,
    "total_points": 8
+  },
+  "9": {
+   "bps": 6,
+   "defensive_contribution": 1,
+   "expected_assists": 0.08,
+   "expected_goals": 0.47,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 1,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "412": {
@@ -14899,6 +16657,16 @@
    "saves": 1,
    "starts": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 21,
+   "clearances_blocks_interceptions": 1,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 10,
+   "saves": 8,
+   "starts": 1,
+   "total_points": 3
   }
  },
  "415": {
@@ -15054,6 +16822,18 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 1
+  },
+  "9": {
+   "bps": 8,
+   "clearances_blocks_interceptions": 8,
+   "defensive_contribution": 11,
+   "expected_assists": 0.04,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 3
   }
  },
  "418": {
@@ -15156,6 +16936,17 @@
    "recoveries": 4,
    "starts": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 3,
+   "clearances_blocks_interceptions": 6,
+   "defensive_contribution": 8,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 2,
+   "yellow_cards": 1
   }
  },
  "419": {
@@ -15236,6 +17027,19 @@
    "minutes": 25,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": -13,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 3,
+   "expected_assists": 0.01,
+   "goals_conceded": 2,
+   "minutes": 62,
+   "recoveries": 2,
+   "red_cards": 1,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": -2
   }
  },
  "42": {
@@ -15313,6 +17117,18 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 1
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 7,
+   "expected_assists": 0.02,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 1
   }
  },
  "421": {
@@ -15346,6 +17162,14 @@
    "starts": 1,
    "tackles": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 2,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 2,
+   "minutes": 24,
+   "recoveries": 2,
+   "total_points": 1
   }
  },
  "422": {
@@ -15546,6 +17370,18 @@
    "tackles": 1,
    "total_points": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 16,
+   "defensive_contribution": 8,
+   "expected_assists": 0.11,
+   "expected_goals": 0.29,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 2
   }
  },
  "427": {
@@ -15653,6 +17489,20 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 15,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 5,
+   "expected_assists": 0.33,
+   "expected_goals": 0.02,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 1,
+   "yellow_cards": 1
   }
  },
  "428": {
@@ -15751,6 +17601,19 @@
    "recoveries": 3,
    "tackles": 2,
    "total_points": 1
+  },
+  "9": {
+   "bps": 11,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 6,
+   "expected_assists": 0.1,
+   "expected_goals": 0.24,
+   "goals_conceded": 2,
+   "minutes": 65,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 2
   }
  },
  "429": {
@@ -15941,6 +17804,14 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 2
+  },
+  "9": {
+   "bps": 4,
+   "defensive_contribution": 2,
+   "minutes": 24,
+   "recoveries": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "431": {
@@ -15979,6 +17850,19 @@
    "minutes": 77,
    "recoveries": 3,
    "starts": 1,
+   "total_points": 2
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 10,
+   "expected_assists": 0.06,
+   "expected_goals": 0.56,
+   "goals_conceded": 2,
+   "minutes": 76,
+   "recoveries": 7,
+   "starts": 1,
+   "tackles": 1,
    "total_points": 2
   }
  },
@@ -16055,6 +17939,14 @@
    "starts": 1,
    "tackles": 5,
    "total_points": 4
+  },
+  "9": {
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 3,
+   "goals_conceded": 1,
+   "minutes": 32,
+   "recoveries": 1,
+   "yellow_cards": 1
   }
  },
  "435": {
@@ -16143,6 +18035,11 @@
    "minutes": 18,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "expected_goals": 0.07,
+   "minutes": 13,
+   "yellow_cards": 1
   }
  },
  "445": {
@@ -16252,6 +18149,19 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 7,
+   "yellow_cards": 1
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 10,
+   "defensive_contribution": 10,
+   "expected_assists": 0.01,
+   "expected_goals": 0.12,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 6,
+   "starts": 1,
+   "total_points": 3,
    "yellow_cards": 1
   }
  },
@@ -16369,6 +18279,18 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 6
+  },
+  "9": {
+   "bps": 1,
+   "clearances_blocks_interceptions": 6,
+   "defensive_contribution": 6,
+   "expected_assists": 0.01,
+   "expected_goals": 0.11,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "starts": 1,
+   "total_points": 1,
+   "yellow_cards": 1
   }
  },
  "449": {
@@ -16474,6 +18396,18 @@
    "starts": 1,
    "total_points": 5,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 6,
+   "expected_assists": 0.03,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "45": {
@@ -16581,6 +18515,17 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 6
+  },
+  "9": {
+   "bps": 2,
+   "defensive_contribution": 6,
+   "expected_assists": 0.1,
+   "expected_goals": 0.79,
+   "goals_conceded": 1,
+   "minutes": 86,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 2
   }
  },
  "450": {
@@ -16668,6 +18613,19 @@
    "recoveries": 2,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 9,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 6,
+   "expected_assists": 0.01,
+   "expected_goals": 0.09,
+   "minutes": 61,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 3
   }
  },
  "453": {
@@ -16773,6 +18731,18 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 8
+  },
+  "9": {
+   "bps": 8,
+   "defensive_contribution": 4,
+   "expected_assists": 0.08,
+   "expected_goals": 0.03,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "454": {
@@ -16824,6 +18794,18 @@
    "recoveries": 2,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.05,
+   "expected_goals": 0.35,
+   "goals_conceded": 1,
+   "minutes": 75,
+   "recoveries": 1,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "455": {
@@ -16928,6 +18910,19 @@
    "starts": 1,
    "tackles": 4,
    "total_points": 5
+  },
+  "9": {
+   "bps": 18,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 10,
+   "expected_assists": 0.1,
+   "expected_goals": 0.03,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 3
   }
  },
  "456": {
@@ -16969,6 +18964,15 @@
    "recoveries": 1,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": -9,
+   "defensive_contribution": 1,
+   "expected_goals": 0.02,
+   "minutes": 15,
+   "recoveries": 1,
+   "red_cards": 1,
+   "total_points": -2
   }
  },
  "457": {
@@ -17045,6 +19049,14 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 6
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 1,
+   "expected_assists": 0.07,
+   "minutes": 14,
+   "total_points": 1
   }
  },
  "458": {
@@ -17083,6 +19095,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 3
+  },
+  "9": {
+   "bps": 11,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 6,
+   "expected_assists": 0.02,
+   "expected_goals": 0.08,
+   "goals_conceded": 1,
+   "minutes": 74,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 2
   }
  },
  "459": {
@@ -17252,6 +19277,12 @@
    "defensive_contribution": 1,
    "minutes": 24,
    "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "expected_goals": 0.02,
+   "minutes": 11,
+   "total_points": 1
   }
  },
  "460": {
@@ -17353,6 +19384,19 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 12,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 7,
+   "expected_assists": 0.01,
+   "expected_goals": 0.12,
+   "goals_conceded": 1,
+   "minutes": 63,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "461": {
@@ -17398,6 +19442,15 @@
    "minutes": 34,
    "recoveries": 1,
    "tackles": 2,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 8,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "expected_assists": 0.15,
+   "minutes": 3,
+   "recoveries": 2,
    "total_points": 1
   }
  },
@@ -17452,6 +19505,15 @@
   "8": {
    "bps": 3,
    "minutes": 5,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.05,
+   "minutes": 26,
+   "recoveries": 1,
    "total_points": 1
   }
  },
@@ -17557,6 +19619,14 @@
    "minutes": 13,
    "recoveries": 2,
    "total_points": 1
+  },
+  "9": {
+   "bps": 5,
+   "defensive_contribution": 4,
+   "expected_goals": 0.4,
+   "minutes": 26,
+   "recoveries": 4,
+   "total_points": 1
   }
  },
  "465": {
@@ -17599,6 +19669,18 @@
    "recoveries": 2,
    "starts": 1,
    "total_points": 9
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 5,
+   "expected_assists": 0.01,
+   "expected_goals": 0.05,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "467": {
@@ -17679,6 +19761,13 @@
    "saves": 2,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 7,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "469": {
@@ -17785,6 +19874,17 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 8
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 5,
+   "expected_assists": 0.05,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 6,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "47": {
@@ -17884,6 +19984,18 @@
    "starts": 1,
    "tackles": 6,
    "total_points": 4
+  },
+  "9": {
+   "bps": 15,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 8,
+   "expected_assists": 0.01,
+   "goals_conceded": 1,
+   "minutes": 78,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 4,
+   "total_points": 2
   }
  },
  "471": {
@@ -17934,6 +20046,17 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "clearances_blocks_interceptions": 6,
+   "defensive_contribution": 9,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 6,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": -2,
+   "yellow_cards": 1
   }
  },
  "472": {
@@ -18039,6 +20162,19 @@
    "tackles": 1,
    "total_points": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 11,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 15,
+   "expected_assists": 0.01,
+   "expected_goals": 0.04,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 9,
+   "starts": 1,
+   "tackles": 6,
+   "total_points": 3
   }
  },
  "473": {
@@ -18101,6 +20237,16 @@
    "starts": 1,
    "tackles": 2,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 4,
+   "defensive_contribution": 2,
+   "goals_conceded": 1,
+   "minutes": 45,
+   "recoveries": 6,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 1
   }
  },
  "474": {
@@ -18175,6 +20321,18 @@
    "recoveries": 5,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 10,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 6,
+   "expected_assists": 0.05,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 7,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "478": {
@@ -18292,6 +20450,17 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 11,
+   "defensive_contribution": 1,
+   "expected_assists": 0.24,
+   "expected_goals": 0.13,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 1,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "481": {
@@ -18394,6 +20563,18 @@
    "tackles": 1,
    "total_points": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 27,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 13,
+   "expected_assists": 0.22,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 8,
+   "starts": 1,
+   "tackles": 4,
+   "total_points": 4
   }
  },
  "482": {
@@ -18515,6 +20696,17 @@
    "minutes": 68,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 8,
+   "defensive_contribution": 4,
+   "expected_assists": 0.03,
+   "expected_goals": 0.01,
+   "goals_conceded": 1,
+   "minutes": 64,
+   "recoveries": 4,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "486": {
@@ -18620,6 +20812,20 @@
    "starts": 1,
    "tackles": 7,
    "total_points": 5
+  },
+  "9": {
+   "bps": 15,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 12,
+   "expected_assists": 0.4,
+   "expected_goals": 0.15,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 7,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3,
+   "yellow_cards": 1
   }
  },
  "487": {
@@ -18689,6 +20895,20 @@
    "total_points": 1
   }
  },
+ "489": {
+  "9": {
+   "bps": 4,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 6,
+   "expected_assists": 0.01,
+   "expected_goals": 0.28,
+   "goals_conceded": 1,
+   "minutes": 45,
+   "recoveries": 3,
+   "tackles": 1,
+   "total_points": 1
+  }
+ },
  "490": {
   "1": {
    "bps": 3,
@@ -18732,6 +20952,12 @@
   "8": {
    "bps": 3,
    "minutes": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 2,
+   "goals_conceded": 1,
+   "minutes": 25,
    "total_points": 1
   }
  },
@@ -18848,6 +21074,19 @@
    "goals_conceded": 1,
    "minutes": 23,
    "total_points": 1
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 38,
+   "defensive_contribution": 2,
+   "expected_goals": 0.18,
+   "goals_conceded": 1,
+   "goals_scored": 1,
+   "minutes": 71,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 9
   }
  },
  "493": {
@@ -18870,6 +21109,15 @@
    "defensive_contribution": 1,
    "goals_conceded": 1,
    "minutes": 17,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 2,
+   "defensive_contribution": 1,
+   "expected_goals": 0.03,
+   "goals_conceded": 1,
+   "minutes": 25,
+   "recoveries": 1,
    "total_points": 1
   }
  },
@@ -18948,6 +21196,15 @@
    "saves": 4,
    "starts": 1,
    "total_points": 9
+  },
+  "9": {
+   "bps": 23,
+   "clean_sheets": 1,
+   "minutes": 90,
+   "recoveries": 9,
+   "saves": 1,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "498": {
@@ -19020,6 +21277,16 @@
    "minutes": 25,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 11,
+   "defensive_contribution": 1,
+   "expected_assists": 0.12,
+   "expected_goals": 0.13,
+   "minutes": 45,
+   "recoveries": 3,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "5": {
@@ -19060,6 +21327,20 @@
    "minutes": 24,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 20,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 7,
+   "defensive_contribution": 8,
+   "expected_assists": 0.02,
+   "expected_goals": 0.02,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 5,
+   "yellow_cards": 1
   }
  },
  "501": {
@@ -19206,6 +21487,20 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 6
+  },
+  "9": {
+   "bonus": 2,
+   "bps": 33,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "expected_assists": 0.77,
+   "expected_goals": 0.1,
+   "minutes": 76,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 8
   }
  },
  "503": {
@@ -19287,6 +21582,17 @@
    "starts": 1,
    "total_points": 5,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 31,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 3,
+   "expected_assists": 0.1,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "504": {
@@ -19392,6 +21698,16 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 26,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 9,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "506": {
@@ -19435,6 +21751,15 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 2,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 1,
+   "expected_assists": 0.01,
+   "minutes": 13,
+   "recoveries": 1,
+   "total_points": 1
   }
  },
  "508": {
@@ -19584,6 +21909,19 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 3
+  },
+  "9": {
+   "assists": 1,
+   "bonus": 1,
+   "bps": 32,
+   "clean_sheets": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.27,
+   "expected_goals": 0.76,
+   "minutes": 90,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 7
   }
  },
  "514": {
@@ -19647,6 +21985,19 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 11
+  },
+  "9": {
+   "bps": 23,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 9,
+   "expected_assists": 0.15,
+   "expected_goals": 0.27,
+   "minutes": 87,
+   "recoveries": 6,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "515": {
@@ -19852,6 +22203,16 @@
    "recoveries": 2,
    "tackles": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 4,
+   "defensive_contribution": 3,
+   "expected_assists": 0.02,
+   "expected_goals": 0.49,
+   "minutes": 24,
+   "recoveries": 2,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "52": {
@@ -19918,6 +22279,16 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 1
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 3,
+   "expected_goals": 0.04,
+   "goals_conceded": 1,
+   "minutes": 65,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "520": {
@@ -19978,6 +22349,15 @@
    "defensive_contribution": 1,
    "expected_goals": 0.02,
    "minutes": 1,
+   "tackles": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 7,
+   "defensive_contribution": 1,
+   "expected_assists": 0.01,
+   "expected_goals": 0.03,
+   "minutes": 13,
    "tackles": 1,
    "total_points": 1
   }
@@ -20066,6 +22446,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 3
+  },
+  "9": {
+   "bps": 30,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 4,
+   "expected_assists": 0.07,
+   "expected_goals": 0.13,
+   "goals_scored": 1,
+   "minutes": 45,
+   "recoveries": 3,
+   "starts": 1,
+   "total_points": 5,
+   "yellow_cards": 1
   }
  },
  "523": {
@@ -20173,6 +22566,18 @@
    "tackles": 5,
    "total_points": 7,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 21,
+   "clean_sheets": 1,
+   "defensive_contribution": 10,
+   "expected_assists": 0.49,
+   "expected_goals": 0.08,
+   "minutes": 90,
+   "recoveries": 6,
+   "starts": 1,
+   "tackles": 4,
+   "total_points": 3
   }
  },
  "526": {
@@ -20255,6 +22660,19 @@
    "recoveries": 2,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 13,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 8,
+   "expected_assists": 0.03,
+   "expected_goals": 0.36,
+   "minutes": 65,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "527": {
@@ -20348,6 +22766,17 @@
    "saves": 3,
    "starts": 1,
    "total_points": 9
+  },
+  "9": {
+   "bps": -1,
+   "clearances_blocks_interceptions": 2,
+   "expected_assists": 0.01,
+   "goals_conceded": 3,
+   "minutes": 90,
+   "recoveries": 8,
+   "saves": 1,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "53": {
@@ -20415,6 +22844,21 @@
    "tackles": 3,
    "total_points": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "assists": 1,
+   "bonus": 2,
+   "bps": 24,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 6,
+   "expected_assists": 0.01,
+   "expected_goals": 0.1,
+   "goals_conceded": 1,
+   "minutes": 65,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 7
   }
  },
  "532": {
@@ -20647,6 +23091,17 @@
    "recoveries": 5,
    "starts": 1,
    "total_points": 6
+  },
+  "9": {
+   "clearances_blocks_interceptions": 6,
+   "defensive_contribution": 7,
+   "expected_goals": 0.12,
+   "goals_conceded": 3,
+   "minutes": 74,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "535": {
@@ -20676,6 +23131,18 @@
    "minutes": 38,
    "recoveries": 2,
    "total_points": 1
+  },
+  "9": {
+   "bps": -13,
+   "clearances_blocks_interceptions": 13,
+   "defensive_contribution": 13,
+   "expected_assists": 0.01,
+   "expected_goals": 0.02,
+   "goals_conceded": 3,
+   "minutes": 90,
+   "recoveries": 5,
+   "red_cards": 1,
+   "starts": 1
   }
  },
  "536": {
@@ -20762,6 +23229,18 @@
    "starts": 1,
    "total_points": 5,
    "yellow_cards": 1
+  },
+  "9": {
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 4,
+   "expected_assists": 0.02,
+   "expected_goals": 0.03,
+   "goals_conceded": 3,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "539": {
@@ -20801,6 +23280,20 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 9
+  },
+  "9": {
+   "assists": 1,
+   "bps": 14,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 7,
+   "expected_assists": 0.12,
+   "expected_goals": 0.17,
+   "goals_conceded": 3,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 4
   }
  },
  "54": {
@@ -20865,6 +23358,15 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 2,
+   "defensive_contribution": 2,
+   "expected_assists": 0.01,
+   "minutes": 24,
+   "recoveries": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "541": {
@@ -20931,6 +23433,15 @@
    "minutes": 33,
    "recoveries": 1,
    "starts": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 6,
+   "defensive_contribution": 1,
+   "expected_assists": 0.03,
+   "minutes": 15,
+   "recoveries": 1,
+   "tackles": 1,
    "total_points": 1
   }
  },
@@ -21030,6 +23541,21 @@
    "recoveries": 1,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bonus": 1,
+   "bps": 32,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 11,
+   "expected_assists": 0.03,
+   "expected_goals": 0.85,
+   "goals_conceded": 3,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 8,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 8
   }
  },
  "543": {
@@ -21163,6 +23689,18 @@
    "recoveries": 5,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 19,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 16,
+   "expected_assists": 0.28,
+   "goals_conceded": 3,
+   "minutes": 90,
+   "recoveries": 10,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 4
   }
  },
  "545": {
@@ -21261,6 +23799,16 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 3
+  },
+  "9": {
+   "bps": 14,
+   "defensive_contribution": 6,
+   "expected_assists": 0.02,
+   "goals_conceded": 3,
+   "minutes": 74,
+   "recoveries": 6,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "547": {
@@ -21311,6 +23859,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 3
+  },
+  "9": {
+   "bps": 12,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 4,
+   "expected_assists": 0.02,
+   "expected_goals": 0.17,
+   "goals_conceded": 3,
+   "minutes": 56,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "549": {
@@ -21328,6 +23889,12 @@
    "defensive_contribution": 1,
    "expected_goals": 0.1,
    "minutes": 11,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 2,
+   "expected_goals": 0.12,
+   "minutes": 33,
    "total_points": 1
   }
  },
@@ -21424,6 +23991,18 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 3
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.02,
+   "expected_goals": 0.03,
+   "goals_conceded": 3,
+   "minutes": 56,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "552": {
@@ -21491,6 +24070,16 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 2,
+   "expected_goals": 0.3,
+   "goals_conceded": 3,
+   "minutes": 90,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "553": {
@@ -21544,6 +24133,13 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 3,
+   "expected_assists": 0.04,
+   "expected_goals": 0.02,
+   "minutes": 33,
+   "total_points": 1
   }
  },
  "554": {
@@ -21609,6 +24205,19 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 14,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 6,
+   "expected_assists": 0.29,
+   "expected_goals": 0.03,
+   "minutes": 83,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "555": {
@@ -21710,6 +24319,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 8
+  },
+  "9": {
+   "bonus": 2,
+   "bps": 26,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 8,
+   "defensive_contribution": 9,
+   "expected_assists": 0.01,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 8
   }
  },
  "556": {
@@ -21804,6 +24426,19 @@
    "starts": 1,
    "tackles": 6,
    "total_points": 4
+  },
+  "9": {
+   "bps": 10,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 6,
+   "defensive_contribution": 10,
+   "expected_assists": 0.01,
+   "expected_goals": 0.07,
+   "minutes": 61,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "557": {
@@ -21823,6 +24458,16 @@
    "recoveries": 9,
    "saves": 3,
    "starts": 1
+  },
+  "9": {
+   "bps": 23,
+   "clean_sheets": 1,
+   "minutes": 90,
+   "recoveries": 7,
+   "saves": 3,
+   "starts": 1,
+   "total_points": 6,
+   "yellow_cards": 1
   }
  },
  "56": {
@@ -21895,6 +24540,14 @@
    "defensive_contribution": 4,
    "minutes": 18,
    "recoveries": 3,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 5,
+   "defensive_contribution": 4,
+   "minutes": 13,
+   "recoveries": 3,
+   "tackles": 1,
    "total_points": 1
   }
  },
@@ -21978,6 +24631,11 @@
    "defensive_contribution": 1,
    "minutes": 17,
    "recoveries": 1,
+   "total_points": 1
+  },
+  "9": {
+   "expected_goals": 0.09,
+   "minutes": 20,
    "total_points": 1
   }
  },
@@ -22131,6 +24789,16 @@
    "saves": 4,
    "starts": 1,
    "total_points": 8
+  },
+  "9": {
+   "bps": 13,
+   "clearances_blocks_interceptions": 1,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 4,
+   "saves": 4,
+   "starts": 1,
+   "total_points": 3
   }
  },
  "567": {
@@ -22230,6 +24898,17 @@
    "starts": 1,
    "tackles": 4,
    "total_points": 4
+  },
+  "9": {
+   "bps": 2,
+   "defensive_contribution": 4,
+   "expected_assists": 0.01,
+   "expected_goals": 0.02,
+   "goals_conceded": 1,
+   "minutes": 45,
+   "recoveries": 4,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "568": {
@@ -22263,6 +24942,15 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 2
+  },
+  "9": {
+   "bps": 1,
+   "defensive_contribution": 2,
+   "expected_goals": 0.51,
+   "minutes": 3,
+   "recoveries": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "569": {
@@ -22362,6 +25050,14 @@
    "recoveries": 1,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "expected_assists": 0.01,
+   "expected_goals": 0.36,
+   "goals_conceded": 1,
+   "minutes": 86,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "57": {
@@ -22435,6 +25131,16 @@
    "saves": 3,
    "starts": 1,
    "total_points": 7
+  },
+  "9": {
+   "bps": 25,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "minutes": 90,
+   "recoveries": 10,
+   "saves": 1,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "570": {
@@ -22495,6 +25201,14 @@
    "defensive_contribution": 3,
    "expected_assists": 0.01,
    "minutes": 16,
+   "recoveries": 2,
+   "tackles": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 2,
+   "defensive_contribution": 3,
+   "minutes": 11,
    "recoveries": 2,
    "tackles": 1,
    "total_points": 1
@@ -22580,6 +25294,15 @@
    "saves": 5,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 4,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 12,
+   "saves": 1,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "572": {
@@ -22632,6 +25355,21 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 4
+  },
+  "9": {
+   "bonus": 1,
+   "bps": 32,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 6,
+   "expected_assists": 0.01,
+   "expected_goals": 0.22,
+   "goals_conceded": 2,
+   "goals_scored": 1,
+   "minutes": 69,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 8
   }
  },
  "573": {
@@ -22726,6 +25464,17 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 5,
+   "defensive_contribution": 6,
+   "expected_assists": 0.01,
+   "expected_goals": 0.12,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 6,
+   "starts": 1,
+   "total_points": 2
   }
  },
  "575": {
@@ -22846,6 +25595,16 @@
    "starts": 1,
    "tackles": 6,
    "total_points": 4
+  },
+  "9": {
+   "bps": 2,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 8,
+   "goals_conceded": 1,
+   "minutes": 59,
+   "recoveries": 7,
+   "starts": 1,
+   "yellow_cards": 1
   }
  },
  "578": {
@@ -22947,6 +25706,19 @@
    "tackles": 2,
    "total_points": 2,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 11,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 10,
+   "expected_assists": 0.02,
+   "expected_goals": 0.51,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 7,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "580": {
@@ -23040,6 +25812,19 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 10
+  },
+  "9": {
+   "bps": 9,
+   "clearances_blocks_interceptions": 10,
+   "defensive_contribution": 12,
+   "expected_assists": 0.01,
+   "expected_goals": 0.19,
+   "goals_conceded": 1,
+   "minutes": 80,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 4
   }
  },
  "581": {
@@ -23166,6 +25951,12 @@
    "recoveries": 1,
    "starts": 1,
    "total_points": 5
+  },
+  "9": {
+   "bps": 5,
+   "expected_assists": 0.04,
+   "minutes": 16,
+   "total_points": 1
   }
  },
  "584": {
@@ -23331,6 +26122,17 @@
    "recoveries": 2,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 10,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 7,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "588": {
@@ -23432,6 +26234,16 @@
    "starts": 1,
    "tackles": 2,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 3,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 6,
+   "goals_conceded": 1,
+   "minutes": 30,
+   "recoveries": 3,
+   "tackles": 2,
+   "total_points": 1
   }
  },
  "589": {
@@ -23569,6 +26381,21 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 10
+  },
+  "9": {
+   "bonus": 2,
+   "bps": 39,
+   "defensive_contribution": 6,
+   "expected_assists": 0.44,
+   "expected_goals": 0.28,
+   "goals_conceded": 2,
+   "goals_scored": 1,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 8,
+   "yellow_cards": 1
   }
  },
  "592": {
@@ -23654,6 +26481,20 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 2
+  },
+  "9": {
+   "assists": 1,
+   "bps": 29,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 7,
+   "expected_assists": 0.28,
+   "expected_goals": 0.04,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 4
   }
  },
  "593": {
@@ -23756,6 +26597,19 @@
    "recoveries": 5,
    "starts": 1,
    "total_points": 11
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 5,
+   "expected_assists": 0.13,
+   "expected_goals": 0.02,
+   "goals_conceded": 1,
+   "minutes": 86,
+   "recoveries": 1,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 2
   }
  },
  "596": {
@@ -23871,6 +26725,17 @@
    "saves": 6,
    "starts": 1,
    "total_points": 4
+  },
+  "9": {
+   "bps": 20,
+   "clearances_blocks_interceptions": 1,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 6,
+   "saves": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "598": {
@@ -23916,6 +26781,12 @@
    "recoveries": 1,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 5,
+   "expected_goals": 0.02,
+   "minutes": 18,
+   "total_points": 1
   }
  },
  "599": {
@@ -23984,6 +26855,18 @@
    "recoveries": 8,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 10,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2,
+   "yellow_cards": 1
   }
  },
  "60": {
@@ -24083,6 +26966,18 @@
    "starts": 1,
    "tackles": 7,
    "total_points": 11
+  },
+  "9": {
+   "bps": 24,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 8,
+   "defensive_contribution": 9,
+   "expected_goals": 0.01,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 6
   }
  },
  "600": {
@@ -24110,6 +27005,14 @@
    "expected_goals": 0.05,
    "minutes": 12,
    "recoveries": 1,
+   "total_points": 1
+  }
+ },
+ "604": {
+  "9": {
+   "bps": 8,
+   "expected_assists": 0.34,
+   "minutes": 2,
    "total_points": 1
   }
  },
@@ -24211,6 +27114,15 @@
    "expected_assists": 0.17,
    "minutes": 36,
    "recoveries": 2,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 11,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 6,
+   "minutes": 18,
+   "recoveries": 1,
+   "tackles": 3,
    "total_points": 1
   }
  },
@@ -24315,6 +27227,19 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 10
+  },
+  "9": {
+   "bps": 24,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 4,
+   "defensive_contribution": 6,
+   "expected_assists": 0.01,
+   "expected_goals": 0.02,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 6
   }
  },
  "611": {
@@ -24421,6 +27346,15 @@
    "minutes": 9,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 8,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "minutes": 26,
+   "recoveries": 5,
+   "tackles": 2,
+   "total_points": 1
   }
  },
  "614": {
@@ -24466,6 +27400,16 @@
    "starts": 1,
    "tackles": 3,
    "total_points": 2
+  },
+  "9": {
+   "bps": 6,
+   "defensive_contribution": 3,
+   "expected_assists": 0.01,
+   "goals_conceded": 1,
+   "minutes": 54,
+   "recoveries": 3,
+   "starts": 1,
+   "total_points": 1
   }
  },
  "617": {
@@ -24486,6 +27430,19 @@
    "defensive_contribution": 1,
    "minutes": 8,
    "total_points": 1
+  },
+  "9": {
+   "bps": 8,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 4,
+   "expected_assists": 0.01,
+   "expected_goals": 0.12,
+   "goals_conceded": 1,
+   "minutes": 65,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "618": {
@@ -24527,6 +27484,13 @@
    "minutes": 25,
    "recoveries": 2,
    "tackles": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "expected_assists": 0.01,
+   "goals_conceded": 1,
+   "minutes": 30,
    "total_points": 1
   }
  },
@@ -24611,6 +27575,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 4
+  },
+  "9": {
+   "bps": 13,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 13,
+   "expected_assists": 0.09,
+   "goals_conceded": 2,
+   "minutes": 90,
+   "recoveries": 9,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3,
+   "yellow_cards": 1
   }
  },
  "62": {
@@ -24626,6 +27603,11 @@
    "defensive_contribution": 2,
    "minutes": 3,
    "tackles": 1,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "minutes": 2,
    "total_points": 1
   }
  },
@@ -24779,12 +27761,35 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 6
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 5,
+   "expected_assists": 0.14,
+   "expected_goals": 0.07,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 1,
+   "yellow_cards": 1
   }
  },
  "629": {
   "6": {
    "bps": 3,
    "minutes": 10,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 6,
+   "defensive_contribution": 1,
+   "expected_assists": 0.03,
+   "expected_goals": 0.02,
+   "minutes": 11,
+   "tackles": 1,
    "total_points": 1
   }
  },
@@ -24836,6 +27841,14 @@
    "expected_assists": 0.04,
    "minutes": 31,
    "total_points": 4
+  },
+  "9": {
+   "bps": 5,
+   "defensive_contribution": 2,
+   "expected_assists": 0.01,
+   "minutes": 24,
+   "recoveries": 2,
+   "total_points": 1
   }
  },
  "632": {
@@ -24900,6 +27913,17 @@
    "starts": 1,
    "tackles": 4,
    "total_points": 1
+  },
+  "9": {
+   "bps": 13,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 8,
+   "minutes": 63,
+   "starts": 1,
+   "tackles": 5,
+   "total_points": 2,
+   "yellow_cards": 1
   }
  },
  "633": {
@@ -25033,6 +28057,15 @@
    "recoveries": 4,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 7,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 5,
+   "minutes": 13,
+   "recoveries": 2,
+   "tackles": 2,
+   "total_points": 1
   }
  },
  "637": {
@@ -25137,6 +28170,11 @@
    "minutes": 62,
    "starts": 1,
    "total_points": 3
+  },
+  "9": {
+   "bps": 3,
+   "minutes": 3,
+   "total_points": 1
   }
  },
  "639": {
@@ -25240,6 +28278,16 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 6
+  },
+  "9": {
+   "bps": 22,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 5,
+   "minutes": 87,
+   "recoveries": 3,
+   "starts": 1,
+   "total_points": 6
   }
  },
  "640": {
@@ -25301,6 +28349,20 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 6
+  },
+  "9": {
+   "bps": 13,
+   "clearances_blocks_interceptions": 16,
+   "defensive_contribution": 18,
+   "expected_assists": 0.02,
+   "expected_goals": 0.19,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 3,
+   "yellow_cards": 1
   }
  },
  "642": {
@@ -25371,6 +28433,15 @@
    "minutes": 25,
    "recoveries": 1,
    "tackles": 2,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_goals": 0.04,
+   "minutes": 13,
+   "tackles": 1,
    "total_points": 1
   }
  },
@@ -25485,6 +28556,13 @@
    "minutes": 30,
    "tackles": 3,
    "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 1,
+   "minutes": 13,
+   "total_points": 1
   }
  },
  "647": {
@@ -25508,6 +28586,14 @@
   "6": {
    "bps": 3,
    "minutes": 4,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 2,
+   "expected_assists": 0.03,
+   "expected_goals": 0.02,
+   "goals_conceded": 1,
+   "minutes": 6,
    "total_points": 1
   }
  },
@@ -25599,6 +28685,15 @@
    "recoveries": 3,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.01,
+   "minutes": 15,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "651": {
@@ -25607,6 +28702,20 @@
    "goals_conceded": 1,
    "minutes": 9,
    "total_points": 1
+  }
+ },
+ "655": {
+  "9": {
+   "bps": 11,
+   "defensive_contribution": 4,
+   "expected_assists": 0.01,
+   "expected_goals": 0.05,
+   "goals_conceded": 1,
+   "minutes": 71,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 2
   }
  },
  "656": {
@@ -25640,6 +28749,18 @@
    "minutes": 30,
    "recoveries": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 11,
+   "expected_goals": 0.03,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 4
   }
  },
  "66": {
@@ -25781,6 +28902,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 10
+  },
+  "9": {
+   "bps": 7,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 8,
+   "expected_assists": 0.03,
+   "expected_goals": 0.05,
+   "minutes": 87,
+   "recoveries": 2,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "68": {
@@ -25894,6 +29028,18 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 10
+  },
+  "9": {
+   "bps": 12,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "expected_assists": 0.03,
+   "expected_goals": 0.1,
+   "minutes": 90,
+   "recoveries": 2,
+   "starts": 1,
+   "total_points": 3
   }
  },
  "69": {
@@ -26031,6 +29177,14 @@
    "tackles": 3,
    "total_points": 2,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 4,
+   "defensive_contribution": 2,
+   "expected_goals": 0.04,
+   "minutes": 28,
+   "tackles": 2,
+   "yellow_cards": 1
   }
  },
  "70": {
@@ -26102,6 +29256,19 @@
    "expected_assists": 0.18,
    "minutes": 62,
    "recoveries": 2,
+   "starts": 1,
+   "total_points": 6
+  },
+  "9": {
+   "assists": 1,
+   "bps": 19,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 5,
+   "expected_assists": 0.01,
+   "expected_goals": 0.12,
+   "minutes": 67,
+   "recoveries": 4,
    "starts": 1,
    "total_points": 6
   }
@@ -26184,6 +29351,15 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 6
+  },
+  "9": {
+   "bps": 4,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 6,
+   "minutes": 22,
+   "recoveries": 3,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "72": {
@@ -26336,6 +29512,19 @@
    "tackles": 2,
    "total_points": 4,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 6,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 10,
+   "expected_assists": 0.01,
+   "expected_goals": 0.01,
+   "minutes": 90,
+   "recoveries": 5,
+   "starts": 1,
+   "total_points": 2,
+   "yellow_cards": 1
   }
  },
  "74": {
@@ -26450,6 +29639,20 @@
    "recoveries": 4,
    "tackles": 4,
    "total_points": 1
+  },
+  "9": {
+   "bps": 16,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 15,
+   "expected_assists": 0.03,
+   "expected_goals": 0.07,
+   "minutes": 67,
+   "recoveries": 9,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 4,
+   "yellow_cards": 1
   }
  },
  "76": {
@@ -26480,6 +29683,16 @@
    "bps": 3,
    "minutes": 3,
    "total_points": 1
+  },
+  "9": {
+   "bonus": 2,
+   "bps": 26,
+   "defensive_contribution": 1,
+   "expected_goals": 0.32,
+   "goals_scored": 1,
+   "minutes": 2,
+   "tackles": 1,
+   "total_points": 8
   }
  },
  "78": {
@@ -26490,6 +29703,15 @@
    "minutes": 3,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "assists": 1,
+   "bps": 21,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 3,
+   "expected_assists": 0.28,
+   "minutes": 22,
+   "total_points": 4
   }
  },
  "79": {
@@ -26601,6 +29823,20 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 6
+  },
+  "9": {
+   "bonus": 3,
+   "bps": 42,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 6,
+   "expected_assists": 0.03,
+   "expected_goals": 0.49,
+   "goals_scored": 1,
+   "minutes": 75,
+   "recoveries": 5,
+   "starts": 1,
+   "total_points": 9
   }
  },
  "8": {
@@ -26702,6 +29938,18 @@
    "minutes": 22,
    "tackles": 2,
    "total_points": 1
+  },
+  "9": {
+   "bps": 21,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 6,
+   "defensive_contribution": 9,
+   "expected_assists": 0.02,
+   "minutes": 90,
+   "recoveries": 6,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 6
   }
  },
  "81": {
@@ -26731,6 +29979,16 @@
   "7": {
    "bps": 2,
    "minutes": 11,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 6,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 2,
+   "expected_assists": 0.01,
+   "expected_goals": 0.09,
+   "minutes": 14,
+   "recoveries": 1,
    "total_points": 1
   }
  },
@@ -26814,6 +30072,16 @@
    "saves": 1,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bonus": 1,
+   "bps": 25,
+   "clean_sheets": 1,
+   "minutes": 90,
+   "recoveries": 12,
+   "saves": 1,
+   "starts": 1,
+   "total_points": 7
   }
  },
  "84": {
@@ -26874,6 +30142,18 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bonus": 2,
+   "bps": 33,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 9,
+   "defensive_contribution": 12,
+   "minutes": 90,
+   "recoveries": 10,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 10
   }
  },
  "86": {
@@ -26980,6 +30260,18 @@
    "recoveries": 3,
    "starts": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 11,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 10,
+   "expected_assists": 0.02,
+   "minutes": 90,
+   "recoveries": 8,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 3
   }
  },
  "87": {
@@ -27078,6 +30370,17 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 23,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 13,
+   "defensive_contribution": 14,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 8
   }
  },
  "88": {
@@ -27174,6 +30477,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 4
+  },
+  "9": {
+   "bps": 17,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 5,
+   "defensive_contribution": 6,
+   "expected_assists": 0.04,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 5,
+   "yellow_cards": 1
   }
  },
  "89": {
@@ -27202,6 +30518,13 @@
    "clearances_blocks_interceptions": 3,
    "defensive_contribution": 3,
    "minutes": 8,
+   "total_points": 1
+  },
+  "9": {
+   "bps": 3,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 3,
+   "minutes": 6,
    "total_points": 1
   }
  },
@@ -27281,6 +30604,15 @@
    "tackles": 1,
    "total_points": 1,
    "yellow_cards": 1
+  },
+  "9": {
+   "bps": 5,
+   "clearances_blocks_interceptions": 3,
+   "defensive_contribution": 4,
+   "minutes": 28,
+   "recoveries": 1,
+   "tackles": 1,
+   "total_points": 1
   }
  },
  "91": {
@@ -27356,6 +30688,18 @@
    "defensive_contribution": 14,
    "expected_assists": 0.01,
    "expected_goals": 0.03,
+   "goals_conceded": 1,
+   "minutes": 90,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 4
+  },
+  "9": {
+   "bps": 8,
+   "clearances_blocks_interceptions": 13,
+   "defensive_contribution": 14,
+   "expected_assists": 0.03,
    "goals_conceded": 1,
    "minutes": 90,
    "recoveries": 3,
@@ -27512,6 +30856,17 @@
    "starts": 1,
    "tackles": 1,
    "total_points": 2
+  },
+  "9": {
+   "bps": 9,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 2,
+   "defensive_contribution": 7,
+   "minutes": 83,
+   "recoveries": 3,
+   "starts": 1,
+   "tackles": 2,
+   "total_points": 3
   }
  },
  "95": {
@@ -27600,6 +30955,18 @@
    "recoveries": 4,
    "starts": 1,
    "total_points": 10
+  },
+  "9": {
+   "assists": 1,
+   "bps": 22,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 7,
+   "minutes": 71,
+   "recoveries": 5,
+   "starts": 1,
+   "tackles": 1,
+   "total_points": 6
   }
  },
  "96": {
@@ -27678,6 +31045,16 @@
    "recoveries": 2,
    "tackles": 1,
    "total_points": 1
+  },
+  "9": {
+   "bps": 4,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 3,
+   "expected_assists": 0.02,
+   "expected_goals": 0.04,
+   "minutes": 28,
+   "recoveries": 2,
+   "total_points": 1
   }
  },
  "97": {
@@ -27725,6 +31102,19 @@
    "starts": 1,
    "tackles": 2,
    "total_points": 2
+  },
+  "9": {
+   "bps": 10,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 1,
+   "defensive_contribution": 8,
+   "expected_assists": 0.01,
+   "expected_goals": 0.04,
+   "minutes": 61,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 3
   }
  },
  "98": {
@@ -27822,6 +31212,18 @@
    "starts": 1,
    "tackles": 3,
    "total_points": -1
+  },
+  "9": {
+   "bps": 17,
+   "clean_sheets": 1,
+   "clearances_blocks_interceptions": 8,
+   "defensive_contribution": 15,
+   "expected_assists": 0.01,
+   "minutes": 90,
+   "recoveries": 4,
+   "starts": 1,
+   "tackles": 3,
+   "total_points": 5
   }
  },
  "_gameweeks": [
@@ -27832,6 +31234,7 @@
   5,
   6,
   7,
-  8
+  8,
+  9
  ]
 }
