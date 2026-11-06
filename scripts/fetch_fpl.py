@@ -97,6 +97,36 @@ def iso(ts):
     return ts.replace("Z", "+00:00")
 
 
+ODDS_SEASON = "https://www.football-data.co.uk/mmz4281/2627/E0.csv"
+ODDS_UPCOMING = "https://www.football-data.co.uk/fixtures.csv"
+
+
+def fetch_odds():
+    """Bookmaker odds from football-data.co.uk (free, no key): this season's
+    Premier League results with pre-match and closing odds, and the upcoming
+    fixtures sheet (all leagues - only the E0 rows are kept). A failed fetch
+    keeps whatever was saved last time."""
+    os.makedirs(os.path.join(OUT, "odds"), exist_ok=True)
+    for url, name, only_e0 in ((ODDS_SEASON, "season.csv", False),
+                               (ODDS_UPCOMING, "upcoming.csv", True)):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                text = resp.read().decode("utf-8-sig", errors="replace")
+        except Exception as exc:  # noqa: BLE001
+            print("  !! odds {} -> {}".format(url, exc), file=sys.stderr)
+            continue
+        lines = [ln for ln in text.splitlines() if ln.strip()]
+        if only_e0 and lines:
+            lines = lines[:1] + [ln for ln in lines[1:] if ln.startswith("E0,")]
+        if len(lines) < 2:
+            print("  !! odds {} had no Premier League rows".format(url), file=sys.stderr)
+            continue
+        with open(os.path.join(OUT, "odds", name), "w", encoding="utf-8") as fh:
+            fh.write("\n".join(lines) + "\n")
+        print("odds {}: {} rows".format(name, len(lines) - 1), file=sys.stderr)
+
+
 def main():
     print("bootstrap-static ...", file=sys.stderr)
     boot = get("bootstrap-static")
@@ -247,6 +277,8 @@ def main():
     dump("players.json", {str(e["id"]): metrics(e) for e in elements.values()})
 
     write_summary(meta, standings, rosters, free, managers, upcoming)
+
+    fetch_odds()
 
     # ---- live app data ----------------------------------------------------
     print("app data ...", file=sys.stderr)
