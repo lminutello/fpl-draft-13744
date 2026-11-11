@@ -8,16 +8,17 @@
   6,
   7,
   8,
-  9
+  9,
+  10
  ],
- "last_finished_gw": 9,
+ "last_finished_gw": 10,
  "league_id": 13744,
  "matchday": false,
  "my_entry_id": 174590,
  "my_team": "Mr. Madueke",
- "n_free_agents": 550,
- "next_deadline_utc": "2026-11-06T18:30:00+00:00",
- "next_gw": 10,
- "next_waivers_utc": "2026-11-05T18:30:00+00:00",
- "updated_utc": "2026-11-06T04:31:29Z"
+ "n_free_agents": 552,
+ "next_deadline_utc": "2026-11-21T11:00:00+00:00",
+ "next_gw": 11,
+ "next_waivers_utc": "2026-11-20T11:00:00+00:00",
+ "updated_utc": "2026-11-11T01:01:09Z"
 }
