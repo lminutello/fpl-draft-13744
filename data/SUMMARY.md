@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-11-17T16:21:40Z | last finished GW10 | next GW11
+Updated 2026-11-17T16:57:08Z | last finished GW10 | next GW11
 
 - Waivers process: `2026-11-20T11:00:00+00:00`
 - Gameweek deadline: `2026-11-21T11:00:00+00:00`
