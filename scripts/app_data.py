@@ -260,6 +260,96 @@ def carry_forward(base_order, txs, owned_ids, pos_of):
 
 # ---------------------------------------------------------------- main build
 
+HORIZON = 3   # gameweeks of projections on the players board
+
+
+def projections(boot, status, history, results, odds, team_xg, teams, team_code, elements,
+                pos_of, entries, form, first_gw, last_finished):
+    """Every player with minutes this season: projected points for the next
+    HORIZON gameweeks (with the split for the first), plus the context numbers
+    that say whether the projection is trustworthy - points per full game,
+    xG+xA per 90, DEFCON hit rate, recent minutes."""
+    upcoming = boot.get("fixtures") or {}
+    fx_by_gw = {}
+    for gw in range(first_gw, first_gw + HORIZON):
+        rows = results.get(str(gw))
+        if not rows and isinstance(upcoming, dict):
+            rows = [_fx(f, teams) for f in upcoming.get(str(gw), [])]
+        if rows:
+            fx_by_gw[gw] = rows
+    gws = sorted(fx_by_gw)
+    gw_of_pair = {(f["home"], f["away"]): int(g) for g, rows in results.items() for f in rows}
+    for gw, rows in fx_by_gw.items():
+        for f in rows:
+            gw_of_pair[(f["home"], f["away"])] = gw
+
+    el_team = {pid: teams.get(e.get("team")) for pid, e in elements.items()}
+    team_of = {str(pid): (el_team[pid], pos_of.get(pid)) for pid in elements}
+    rates = odds_model.player_rates(
+        history, team_of, {k: v for k, v in team_xg.items() if k[1] is not None and k[1] <= last_finished},
+        last_finished)
+    lid_of = {v["entry_id"]: k for k, v in entries.items()}
+    owner = {r["element"]: lid_of.get(r.get("owner")) for r in status.get("element_status", [])}
+
+    fixtures_out, lam = {}, {}
+    for gw in gws:
+        market = odds_model.Market(odds, gw_of_pair, gw)
+        out = []
+        for f in fx_by_gw[gw]:
+            xh, xa, src = market.goals(f["home"], f["away"])
+            lam.setdefault(gw, {}).setdefault(f["home"], []).append((xh, xa, f["away"], True))
+            lam[gw].setdefault(f["away"], []).append((xa, xh, f["home"], False))
+            out.append({"home": f["home"], "away": f["away"], "kickoff": f.get("kickoff"),
+                        "xh": round(xh, 2), "xa": round(xa, 2), "xs": src})
+        fixtures_out[str(gw)] = out
+
+    thr = {"DEF": 10, "MID": 12, "FWD": 12}
+    players = []
+    for pid, el in elements.items():
+        r = rates.get(str(pid))
+        if not r:
+            continue
+        rows = sorted((int(g), v) for g, v in history.get(str(pid), {}).items()
+                      if not g.startswith("_") and int(g) <= last_finished)
+        played = [v for _, v in rows if (v.get("minutes") or 0) > 0]
+        full = [v for v in played if (v.get("minutes") or 0) >= 60]
+        mins = sum(v.get("minutes") or 0 for v in played)
+        if not mins:
+            continue
+        _, pp = project(el, history, fx_by_gw[gws[0]] if gws else [], form[0], form[1], last_finished)
+        team = el_team[pid]
+        proj, opp, parts = [], [], None
+        for gw in gws:
+            tot, labels = 0.0, []
+            for lf, la, o, home in lam[gw].get(team, []):
+                pr = odds_model.expected_parts(r, lf, la)
+                tot += sum(pr.values())
+                labels.append(o + ("(H)" if home else "(A)"))
+                if gw == gws[0]:
+                    parts = pr if parts is None else {k: parts[k] + pr[k] for k in pr}
+            proj.append(round(tot * pp, 2))
+            opp.append(" ".join(labels))
+        xgi = sum(float(v.get("expected_goals") or 0) + float(v.get("expected_assists") or 0) for v in played)
+        by_gw = dict(rows)
+        pos = pos_of.get(pid, "?")
+        players.append({
+            "id": pid, "n": el.get("web_name", "?"), "t": team, "tc": team_code.get(el.get("team")),
+            "p": pos, "own": owner.get(pid), "st": el.get("status", "a"),
+            "news": (el.get("news") or "").strip(), "pp": pp,
+            "proj": proj, "opp": opp,
+            "br": {k: round(v * pp, 2) for k, v in (parts or {}).items()},
+            "tot": sum(v.get("total_points") or 0 for v in played),
+            "apps": len(played), "n60": len(full),
+            "p60": round(sum(v.get("total_points") or 0 for v in full) / len(full), 2) if full else None,
+            "xgi90": round(xgi / mins * 90, 2),
+            "gi": sum((v.get("goals_scored") or 0) + (v.get("assists") or 0) for v in played),
+            "dch": sum(1 for v in full if (v.get("defensive_contribution") or 0) >= thr.get(pos, 10 ** 9)),
+            "l4": [(by_gw.get(g) or {}).get("minutes") or 0
+                   for g in range(max(1, last_finished - 3), last_finished + 1)],
+        })
+    return {"gws": gws, "fixtures": fixtures_out, "players": players}
+
+
 def build(get, boot, details, status, history, out_dir):
     teams = {t["id"]: t["short_name"] for t in boot["teams"]}
     team_code = {t["id"]: t.get("code") for t in boot["teams"]}
@@ -572,6 +662,13 @@ def build(get, boot, details, status, history, out_dir):
         }
         _dump(os.path.join(gw_dir, key + ".json"), doc)
         built.append(gw)
+
+    try:
+        _dump(os.path.join(out_dir, "proj.json"), projections(
+            boot, status, history, results, odds, team_xg, teams, team_code, elements, pos_of,
+            entries, form, app_gw or cur, last_finished))
+    except Exception as exc:  # noqa: BLE001 - the rest of the app must still build
+        print("  !! projections: {}".format(exc))
 
     app = {
         "league": (details.get("league") or {}).get("name") or "FPL Draft",

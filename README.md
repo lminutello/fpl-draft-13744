@@ -39,6 +39,25 @@ here makes it readable from anywhere, including unattended sessions.
 | `picks.json`, `results.json` | caches of lineups and fixture results so past weeks aren't refetched |
 | `transactions.json` | every waiver and free-agent move, accepted or denied |
 
+## The app
+
+Four tabs:
+
+- **My team** - the highest-projected legal XI for the next gameweek on a
+  pitch, how it compares with the lineup currently saved, the win chance for
+  the week, every squad player's projection for the next three gameweeks, and
+  the free agents who out-project your weakest player in each position.
+- **Players** - every player with minutes this season, filterable by
+  position and by free / mine / other teams, sortable by next-gameweek
+  projection, next-three total, actual points per full game, or xG+xA per 90.
+  Tap a row for the split behind the number (appearance, goals, assists,
+  clean sheet, DEFCON, saves, bonus) and the fixture's expected goals.
+- **Matchups** and **Table** - head-to-head scores, projected finals and the
+  league table.
+
+`data/proj.json` (built by `projections()` in `scripts/app_data.py`) feeds the
+first two tabs.
+
 ## Projections
 
 Built on bookmaker odds (`scripts/odds_model.py`), pulled free from

@@ -284,19 +284,24 @@ def player_rates(hist, team_of, team_xg, upto):
     return out
 
 
-def expected_points(rate, lam_for, lam_against, league_against=1.35):
-    """Points given he plays, for one fixture."""
+def expected_parts(rate, lam_for, lam_against, league_against=1.35):
+    """Points given he plays, for one fixture, split by where they come from."""
     pos = rate["pos"]
     p60, mins = rate["p60"], rate["mins"]
-    pts = 2 * p60 + 1 * (1 - p60)
-    pts += lam_for * rate["g_share"] * GOAL_PTS[pos]
-    pts += lam_for * rate["a_share"] * 3
-    pts += math.exp(-lam_against) * p60 * CS_PTS[pos]
-    if pos in ("GKP", "DEF"):
-        pts -= _floor_div_exp(lam_against * mins, 2)
-    if pos == "GKP":
-        pts += _floor_div_exp(rate["saves"] * lam_against / league_against, 3)
-    if pos != "GKP":
-        pts += rate["defcon"] * DEFCON_PTS
-    pts += rate["bonus"] - rate["cards"]
-    return pts
+    parts = {
+        "app": 2 * p60 + 1 * (1 - p60),
+        "gls": lam_for * rate["g_share"] * GOAL_PTS[pos],
+        "ast": lam_for * rate["a_share"] * 3,
+        "cs": math.exp(-lam_against) * p60 * CS_PTS[pos],
+        "gc": -_floor_div_exp(lam_against * mins, 2) if pos in ("GKP", "DEF") else 0.0,
+        "sv": _floor_div_exp(rate["saves"] * lam_against / league_against, 3) if pos == "GKP" else 0.0,
+        "dc": rate["defcon"] * DEFCON_PTS if pos != "GKP" else 0.0,
+        "bon": rate["bonus"],
+        "crd": -rate["cards"],
+    }
+    return parts
+
+
+def expected_points(rate, lam_for, lam_against, league_against=1.35):
+    """Points given he plays, for one fixture."""
+    return sum(expected_parts(rate, lam_for, lam_against, league_against).values())
