@@ -1,6 +1,6 @@
 # FPL Draft 13744 - snapshot
 
-Updated 2026-11-11T01:01:09Z | last finished GW10 | next GW11
+Updated 2026-11-17T16:21:40Z | last finished GW10 | next GW11
 
 - Waivers process: `2026-11-20T11:00:00+00:00`
 - Gameweek deadline: `2026-11-21T11:00:00+00:00`
@@ -34,7 +34,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Bruno G.          ARS    28p  386m st4  app8  dc 0.0   last5 [9, 3, 1, 3, 3]
 - FWD Haaland           MCI    70p  889m st10 app10 dc 0.0   last5 [6, 13, 8, 2, 2]
 - FWD McBurnie          HUL    38p  886m st10 app10 dc 0.0   last5 [1, 2, 8, 12, 2]
-- FWD Strand Larsen     CRY    23p  511m st6  app8  dc 0.0   last5 [8, 2, 5, 2, 2]
+- FWD Strand Larsen     CRY    23p  511m st6  app8  dc 0.0   last5 [8, 2, 5, 2, 2]  [D] Ankle injury - 75% chance of playing
 
 ## Free agents - top 30 by points
 
@@ -50,7 +50,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - MID Bobb              FUL    35p  729m st10 app10 dc 0.0   last5 [3, 3, 11, 2, 3]
 - DEF Murillo           NFO    35p  899m st10 app10 dc 0.7   last5 [2, 2, 1, 3, 4]
 - MID Kamara            AVL    34p  881m st10 app10 dc 0.4   last5 [4, 5, 4, 2, 4]
-- DEF Mendy             HUL    34p  519m st7  app7  dc 0.71  last5 [8, 1, 3, 3, 3]
+- DEF Mendy             HUL    34p  519m st7  app7  dc 0.71  last5 [8, 1, 3, 3, 3]  [D] Knee injury - 75% chance of playing
 - MID Xhaka             SUN    33p  813m st10 app10 dc 0.3   last5 [2, 2, 3, 4, 1]  [D] Calf injury - 75% chance of playing
 - MID Stach             LEE    33p  676m st7  app9  dc 0.33  last5 [5, 2, 2, 1, 1]  [D] Foot injury - 50% chance of playing
 - DEF Robinson          FUL    32p  789m st9  app9  dc 0.22  last5 [2, 7, 7, 4, 2]
@@ -59,7 +59,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Affengruber       FUL    32p  630m st7  app7  dc 0.57  last5 [3, 6, 6, 3, 2]
 - MID Tielemans         MUN    31p  653m st9  app9  dc 0.33  last5 [4, 3, 7, 0, 7]
 - MID Ampadu            LEE    31p  900m st10 app10 dc 0.4   last5 [1, 1, 2, 3, 3]
-- MID Schlager          NFO    31p  756m st9  app10 dc 0.5   last5 [2, 4, 4, 1, 7]
+- MID Schlager          NFO    31p  756m st9  app10 dc 0.5   last5 [2, 4, 4, 1, 7]  [D] Thigh injury - 75% chance of playing
 - MID Kluivert          BOU    31p  518m st7  app8  dc 0.0   last5 [8, 1, 6, 6, 3]
 - DEF Giles             HUL    31p  698m st8  app10 dc 0.0   last5 [2, 1, 2, 1, 1]
 - DEF Van de Ven        TOT    31p  736m st8  app9  dc 0.0   last5 [1, 2, 5, 6, 1]
@@ -92,7 +92,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Dunk              BHA    41p  749m st8  app9  dc 0.11  last5 [1, 6, 1, 6, 5]
 - DEF Bassey            FUL    36p  900m st10 app10 dc 0.3   last5 [2, 8, 8, 1, 2]
 - DEF Murillo           NFO    35p  899m st10 app10 dc 0.7   last5 [2, 2, 1, 3, 4]
-- DEF Mendy             HUL    34p  519m st7  app7  dc 0.71  last5 [8, 1, 3, 3, 3]
+- DEF Mendy             HUL    34p  519m st7  app7  dc 0.71  last5 [8, 1, 3, 3, 3]  [D] Knee injury - 75% chance of playing
 - DEF Robinson          FUL    32p  789m st9  app9  dc 0.22  last5 [2, 7, 7, 4, 2]
 - DEF Thomas            COV    32p  676m st8  app8  dc 0.62  last5 [0, 9, 4, 3, 1]  [D] Calf injury - 50% chance of playing
 - DEF Affengruber       FUL    32p  630m st7  app7  dc 0.57  last5 [3, 6, 6, 3, 2]
@@ -158,7 +158,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Vuskovic          BHA    70p  887m st10 app10 dc 0.4   last5 [8, 11, 1, 6, 12]
 - DEF Muharemović       LEE    56p  900m st10 app10 dc 0.7   last5 [2, 5, 9, 3, 10]
 - DEF Virgil            LIV    43p  900m st10 app10 dc 0.6   last5 [0, 4, 9, 1, 4]  [D] Unspecified injury - 75% chance of playing
-- DEF N.Williams        NFO    34p  893m st10 app10 dc 0.2   last5 [1, 3, 8, 1, 2]
+- DEF N.Williams        NFO    34p  893m st10 app10 dc 0.2   last5 [1, 3, 8, 1, 2]  [D] Ankle injury - 75% chance of playing
 - DEF Mitchell          CRY    33p  869m st10 app10 dc 0.2   last5 [4, 0, 1, 3, 1]
 - MID Groß              BHA    70p  880m st10 app10 dc 0.0   last5 [6, 5, 0, 2, 10]
 - MID Tavernier         BOU    58p  840m st10 app10 dc 0.1   last5 [1, 10, 10, 3, 3]
@@ -179,7 +179,7 @@ Columns: `pts` season points, `st` starts, `app` appearances, `dc` DEFCON hit ra
 - DEF Kerkez            LIV    25p  822m st9  app10 dc 0.0   last5 [1, 2, 6, 1, 2]
 - DEF Pedro Porro       TOT    16p  332m st4  app6  dc 0.0   last5 [7, 1, 1, 1, 5]
 - MID Dewsbury-Hall     EVE    50p  895m st10 app10 dc 0.0   last5 [13, 2, 2, 4, 9]
-- MID Manzambi          AVL    40p  461m st6  app7  dc 0.0   last5 [5, 11, 1, 7, 2]
+- MID Manzambi          AVL    40p  461m st6  app7  dc 0.0   last5 [5, 11, 1, 7, 2]  [D] Calf injury - 75% chance of playing
 - MID Rudoni            COV    39p  730m st9  app10 dc 0.1   last5 [7, 6, 2, 9, 2]
 - MID Saka              ARS    37p  596m st7  app7  dc 0.0   last5 [2, 8, 2, 2, 3]  [I] Thigh injury - Unknown return date
 - MID Kudus             TOT    28p  534m st5  app9  dc 0.0   last5 [3, 6, 3, 7, 2]

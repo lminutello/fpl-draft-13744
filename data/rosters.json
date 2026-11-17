@@ -119,11 +119,11 @@
    ],
    "minutes": 893,
    "name": "N.Williams",
-   "news": "",
+   "news": "Ankle injury - 75% chance of playing",
    "points": 34,
    "pos": "DEF",
    "starts": 10,
-   "status": "a",
+   "status": "d",
    "team": "NFO"
   },
   {
@@ -816,11 +816,11 @@
    ],
    "minutes": 461,
    "name": "Manzambi",
-   "news": "",
+   "news": "Calf injury - 75% chance of playing",
    "points": 40,
    "pos": "MID",
    "starts": 6,
-   "status": "a",
+   "status": "d",
    "team": "AVL"
   },
   {
@@ -1258,11 +1258,11 @@
    ],
    "minutes": 511,
    "name": "Strand Larsen",
-   "news": "",
+   "news": "Ankle injury - 75% chance of playing",
    "points": 23,
    "pos": "FWD",
    "starts": 6,
-   "status": "a",
+   "status": "d",
    "team": "CRY"
   }
  ],

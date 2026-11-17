@@ -265,11 +265,11 @@
   ],
   "minutes": 519,
   "name": "Mendy",
-  "news": "",
+  "news": "Knee injury - 75% chance of playing",
   "points": 34,
   "pos": "DEF",
   "starts": 7,
-  "status": "a",
+  "status": "d",
   "team": "HUL"
  },
  {
@@ -454,11 +454,11 @@
   ],
   "minutes": 756,
   "name": "Schlager",
-  "news": "",
+  "news": "Thigh injury - 75% chance of playing",
   "points": 31,
   "pos": "MID",
   "starts": 9,
-  "status": "a",
+  "status": "d",
   "team": "NFO"
  },
  {
@@ -1902,11 +1902,11 @@
   ],
   "minutes": 195,
   "name": "Dorgu",
-  "news": "",
+  "news": "Hamstring injury - 75% chance of playing",
   "points": 21,
   "pos": "MID",
   "starts": 2,
-  "status": "a",
+  "status": "d",
   "team": "MUN"
  },
  {
@@ -2007,11 +2007,11 @@
   ],
   "minutes": 450,
   "name": "Andrés",
-  "news": "",
+  "news": "Hip injury - 75% chance of playing",
   "points": 20,
   "pos": "MID",
   "starts": 6,
-  "status": "a",
+  "status": "d",
   "team": "BHA"
  },
  {
@@ -2217,11 +2217,11 @@
   ],
   "minutes": 656,
   "name": "Cash",
-  "news": "",
+  "news": "Concussion - 75% chance of playing",
   "points": 18,
   "pos": "DEF",
   "starts": 7,
-  "status": "a",
+  "status": "d",
   "team": "AVL"
  },
  {
@@ -2364,11 +2364,11 @@
   ],
   "minutes": 855,
   "name": "Maguire",
-  "news": "",
+  "news": "Back injury - 75% chance of playing",
   "points": 16,
   "pos": "DEF",
   "starts": 10,
-  "status": "a",
+  "status": "d",
   "team": "MUN"
  },
  {
@@ -3451,11 +3451,11 @@
   ],
   "minutes": 241,
   "name": "Collins",
-  "news": "",
+  "news": "Knee injury - 75% chance of playing",
   "points": 11,
   "pos": "DEF",
   "starts": 3,
-  "status": "a",
+  "status": "d",
   "team": "BRE"
  },
  {
@@ -4053,11 +4053,11 @@
   ],
   "minutes": 350,
   "name": "Hickey",
-  "news": "",
+  "news": "Hamstring injury - 75% chance of playing",
   "points": 9,
   "pos": "DEF",
   "starts": 3,
-  "status": "a",
+  "status": "d",
   "team": "BRE"
  },
  {
@@ -4176,11 +4176,11 @@
   ],
   "minutes": 37,
   "name": "Hadjam",
-  "news": "",
+  "news": "Unspecified injury - 75% chance of playing",
   "points": 9,
   "pos": "DEF",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "BHA"
  },
  {
@@ -4519,11 +4519,11 @@
   ],
   "minutes": 100,
   "name": "Zubimendi",
-  "news": "",
+  "news": "Hamstring injury - 75% chance of playing",
   "points": 7,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "ARS"
  },
  {

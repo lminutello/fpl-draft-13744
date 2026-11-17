@@ -1894,11 +1894,11 @@
   ],
   "minutes": 100,
   "name": "Zubimendi",
-  "news": "",
+  "news": "Hamstring injury - 75% chance of playing",
   "points": 7,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "ARS"
  },
  "190": {
@@ -2564,11 +2564,11 @@
   ],
   "minutes": 511,
   "name": "Strand Larsen",
-  "news": "",
+  "news": "Ankle injury - 75% chance of playing",
   "points": 23,
   "pos": "FWD",
   "starts": 6,
-  "status": "a",
+  "status": "d",
   "team": "CRY"
  },
  "223": {
@@ -4559,11 +4559,11 @@
   ],
   "minutes": 656,
   "name": "Cash",
-  "news": "",
+  "news": "Concussion - 75% chance of playing",
   "points": 18,
   "pos": "DEF",
   "starts": 7,
-  "status": "a",
+  "status": "d",
   "team": "AVL"
  },
  "320": {
@@ -6523,11 +6523,11 @@
   ],
   "minutes": 195,
   "name": "Dorgu",
-  "news": "",
+  "news": "Hamstring injury - 75% chance of playing",
   "points": 21,
   "pos": "MID",
   "starts": 2,
-  "status": "a",
+  "status": "d",
   "team": "MUN"
  },
  "416": {
@@ -6580,11 +6580,11 @@
   ],
   "minutes": 855,
   "name": "Maguire",
-  "news": "",
+  "news": "Back injury - 75% chance of playing",
   "points": 16,
   "pos": "DEF",
   "starts": 10,
-  "status": "a",
+  "status": "d",
   "team": "MUN"
  },
  "419": {
@@ -7652,11 +7652,11 @@
   ],
   "minutes": 893,
   "name": "N.Williams",
-  "news": "",
+  "news": "Ankle injury - 75% chance of playing",
   "points": 34,
   "pos": "DEF",
   "starts": 10,
-  "status": "a",
+  "status": "d",
   "team": "NFO"
  },
  "47": {
@@ -8913,11 +8913,11 @@
   ],
   "minutes": 461,
   "name": "Manzambi",
-  "news": "",
+  "news": "Calf injury - 75% chance of playing",
   "points": 40,
   "pos": "MID",
   "starts": 6,
-  "status": "a",
+  "status": "d",
   "team": "AVL"
  },
  "530": {
@@ -9694,11 +9694,11 @@
   ],
   "minutes": 756,
   "name": "Schlager",
-  "news": "",
+  "news": "Thigh injury - 75% chance of playing",
   "points": 31,
   "pos": "MID",
   "starts": 9,
-  "status": "a",
+  "status": "d",
   "team": "NFO"
  },
  "568": {
@@ -10112,11 +10112,11 @@
   ],
   "minutes": 519,
   "name": "Mendy",
-  "news": "",
+  "news": "Knee injury - 75% chance of playing",
   "points": 34,
   "pos": "DEF",
   "starts": 7,
-  "status": "a",
+  "status": "d",
   "team": "HUL"
  },
  "587": {
@@ -10677,11 +10677,11 @@
   ],
   "minutes": 37,
   "name": "Hadjam",
-  "news": "",
+  "news": "Unspecified injury - 75% chance of playing",
   "points": 9,
   "pos": "DEF",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "BHA"
  },
  "614": {
@@ -11058,11 +11058,11 @@
   ],
   "minutes": 450,
   "name": "Andrés",
-  "news": "",
+  "news": "Hip injury - 75% chance of playing",
   "points": 20,
   "pos": "MID",
   "starts": 6,
-  "status": "a",
+  "status": "d",
   "team": "BHA"
  },
  "633": {
@@ -12211,11 +12211,11 @@
   ],
   "minutes": 241,
   "name": "Collins",
-  "news": "",
+  "news": "Knee injury - 75% chance of playing",
   "points": 11,
   "pos": "DEF",
   "starts": 3,
-  "status": "a",
+  "status": "d",
   "team": "BRE"
  },
  "85": {
@@ -12353,11 +12353,11 @@
   ],
   "minutes": 350,
   "name": "Hickey",
-  "news": "",
+  "news": "Hamstring injury - 75% chance of playing",
   "points": 9,
   "pos": "DEF",
   "starts": 3,
-  "status": "a",
+  "status": "d",
   "team": "BRE"
  },
  "91": {
