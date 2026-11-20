@@ -98,11 +98,11 @@
    ],
    "minutes": 900,
    "name": "Virgil",
-   "news": "Unspecified injury - 75% chance of playing",
+   "news": "",
    "points": 43,
    "pos": "DEF",
    "starts": 10,
-   "status": "d",
+   "status": "a",
    "team": "LIV"
   },
   {
@@ -361,6 +361,27 @@
   },
   {
    "appearances": 10,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
+   "id": 114,
+   "last5": [
+    5,
+    10,
+    -1,
+    6,
+    5
+   ],
+   "minutes": 782,
+   "name": "Boscagli",
+   "news": "",
+   "points": 44,
+   "pos": "DEF",
+   "starts": 10,
+   "status": "a",
+   "team": "BHA"
+  },
+  {
+   "appearances": 10,
    "defcon_hits": 4,
    "defcon_rate": 0.4,
    "id": 580,
@@ -423,27 +444,6 @@
    "team": "TOT"
   },
   {
-   "appearances": 9,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
-   "id": 388,
-   "last5": [
-    4,
-    6,
-    1,
-    0,
-    0
-   ],
-   "minutes": 720,
-   "name": "Guéhi",
-   "news": "Unspecified injury - 75% chance of playing",
-   "points": 37,
-   "pos": "DEF",
-   "starts": 9,
-   "status": "d",
-   "team": "MCI"
-  },
-  {
    "appearances": 6,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
@@ -463,27 +463,6 @@
    "starts": 3,
    "status": "a",
    "team": "ARS"
-  },
-  {
-   "appearances": 9,
-   "defcon_hits": 2,
-   "defcon_rate": 0.22,
-   "id": 286,
-   "last5": [
-    4,
-    6,
-    2,
-    4,
-    5
-   ],
-   "minutes": 685,
-   "name": "Belloumi",
-   "news": "Hamstring injury - 75% chance of playing",
-   "points": 48,
-   "pos": "MID",
-   "starts": 8,
-   "status": "d",
-   "team": "HUL"
   },
   {
    "appearances": 10,
@@ -526,6 +505,27 @@
    "starts": 8,
    "status": "a",
    "team": "MUN"
+  },
+  {
+   "appearances": 5,
+   "defcon_hits": 2,
+   "defcon_rate": 0.4,
+   "id": 69,
+   "last5": [
+    2,
+    12,
+    10,
+    4,
+    2
+   ],
+   "minutes": 446,
+   "name": "Scott",
+   "news": "",
+   "points": 30,
+   "pos": "MID",
+   "starts": 5,
+   "status": "a",
+   "team": "BOU"
   },
   {
    "appearances": 5,
@@ -656,25 +656,25 @@
    "team": "TOT"
   },
   {
-   "appearances": 10,
+   "appearances": 9,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 467,
+   "id": 597,
    "last5": [
     2,
-    2,
-    2,
+    8,
+    4,
     1,
-    2
+    0
    ],
-   "minutes": 900,
-   "name": "Sels",
+   "minutes": 810,
+   "name": "Suzuki",
    "news": "",
-   "points": 23,
+   "points": 31,
    "pos": "GKP",
-   "starts": 10,
+   "starts": 9,
    "status": "a",
-   "team": "NFO"
+   "team": "AVL"
   },
   {
    "appearances": 10,
@@ -816,33 +816,12 @@
    ],
    "minutes": 461,
    "name": "Manzambi",
-   "news": "Calf injury - 75% chance of playing",
+   "news": "",
    "points": 40,
    "pos": "MID",
    "starts": 6,
-   "status": "d",
-   "team": "AVL"
-  },
-  {
-   "appearances": 10,
-   "defcon_hits": 1,
-   "defcon_rate": 0.1,
-   "id": 183,
-   "last5": [
-    7,
-    6,
-    2,
-    9,
-    2
-   ],
-   "minutes": 730,
-   "name": "Rudoni",
-   "news": "",
-   "points": 39,
-   "pos": "MID",
-   "starts": 9,
    "status": "a",
-   "team": "COV"
+   "team": "AVL"
   },
   {
    "appearances": 7,
@@ -858,7 +837,7 @@
    ],
    "minutes": 596,
    "name": "Saka",
-   "news": "Thigh injury - Unknown return date",
+   "news": "Thigh injury - Expected back 20 Dec",
    "points": 37,
    "pos": "MID",
    "starts": 7,
@@ -885,6 +864,27 @@
    "starts": 5,
    "status": "a",
    "team": "TOT"
+  },
+  {
+   "appearances": 8,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
+   "id": 628,
+   "last5": [
+    2,
+    4,
+    6,
+    1,
+    5
+   ],
+   "minutes": 579,
+   "name": "Barcola",
+   "news": "",
+   "points": 25,
+   "pos": "MID",
+   "starts": 7,
+   "status": "a",
+   "team": "LIV"
   },
   {
    "appearances": 9,
@@ -1069,33 +1069,54 @@
    ],
    "minutes": 700,
    "name": "Gvardiol",
-   "news": "Unspecified injury - 75% chance of playing",
+   "news": "",
    "points": 44,
    "pos": "DEF",
    "starts": 8,
-   "status": "d",
+   "status": "a",
    "team": "MCI"
   },
   {
-   "appearances": 10,
-   "defcon_hits": 7,
-   "defcon_rate": 0.7,
-   "id": 202,
+   "appearances": 9,
+   "defcon_hits": 1,
+   "defcon_rate": 0.11,
+   "id": 116,
    "last5": [
-    4,
-    2,
-    3,
-    3,
-    1
+    1,
+    6,
+    1,
+    6,
+    5
    ],
-   "minutes": 900,
-   "name": "Richards",
+   "minutes": 749,
+   "name": "Dunk",
    "news": "",
-   "points": 27,
+   "points": 41,
    "pos": "DEF",
+   "starts": 8,
+   "status": "a",
+   "team": "BHA"
+  },
+  {
+   "appearances": 10,
+   "defcon_hits": 1,
+   "defcon_rate": 0.1,
+   "id": 542,
+   "last5": [
+    2,
+    4,
+    3,
+    8,
+    11
+   ],
+   "minutes": 863,
+   "name": "E.Le Fée",
+   "news": "",
+   "points": 46,
+   "pos": "MID",
    "starts": 10,
    "status": "a",
-   "team": "CRY"
+   "team": "SUN"
   },
   {
    "appearances": 9,
@@ -1122,6 +1143,27 @@
    "appearances": 10,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
+   "id": 45,
+   "last5": [
+    10,
+    1,
+    6,
+    0,
+    10
+   ],
+   "minutes": 790,
+   "name": "McGinn",
+   "news": "",
+   "points": 44,
+   "pos": "MID",
+   "starts": 9,
+   "status": "a",
+   "team": "AVL"
+  },
+  {
+   "appearances": 10,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
    "id": 453,
    "last5": [
     2,
@@ -1138,48 +1180,6 @@
    "starts": 10,
    "status": "a",
    "team": "NEW"
-  },
-  {
-   "appearances": 10,
-   "defcon_hits": 3,
-   "defcon_rate": 0.3,
-   "id": 455,
-   "last5": [
-    7,
-    4,
-    5,
-    3,
-    1
-   ],
-   "minutes": 877,
-   "name": "Tonali",
-   "news": "",
-   "points": 34,
-   "pos": "MID",
-   "starts": 10,
-   "status": "a",
-   "team": "TOT"
-  },
-  {
-   "appearances": 10,
-   "defcon_hits": 3,
-   "defcon_rate": 0.3,
-   "id": 481,
-   "last5": [
-    6,
-    1,
-    1,
-    4,
-    2
-   ],
-   "minutes": 786,
-   "name": "Anderson",
-   "news": "",
-   "points": 29,
-   "pos": "MID",
-   "starts": 9,
-   "status": "a",
-   "team": "MCI"
   },
   {
    "appearances": 8,
@@ -1724,11 +1724,11 @@
    ],
    "minutes": 513,
    "name": "Matheus N.",
-   "news": "",
+   "news": "Unspecified injury - 50% chance of playing",
    "points": 22,
    "pos": "DEF",
    "starts": 5,
-   "status": "a",
+   "status": "d",
    "team": "MCI"
   },
   {
@@ -1999,11 +1999,11 @@
    ],
    "minutes": 631,
    "name": "Gudmundsson",
-   "news": "Hamstring injury - 75% chance of playing",
+   "news": "",
    "points": 28,
    "pos": "DEF",
    "starts": 8,
-   "status": "d",
+   "status": "a",
    "team": "LEE"
   },
   {
@@ -2028,23 +2028,23 @@
    "team": "AVL"
   },
   {
-   "appearances": 9,
-   "defcon_hits": 1,
-   "defcon_rate": 0.11,
-   "id": 149,
+   "appearances": 6,
+   "defcon_hits": 2,
+   "defcon_rate": 0.33,
+   "id": 145,
    "last5": [
-    2,
-    6,
     3,
-    6,
-    0
+    1,
+    4,
+    11,
+    1
    ],
-   "minutes": 746,
-   "name": "Colwill",
+   "minutes": 492,
+   "name": "Fofana",
    "news": "",
    "points": 20,
    "pos": "DEF",
-   "starts": 9,
+   "starts": 6,
    "status": "a",
    "team": "CHE"
   },
@@ -2133,25 +2133,25 @@
    "team": "LIV"
   },
   {
-   "appearances": 10,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
-   "id": 268,
+   "appearances": 6,
+   "defcon_hits": 1,
+   "defcon_rate": 0.17,
+   "id": 159,
    "last5": [
     2,
+    3,
     2,
-    6,
-    2,
+    3,
     3
    ],
-   "minutes": 806,
-   "name": "King",
+   "minutes": 440,
+   "name": "Caicedo",
    "news": "",
-   "points": 39,
+   "points": 14,
    "pos": "MID",
-   "starts": 10,
+   "starts": 5,
    "status": "a",
-   "team": "FUL"
+   "team": "CHE"
   },
   {
    "appearances": 9,
@@ -2188,11 +2188,11 @@
    ],
    "minutes": 619,
    "name": "Brobbey",
-   "news": "Muscular injury - 75% chance of playing",
+   "news": "Muscular injury - Unknown return date",
    "points": 32,
    "pos": "FWD",
    "starts": 8,
-   "status": "d",
+   "status": "i",
    "team": "SUN"
   },
   {
@@ -2253,11 +2253,11 @@
    ],
    "minutes": 524,
    "name": "Martinez",
-   "news": "Head injury - 75% chance of playing",
+   "news": "",
    "points": 20,
    "pos": "GKP",
    "starts": 6,
-   "status": "d",
+   "status": "a",
    "team": "CHE"
   },
   {
@@ -2324,23 +2324,23 @@
    "team": "BOU"
   },
   {
-   "appearances": 10,
+   "appearances": 8,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 390,
+   "id": 387,
    "last5": [
-    6,
     1,
-    1,
+    5,
     2,
+    1,
     1
    ],
-   "minutes": 900,
-   "name": "Rúben",
+   "minutes": 359,
+   "name": "O'Reilly",
    "news": "",
-   "points": 28,
+   "points": 15,
    "pos": "DEF",
-   "starts": 10,
+   "starts": 4,
    "status": "a",
    "team": "MCI"
   },
