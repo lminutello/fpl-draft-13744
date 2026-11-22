@@ -420,6 +420,27 @@
   "team": "FUL"
  },
  {
+  "appearances": 9,
+  "defcon_hits": 3,
+  "defcon_rate": 0.33,
+  "id": 43,
+  "last5": [
+   4,
+   3,
+   7,
+   0,
+   7
+  ],
+  "minutes": 717,
+  "name": "Tielemans",
+  "news": "",
+  "points": 35,
+  "pos": "MID",
+  "starts": 9,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
   "appearances": 10,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -525,6 +546,27 @@
   "team": "LEE"
  },
  {
+  "appearances": 8,
+  "defcon_hits": 6,
+  "defcon_rate": 0.75,
+  "id": 432,
+  "last5": [
+   4,
+   4,
+   4,
+   0,
+   4
+  ],
+  "minutes": 632,
+  "name": "Mainoo",
+  "news": "",
+  "points": 34,
+  "pos": "MID",
+  "starts": 6,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
   "appearances": 10,
   "defcon_hits": 3,
   "defcon_rate": 0.3,
@@ -565,27 +607,6 @@
   "starts": 9,
   "status": "a",
   "team": "FUL"
- },
- {
-  "appearances": 9,
-  "defcon_hits": 3,
-  "defcon_rate": 0.33,
-  "id": 43,
-  "last5": [
-   4,
-   3,
-   7,
-   0,
-   7
-  ],
-  "minutes": 698,
-  "name": "Tielemans",
-  "news": "",
-  "points": 32,
-  "pos": "MID",
-  "starts": 9,
-  "status": "a",
-  "team": "MUN"
  },
  {
   "appearances": 10,
@@ -777,27 +798,6 @@
   "team": "TOT"
  },
  {
-  "appearances": 8,
-  "defcon_hits": 6,
-  "defcon_rate": 0.75,
-  "id": 432,
-  "last5": [
-   4,
-   4,
-   4,
-   0,
-   4
-  ],
-  "minutes": 611,
-  "name": "Mainoo",
-  "news": "",
-  "points": 31,
-  "pos": "MID",
-  "starts": 6,
-  "status": "a",
-  "team": "MUN"
- },
- {
   "appearances": 9,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -859,6 +859,27 @@
   "starts": 7,
   "status": "a",
   "team": "AVL"
+ },
+ {
+  "appearances": 10,
+  "defcon_hits": 2,
+  "defcon_rate": 0.2,
+  "id": 372,
+  "last5": [
+   2,
+   1,
+   3,
+   1,
+   9
+  ],
+  "minutes": 822,
+  "name": "Mac Allister",
+  "news": "",
+  "points": 30,
+  "pos": "MID",
+  "starts": 8,
+  "status": "a",
+  "team": "LIV"
  },
  {
   "appearances": 10,
@@ -1174,27 +1195,6 @@
   "starts": 7,
   "status": "a",
   "team": "NEW"
- },
- {
-  "appearances": 10,
-  "defcon_hits": 2,
-  "defcon_rate": 0.2,
-  "id": 372,
-  "last5": [
-   2,
-   1,
-   3,
-   1,
-   9
-  ],
-  "minutes": 801,
-  "name": "Mac Allister",
-  "news": "",
-  "points": 28,
-  "pos": "MID",
-  "starts": 8,
-  "status": "a",
-  "team": "LIV"
  },
  {
   "appearances": 9,
@@ -1848,6 +1848,48 @@
   "team": "NEW"
  },
  {
+  "appearances": 6,
+  "defcon_hits": 1,
+  "defcon_rate": 0.17,
+  "id": 415,
+  "last5": [
+   1,
+   1,
+   4,
+   4,
+   11
+  ],
+  "minutes": 259,
+  "name": "Dorgu",
+  "news": "",
+  "points": 23,
+  "pos": "MID",
+  "starts": 2,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 369,
+  "last5": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "minutes": 268,
+  "name": "Ngumoha",
+  "news": "",
+  "points": 23,
+  "pos": "MID",
+  "starts": 1,
+  "status": "a",
+  "team": "LIV"
+ },
+ {
   "appearances": 9,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -1929,27 +1971,6 @@
   "starts": 8,
   "status": "a",
   "team": "SUN"
- },
- {
-  "appearances": 6,
-  "defcon_hits": 1,
-  "defcon_rate": 0.17,
-  "id": 415,
-  "last5": [
-   1,
-   1,
-   4,
-   4,
-   11
-  ],
-  "minutes": 240,
-  "name": "Dorgu",
-  "news": "",
-  "points": 22,
-  "pos": "MID",
-  "starts": 2,
-  "status": "a",
-  "team": "MUN"
  },
  {
   "appearances": 5,
@@ -2593,12 +2614,33 @@
    0,
    0
   ],
-  "minutes": 878,
+  "minutes": 899,
   "name": "Maguire",
   "news": "",
   "points": 17,
   "pos": "DEF",
   "starts": 10,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
+  "appearances": 10,
+  "defcon_hits": 2,
+  "defcon_rate": 0.2,
+  "id": 417,
+  "last5": [
+   0,
+   4,
+   1,
+   3,
+   0
+  ],
+  "minutes": 778,
+  "name": "Dalot",
+  "news": "",
+  "points": 17,
+  "pos": "DEF",
+  "starts": 8,
   "status": "a",
   "team": "MUN"
  },
@@ -2727,27 +2769,6 @@
   "starts": 2,
   "status": "a",
   "team": "TOT"
- },
- {
-  "appearances": 10,
-  "defcon_hits": 2,
-  "defcon_rate": 0.2,
-  "id": 417,
-  "last5": [
-   0,
-   4,
-   1,
-   3,
-   0
-  ],
-  "minutes": 757,
-  "name": "Dalot",
-  "news": "",
-  "points": 16,
-  "pos": "DEF",
-  "starts": 8,
-  "status": "a",
-  "team": "MUN"
  },
  {
   "appearances": 7,
@@ -3125,27 +3146,6 @@
   "starts": 6,
   "status": "a",
   "team": "ARS"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 369,
-  "last5": [
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "minutes": 247,
-  "name": "Ngumoha",
-  "news": "",
-  "points": 14,
-  "pos": "MID",
-  "starts": 1,
-  "status": "a",
-  "team": "LIV"
  },
  {
   "appearances": 8,
@@ -3866,6 +3866,48 @@
   "team": "COV"
  },
  {
+  "appearances": 8,
+  "defcon_hits": 2,
+  "defcon_rate": 0.25,
+  "id": 419,
+  "last5": [
+   0,
+   3,
+   1,
+   1,
+   -2
+  ],
+  "minutes": 648,
+  "name": "Martinez",
+  "news": "",
+  "points": 10,
+  "pos": "DEF",
+  "starts": 7,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
+  "appearances": 5,
+  "defcon_hits": 1,
+  "defcon_rate": 0.2,
+  "id": 422,
+  "last5": [
+   1,
+   1,
+   1,
+   3,
+   3
+  ],
+  "minutes": 233,
+  "name": "Mazraoui",
+  "news": "",
+  "points": 10,
+  "pos": "DEF",
+  "starts": 2,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
   "appearances": 7,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3906,6 +3948,27 @@
   "starts": 3,
   "status": "a",
   "team": "CRY"
+ },
+ {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 440,
+  "last5": [
+   1,
+   1,
+   1,
+   0,
+   5
+  ],
+  "minutes": 110,
+  "name": "Zirkzee",
+  "news": "",
+  "points": 10,
+  "pos": "FWD",
+  "starts": 0,
+  "status": "a",
+  "team": "MUN"
  },
  {
   "appearances": 6,
@@ -4111,69 +4174,6 @@
   "starts": 2,
   "status": "a",
   "team": "LEE"
- },
- {
-  "appearances": 8,
-  "defcon_hits": 2,
-  "defcon_rate": 0.25,
-  "id": 419,
-  "last5": [
-   0,
-   3,
-   1,
-   1,
-   -2
-  ],
-  "minutes": 627,
-  "name": "Martinez",
-  "news": "",
-  "points": 9,
-  "pos": "DEF",
-  "starts": 7,
-  "status": "a",
-  "team": "MUN"
- },
- {
-  "appearances": 5,
-  "defcon_hits": 1,
-  "defcon_rate": 0.2,
-  "id": 422,
-  "last5": [
-   1,
-   1,
-   1,
-   3,
-   3
-  ],
-  "minutes": 232,
-  "name": "Mazraoui",
-  "news": "",
-  "points": 9,
-  "pos": "DEF",
-  "starts": 2,
-  "status": "a",
-  "team": "MUN"
- },
- {
-  "appearances": 6,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 440,
-  "last5": [
-   1,
-   1,
-   1,
-   0,
-   5
-  ],
-  "minutes": 89,
-  "name": "Zirkzee",
-  "news": "",
-  "points": 9,
-  "pos": "FWD",
-  "starts": 0,
-  "status": "a",
-  "team": "MUN"
  },
  {
   "appearances": 10,
@@ -4680,6 +4680,27 @@
   "team": "MCI"
  },
  {
+  "appearances": 5,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 430,
+  "last5": [
+   1,
+   1,
+   2,
+   1,
+   1
+  ],
+  "minutes": 165,
+  "name": "Mount",
+  "news": "",
+  "points": 7,
+  "pos": "MID",
+  "starts": 1,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
   "appearances": 6,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -4901,27 +4922,6 @@
   "starts": 3,
   "status": "i",
   "team": "NEW"
- },
- {
-  "appearances": 5,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 430,
-  "last5": [
-   1,
-   1,
-   2,
-   1,
-   1
-  ],
-  "minutes": 164,
-  "name": "Mount",
-  "news": "",
-  "points": 6,
-  "pos": "MID",
-  "starts": 1,
-  "status": "a",
-  "team": "MUN"
  },
  {
   "appearances": 2,
@@ -6519,6 +6519,21 @@
   "team": "COV"
  },
  {
+  "appearances": 0,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 416,
+  "last5": [],
+  "minutes": 66,
+  "name": "De Ligt",
+  "news": "",
+  "points": 1,
+  "pos": "DEF",
+  "starts": 0,
+  "status": "a",
+  "team": "MUN"
+ },
+ {
   "appearances": 1,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -7409,21 +7424,6 @@
   "starts": 0,
   "status": "a",
   "team": "HUL"
- },
- {
-  "appearances": 0,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 416,
-  "last5": [],
-  "minutes": 45,
-  "name": "De Ligt",
-  "news": "",
-  "points": 0,
-  "pos": "DEF",
-  "starts": 0,
-  "status": "a",
-  "team": "MUN"
  },
  {
   "appearances": 0,
