@@ -245,7 +245,7 @@
    ],
    "minutes": 553,
    "name": "Semenyo",
-   "news": "Knee injury - Unknown return date",
+   "news": "Knee injury - Expected back 2 Dec",
    "points": 37,
    "pos": "MID",
    "starts": 6,
@@ -394,11 +394,11 @@
    ],
    "minutes": 848,
    "name": "Boscagli",
-   "news": "",
+   "news": "Illness - 75% chance of playing",
    "points": 51,
    "pos": "DEF",
    "starts": 11,
-   "status": "a",
+   "status": "d",
    "team": "BHA"
   },
   {
@@ -423,27 +423,6 @@
    "team": "LIV"
   },
   {
-   "appearances": 10,
-   "defcon_hits": 1,
-   "defcon_rate": 0.1,
-   "id": 502,
-   "last5": [
-    5,
-    6,
-    8,
-    2,
-    1
-   ],
-   "minutes": 675,
-   "name": "Robertson",
-   "news": "",
-   "points": 39,
-   "pos": "DEF",
-   "starts": 8,
-   "status": "a",
-   "team": "TOT"
-  },
-  {
    "appearances": 7,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
@@ -463,6 +442,25 @@
    "starts": 4,
    "status": "a",
    "team": "ARS"
+  },
+  {
+   "appearances": 3,
+   "defcon_hits": 2,
+   "defcon_rate": 0.67,
+   "id": 498,
+   "last5": [
+    3,
+    2,
+    8
+   ],
+   "minutes": 268,
+   "name": "Senesi",
+   "news": "",
+   "points": 13,
+   "pos": "DEF",
+   "starts": 3,
+   "status": "a",
+   "team": "TOT"
   },
   {
    "appearances": 11,
@@ -486,6 +484,27 @@
    "team": "LIV"
   },
   {
+   "appearances": 10,
+   "defcon_hits": 2,
+   "defcon_rate": 0.2,
+   "id": 286,
+   "last5": [
+    6,
+    2,
+    4,
+    5,
+    7
+   ],
+   "minutes": 775,
+   "name": "Belloumi",
+   "news": "",
+   "points": 55,
+   "pos": "MID",
+   "starts": 9,
+   "status": "a",
+   "team": "HUL"
+  },
+  {
    "appearances": 11,
    "defcon_hits": 1,
    "defcon_rate": 0.09,
@@ -507,6 +526,27 @@
    "team": "MUN"
   },
   {
+   "appearances": 10,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
+   "id": 52,
+   "last5": [
+    0,
+    1,
+    2,
+    16,
+    3
+   ],
+   "minutes": 419,
+   "name": "Alysson",
+   "news": "",
+   "points": 31,
+   "pos": "MID",
+   "starts": 5,
+   "status": "a",
+   "team": "AVL"
+  },
+  {
    "appearances": 6,
    "defcon_hits": 2,
    "defcon_rate": 0.33,
@@ -526,48 +566,6 @@
    "starts": 5,
    "status": "a",
    "team": "BOU"
-  },
-  {
-   "appearances": 6,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
-   "id": 123,
-   "last5": [
-    6,
-    1,
-    1,
-    1,
-    1
-   ],
-   "minutes": 180,
-   "name": "Hinshelwood",
-   "news": "",
-   "points": 26,
-   "pos": "MID",
-   "starts": 1,
-   "status": "a",
-   "team": "BHA"
-  },
-  {
-   "appearances": 8,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
-   "id": 554,
-   "last5": [
-    3,
-    2,
-    3,
-    3,
-    1
-   ],
-   "minutes": 533,
-   "name": "Tzolis",
-   "news": "",
-   "points": 23,
-   "pos": "MID",
-   "starts": 7,
-   "status": "a",
-   "team": "ARS"
   },
   {
    "appearances": 11,
@@ -656,25 +654,21 @@
    "team": "TOT"
   },
   {
-   "appearances": 10,
+   "appearances": 1,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 597,
+   "id": 2,
    "last5": [
-    8,
-    4,
-    1,
-    0,
-    6
+    1
    ],
-   "minutes": 900,
-   "name": "Suzuki",
+   "minutes": 20,
+   "name": "Arrizabalaga",
    "news": "",
-   "points": 37,
+   "points": 1,
    "pos": "GKP",
-   "starts": 10,
+   "starts": 0,
    "status": "a",
-   "team": "AVL"
+   "team": "ARS"
   },
   {
    "appearances": 11,
@@ -803,6 +797,27 @@
    "team": "EVE"
   },
   {
+   "appearances": 10,
+   "defcon_hits": 0,
+   "defcon_rate": 0.0,
+   "id": 336,
+   "last5": [
+    2,
+    2,
+    1,
+    5,
+    15
+   ],
+   "minutes": 552,
+   "name": "Okafor",
+   "news": "",
+   "points": 43,
+   "pos": "MID",
+   "starts": 7,
+   "status": "a",
+   "team": "LEE"
+  },
+  {
    "appearances": 8,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
@@ -843,27 +858,6 @@
    "starts": 7,
    "status": "i",
    "team": "ARS"
-  },
-  {
-   "appearances": 10,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
-   "id": 512,
-   "last5": [
-    6,
-    3,
-    7,
-    2,
-    2
-   ],
-   "minutes": 624,
-   "name": "Kudus",
-   "news": "",
-   "points": 30,
-   "pos": "MID",
-   "starts": 6,
-   "status": "a",
-   "team": "TOT"
   },
   {
    "appearances": 9,
@@ -1457,6 +1451,27 @@
    "team": "CHE"
   },
   {
+   "appearances": 11,
+   "defcon_hits": 1,
+   "defcon_rate": 0.09,
+   "id": 183,
+   "last5": [
+    6,
+    2,
+    9,
+    2,
+    10
+   ],
+   "minutes": 820,
+   "name": "Rudoni",
+   "news": "",
+   "points": 49,
+   "pos": "MID",
+   "starts": 10,
+   "status": "a",
+   "team": "COV"
+  },
+  {
    "appearances": 10,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
@@ -1497,27 +1512,6 @@
    "starts": 11,
    "status": "a",
    "team": "IPS"
-  },
-  {
-   "appearances": 11,
-   "defcon_hits": 0,
-   "defcon_rate": 0.0,
-   "id": 95,
-   "last5": [
-    1,
-    10,
-    6,
-    1,
-    3
-   ],
-   "minutes": 505,
-   "name": "O.Dango",
-   "news": "",
-   "points": 29,
-   "pos": "MID",
-   "starts": 7,
-   "status": "a",
-   "team": "BRE"
   },
   {
    "appearances": 11,
@@ -2125,11 +2119,11 @@
    ],
    "minutes": 601,
    "name": "Gakpo",
-   "news": "Calf injury - 75% chance of playing",
+   "news": "Calf injury - Expected back 2 Dec",
    "points": 40,
    "pos": "MID",
    "starts": 7,
-   "status": "d",
+   "status": "i",
    "team": "LIV"
   },
   {
@@ -2146,11 +2140,11 @@
    ],
    "minutes": 461,
    "name": "Caicedo",
-   "news": "Back injury - 75% chance of playing",
+   "news": "",
    "points": 15,
    "pos": "MID",
    "starts": 6,
-   "status": "d",
+   "status": "a",
    "team": "CHE"
   },
   {
@@ -2232,7 +2226,7 @@
    ],
    "minutes": 969,
    "name": "Raya",
-   "news": "Shoulder injury - 50% chance of playing",
+   "news": "Shoulder injury - 75% chance of playing",
    "points": 61,
    "pos": "GKP",
    "starts": 11,
@@ -2394,11 +2388,11 @@
    ],
    "minutes": 900,
    "name": "B.Fernandes",
-   "news": "",
+   "news": "Illness - 75% chance of playing",
    "points": 47,
    "pos": "MID",
    "starts": 10,
-   "status": "a",
+   "status": "d",
    "team": "MUN"
   },
   {
@@ -2456,11 +2450,11 @@
    ],
    "minutes": 68,
    "name": "Kroupi.Jr",
-   "news": "",
+   "news": "Illness - 75% chance of playing",
    "points": 7,
    "pos": "MID",
    "starts": 0,
-   "status": "a",
+   "status": "d",
    "team": "BOU"
   },
   {
@@ -2485,46 +2479,43 @@
    "team": "ARS"
   },
   {
-   "appearances": 11,
+   "appearances": 9,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 569,
+   "id": 271,
    "last5": [
-    2,
-    2,
-    2,
-    2,
-    1
+    1,
+    1,
+    1,
+    7,
+    8
    ],
-   "minutes": 832,
-   "name": "Gonzalo",
+   "minutes": 178,
+   "name": "Muniz",
    "news": "",
-   "points": 25,
+   "points": 21,
    "pos": "FWD",
-   "starts": 10,
+   "starts": 1,
    "status": "a",
    "team": "FUL"
   },
   {
-   "appearances": 11,
+   "appearances": 2,
    "defcon_hits": 0,
    "defcon_rate": 0.0,
-   "id": 464,
+   "id": 170,
    "last5": [
     1,
-    1,
-    1,
-    2,
-    1
+    8
    ],
-   "minutes": 714,
-   "name": "Wissa",
+   "minutes": 66,
+   "name": "Emegha",
    "news": "",
-   "points": 23,
+   "points": 9,
    "pos": "FWD",
-   "starts": 8,
+   "starts": 1,
    "status": "a",
-   "team": "NEW"
+   "team": "CHE"
   }
  ]
 }

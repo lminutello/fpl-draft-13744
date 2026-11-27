@@ -21,48 +21,6 @@
   "team": "BRE"
  },
  {
-  "appearances": 10,
-  "defcon_hits": 2,
-  "defcon_rate": 0.2,
-  "id": 286,
-  "last5": [
-   6,
-   2,
-   4,
-   5,
-   7
-  ],
-  "minutes": 775,
-  "name": "Belloumi",
-  "news": "",
-  "points": 55,
-  "pos": "MID",
-  "starts": 9,
-  "status": "a",
-  "team": "HUL"
- },
- {
-  "appearances": 11,
-  "defcon_hits": 1,
-  "defcon_rate": 0.09,
-  "id": 183,
-  "last5": [
-   6,
-   2,
-   9,
-   2,
-   10
-  ],
-  "minutes": 820,
-  "name": "Rudoni",
-  "news": "",
-  "points": 49,
-  "pos": "MID",
-  "starts": 10,
-  "status": "a",
-  "team": "COV"
- },
- {
   "appearances": 11,
   "defcon_hits": 2,
   "defcon_rate": 0.18,
@@ -82,27 +40,6 @@
   "starts": 11,
   "status": "a",
   "team": "HUL"
- },
- {
-  "appearances": 10,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 336,
-  "last5": [
-   2,
-   2,
-   1,
-   5,
-   15
-  ],
-  "minutes": 552,
-  "name": "Okafor",
-  "news": "",
-  "points": 43,
-  "pos": "MID",
-  "starts": 7,
-  "status": "a",
-  "team": "LEE"
  },
  {
   "appearances": 11,
@@ -229,6 +166,27 @@
   "starts": 10,
   "status": "s",
   "team": "CRY"
+ },
+ {
+  "appearances": 10,
+  "defcon_hits": 1,
+  "defcon_rate": 0.1,
+  "id": 502,
+  "last5": [
+   5,
+   6,
+   8,
+   2,
+   1
+  ],
+  "minutes": 675,
+  "name": "Robertson",
+  "news": "",
+  "points": 39,
+  "pos": "DEF",
+  "starts": 8,
+  "status": "a",
+  "team": "TOT"
  },
  {
   "appearances": 10,
@@ -418,6 +376,27 @@
   "starts": 6,
   "status": "a",
   "team": "BRE"
+ },
+ {
+  "appearances": 10,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 597,
+  "last5": [
+   8,
+   4,
+   1,
+   0,
+   6
+  ],
+  "minutes": 900,
+  "name": "Suzuki",
+  "news": "",
+  "points": 37,
+  "pos": "GKP",
+  "starts": 10,
+  "status": "a",
+  "team": "AVL"
  },
  {
   "appearances": 8,
@@ -664,11 +643,11 @@
   ],
   "minutes": 473,
   "name": "Munoz",
-  "news": "",
+  "news": "Knee injury - 75% chance of playing",
   "points": 33,
   "pos": "MID",
   "starts": 5,
-  "status": "a",
+  "status": "d",
   "team": "LIV"
  },
  {
@@ -861,27 +840,6 @@
   "team": "EVE"
  },
  {
-  "appearances": 10,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 52,
-  "last5": [
-   0,
-   1,
-   2,
-   16,
-   3
-  ],
-  "minutes": 419,
-  "name": "Alysson",
-  "news": "",
-  "points": 31,
-  "pos": "MID",
-  "starts": 5,
-  "status": "a",
-  "team": "AVL"
- },
- {
   "appearances": 11,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -985,6 +943,27 @@
   "starts": 10,
   "status": "a",
   "team": "NFO"
+ },
+ {
+  "appearances": 10,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 512,
+  "last5": [
+   6,
+   3,
+   7,
+   2,
+   2
+  ],
+  "minutes": 624,
+  "name": "Kudus",
+  "news": "",
+  "points": 30,
+  "pos": "MID",
+  "starts": 6,
+  "status": "a",
+  "team": "TOT"
  },
  {
   "appearances": 11,
@@ -1231,12 +1210,33 @@
   ],
   "minutes": 982,
   "name": "Davis",
-  "news": "Calf injury - 75% chance of playing",
+  "news": "",
   "points": 29,
   "pos": "DEF",
   "starts": 11,
-  "status": "d",
+  "status": "a",
   "team": "IPS"
+ },
+ {
+  "appearances": 11,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 95,
+  "last5": [
+   1,
+   10,
+   6,
+   1,
+   3
+  ],
+  "minutes": 505,
+  "name": "O.Dango",
+  "news": "",
+  "points": 29,
+  "pos": "MID",
+  "starts": 7,
+  "status": "a",
+  "team": "BRE"
  },
  {
   "appearances": 11,
@@ -1491,6 +1491,27 @@
   "team": "SUN"
  },
  {
+  "appearances": 6,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 123,
+  "last5": [
+   6,
+   1,
+   1,
+   1,
+   1
+  ],
+  "minutes": 180,
+  "name": "Hinshelwood",
+  "news": "",
+  "points": 26,
+  "pos": "MID",
+  "starts": 1,
+  "status": "a",
+  "team": "BHA"
+ },
+ {
   "appearances": 9,
   "defcon_hits": 1,
   "defcon_rate": 0.11,
@@ -1636,6 +1657,27 @@
   "starts": 6,
   "status": "i",
   "team": "CHE"
+ },
+ {
+  "appearances": 11,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 569,
+  "last5": [
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "minutes": 832,
+  "name": "Gonzalo",
+  "news": "",
+  "points": 25,
+  "pos": "FWD",
+  "starts": 10,
+  "status": "a",
+  "team": "FUL"
  },
  {
   "appearances": 9,
@@ -1825,6 +1867,48 @@
   "starts": 5,
   "status": "a",
   "team": "MCI"
+ },
+ {
+  "appearances": 11,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 464,
+  "last5": [
+   1,
+   1,
+   1,
+   2,
+   1
+  ],
+  "minutes": 714,
+  "name": "Wissa",
+  "news": "",
+  "points": 23,
+  "pos": "FWD",
+  "starts": 8,
+  "status": "a",
+  "team": "NEW"
+ },
+ {
+  "appearances": 8,
+  "defcon_hits": 0,
+  "defcon_rate": 0.0,
+  "id": 554,
+  "last5": [
+   3,
+   2,
+   3,
+   3,
+   1
+  ],
+  "minutes": 533,
+  "name": "Tzolis",
+  "news": "",
+  "points": 23,
+  "pos": "MID",
+  "starts": 7,
+  "status": "a",
+  "team": "ARS"
  },
  {
   "appearances": 7,
@@ -2028,11 +2112,11 @@
   ],
   "minutes": 487,
   "name": "Awoniyi",
-  "news": "Ankle injury - 75% chance of playing",
+  "news": "Ankle injury - Unknown return date",
   "points": 21,
   "pos": "FWD",
   "starts": 6,
-  "status": "d",
+  "status": "i",
   "team": "COV"
  },
  {
@@ -2076,27 +2160,6 @@
   "starts": 11,
   "status": "a",
   "team": "IPS"
- },
- {
-  "appearances": 9,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 271,
-  "last5": [
-   1,
-   1,
-   1,
-   7,
-   8
-  ],
-  "minutes": 178,
-  "name": "Muniz",
-  "news": "",
-  "points": 21,
-  "pos": "FWD",
-  "starts": 1,
-  "status": "a",
-  "team": "FUL"
  },
  {
   "appearances": 5,
@@ -2574,11 +2637,11 @@
   ],
   "minutes": 656,
   "name": "Cash",
-  "news": "Concussion - 75% chance of playing",
+  "news": "",
   "points": 18,
   "pos": "DEF",
   "starts": 7,
-  "status": "d",
+  "status": "a",
   "team": "AVL"
  },
  {
@@ -3294,25 +3357,6 @@
   "team": "LEE"
  },
  {
-  "appearances": 3,
-  "defcon_hits": 2,
-  "defcon_rate": 0.67,
-  "id": 498,
-  "last5": [
-   3,
-   2,
-   8
-  ],
-  "minutes": 268,
-  "name": "Senesi",
-  "news": "",
-  "points": 13,
-  "pos": "DEF",
-  "starts": 3,
-  "status": "a",
-  "team": "TOT"
- },
- {
   "appearances": 8,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -3452,11 +3496,11 @@
   ],
   "minutes": 425,
   "name": "Shaw",
-  "news": "Unspecified injury - 75% chance of playing",
+  "news": "",
   "points": 12,
   "pos": "DEF",
   "starts": 5,
-  "status": "d",
+  "status": "a",
   "team": "MUN"
  },
  {
@@ -3737,7 +3781,7 @@
   ],
   "minutes": 341,
   "name": "Gravenberch",
-  "news": "Foot injury - 75% chance of playing",
+  "news": "Foot injury - 25% chance of playing",
   "points": 11,
   "pos": "MID",
   "starts": 4,
@@ -3778,11 +3822,11 @@
   ],
   "minutes": 355,
   "name": "Sávio",
-  "news": "Hamstring injury - 75% chance of playing",
+  "news": "Hamstring injury - Unknown return date",
   "points": 11,
   "pos": "MID",
   "starts": 4,
-  "status": "d",
+  "status": "i",
   "team": "TOT"
  },
  {
@@ -4265,24 +4309,6 @@
   "team": "MUN"
  },
  {
-  "appearances": 2,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 170,
-  "last5": [
-   1,
-   8
-  ],
-  "minutes": 66,
-  "name": "Emegha",
-  "news": "",
-  "points": 9,
-  "pos": "FWD",
-  "starts": 1,
-  "status": "a",
-  "team": "CHE"
- },
- {
   "appearances": 5,
   "defcon_hits": 0,
   "defcon_rate": 0.0,
@@ -4582,11 +4608,11 @@
   ],
   "minutes": 86,
   "name": "Gannon-Doak",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 8,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "BOU"
  },
  {
@@ -4602,7 +4628,7 @@
   ],
   "minutes": 232,
   "name": "Baleba",
-  "news": "Hamstring injury - Unknown return date",
+  "news": "Hamstring injury - Expected back 1 Feb",
   "points": 8,
   "pos": "MID",
   "starts": 3,
@@ -4868,11 +4894,11 @@
   ],
   "minutes": 169,
   "name": "Bergvall",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 7,
   "pos": "MID",
   "starts": 2,
-  "status": "a",
+  "status": "d",
   "team": "TOT"
  },
  {
@@ -5515,11 +5541,11 @@
   ],
   "minutes": 45,
   "name": "Hudson-Odoi",
-  "news": "Unspecified injury - Unknown return date",
+  "news": "",
   "points": 4,
   "pos": "MID",
   "starts": 0,
-  "status": "i",
+  "status": "a",
   "team": "NFO"
  },
  {
@@ -5749,11 +5775,11 @@
   ],
   "minutes": 75,
   "name": "Tosin",
-  "news": "Calf injury - Expected back 29 Nov",
+  "news": "Calf injury - 75% chance of playing",
   "points": 3,
   "pos": "DEF",
   "starts": 1,
-  "status": "i",
+  "status": "d",
   "team": "TOT"
  },
  {
@@ -5768,11 +5794,11 @@
   ],
   "minutes": 190,
   "name": "Andersen",
-  "news": "",
+  "news": "Unspecified injury - Unknown return date",
   "points": 3,
   "pos": "DEF",
   "starts": 2,
-  "status": "a",
+  "status": "i",
   "team": "FUL"
  },
  {
@@ -5828,11 +5854,11 @@
   ],
   "minutes": 161,
   "name": "Mingueza",
-  "news": "Thigh injury - 75% chance of playing",
+  "news": "",
   "points": 3,
   "pos": "DEF",
   "starts": 2,
-  "status": "d",
+  "status": "a",
   "team": "CRY"
  },
  {
@@ -6141,11 +6167,11 @@
   ],
   "minutes": 10,
   "name": "O'Riley",
-  "news": "",
+  "news": "Ankle injury - 75% chance of playing",
   "points": 2,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "BHA"
  },
  {
@@ -6439,23 +6465,6 @@
   "starts": 1,
   "status": "a",
   "team": "AVL"
- },
- {
-  "appearances": 1,
-  "defcon_hits": 0,
-  "defcon_rate": 0.0,
-  "id": 2,
-  "last5": [
-   1
-  ],
-  "minutes": 20,
-  "name": "Arrizabalaga",
-  "news": "",
-  "points": 1,
-  "pos": "GKP",
-  "starts": 0,
-  "status": "a",
-  "team": "ARS"
  },
  {
   "appearances": 2,
@@ -6942,11 +6951,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Darlow",
-  "news": "Unspecified injury - 75% chance of playing",
+  "news": "",
   "points": 0,
   "pos": "GKP",
   "starts": 0,
-  "status": "d",
+  "status": "a",
   "team": "MUN"
  },
  {
@@ -7347,7 +7356,7 @@
   "last5": [],
   "minutes": 0,
   "name": "Dasilva",
-  "news": "Hamstring injury - Unknown return date",
+  "news": "Lack of match fitness - Expected back 5 Dec",
   "points": 0,
   "pos": "MID",
   "starts": 0,
@@ -8592,11 +8601,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Hughes",
-  "news": "Groin injury - Unknown return date",
+  "news": "Groin injury - 50% chance of playing",
   "points": 0,
   "pos": "DEF",
   "starts": 0,
-  "status": "i",
+  "status": "d",
   "team": "HUL"
  },
  {
@@ -8832,7 +8841,7 @@
   "last5": [],
   "minutes": 0,
   "name": "Milambo",
-  "news": "Knee injury - Unknown return date",
+  "news": "Lack of match fitness - Expected back 5 Dec",
   "points": 0,
   "pos": "MID",
   "starts": 0,
@@ -9357,11 +9366,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Milosavljević",
-  "news": "Thigh injury - Unknown return date",
+  "news": "",
   "points": 0,
   "pos": "DEF",
   "starts": 0,
-  "status": "i",
+  "status": "a",
   "team": "BOU"
  },
  {
@@ -9675,11 +9684,11 @@
   ],
   "minutes": 107,
   "name": "Methalie",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 0,
   "pos": "DEF",
   "starts": 1,
-  "status": "a",
+  "status": "d",
   "team": "SUN"
  },
  {
@@ -9797,11 +9806,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Ansah",
-  "news": "Back injury - Unknown return date",
+  "news": "Back injury - 50% chance of playing",
   "points": 0,
   "pos": "FWD",
   "starts": 0,
-  "status": "i",
+  "status": "d",
   "team": "HUL"
  },
  {

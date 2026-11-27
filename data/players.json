@@ -13,7 +13,7 @@
   ],
   "minutes": 969,
   "name": "Raya",
-  "news": "Shoulder injury - 50% chance of playing",
+  "news": "Shoulder injury - 75% chance of playing",
   "points": 61,
   "pos": "GKP",
   "starts": 11,
@@ -109,7 +109,7 @@
   "last5": [],
   "minutes": 0,
   "name": "Dasilva",
-  "news": "Hamstring injury - Unknown return date",
+  "news": "Lack of match fitness - Expected back 5 Dec",
   "points": 0,
   "pos": "MID",
   "starts": 0,
@@ -346,11 +346,11 @@
   ],
   "minutes": 848,
   "name": "Boscagli",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 51,
   "pos": "DEF",
   "starts": 11,
-  "status": "a",
+  "status": "d",
   "team": "BHA"
  },
  "115": {
@@ -592,11 +592,11 @@
   ],
   "minutes": 10,
   "name": "O'Riley",
-  "news": "",
+  "news": "Ankle injury - 75% chance of playing",
   "points": 2,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "BHA"
  },
  "127": {
@@ -710,7 +710,7 @@
   ],
   "minutes": 232,
   "name": "Baleba",
-  "news": "Hamstring injury - Unknown return date",
+  "news": "Hamstring injury - Expected back 1 Feb",
   "points": 8,
   "pos": "MID",
   "starts": 3,
@@ -1007,11 +1007,11 @@
   ],
   "minutes": 75,
   "name": "Tosin",
-  "news": "Calf injury - Expected back 29 Nov",
+  "news": "Calf injury - 75% chance of playing",
   "points": 3,
   "pos": "DEF",
   "starts": 1,
-  "status": "i",
+  "status": "d",
   "team": "TOT"
  },
  "148": {
@@ -1268,11 +1268,11 @@
   ],
   "minutes": 461,
   "name": "Caicedo",
-  "news": "Back injury - 75% chance of playing",
+  "news": "",
   "points": 15,
   "pos": "MID",
   "starts": 6,
-  "status": "d",
+  "status": "a",
   "team": "CHE"
  },
  "16": {
@@ -2268,11 +2268,11 @@
   ],
   "minutes": 161,
   "name": "Mingueza",
-  "news": "Thigh injury - 75% chance of playing",
+  "news": "",
   "points": 3,
   "pos": "DEF",
   "starts": 2,
-  "status": "d",
+  "status": "a",
   "team": "CRY"
  },
  "208": {
@@ -3222,11 +3222,11 @@
   ],
   "minutes": 190,
   "name": "Andersen",
-  "news": "",
+  "news": "Unspecified injury - Unknown return date",
   "points": 3,
   "pos": "DEF",
   "starts": 2,
-  "status": "a",
+  "status": "i",
   "team": "FUL"
  },
  "254": {
@@ -3735,11 +3735,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Hughes",
-  "news": "Groin injury - Unknown return date",
+  "news": "Groin injury - 50% chance of playing",
   "points": 0,
   "pos": "DEF",
   "starts": 0,
-  "status": "i",
+  "status": "d",
   "team": "HUL"
  },
  "279": {
@@ -4276,11 +4276,11 @@
   ],
   "minutes": 982,
   "name": "Davis",
-  "news": "Calf injury - 75% chance of playing",
+  "news": "",
   "points": 29,
   "pos": "DEF",
   "starts": 11,
-  "status": "d",
+  "status": "a",
   "team": "IPS"
  },
  "306": {
@@ -4568,11 +4568,11 @@
   ],
   "minutes": 656,
   "name": "Cash",
-  "news": "Concussion - 75% chance of playing",
+  "news": "",
   "points": 18,
   "pos": "DEF",
   "starts": 7,
-  "status": "d",
+  "status": "a",
   "team": "AVL"
  },
  "320": {
@@ -4671,11 +4671,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Darlow",
-  "news": "Unspecified injury - 75% chance of playing",
+  "news": "",
   "points": 0,
   "pos": "GKP",
   "starts": 0,
-  "status": "d",
+  "status": "a",
   "team": "MUN"
  },
  "326": {
@@ -5534,11 +5534,11 @@
   ],
   "minutes": 601,
   "name": "Gakpo",
-  "news": "Calf injury - 75% chance of playing",
+  "news": "Calf injury - Expected back 2 Dec",
   "points": 40,
   "pos": "MID",
   "starts": 7,
-  "status": "d",
+  "status": "i",
   "team": "LIV"
  },
  "368": {
@@ -5635,7 +5635,7 @@
   ],
   "minutes": 341,
   "name": "Gravenberch",
-  "news": "Foot injury - 75% chance of playing",
+  "news": "Foot injury - 25% chance of playing",
   "points": 11,
   "pos": "MID",
   "starts": 4,
@@ -5743,11 +5743,11 @@
   ],
   "minutes": 473,
   "name": "Munoz",
-  "news": "",
+  "news": "Knee injury - 75% chance of playing",
   "points": 33,
   "pos": "MID",
   "starts": 5,
-  "status": "a",
+  "status": "d",
   "team": "LIV"
  },
  "378": {
@@ -6144,7 +6144,7 @@
   ],
   "minutes": 553,
   "name": "Semenyo",
-  "news": "Knee injury - Unknown return date",
+  "news": "Knee injury - Expected back 2 Dec",
   "points": 37,
   "pos": "MID",
   "starts": 6,
@@ -6306,11 +6306,11 @@
   ],
   "minutes": 355,
   "name": "Sávio",
-  "news": "Hamstring injury - 75% chance of playing",
+  "news": "Hamstring injury - Unknown return date",
   "points": 11,
   "pos": "MID",
   "starts": 4,
-  "status": "d",
+  "status": "i",
   "team": "TOT"
  },
  "404": {
@@ -6718,11 +6718,11 @@
   ],
   "minutes": 425,
   "name": "Shaw",
-  "news": "Unspecified injury - 75% chance of playing",
+  "news": "",
   "points": 12,
   "pos": "DEF",
   "starts": 5,
-  "status": "d",
+  "status": "a",
   "team": "MUN"
  },
  "424": {
@@ -6769,11 +6769,11 @@
   ],
   "minutes": 900,
   "name": "B.Fernandes",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 47,
   "pos": "MID",
   "starts": 10,
-  "status": "a",
+  "status": "d",
   "team": "MUN"
  },
  "427": {
@@ -7946,11 +7946,11 @@
   ],
   "minutes": 45,
   "name": "Hudson-Odoi",
-  "news": "Unspecified injury - Unknown return date",
+  "news": "",
   "points": 4,
   "pos": "MID",
   "starts": 0,
-  "status": "i",
+  "status": "a",
   "team": "NFO"
  },
  "483": {
@@ -8154,11 +8154,11 @@
   ],
   "minutes": 487,
   "name": "Awoniyi",
-  "news": "Ankle injury - 75% chance of playing",
+  "news": "Ankle injury - Unknown return date",
   "points": 21,
   "pos": "FWD",
   "starts": 6,
-  "status": "d",
+  "status": "i",
   "team": "COV"
  },
  "493": {
@@ -8742,11 +8742,11 @@
   ],
   "minutes": 169,
   "name": "Bergvall",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 7,
   "pos": "MID",
   "starts": 2,
-  "status": "a",
+  "status": "d",
   "team": "TOT"
  },
  "521": {
@@ -10683,11 +10683,11 @@
   ],
   "minutes": 107,
   "name": "Methalie",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 0,
   "pos": "DEF",
   "starts": 1,
-  "status": "a",
+  "status": "d",
   "team": "SUN"
  },
  "613": {
@@ -11028,11 +11028,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Milosavljević",
-  "news": "Thigh injury - Unknown return date",
+  "news": "",
   "points": 0,
   "pos": "DEF",
   "starts": 0,
-  "status": "i",
+  "status": "a",
   "team": "BOU"
  },
  "630": {
@@ -11283,11 +11283,11 @@
   "last5": [],
   "minutes": 0,
   "name": "Ansah",
-  "news": "Back injury - Unknown return date",
+  "news": "Back injury - 50% chance of playing",
   "points": 0,
   "pos": "FWD",
   "starts": 0,
-  "status": "i",
+  "status": "d",
   "team": "HUL"
  },
  "642": {
@@ -12020,11 +12020,11 @@
   ],
   "minutes": 86,
   "name": "Gannon-Doak",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 8,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "BOU"
  },
  "73": {
@@ -12141,11 +12141,11 @@
   ],
   "minutes": 68,
   "name": "Kroupi.Jr",
-  "news": "",
+  "news": "Illness - 75% chance of playing",
   "points": 7,
   "pos": "MID",
   "starts": 0,
-  "status": "a",
+  "status": "d",
   "team": "BOU"
  },
  "79": {
@@ -12594,7 +12594,7 @@
   "last5": [],
   "minutes": 0,
   "name": "Milambo",
-  "news": "Knee injury - Unknown return date",
+  "news": "Lack of match fitness - Expected back 5 Dec",
   "points": 0,
   "pos": "MID",
   "starts": 0,
